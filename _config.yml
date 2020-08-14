@@ -74,22 +74,29 @@ ga:
 
 # Site Navigation
 primary_navigation:
-  - name: Home
-    url: /
-  - name: Blog
-    url: /blog/
-  - name: Document
-    url: /document/
-  - name: Document with sidenav
-    url: /document-with-sidenav/
-  - name: Document submenu
+  - name: About us
+    url: /About-us/
+  - name: Members
     children:
-      - name: Navigation link
+      - name: Leadership
         url: "#main-content"
-      - name: Navigation link
+      - name: Council Members
         url: "#main-content"
-      - name: Navigation link
+  - name: Focus Areas
+    children:
+      - name: Federal Data Strategy
         url: "#main-content"
+      - name: COVID-19
+        url: "#main-content"
+      - name: Data Skills Development
+        url: "#main-content"
+  - name: Guideance and Resources
+    url: /Guideance-and-Resources/
+  - name: Comunity News
+    url: /Comunity-News/
+
+
+
 
 secondary_navigation:
   - name: Secondary link
