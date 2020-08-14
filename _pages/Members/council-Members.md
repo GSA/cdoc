@@ -1,10 +1,13 @@
 ---
-title: Document
-layout: page
+title: Council Members
+layout: wide
 sidenav: false
+permalink: /Council-Members/
 ---
 
-# Section heading (h1)
+<div>Council Members</div>
+
+<!-- # Section heading (h1)
 
 The page heading communicates the main focus of the page. Make your page heading descriptive and keep it succinct.
 
@@ -24,4 +27,4 @@ Keep each section and subsection focused — a good approach is to include one t
 
 Use the side navigation menu to help your users quickly skip to different sections of your page. The menu is best suited to displaying a hierarchy with one to three levels and, as we mentioned, to display the sub-navigation of a given page.
 
-Read the full documentation on our side navigation on the component page.
+Read the full documentation on our side navigation on the component page. -->

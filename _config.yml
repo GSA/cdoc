@@ -79,21 +79,21 @@ primary_navigation:
   - name: Members
     children:
       - name: Leadership
-        url: "#main-content"
+        url: "/Leadership/"
       - name: Council Members
-        url: "#main-content"
+        url: "/Council-Members/"
   - name: Focus Areas
     children:
       - name: Federal Data Strategy
-        url: "#main-content"
+        url: "/Federal-Data-Strategy/"
       - name: COVID-19
-        url: "#main-content"
+        url: "/COVID-19/"
       - name: Data Skills Development
-        url: "#main-content"
+        url: "/Data-Skills-Development/"
   - name: Guideance and Resources
     url: /Guideance-and-Resources/
-  - name: Comunity News
-    url: /Comunity-News/
+  - name: Community News
+    url: /Community-News/
 
 
 
