@@ -4,6 +4,14 @@
 
 // Add your SASS/CSS here
 
+@media screen and (min-width: 640px) {
+.footerLinksFourColumns {
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
+}
+
 // default mode hide banner
 .usa-banner__content {
   display: hidden;
