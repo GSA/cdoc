@@ -1,8 +1,7 @@
 ---
-title: Purpose and Vision
-subtitle: What We Do
+title: About Us
 layout: page
-permalink: /about/
+permalink: /about-us/
 description: The meta description for the CDOC site will appear here.
 
 redirect_from:
