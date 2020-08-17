@@ -1,5 +1,5 @@
 ---
-bio-image: /wp-content/uploads/2016/02/Gerard-Badorrek.jpg
+bio-image: /wp-content/uploads/
 preview-image: /assets/images/kaouk-ted.png
 bio-image-alt-text: TED KAOUK
 layout: bio
