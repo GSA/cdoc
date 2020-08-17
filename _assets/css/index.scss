@@ -3,13 +3,15 @@
 @import "uswds";
 
 // Add your SASS/CSS here
+$cdoc-blue: #1CA7FC;
+$cdox-logo-gray :#AFAFAF;
 
 @media screen and (min-width: 640px) {
-.footerLinksFourColumns {
-  columns: 4;
-  -webkit-columns: 4;
-  -moz-columns: 4;
-}
+  .footerLinksFourColumns {
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4;
+  }
 }
 
 // default mode hide banner
@@ -43,3 +45,29 @@
     display: block;
   }
 }
+
+.logoBlue{
+  color: $cdoc-blue;
+  font-weight: bold;
+}
+
+@media (min-width: 640px){
+  .logoGray{
+    color: $cdox-logo-gray;
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 640px){
+  .logoGray{
+    color: $cdox-logo-gray;
+    font-size: 0.465rem;
+  }
+}
+
+
+.usa-button{
+  background-color: $cdoc-blue;
+}
+
+
