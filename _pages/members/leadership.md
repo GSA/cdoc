@@ -5,26 +5,29 @@ sidenav: false
 permalink: /leadership/
 ---
 
-<div>Leadership</div>
+## Leadership
+The Office of Management and Budget’s Deputy Director for Management is the Chairperson of the Council.   
 
-<!-- # Section heading (h1)
+{% include members.html %}
 
-The page heading communicates the main focus of the page. Make your page heading descriptive and keep it succinct.
+## Members
+Our members represent CIOs from across the U.S. Federal Government. You can also browse our [committee pages and membership](#council-committees).
 
-We can also use variables in our pages. For example, this is the title variable: **{{page.title}}**
 
-## Section heading (h2)
+## Council Committees
+We also have committees that focus on certain Council priorities. These include:
+* [Chief Information Security Officer Council]({{ site.baseurl }}/about/members-and-leadership/ciso-council/)
+* [Innovation Committee]({{ site.baseurl }}/about/members-and-leadership/innovation-committee/)
+* [Services, Strategies, and Infrastructure Committee]({{ site.baseurl }}/about/members-and-leadership/ssi-committee/)
+* [Workforce Committee]({{ site.baseurl }}/about/members-and-leadership/workforce-committee/)
 
-These headings introduce, respectively, sections and subsections within your body copy. As you create these headings, follow the same guidelines that you use when writing section headings: Be succinct, descriptive, and precise.
+## Communities of Practice (CoP)
+Our CoP affiliates are also great resources and partners in achieving our priorities. These include:
+* [Federal Technology Investment Management Community of Practice]({{ site.baseurl }}/about/members-and-leadership/ftim-cop/)
+* [Cloud and Infrastructure Community of Practice]({{ site.baseurl }}/about/members-and-leadership/cloud-infrastructure-cop/)
+* [Accessibility Community of Practice]({{ site.baseurl }}/about/members-and-leadership/accessibility-cop/)
 
-### Subsection heading (h3)
+&nbsp;
 
-The particulars of your body copy will be determined by the topic of your page. Regardless of topic, it’s a good practice to follow the inverted pyramid structure when writing copy: Begin with the information that’s most important to your users and then present information of less importance.
+<a href="{{site.baseurl}}">&#10094; &nbsp; Back to Home</a><br>
 
-Keep each section and subsection focused — a good approach is to include one theme (topic) per section.
-
-#### Subsection heading (h4)
-
-Use the side navigation menu to help your users quickly skip to different sections of your page. The menu is best suited to displaying a hierarchy with one to three levels and, as we mentioned, to display the sub-navigation of a given page.
-
-Read the full documentation on our side navigation on the component page. -->

@@ -10,8 +10,10 @@ keyword: CDOC Priority Areas, CDOC Council, CDOC members, Members
     <section class="usa-graphic-list padding-top-0" >
         <div class="grid-container">
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
-                This is the bio block
+                This is the bio block <br>
+                {{ site.baseurl }}
                 {% for bio in site.members %}
+                Members list: <br>
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
                     <a style="color:black;text-decoration: none; display: block;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
                         <div class="left">
