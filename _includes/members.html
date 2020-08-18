@@ -1,17 +1,8 @@
----
-title: Members
-layout: default
-permalink: /members/
-description: Learn more on the CDOC members.
-keyword: CDOC Priority Areas, CDOC Council, CDOC members, Members
----
 <!-- *****LOOP FOR MEMBERS PAGE *********-->
 <div class="grid-container font-sans-sm">
     <section class="usa-graphic-list padding-top-0" >
         <div class="grid-container">
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
-                This is the bio block <br>
-                {{ site.baseurl }}
                 {% for bio in site.members %}
                 Members list: <br>
                 <div class="tablet:grid-col-4 container" style="padding:10px;">
@@ -26,7 +17,6 @@ keyword: CDOC Priority Areas, CDOC Council, CDOC members, Members
                     </a>
                 </div>
                 {% endfor %}
-
 
             </div>
         </div>

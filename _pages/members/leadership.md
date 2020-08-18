@@ -1,6 +1,6 @@
 ---
 title: Leadership
-layout: wide
+layout: default
 sidenav: false
 permalink: /leadership/
 ---
