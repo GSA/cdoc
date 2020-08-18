@@ -14,18 +14,21 @@ Our members represent CIOs from across the U.S. Federal Government. You can also
 
 {% include members.html %}
 
-## Council Committees
-We also have committees that focus on certain Council priorities. These include:
-* [Chief Information Security Officer Council]({{ site.baseurl }}/about/members-and-leadership/ciso-council/)
-* [Innovation Committee]({{ site.baseurl }}/about/members-and-leadership/innovation-committee/)
-* [Services, Strategies, and Infrastructure Committee]({{ site.baseurl }}/about/members-and-leadership/ssi-committee/)
-* [Workforce Committee]({{ site.baseurl }}/about/members-and-leadership/workforce-committee/)
+## Council Members
+The CDO Council is comprised of:
+* The Chief Data Officer of each agency*
+* Administrator, Office of eGovernment (or designee) 
+* Administrator, Office of Information and Regulatory Affairs (or designee)
+* Ex officio members
 
-## Communities of Practice (CoP)
-Our CoP affiliates are also great resources and partners in achieving our priorities. These include:
-* [Federal Technology Investment Management Community of Practice]({{ site.baseurl }}/about/members-and-leadership/ftim-cop/)
-* [Cloud and Infrastructure Community of Practice]({{ site.baseurl }}/about/members-and-leadership/cloud-infrastructure-cop/)
-* [Accessibility Community of Practice]({{ site.baseurl }}/about/members-and-leadership/accessibility-cop/)
+Please note that you can click on each agency’s icon to go to their agency.gov/data webpage, if available.
+
+
+*The CDO Council definition of “Agency” comes from 44 USC 3502.  Under the definitions in that section the term Agency means:(1)the term “agency” means any executive department, military department, Government corporation, Government controlled corporation, or other establishment in the executive branch of the Government (including the Executive Office of the President), or any independent regulatory agency, but does not include—
+(A)the Government Accountability Office;
+(B)Federal Election Commission;
+(C)the governments of the District of Columbia and of the territories and possessions of the United States, and their various subdivisions; or
+(D)Government-owned contractor-operated facilities, including laboratories engaged in national defense research and production activities
 
 &nbsp;
 
