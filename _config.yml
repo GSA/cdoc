@@ -132,6 +132,10 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  members:
+    output: true
+  leadership:
+    output: true
 
 permalink: pretty
 
