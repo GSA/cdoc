@@ -6,13 +6,13 @@ permalink: /leadership/
 ---
 
 ## Leadership
-The Office of Management and Budget’s Deputy Director for Management is the Chairperson of the Council.   
 
-{% include members.html %}
+{% include leadership.html %}
 
 ## Members
 Our members represent CIOs from across the U.S. Federal Government. You can also browse our [committee pages and membership](#council-committees).
 
+{% include members.html %}
 
 ## Council Committees
 We also have committees that focus on certain Council priorities. These include:
