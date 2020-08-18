@@ -12,6 +12,10 @@ $cdox-logo-gray :#AFAFAF;
     -webkit-columns: 4;
     -moz-columns: 4;
   }
+
+  .centerPrimaryFooter{
+    margin-left: 125px !important;
+  }
 }
 
 // default mode hide banner
@@ -51,17 +55,13 @@ $cdox-logo-gray :#AFAFAF;
   font-weight: bold;
 }
 
-@media (min-width: 640px){
-  .logoGray{
-    color: $cdox-logo-gray;
-    font-size: 1.05rem;
-  }
+.logoGray{
+  color: $cdox-logo-gray;
 }
 
-@media (max-width: 640px){
+@media (min-width: 640px){
   .logoGray{
-    color: $cdox-logo-gray;
-    font-size: 0.465rem;
+     font-size: 1.05rem;
   }
 }
 

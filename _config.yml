@@ -90,8 +90,8 @@ primary_navigation:
         url: "/COVID-19/"
       - name: Data Skills Development
         url: "/Data-Skills-Development/"
-  - name: Guideance and Resources
-    url: /Guideance-and-Resources/
+  - name: Guidance and Resources
+    url: /Guidance-and-Resources/
   - name: Community News
     url: /Community-News/
 
