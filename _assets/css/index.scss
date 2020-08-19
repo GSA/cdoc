@@ -61,6 +61,13 @@ $cdox-logo-gray :#AFAFAF;
   }
 }
 
+// html,p,div {
+// font-family: "Public Sanas Sans"!important;
+// }
+
+abbr{
+  text-decoration: none !important;
+}
 
 .usa-button{
   background-color: $cdoc-blue;
