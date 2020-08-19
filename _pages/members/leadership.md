@@ -55,10 +55,13 @@ Matt Soldner, Department of Education - Representing the Evaluation Officers Cou
 
 *The CDO Council definition of “Agency” comes from 44 USC 3502.  Under the definitions in that section the term Agency means:(1)the term “agency” means any executive department, military department, Government corporation, Government controlled corporation, or other establishment in the executive branch of the Government (including the Executive Office of the President), or any independent regulatory agency, but does not include—
 
-    (A)the Government Accountability Office;
-    (B)Federal Election Commission;
-    (C)the governments of the District of Columbia and of the territories and possessions of the United States, and their various subdivisions; or
-    (D)Government-owned contractor-operated facilities, including laboratories engaged in national defense research and production activities
+   (A)the Government Accountability Office;
+   
+   (B)Federal Election Commission;
+   
+   (C)the governments of the District of Columbia and of the territories and possessions of the United States, and their various subdivisions; or
+   
+   (D)Government-owned contractor-operated facilities, including laboratories engaged in national defense research and production activities
 
 &nbsp;
 
