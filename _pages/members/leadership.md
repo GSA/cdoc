@@ -9,8 +9,17 @@ permalink: /leadership/
 
 {% include leadership.html %}
 
-## Members
-Our members represent CIOs from across the U.S. Federal Government. You can also browse our [committee pages and membership](#council-committees).
+## Executive Committee Membership
+The Executive Committee membership includes:
+
+* Council Chair
+* Council Vice-Chair
+* Administrator, Office of eGovernment (or designee) 
+* Administrator, Office of Information and Regulatory Affairs (or designee)
+* Chairs of the CDO Council Working Groups while the Working Group is active
+* A representative from the Small Agencies (as selected by the Chair)
+* A representative from the CFO Act agencies (as selected by the Chair)
+
 
 {% include members.html %}
 
