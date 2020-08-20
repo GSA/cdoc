@@ -51,20 +51,23 @@ $cdox-logo-gray :#AFAFAF;
   font-weight: bold;
 }
 
+.logoGray{
+  color: $cdox-logo-gray;
+}
+
 @media (min-width: 640px){
   .logoGray{
-    color: $cdox-logo-gray;
-    font-size: 1.05rem;
+     font-size: 1.05rem;
   }
 }
 
-@media (max-width: 640px){
-  .logoGray{
-    color: $cdox-logo-gray;
-    font-size: 0.465rem;
-  }
-}
+// html,p,div {
+// font-family: "Public Sanas Sans"!important;
+// }
 
+abbr{
+  text-decoration: none !important;
+}
 
 .usa-button{
   background-color: $cdoc-blue;

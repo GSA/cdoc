@@ -1,69 +1,76 @@
 <footer class="usa-footer usa-footer--big">
   <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <nav class="usa-footer__nav " aria-label="Footer navigation">
 
-    <nav class="usa-footer__nav" aria-label="Footer navigation">
-      <div class="grid-container">
-        <div  class="grid-row grid-gap">
-          <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+          <div class=" mobile-lg:grid-col-9 mobile-lg:grid-gap-2"">
+            <section class=" usa-footer__primary-content usa-footer__primary-content--collapsible">
             <h4 class="usa-footer__primary-link">Related Councils</h4>
             <ul class="usa-list usa-list--unstyled footerLinksFourColumns">
-              <li class="usa-footer__secondary-link"><a href="https://www.acquisition.gov/cao-home">Chief Acquisition Officers
+              <li class="usa-footer__secondary-link"><a href="https://www.acquisition.gov/cao-home">
+                  <abbr title="Chief Acquisition Officers">CAO</abbr>
                   Council</a></li>
-              <li class="usa-footer__secondary-link"><a href="https://www.chcoc.gov/">Chief Human Capital Officers
+              <li class="usa-footer__secondary-link"><a href="https://www.chcoc.gov/">
+                  <abbr title="Chief Human Capital">CHCO</abbr>
                   Council</a></li>
-              <li class="usa-footer__secondary-link"><a href="https://www.cio.gov/">Chief Information Officers
+              <li class="usa-footer__secondary-link"><a href="https://www.cio.gov/">
+                  <abbr title="Chief Information Officers">CIO</abbr>
                   Council</a></li>
-              <li class="usa-footer__secondary-link"><a href="https://www.cfo.gov/">Chief Financial Officers Council</a>
+              <li class="usa-footer__secondary-link"><a href="https://www.cfo.gov/">
+                  <abbr title="Chief Financial Officers">CFO</abbr>
+                  Council</a>
               </li>
-              <li class="usa-footer__secondary-link"><a href="https://www.justice.gov/oip/chief-foia-officers-council">Chief FOIA Officers Council</a></li>
-              <li class="usa-footer__secondary-link"><a href="javascript:void(0);">Evaluation Officers Council</a></li>
+              <li class="usa-footer__secondary-link"><a
+                  href="https://www.justice.gov/oip/chief-foia-officers-council">Chief FOIA Officers Council</a></li>
+              <li class="usa-footer__secondary-link"><a href="javascript:void(0);">Evaluation Officers Council</a>
+              </li>
               <li class="usa-footer__secondary-link"><a href="https://www.fpc.gov/">Federal Privacy Council</a></li>
-              <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/policy-regulations/policy/real-property-policy/asset-management/federal-real-property-council-frpc">Federal Real Property Council</a>
+              <li class="usa-footer__secondary-link"><a
+                  href="https://www.gsa.gov/policy-regulations/policy/real-property-policy/asset-management/federal-real-property-council-frpc">Federal
+                  Real Property Council</a>
               </li>
               <li class="usa-footer__secondary-link"><a href="javascript:void(0);">Interagency Council on Statistical
                   Practice</a></li>
-              <li class="usa-footer__secondary-link"><a href="https://www.pic.gov/">Performance Improvement Council</a>
+              <li class="usa-footer__secondary-link"><a href="https://www.pic.gov/">Performance Improvement
+                  Council</a>
               </li>
-              <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/governmentwide-initiatives/shared-solutions-and-performance-improvement/presidents-management-council-pmc">President's Management Council</a>
+              <li class="usa-footer__secondary-link"><a
+                  href="https://www.gsa.gov/governmentwide-initiatives/shared-solutions-and-performance-improvement/presidents-management-council-pmc">President's
+                  Management Council</a>
               </li>
-              <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/governmentwide-initiatives/shared-solutions-and-performance-improvement/program-management-policy-council-pmpc">Program Management Policy Council</a>
+              <li class="usa-footer__secondary-link"><a
+                  href="https://www.gsa.gov/governmentwide-initiatives/shared-solutions-and-performance-improvement/program-management-policy-council-pmpc">Program
+                  Management Policy Council</a>
               </li>
               <li class="usa-footer__secondary-link"><a href="https://www.sac.gov/">Small Agency Council</a></li>
             </ul>
-          </section>
-        </div>
+            </section>
 
+          </div>
+        </nav>
       </div>
-    </nav>
-
+    </div>
   </div>
   <div class="usa-footer__secondary-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
-        <div class="usa-footer__logo grid-row mobile-lg:grid-col-4">
-          <div class="mobile-lg:grid-col-auto">
-            assets\images\logos
-            <img class="usa-footer__logo-img" src="{{site.baseurl}}/assets/images/logos/gsa-logo.png" alt="General Service Administration Logo">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-9">
+          <div class="mobile-lg:grid-col-3">
+            {% asset logos/gsa-logo.png alt="General Service Administration Logo" class="usa-footer__logo-img" %}
+            {% asset logos/omb-logo.png alt="Office of Management and Budget Logo" class="usa-footer__logo-img" %}
           </div>
-          <div class="mobile-lg:grid-col-auto">
-            <h3 class="usa-footer__logo-heading">General Service Administration</h3>
-          </div>
-        </div>
-
-        <div class="usa-footer__logo grid-row mobile-lg:grid-col-4 mobile-lg:grid-gap-2">
-          <div class="mobile-lg:grid-col-auto">
-            <img class="usa-footer__logo-img" src="{{site.baseurl}}/assets/images/logos/omb-logo.png" alt="Office of Management and Budget Logo">
-          </div>
-          <div class="mobile-lg:grid-col-auto">
-            <h3 class="usa-footer__logo-heading">Office of Management and Budget</h3>
+          <div class="mobile-lg:grid-col-5">
+            <strong>
+              General Services Administration &
+              Office of Management and Budget
+            </strong>
           </div>
         </div>
         <div class="usa-footer__contact-links mobile-lg:grid-col-2">
-
           <h3 class="usa-footer__contact-heading">Contact Us</h3>
           <address class="usa-footer__address">
             <div class="usa-footer__contact-info grid-row grid-gap">
-
               <div class="grid-col-auto">
                 <a href="mailto:cdocstaff@gsa.gov">cdocstaff@gsa.gov</a>
               </div>
