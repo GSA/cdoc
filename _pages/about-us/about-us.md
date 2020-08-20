@@ -1,6 +1,6 @@
 ---
 title: About Us
-layout: defaultwithbanner
+layout: base
 permalink: /about-us/
 description: The meta description for the CDOC site will appear here.
 
