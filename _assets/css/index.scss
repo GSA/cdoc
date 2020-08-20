@@ -5,6 +5,7 @@
 // Add your SASS/CSS here
 $cdoc-blue: #1CA7FC;
 $cdox-logo-gray :#AFAFAF;
+$cdoc-blue-50: #2378c3;
 
 @media screen and (min-width: 640px) {
   .footerLinksFourColumns {
@@ -70,7 +71,11 @@ abbr{
 }
 
 .usa-button{
-  background-color: $cdoc-blue;
+  background-color: #ffffff;
+  color: $cdoc-blue-50;
 }
 
-
+.abstract-background {
+  background-image: url("../assets/images/background/blue-banner-abstract.png");
+  object-fit: cover;
+}
