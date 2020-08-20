@@ -79,9 +79,9 @@ primary_navigation:
   - name: Members
     children:
       - name: Leadership
-        url: "/Leadership/"
+        url: "/leadership/"
       - name: Council Members
-        url: "/Council-Members/"
+        url: "/council-members/"
   - name: Focus Areas
     children:
       - name: Federal Data Strategy
@@ -132,6 +132,10 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  members:
+    output: true
+  leadership:
+    output: true
 
 permalink: pretty
 
