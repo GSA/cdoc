@@ -15,6 +15,14 @@ $cdoc-blue-50: #2378c3;
   }
 }
 
+@media screen and (max-width: 640px) {
+  .footerLinksFourColumns {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+}
+
 // default mode hide banner
 .usa-banner__content {
   display: none;
@@ -92,4 +100,11 @@ abbr{
   .picon {
     color: #fff;
   }
+}
+
+.cdo_custom_footer_links{
+  padding-top: 0rem ; 
+  padding-bottom: 1rem; 
+  line-height: 1.1;
+  margin-left: 1rem;
 }
