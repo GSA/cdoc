@@ -75,7 +75,7 @@ ga:
 # Site Navigation
 primary_navigation:
   - name: About us
-    url: /About-us/
+    url: /about-us/
   - name: Members
     children:
       - name: Leadership
@@ -85,15 +85,15 @@ primary_navigation:
   - name: Focus Areas
     children:
       - name: Federal Data Strategy
-        url: "/Federal-Data-Strategy/"
+        url: "/federal-data-strategy/"
       - name: COVID-19
         url: "/COVID-19/"
       - name: Data Skills Development
-        url: "/Data-Skills-Development/"
+        url: "/data-skills-development/"
   - name: Guidance and Resources
-    url: /Guidance-and-Resources/
+    url: /guidance-and-resources/
   - name: Community News
-    url: /Community-News/
+    url: /community-news/
 
 secondary_navigation:
   - name: Secondary link
