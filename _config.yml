@@ -95,14 +95,25 @@ primary_navigation:
   - name: Community News
     url: /Community-News/
 
-
-
-
 secondary_navigation:
   - name: Secondary link
     url: "#main-content"
   - name: Another secondary link
     url: "#main-content"
+
+
+
+number_of_icons: 3
+homepage_icons:
+  - name: Federal Data Strategy
+    logo: /assets/images/logos/placeholder-icon.svg
+    url: /federal-data-strategy/
+  - name: COVID-19
+    logo: /assets/images/logos/placeholder-icon.svg
+    url: /resources/SORNs/
+  - name: Data Skills Development
+    logo: /assets/images/logos/placeholder-icon.svg
+    url: /data-skills-development/
 
 # Search.gov configuration
 #
