@@ -3,19 +3,21 @@ Use this section to highlight key elements of your site. Some sites will only ha
 eight.
 {% endcomment %}
 
-{% for item in site.highlights %}
-  <section class="usa-graphic-list usa-section usa-prose clearfix grid-container padding-y-3">
-    <div class="clearfix grid-container shadow-5 radius-lg bg-white padding-4">
-      <div class="grid-row grid-gap">
-        <div class="usa-media-block tablet:grid-col">
-          {% asset circle-124.png class="usa-media-block__img" alt="Alt text" %}
-          <div class="usa-media-block__body">
-            <h2>{{ item.headline }}</h3>
-            <p>{{ item.content }}</p>
-              <a href="#" class="usa-button usa-button--outline border-0">Explore</a>
+<div class="clearfix padding-y-4">
+  {% for item in site.highlights %}
+    <section class="usa-graphic-list usa-section usa-prose clearfix grid-container padding-y-105">
+      <div class="clearfix grid-container shadow-5 radius-lg bg-white padding-4">
+        <div class="grid-row grid-gap">
+          <div class="usa-media-block tablet:grid-col">
+            {% asset circle-124.png class="usa-media-block__img" alt="Alt text" %}
+            <div class="usa-media-block__body">
+              <h2>{{ item.headline }}</h3>
+              <p>{{ item.content }}</p>
+                <a href="#" class="usa-button usa-button--outline border-0">Explore</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-{% endfor %}
+    </section>
+  {% endfor %}
+</div>
