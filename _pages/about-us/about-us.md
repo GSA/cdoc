@@ -11,7 +11,7 @@ redirect_from:
 ---
 ## Welcome Message
 
-I believe deeply that we as Federal CDOs have an opportunity to engage in work that is meaningful and transformative through the foundational steps outlined in the Federal Data Strategy.  As the Chief Data Officer at USDA, I have seen first-hand the impact that delivering data and analytics solutions to our leaders and field employees has on how we serve the public, and we know the unique power government data has to solve major public challenges.  The Federal CDO Council is committed to creating a supportive environment for CDOs to share information on the best practices that foster data-driven organizations, while we identify and solve cross-cutting Federal-wide data challenges through collaboration and shared leadership. -Ted Kaouk, Chair
+"I believe deeply that we as Federal CDOs have an opportunity to engage in work that is meaningful and transformative through the foundational steps outlined in the Federal Data Strategy.  As the Chief Data Officer at USDA, I have seen first-hand the impact that delivering data and analytics solutions to our leaders and field employees has on how we serve the public, and we know the unique power government data has to solve major public challenges.  The Federal CDO Council is committed to creating a supportive environment for CDOs to share information on the best practices that foster data-driven organizations, while we identify and solve cross-cutting Federal-wide data challenges through collaboration and shared leadership." -Ted Kaouk, Chair
 
 
 ## Authority
