@@ -1,6 +1,6 @@
 ---
-subtitle: Team and Leadership
-title: About Our Council
+subtitle: Executive Committee
+title: Council Leadership
 bio-image: mancini-dominic.png
 preview-image: /assets/images/mancini-dominic.png
 bio-image-alt-text: DOMINIC MANCINI

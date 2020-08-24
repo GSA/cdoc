@@ -1,6 +1,6 @@
 ---
-subtitle: Team and Leadership
-title: About Our Council
+subtitle: Executive Committee
+title: Council Leadership
 bio-image: el-hindi-jamal.png
 preview-image: /assets/images/el-hindi-jamal.png
 bio-image-alt-text: JAMAL EL-HINDI

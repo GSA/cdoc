@@ -1,6 +1,6 @@
 ---
-subtitle: Team and Leadership
-title: About Our Council
+subtitle: Executive Committee
+title: Council Leadership
 bio-image: dalboe-kirsten.png
 preview-image: /assets/images/dalboe-kirsten.png
 bio-image-alt-text: KIRSTEN DALBOE

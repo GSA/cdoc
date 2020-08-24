@@ -1,6 +1,6 @@
 ---
-subtitle: Team and Leadership
-title: About Our Council
+subtitle: Executive Committee
+title: Council Leadership
 bio-image: roat-maria.png
 bio-image-alt-text: MARIA ROAT
 layout: bio

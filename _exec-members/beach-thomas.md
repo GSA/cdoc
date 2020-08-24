@@ -1,6 +1,6 @@
 ---
-subtitle: Team and Leadership
-title: About Our Council
+subtitle: Executive Committee
+title: Council Leadership
 bio-image: placeholder-headshot.png
 preview-image: /assets/images/beach-thomas.png
 bio-image-alt-text: THOMAS A. BEACH

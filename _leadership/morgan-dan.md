@@ -1,6 +1,6 @@
 ---
-subtitle: Team and Leadership
-title: About Our Council
+subtitle: Leadership
+title: Council Members
 bio-image: placeholder-headshot.png
 bio-image-alt-text: DAN MORGAN
 layout: bio

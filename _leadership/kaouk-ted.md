@@ -1,6 +1,6 @@
 ---
-subtitle: Team and Leadership
-title: About Our Council
+subtitle: Leadership
+title: <notitle>
 bio-image: kaouk-ted.png
 preview-image: /assets/images/kaouk-ted.png
 bio-image-alt-text: TED KAOUK

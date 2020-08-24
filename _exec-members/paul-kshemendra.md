@@ -1,6 +1,6 @@
 ---
-subtitle: Team and Leadership
-title: About Our Council
+subtitle: Executive Committee
+title: Council Leadership
 bio-image: paul-kshemendra.png
 preview-image: /assets/images/paul-kshemendra.png
 bio-image-alt-text: KSHEMENDRA PAUL

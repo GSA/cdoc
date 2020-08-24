@@ -1,6 +1,6 @@
 ---
-subtitle: Team and Leadership
-title: About Our Council
+subtitle: Executive Committee
+title: Council Leadership
 bio-image: degarmo-janice.png
 preview-image: /assets/images/degarmo-janice.png
 bio-image-alt-text: JANICE DEGARMO
