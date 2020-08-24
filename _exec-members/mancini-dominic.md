@@ -1,4 +1,6 @@
 ---
+subtitle: Team and Leadership
+title: About Our Council
 bio-image: mancini-dominic.png
 preview-image: /assets/images/mancini-dominic.png
 bio-image-alt-text: DOMINIC MANCINI
@@ -6,7 +8,7 @@ layout: bio
 permalink: /bio/mancini-dominic/
 name : Dominic Mancini
 department: OMB's OIRA
-title: Deputy Administrator
+job-title: Deputy Administrator
 role: Administrator, Office of Information and Regulatory Affairs (or designee)
 ---
 Dominic Mancini serves as the permanent Deputy Administrator of the Office of Management and Budget's Office of Information and Regulatory Affairs (OIRA), where he plays a key role in the coordination of the Administration's information and regulatory policy activities.   Located in the Executive Office of the President, OIRA reviews significant Executive Branch regulatory actions for consistency with analytical principles and Presidential priorities.   OIRA also takes a leading role in statistical, science, information, privacy, eRulemaking, and related policy development, including serving as a lead in the implementation of the Foundations for Evidence-Based Policymaking Act, and the Federal Data Strategy.  Among other responsibilities, the Deputy Administrator often serves as the Acting Administrator in the absence of a permanent head of the office, and Dominic served in that capacity during both the current and past Administrations.

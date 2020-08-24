@@ -1,11 +1,13 @@
 ---
+subtitle: Team and Leadership
+title: About Our Council
 bio-image: placeholder-headshot.png
 bio-image-alt-text: DAN MORGAN
 layout: bio
 permalink: /bio/morgan-dan/
 name : Dan Morgan
 department: United States Department of Transportation
-title: Chief Data Officer
+job-title: Chief Data Officer
 role: Council Vice-Chair
 ---
   Daniel Morgan is the first Chief Data Officer of the United States Department of Transportation, having served in this capacity for five years. As the CDO, he has overall responsibility for the Departmental data program and data compliance across the Department. He is responsible for establishing a clear vision of the data managed in DOT and the application of DOT data for decision-making. He serves as data strategist and adviser, steward for improving data quality, liaison for data sharing and developer of new data products.

@@ -1,4 +1,6 @@
 ---
+subtitle: Team and Leadership
+title: About Our Council
 bio-image: el-hindi-jamal.png
 preview-image: /assets/images/el-hindi-jamal.png
 bio-image-alt-text: JAMAL EL-HINDI
@@ -6,7 +8,7 @@ layout: bio
 permalink: /bio/el-hindi-jamal/
 name : Jamal El-Hindi
 department: Treasury Department
-title: Interim Chief Data Officer
+job-title: Interim Chief Data Officer
 role: Operations Working Group
 ---
   Jamal El-Hindi has served as the Department of Treasury’s first agency-wide Chief Data Officer (CDO) since February 2020, on detail from Treasury’s Financial Crimes Enforcement Network (FinCEN).  In this role, he is establishing Treasury’s new Office of the CDO and leads the vision, design and development of agency-wide data and information strategy consistent with the Federal Data Strategy and statutory mandates requiring the treatment of data as a critical asset to ensure better governmental decision-making and operations.  

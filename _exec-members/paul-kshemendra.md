@@ -1,4 +1,6 @@
 ---
+subtitle: Team and Leadership
+title: About Our Council
 bio-image: paul-kshemendra.png
 preview-image: /assets/images/paul-kshemendra.png
 bio-image-alt-text: KSHEMENDRA PAUL
@@ -6,7 +8,7 @@ layout: bio
 permalink: /bio/paul-kshemendra/
 name : Kshemendra Paul
 department: US Department of Veterans Affairs
-title: Chief Data Officer
+job-title: Chief Data Officer
 role: CFO Act Agency Representative
 ---
   Kshemendra Paul was appointed Executive Director for Data Governance and Analytics in the Office of Enterprise Integration on September 16, 2019. He serves as VA’s Chief Data Officer and is responsible for leading data governance, data analytics, and business intelligence capabilities to inform VA-wide decision making and providing an authoritative clearinghouse for the collection, analysis and dissemination of information about Veterans and VA programs.

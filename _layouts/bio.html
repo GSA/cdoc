@@ -1,7 +1,7 @@
 ---
 layout: defaultwithbanner
 ---
-<div class="grid-container">
+<div class="grid-container" xmlns="http://www.w3.org/1999/html">
     <section class="usa-graphic-list margin-top-6">
         <div class="padding-left-0">
             <div class="grid-row">
@@ -9,18 +9,19 @@ layout: defaultwithbanner
                     <img src="{{ site.baseurl }}/assets/images/members/{{ page.bio-image }}" alt="{{page.bio-image-alt-text }} portrait">
                 </div>
                 <div class="desktop:grid-col-9 padding-left-3">
+                    {% if page.role %}
+                    <h3>{{ page.role | upcase }}</h3>
+                    {% endif %}
 
                     {% if page.name %}
-                    <h2 class="font-alt-xl">{{ page.name | upcase }}</h2>
+                    <h2 class="font-alt-xl margin-bottom-2">{{ page.name | upcase }}</h2>
                     {% endif %}
                     {% if page.department %}
                     <h3 class="font-sans-lg margin-top-0 margin-bottom-105">
-                        <p>{{ page.department | upcase }}</p>
+                            {{ page.job-title }},
+                            {{ page.department }}
                         {% endif %}
-
-                        {% if page.role %}
-                        {{ page.role | upcase }}</h3>
-                    {% endif %}
+                    </h3>
                 </div>
             </div>
         </div>
