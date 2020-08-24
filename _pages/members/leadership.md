@@ -22,7 +22,7 @@ The Executive Committee membership includes:
 * A representative from the CFO Act agencies (as selected by the Chair)
 
 
-{% include members.html %}
+{% include exec-members.html %}
 
 <a href="{{site.baseurl}}">&#10094; &nbsp; Back to Home</a><br>
 

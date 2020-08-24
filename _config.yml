@@ -147,6 +147,8 @@ collections:
     output: true
   leadership:
     output: true
+  exec-members:
+    output: true
   highlights:
     output: true
 
