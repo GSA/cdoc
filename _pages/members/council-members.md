@@ -1,30 +1,49 @@
 ---
-title: Council Members
-layout: wide
+title: <notitle>
+subtitle: Council Members
+layout: defaultwithbanner
 sidenav: false
-permalink: /Council-Members/
+permalink: /council-members/
 ---
 
-<div>Council Members</div>
+## Council Members
+The CDO Council is comprised of:
+* The Chief Data Officer of each agency*
+* Administrator, Office of eGovernment (or designee) 
+* Administrator, Office of Information and Regulatory Affairs (or designee)
+* Ex officio members
 
-<!-- # Section heading (h1)
+Please note that you can click on each agency’s icon to go to their agency.gov/data webpage, if available.
 
-The page heading communicates the main focus of the page. Make your page heading descriptive and keep it succinct.
+## Agency CDOs
+[to be added]
 
-We can also use variables in our pages. For example, this is the title variable: **{{page.title}}**
+## OMB Members
+Maria Roat, Deputy Federal Chief Information Officer, OFCIO
+Dominic Mancini, Deputy Administrator, OIRA
 
-## Section heading (h2)
+## EX-officio Members
+Hubert Hamer, US Department of Agriculture - Representing the Interagency Council on Statistical Practice
 
-These headings introduce, respectively, sections and subsections within your body copy. As you create these headings, follow the same guidelines that you use when writing section headings: Be succinct, descriptive, and precise.
+Bobak Talebian, US Department of Justice - Representing the Chief FOIA Officers Council
 
-### Subsection heading (h3)
+Kirsten Moncado, Office of Management and Budget - Representing the Federal Privacy Council
 
-The particulars of your body copy will be determined by the topic of your page. Regardless of topic, it’s a good practice to follow the inverted pyramid structure when writing copy: Begin with the information that’s most important to your users and then present information of less importance.
+Dorothy Aronson, National Science Foundation - Representing the Chief Information Officers Council
 
-Keep each section and subsection focused — a good approach is to include one theme (topic) per section.
+Matt Soldner, Department of Education - Representing the Evaluation Officers Council
 
-#### Subsection heading (h4)
 
-Use the side navigation menu to help your users quickly skip to different sections of your page. The menu is best suited to displaying a hierarchy with one to three levels and, as we mentioned, to display the sub-navigation of a given page.
+&nbsp;
 
-Read the full documentation on our side navigation on the component page. -->
+*The CDO Council definition of “Agency” comes from 44 USC 3502.  Under the definitions in that section the term Agency means:(1)the term “agency” means any executive department, military department, Government corporation, Government controlled corporation, or other establishment in the executive branch of the Government (including the Executive Office of the President), or any independent regulatory agency, but does not include—
+
+   (A)the Government Accountability Office;
+   
+   (B)Federal Election Commission;
+   
+   (C)the governments of the District of Columbia and of the territories and possessions of the United States, and their various subdivisions; or
+   
+   (D)Government-owned contractor-operated facilities, including laboratories engaged in national defense research and production activities
+
+&nbsp;
