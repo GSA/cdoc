@@ -1,6 +1,6 @@
 ---
 title: <notitle>
-subtitle: Leadership
+subtitle: Council Leadership
 layout: defaultwithbanner
 sidenav: false
 permalink: /leadership/

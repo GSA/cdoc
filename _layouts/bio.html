@@ -6,9 +6,9 @@ layout: defaultwithbanner
         <div class="padding-left-0">
             <div class="grid-row">
                 <div class="desktop:grid-col-3">
-                    <img class="bio-photo" src="{{ site.baseurl }}{{ page.bio-image }}" alt="{{ page.bio-image-alt-text }}">
+                    <img src="{{ site.baseurl }}/assets/images/members/{{ page.bio-image }}" alt="{{page.bio-image-alt-text }} portrait">
                 </div>
-                <div class="desktop:grid-col-9">
+                <div class="desktop:grid-col-9 padding-left-3">
 
                     {% if page.name %}
                     <h2 class="font-alt-xl">{{ page.name | upcase }}</h2>
@@ -18,8 +18,8 @@ layout: defaultwithbanner
                         <p>{{ page.department | upcase }}</p>
                         {% endif %}
 
-                        {% if page.title %}
-                        {{ page.title | upcase }}</h3>
+                        {% if page.role %}
+                        {{ page.role | upcase }}</h3>
                     {% endif %}
                 </div>
             </div>

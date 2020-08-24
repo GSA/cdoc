@@ -1,12 +1,14 @@
 ---
+subtitle: Team and Leadership
+title: About Our Council
 bio-image: placeholder-headshot.png
 preview-image: /assets/images/beach-thomas.png
 bio-image-alt-text: THOMAS A. BEACH
 layout: bio
 permalink: /bio/beach-thomas/
-name : Thomas A. Beach
+name: Thomas A. Beach
 department: Department of Commerce
-title: Interim Chief Data Officer
+job-title: Interim Chief Data Officer
 role: Data Skills Working Group
 ---
   As the interim Chief Data Officer (CDO) at the Department of Commerce, Thomas leads the Department’s data governance activities; executes key data collection, inventory and quality processes; and provides strategic direction and guidance for the bureaus’ collection, storage, use, and access for their data assets across twelve bureaus/offices.  Thomas chairs the Department’s Commerce Data Governance Board and leads implementation of the Federal Data Strategy and represents the Department on the new Federal CDO Council.

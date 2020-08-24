@@ -1,4 +1,6 @@
 ---
+subtitle: Team and Leadership
+title: About Our Council
 bio-image: kaouk-ted.png
 preview-image: /assets/images/kaouk-ted.png
 bio-image-alt-text: TED KAOUK
@@ -6,7 +8,7 @@ layout: bio
 permalink: /bio/kaouk-ted/
 name : Ted Kaouk
 department: USDA
-title: Chief Data Officer
+job-title: Chief Data Officer
 role: Council Chair
 ---
   Ted Kaouk serves as the Chief Data Officer at the United States Department of Agriculture.  In this role, he is responsible for developing strategies that enable USDA to fully leverage its data as a strategic asset, improving organizational decision-making and outcomes for citizens.
