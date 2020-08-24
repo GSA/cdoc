@@ -5,6 +5,7 @@
 // Add your SASS/CSS here
 $cdoc-blue: #1CA7FC;
 $cdox-logo-gray :#AFAFAF;
+$cdoc-blue-50: #2378c3;
 
 @media screen and (min-width: 640px) {
   .footerLinksFourColumns {
@@ -24,7 +25,7 @@ $cdox-logo-gray :#AFAFAF;
 
 // default mode hide banner
 .usa-banner__content {
-  display: hidden;
+  display: none;
 }
 
 @media screen and (min-width: 640px) {
@@ -78,10 +79,28 @@ abbr{
 }
 
 .usa-button{
-  background-color: $cdoc-blue;
+  background-color: #ffffff;
+  color: $cdoc-blue-50;
 }
 
+.abstract-background {
+  background-image: url("../assets/images/background/blue-banner-abstract.png");
+  object-fit: cover;
+}
 
+// Homepage Focus icons
+
+.circle-image {
+  border-radius: 50%;
+  background: #fa9441;
+  padding: 20px;
+  width: 100px;
+  margin: 0 auto;
+
+  .picon {
+    color: #fff;
+  }
+}
 
 .cdo_custom_footer_links{
   padding-top: 0rem ; 
@@ -89,4 +108,3 @@ abbr{
   line-height: 1.1;
   margin-left: 1rem;
 }
-
