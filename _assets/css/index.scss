@@ -78,11 +78,6 @@ abbr{
   text-decoration: none !important;
 }
 
-.usa-button{
-  background-color: #ffffff;
-  color: $cdoc-blue-50;
-}
-
 .abstract-background {
   background-image: url("../assets/images/background/blue-banner-abstract.png");
   object-fit: cover;
@@ -107,4 +102,12 @@ abbr{
   padding-bottom: 1rem; 
   line-height: 1.1;
   margin-left: 1rem;
+}
+
+.usa-button {
+  background-color: $cdoc-blue;
+
+  &.bg-white {
+    background-color: #fff;
+  }
 }
