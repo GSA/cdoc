@@ -1,6 +1,5 @@
 ---
-bio-image: morgan-dan.png
-preview-image: /assets/images/morgan-dan.png
+bio-image: placeholder-headshot.png
 bio-image-alt-text: DAN MORGAN
 layout: bio
 permalink: /bio/morgan-dan/
