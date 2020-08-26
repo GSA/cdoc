@@ -106,13 +106,13 @@ secondary_navigation:
 number_of_icons: 3
 homepage_icons:
   - name: Federal Data Strategy
-    logo: /assets/images/logos/placeholder-icon.svg
+    logo: /assets/images/logos/stratergy.svg
     url: /federal-data-strategy/
   - name: COVID-19
-    logo: /assets/images/logos/placeholder-icon.svg
+    logo: /assets/images/logos/covid.svg
     url: /resources/SORNs/
   - name: Data Skills Development
-    logo: /assets/images/logos/placeholder-icon.svg
+    logo: /assets/images/logos/data.svg
     url: /data-skills-development/
 
 # Search.gov configuration
