@@ -4,11 +4,11 @@
             <div class="usa-graphic-list__row grid-row grid-gap">
                 {% for bio in site.leadership %}
                 <div class="tablet:grid-col-6">
-                    <a class="height-full grid-row bg-gray-10 text-base-darkest" href="{{ site.baseurl }}{{ bio.permalink }}">
-                        <div class="grid-col-3">
+                    <a style="color:black;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
+                        <div class="left">
                             <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                         </div>
-                        <div class="grid-col-9">
+                        <div class="right padding-1">
                             <span class="name">{{ bio.name }}<br></span>
                                 <span class="title">{{ bio.job-title }}, {{ bio.department }}</span><br>
                                 <span class="role">{{ bio.role }}</span>
