@@ -7,7 +7,7 @@ bio-image-alt-text: JAMAL EL-HINDI
 layout: bio
 permalink: /bio/el-hindi-jamal/
 name : Jamal El-Hindi
-department: Treasury Department
+department: Treasury Department; Deputy Director, Financial Crimes Enforcement Network
 job-title: Interim Chief Data Officer
 role: Operations Working Group
 ---
