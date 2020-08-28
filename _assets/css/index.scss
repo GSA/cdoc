@@ -111,15 +111,14 @@ abbr{
   margin-left: 1rem;
 }
 
-/*.usa-button {
-  background-color: $cdoc-blue;
+#main-content {
+  background-color: #fefefe;
+}
+.abstract-background .usa-button:visited {
+  background: #1a4480;
+}
 
-  &.bg-white {
-    background-color: #fff;
-  }
-}*/
-
-// Leadership Block styling
+// Leadership Page styling
 .left {
   width: 30%;
   float: left;
@@ -146,9 +145,7 @@ abbr{
   font-size: 13px;
   display: block;
 }
-#main-content{
-  background-color: #fefefe;
-}
-.abstract-background .usa-button:visited{
-  background: #1a4480;
+
+.role {
+  margin-top: .75rem;
 }

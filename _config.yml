@@ -74,7 +74,7 @@ ga:
 
 # Site Navigation
 primary_navigation:
-  - name: About us
+  - name: About Us
     url: /about-us/
   - name: Members
     children:

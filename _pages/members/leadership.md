@@ -1,5 +1,5 @@
 ---
-title: <notitle>
+title: Members
 subtitle: Council Leadership
 layout: defaultwithbanner
 sidenav: false
