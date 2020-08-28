@@ -149,3 +149,18 @@ abbr{
 .role {
   margin-top: .75rem;
 }
+
+// Membership List
+.members-list {
+  .left {
+    img {
+      height: 75px;
+      width: auto;
+      padding-top: 10px;
+    }
+  }
+
+  .right {
+    padding-top: 10px;
+  }
+}

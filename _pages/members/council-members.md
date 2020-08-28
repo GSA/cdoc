@@ -16,7 +16,7 @@ The CDO Council is comprised of:
 Please note that you can click on each agency’s icon to go to their agency.gov/data webpage, if available.
 
 ## Agency CDOs
-[to be added]
+{% include members.html %}
 
 ## OMB Members
 Maria Roat, Deputy Federal Chief Information Officer, OFCIO
