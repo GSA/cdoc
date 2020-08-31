@@ -126,7 +126,6 @@ abbr{
 
 .right {
   width: 70%;
-  background-color: #f0f0f0;
   height: 135px;
   float: right;
 }
@@ -141,5 +140,23 @@ abbr{
 }
 
 .role {
+  font-style: italic;
+}
+
+.title {
   margin-top: .75rem;
+}
+
+// Exec Committee styles
+.usa-list--unstyled {
+  text-indent: -1em;
+  padding-left: 1em;
+
+  > li:first-child {
+    margin-top: 0;
+  }
+
+  > li {
+    margin-top: .25em;
+  }
 }
