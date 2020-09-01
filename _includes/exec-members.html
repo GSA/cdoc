@@ -1,12 +1,12 @@
 <!-- *****LOOP FOR Executive Members Section on Leadership Page *********-->
-<h2 class="section__title padding-top-1 margin-top-6">Executive Committee Membership</h2>
+<h2 class="section__title padding-top-1 margin-top-15">Executive Committee Membership</h2>
 <span><b>The Executive Committee membership includes:</b></span>
 <div class="grid-container font-sans-sm padding-left-0 padding-right-0 container__leadership">
     <section class="usa-graphic-list padding-bottom-4">
         <div class="grid-container padding-left-0 padding-right-0">
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
                 <div class="tablet:grid-col-6 container padding-bottom-4">
-                    <div class="clearfix shadow-5 radius-lg bg-white padding-2 border-1px">
+                    <div class="clearfix radius-lg bg-white padding-2 border-1px">
                         <ul class="usa-list--unstyled line-height-body-2">
                             <li>&mdash; Council Chair</li>
                             <li>&mdash; Council Vice-Chair</li>
@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div class="tablet:grid-col-6">
-                    <div class="clearfix shadow-5 radius-lg bg-white padding-2 border-1px">
+                    <div class="clearfix radius-lg bg-white padding-2 border-1px">
                         <ul class="usa-list--unstyled line-height-body-2">
                             <li>&mdash; Chairs of the CDO Council Working Groups while the Working Group is active</li>
                             <li>&mdash; A representative from the Small Agencies (as selected by the Chair)</li>
@@ -27,8 +27,8 @@
             </div>
         </div>
     </section>
-    <section class="usa-graphic-list padding-top-0" >
-        <div class="grid-container">
+    <section class="usa-graphic-list padding-top-0">
+        <div class="grid-containe padding-left-0 padding-right-0">
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
                 {% for bio in site.exec-members %}
                 <div class="tablet:grid-col-6 container padding-bottom-4">
@@ -38,7 +38,7 @@
                                 <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                             </div>
                             <div class="right padding-1">
-                                <span class="name">{{ bio.name }}<br></span>
+                                <span class="name text-uppercase">{{ bio.name }}<br></span>
                                 <span class="role">{{ bio.role }}</span>
                                 <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
                             </div>
