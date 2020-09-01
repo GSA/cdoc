@@ -1,6 +1,6 @@
 ---
 headline: Relaunch of resources.data.gov
-image: /assets/images/beach-thomas.png
+image: /assets/images/logos/data-gov.png
 layout: wide
 permalink: /news/relaunch-resources-data-gov/
 

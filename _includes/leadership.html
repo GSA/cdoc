@@ -1,9 +1,9 @@
 <!-- *****LOOP FOR MEMBERS PAGE *********-->
  <section class="usa-graphic-list padding-top-0">
-        <div class="grid-container">
+
             <div class="usa-graphic-list__row grid-row grid-gap">
                 {% for bio in site.leadership %}
-                <div class="tablet:grid-col-6" style="padding:10px;">
+                <div class="tablet:grid-col-6">
                     <a style="color:black;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
                         <div class="left">
                             <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
@@ -18,5 +18,5 @@
                 {% endfor %}
 
             </div>
-        </div>
+
     </section>

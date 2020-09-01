@@ -1,6 +1,6 @@
 ---
 headline: Ted Kaouk named Chair of CDO Council
-image: /assets/images/beach-thomas.png
+image: /assets/images/members/kaouk-ted.png
 layout: wide
 permalink: /news/cdo-chair/
 

@@ -79,7 +79,7 @@ abbr{
 }
 
 .abstract-background {
-  background-image: url("../assets/images/background/blue-banner-abstract.png");
+  background-image: url("../assets/images/background/hero.png");
   object-fit: cover;
 }
 
@@ -87,14 +87,21 @@ abbr{
 
 .circle-image {
   border-radius: 50%;
-  background: #fa9441;
-  padding: 20px;
+  background: #ff5803;
+  padding: 15px;
   width: 100px;
   margin: 0 auto;
 
   .picon {
     color: #fff;
+    margin-top:10px;
   }
+
+}
+.circle-image:hover {
+  -webkit-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+  -moz-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+  box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
 }
 
 .cdo_custom_footer_links{
@@ -104,13 +111,13 @@ abbr{
   margin-left: 1rem;
 }
 
-.usa-button {
+/*.usa-button {
   background-color: $cdoc-blue;
 
   &.bg-white {
     background-color: #fff;
   }
-}
+}*/
 
 // Leadership Block styling
 .left {
@@ -139,7 +146,9 @@ abbr{
   font-size: 13px;
   display: block;
 }
-
-.role {
-  margin-top: .75rem;
+#main-content{
+  background-color: #fefefe;
+}
+.abstract-background .usa-button:visited{
+  background: #1a4480;
 }
