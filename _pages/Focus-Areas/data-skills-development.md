@@ -5,16 +5,10 @@ layout: defaultwithbanner
 sidenav: false
 permalink: /data-skills-development/
 ---
-**Working Group Lead:** David Dreisigmeyer, Department of Commerce
-<br>
+### Overview
+There is a growing need to advance all levels of data acumen throughout the federal workforce.  Federal agencies can significantly benefit from collaboration in the development and implementation of data skills & workforce development. Networking and sharing experiences related to data skills & workforce development efforts will accelerate implementation of these related endeavors across government. 
+ 
+### Why this Matters to the CDO Council:
+This focus area delivers value to the Council, CDOs and their stakeholders by improving the efficiency and effectiveness of proven data skills & workforce development efforts of Federal agencies throughout government. Additionally, it supports actionable, ongoing and competency based data skills and workforce development, resulting in improving data acumen and closing skills/development gaps to successfully cross-collaborate across government. 
 
-### Purpose
-
-Part of the Federal Data Strategy’s (FDS) Action 4 (Identify Opportunities to Increase Staff Data Skills) is the need to develop a strategy to close any skills gap a Department, Bureau or Agency identifies. A component of this is training current staff. The Federal government has many efforts underway related to workforce training. A Workforce Development Working Group provides a forum to:
-
-* bring expertise together from across the Federal government, including other inter-agency councils;
-
-* exchange lessons learned and expertise, including the process of developing a training program, and;
-
-* provide support to organizations as they develop their programs.
 <p>&nbsp;</p>
