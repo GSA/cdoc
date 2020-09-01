@@ -28,7 +28,7 @@ $cdoc-blue-50: #2378c3;
   display: none;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 640px)  {
   .tablet\:width-1\/3 {
     width: 33%;
   }
@@ -118,29 +118,44 @@ abbr{
   background: #1a4480;
 }
 
-// Leadership Page styling
-.left {
-  width: 30%;
-  float: left;
-  height: 135px;
+  // Leadership Block styling
+.section__title {
+  border-top: 1px solid $color-gray-30;
+}
 
-  img {
-    width: 100%;
-    height: 135px;
+.container__leadership {
+  .border-1px {
+    border-color: $color-gray-warm-10;
   }
-}
 
-.right {
-  width: 70%;
-  background-color: #f0f0f0;
-  height: 135px;
-  float: right;
-}
+  .left {
+    width: 30%;
+    float: left;
+    height: 135px;
 
-.name {
-  font-weight: bold;
-}
+    img {
+      width: 100%;
+      height: 135px;
+    }
+  }
+>>>>>>> 0f896d55753a23724d809265a2deaf5441d2a6fa
 
+  .right {
+    width: 70%;
+    height: 135px;
+    float: right;
+  }
+
+  .name {
+    font-weight: bold;
+  }
+
+  .title, .role {
+    font-size: 13px;
+    display: block;
+  }
+
+<<<<<<< HEAD
 .title, .role {
   font-size: 13px;
   display: block;
@@ -149,3 +164,34 @@ abbr{
 .role {
   margin-top: .75rem;
 }
+=======
+  .role {
+    font-style: italic;
+  }
+
+  .title {
+    margin-top: .75rem;
+  }
+
+
+  // Exec Committee styles
+  .usa-list--unstyled {
+    text-indent: -1em;
+    padding-left: 1em;
+    height: 7.5em;
+
+    @media screen and (min-width: 640px) and (max-width: 768px) {
+      height: 10em;
+    }
+
+    > li:first-child {
+      margin-top: 0;
+    }
+
+    > li {
+      margin-top: .25em;
+    }
+  }
+}
+
+>>>>>>> 0f896d55753a23724d809265a2deaf5441d2a6fa
