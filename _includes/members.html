@@ -1,5 +1,5 @@
 <!-- *****LOOP FOR Members on Members Page *********-->
-<div class="grid-container font-sans-sm">
+<div class="grid-container font-sans-sm container__leadership padding-left-0 padding-right-0">
     <section class="usa-graphic-list padding-top-0" >
         <div class="grid-container padding-0">
             <div class="usa-graphic-list__row grid-row grid-gap">
@@ -7,10 +7,10 @@
                 <div class="tablet:grid-col-4 container members-list padding-top-2">
                     <div class="clearfix shadow-5 radius-lg bg-white padding-2">
                     <div class="left">
-                        <img src="{{ site.baseurl }}/assets/images/agency-seals/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} agency seal">
+                        <img class="card__image--seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} agency seal">
                     </div>
                     <div class="right padding-left-1">
-                        <span class="name">{{ bio.name }}<br></span>
+                        <span class="name text-uppercase">{{ bio.name }}<br></span>
                         <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
                     </div>
                 </div>

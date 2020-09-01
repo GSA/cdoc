@@ -13,7 +13,6 @@ The CDO Council is comprised of:
 * Administrator, Office of Information and Regulatory Affairs (or designee)
 * Ex officio members
 
-Please note that you can click on each agency’s icon to go to their agency.gov/data webpage, if available.
 
 ## Agency CDOs
 {% include members.html %}
