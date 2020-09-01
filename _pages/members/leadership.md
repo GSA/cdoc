@@ -6,11 +6,7 @@ sidenav: false
 permalink: /leadership/
 ---
 
-## Leadership
-
 {% include leadership.html %}
-
-## Executive Committee Membership
 
 {% include exec-members.html %}
 
