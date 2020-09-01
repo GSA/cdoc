@@ -5,6 +5,7 @@
             <div class="usa-graphic-list__row grid-row grid-gap">
                 {% for bio in site.members %}
                 <div class="tablet:grid-col-4 container members-list padding-top-2">
+                    <div class="clearfix shadow-5 radius-lg bg-white padding-2">
                     <div class="left">
                         <img src="{{ site.baseurl }}/assets/images/agency-seals/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} agency seal">
                     </div>
@@ -12,6 +13,7 @@
                         <span class="name">{{ bio.name }}<br></span>
                         <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
                     </div>
+                </div>
                 </div>
                 {% endfor %}
             </div>
