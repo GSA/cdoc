@@ -110,7 +110,7 @@ homepage_icons:
     url: /federal-data-strategy/
   - name: COVID-19
     logo: /assets/images/logos/stratergy.svg
-    url: /resources/SORNs/
+    url: /covid-19/
   - name: Data Skills Development
     logo: /assets/images/logos/data.svg
     url: /data-skills-development/
