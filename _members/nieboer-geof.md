@@ -1,5 +1,5 @@
 ---
-bio-image: frtib_seal.jpg
+bio-image: frtib_seal.png
 bio-image-alt-text: Federal Retirement Thrift Investment Board
 layout: bio
 name: Geof Nieboer

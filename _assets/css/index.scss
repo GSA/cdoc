@@ -198,4 +198,11 @@ abbr{
     }
   }
 
-} // end Membership styles
+} // end exec member styles
+
+.card__members {
+  .right,
+  .left {
+    height: 115px;
+  }
+}
