@@ -1,8 +1,8 @@
 ---
-bio-image: commerce_department_seal.png
+bio-image: placeholder-seal.jpg
 bio-image-alt-text: Court Services and Offender Supervision Agency for the District of Columbia
 layout: bio
-name: John Doe
+name: David Huffer
 department: Court Services and Offender Supervision Agency for the District of Columbia
-job-title: Acting Chief Data Officer
+job-title: Chief Data Officer
 ---

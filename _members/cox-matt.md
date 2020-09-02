@@ -1,0 +1,8 @@
+---
+bio-image: placeholder-seal.jpg
+bio-image-alt-text: U.S. Trade and Development Agency
+layout: bio
+name: Matt Cox
+department: U.S. Trade and Development Agency
+job-title: Chief Data Officer
+---
