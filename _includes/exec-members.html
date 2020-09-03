@@ -1,7 +1,29 @@
 <!-- *****LOOP FOR Executive Members Section on Leadership Page *********-->
-<h2 class="section__title padding-top-1 margin-top-15">Executive Committee Membership</h2>
+<h2 class="section__title padding-top-1 margin-top-5">Executive Committee Membership</h2>
 <span><b>The Executive Committee membership includes:</b></span>
 <div class="grid-container font-sans-sm padding-left-0 padding-right-0 container__leadership">
+    <section class="usa-graphic-list padding-top-0">
+        <div class="grid-containe padding-left-0 padding-right-0">
+            <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
+                {% for bio in site.exec-members %}
+                <div class="tablet:grid-col-6 container padding-bottom-4">
+                    <div class="clearfix shadow-5 radius-lg bg-white padding-2">
+                        <a style="color:black;text-decoration: none;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
+                            <div class="left">
+                                <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
+                            </div>
+                            <div class="right padding-1">
+                                <span class="name text-uppercase">{{ bio.name }}<br></span>
+                                <span class="role">{{ bio.role }}</span>
+                                <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
     <section class="usa-graphic-list padding-bottom-4">
         <div class="grid-container padding-left-0 padding-right-0">
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
@@ -24,28 +46,6 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="usa-graphic-list padding-top-0">
-        <div class="grid-containe padding-left-0 padding-right-0">
-            <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
-                {% for bio in site.exec-members %}
-                <div class="tablet:grid-col-6 container padding-bottom-4">
-                    <div class="clearfix shadow-5 radius-lg bg-white padding-2">
-                        <a style="color:black;text-decoration: none;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
-                            <div class="left">
-                                <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
-                            </div>
-                            <div class="right padding-1">
-                                <span class="name text-uppercase">{{ bio.name }}<br></span>
-                                <span class="role">{{ bio.role }}</span>
-                                <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                {% endfor %}
             </div>
         </div>
     </section>
