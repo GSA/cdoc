@@ -34,6 +34,4 @@ GOALS
 ## Charter
 On May 28, 2020, the CDO Council voted to establish a [charter](https://drive.google.com/drive/u/0/folders/1Qfv6TSPh77fhUio4S_1OHrOrszo2tAos).
 
-&nbsp;
 
-<a href="{{site.baseurl}}">&#10094; &nbsp; Back to Home</a><br>

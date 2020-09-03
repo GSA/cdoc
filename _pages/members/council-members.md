@@ -19,6 +19,7 @@ The CDO Council is comprised of:
 
 ## OMB Members
 Maria Roat, Deputy Federal Chief Information Officer, OFCIO
+
 Dominic Mancini, Deputy Administrator, OIRA
 
 ## EX-officio Members
@@ -37,12 +38,10 @@ Matt Soldner, Department of Education - Representing the Evaluation Officers Cou
 
 *The CDO Council definition of “Agency” comes from 44 USC 3502.  Under the definitions in that section the term Agency means:(1)the term “agency” means any executive department, military department, Government corporation, Government controlled corporation, or other establishment in the executive branch of the Government (including the Executive Office of the President), or any independent regulatory agency, but does not include—
 
-   (A)the Government Accountability Office;
-   
-   (B)Federal Election Commission;
-   
-   (C)the governments of the District of Columbia and of the territories and possessions of the United States, and their various subdivisions; or
-   
-   (D)Government-owned contractor-operated facilities, including laboratories engaged in national defense research and production activities
 
-&nbsp;
+<ol class="ol-upperCase">
+  <li>the Government Accountability Office;</li>
+  <li>Federal Election Commission;</li>
+  <li>the governments of the District of Columbia and of the territories and possessions of the United States, and their various subdivisions; or</li>
+  <li>Government-owned contractor-operated facilities, including laboratories engaged in national defense research and production activities</li>
+</ol>
