@@ -155,3 +155,8 @@ abbr{
 .abstract-background .usa-button:visited{
   background: #1a4480;
 }
+.bg-gradient{
+  background: rgb(19,38,139);
+  background: linear-gradient(52deg, rgba(19,38,139,1) 0%, rgba(15,34,121,1) 49%, rgba(10,30,104,1) 58%, rgba(6,26,90,1) 67%, rgba(1,21,74,0.9794292717086834) 74%, rgba(0,20,70,1) 100%);
+
+}
