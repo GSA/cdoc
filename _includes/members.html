@@ -6,14 +6,14 @@
                 {% for bio in site.members %}
                 <div class="desktop:grid-col-4 tablet:grid-col-6 container members-list padding-top-2 card__members">
                     <div class="clearfix shadow-5 radius-lg bg-white padding-2">
-                    <div class="left">
-                        <img class="card__image--seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} agency seal">
+                        <div class="left">
+                            <img class="card__image--seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} agency seal">
+                        </div>
+                        <div class="right padding-left-1">
+                            <span class="name text-uppercase">{{ bio.name }}<br></span>
+                            <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
+                        </div>
                     </div>
-                    <div class="right padding-left-1">
-                        <span class="name text-uppercase">{{ bio.name }}<br></span>
-                        <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
-                    </div>
-                </div>
                 </div>
                 {% endfor %}
             </div>
