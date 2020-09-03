@@ -10,5 +10,4 @@ permalink: /leadership/
 
 {% include exec-members.html %}
 
-<a href="{{site.baseurl}}">&#10094; &nbsp; Back to Home</a><br>
 
