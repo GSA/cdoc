@@ -87,7 +87,7 @@ primary_navigation:
       - name: Federal Data Strategy
         url: "/federal-data-strategy/"
       - name: COVID-19
-        url: "/COVID-19/"
+        url: "/covid-19/"
       - name: Data Skills Development
         url: "/data-skills-development/"
   - name: Guidance and Resources
