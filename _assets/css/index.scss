@@ -12,6 +12,11 @@ $cdoc-blue-50: #2378c3;
   margin-right: auto;
 }
 
+// for lists like (A), (B), (C)...
+.ol-upperCase ol { counter-reset: item }
+.ol-upperCase li { display: block ; counter-increment: item; }
+.ol-upperCase li:before { content: " ("counter(item,upper-alpha)") "; }
+
 @media screen and (min-width: 640px) {
   .footerLinksFourColumns {
     columns: 4;
