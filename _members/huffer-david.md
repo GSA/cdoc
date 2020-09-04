@@ -1,5 +1,5 @@
 ---
-bio-image: placeholder-seal.jpg
+bio-image: dc_court_svcs_seal.png
 bio-image-alt-text: Court Services and Offender Supervision Agency for the District of Columbia
 layout: bio
 name: David Huffer

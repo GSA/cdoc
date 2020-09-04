@@ -1,5 +1,5 @@
 ---
-bio-image: ncpc_seal.jpg
+bio-image: ncpc_twitter.jpg
 bio-image-alt-text: National Capital Planning Commission
 layout: bio
 name: Debra Dickson

@@ -1,5 +1,5 @@
 ---
-bio-image: usagm_seal.png
+bio-image: usagm_twitter.jpg
 bio-image-alt-text: US Agency for Global Media
 layout: bio
 name: Shawn Powers
