@@ -1,5 +1,5 @@
 ---
-bio-image: placeholder-seal.jpg
+bio-image: us_nrc_fb.png
 bio-image-alt-text: Nuclear Regulatory Commission
 layout: bio
 name: David Nelson

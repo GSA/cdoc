@@ -1,5 +1,5 @@
 ---
-bio-image: presidio_trust_seal.jpg
+bio-image: presidio_twitter.jpeg
 bio-image-alt-text: Presidio Trust
 layout: bio
 name: Don Edwards

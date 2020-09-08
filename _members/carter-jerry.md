@@ -1,5 +1,5 @@
 ---
-bio-image: udall_foundation_seal.png
+bio-image: udall_found_fb.jpg
 bio-image-alt-text: Morris K. Udall and Stewart L. Udall Foundation
 layout: bio
 name: Jerry Carter
