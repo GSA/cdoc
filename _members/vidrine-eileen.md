@@ -1,5 +1,5 @@
 ---
-bio-image: placeholder-seal.jpg
+bio-image: usaf_seal.png
 bio-image-alt-text: U.S. Air force
 layout: bio
 name: Eileen Vidrine

@@ -1,5 +1,5 @@
 ---
-bio-image: placeholder-seal.jpg
+bio-image: navy_dept_seal.png
 bio-image-alt-text: U.S. Department of Navy
 layout: bio
 name: Thomas Sasala

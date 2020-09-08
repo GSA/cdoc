@@ -1,5 +1,5 @@
 ---
-bio-image: placeholder-seal.jpg
+bio-image: restore_gulf_seal.png
 bio-image-alt-text: Gulf Coast Ecosystem Restoration Council
 layout: bio
 name: Jeremy Roseboom

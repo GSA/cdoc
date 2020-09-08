@@ -1,5 +1,5 @@
 ---
-bio-image: uscfa_seal.png
+bio-image: cfa_twitter.png
 bio-image-alt-text: U.S. Commission of Fine Arts
 layout: bio
 name: Frederick Lindstrom

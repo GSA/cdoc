@@ -1,5 +1,5 @@
 ---
-bio-image: placeholder-seal.jpg
+bio-image: ustda_seal_fb.png
 bio-image-alt-text: U.S. Trade and Development Agency
 layout: bio
 name: Matt Cox
