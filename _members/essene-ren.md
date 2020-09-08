@@ -1,5 +1,5 @@
 ---
-bio-image: cfpb_seal_fb.png
+bio-image: cfpb_seal_v3.jpg
 bio-image-alt-text: Consumer Financial Protection Bureau
 layout: bio
 name: Ren Essene
