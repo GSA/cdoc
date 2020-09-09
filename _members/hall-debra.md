@@ -1,8 +1,8 @@
 ---
-bio-image: eeoc_seal_aug09_1.png
-bio-image-alt-text: Equal Employment Opportunity Commission
+bio-image: usoshrc_seal.png
+bio-image-alt-text: OSHA Seal
 layout: bio
-name: Chris Haffer
-department: Equal Employment Opportunity Commission
+name: Debra Hall
+department: U.S. Occupational Safety and Health Review Commission
 job-title: Chief Data Officer
 ---
