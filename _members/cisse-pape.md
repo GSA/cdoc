@@ -1,5 +1,5 @@
 ---
-bio-image: cncs_seal.png
+bio-image: cncs_logo_fb.png
 bio-image-alt-text: Corporation for National and Community Service
 layout: bio
 name: Pape Cisse
