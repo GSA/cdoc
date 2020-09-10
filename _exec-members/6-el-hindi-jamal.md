@@ -3,7 +3,7 @@ subtitle: Executive Committee
 title: Council Leadership
 bio-image: el-hindi-jamal.png
 preview-image: /assets/images/el-hindi-jamal.png
-bio-image-alt-text: JAMAL EL-HINDI
+bio-image-alt-text: Jamal El-Hindi
 layout: bio
 permalink: /bio/el-hindi-jamal/
 name : Jamal El-Hindi

@@ -23,16 +23,7 @@ Maria Roat, Deputy Federal Chief Information Officer, OFCIO
 Dominic Mancini, Deputy Administrator, OIRA
 
 ## EX-officio Members
-Hubert Hamer, US Department of Agriculture - Representing the Interagency Council on Statistical Practice
-
-Bobak Talebian, US Department of Justice - Representing the Chief FOIA Officers Council
-
-Kirsten Moncado, Office of Management and Budget - Representing the Federal Privacy Council
-
-Dorothy Aronson, National Science Foundation - Representing the Chief Information Officers Council
-
-Matt Soldner, Department of Education - Representing the Evaluation Officers Council
-
+{% include exofficio_members.html %}
 
 &nbsp;
 

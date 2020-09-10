@@ -3,7 +3,7 @@ subtitle: Executive Committee
 title: Council Leadership
 bio-image: mancini-dominic.png
 preview-image: /assets/images/mancini-dominic.png
-bio-image-alt-text: DOMINIC MANCINI
+bio-image-alt-text: Dominic Mancini
 layout: bio
 permalink: /bio/mancini-dominic/
 name : Dominic Mancini

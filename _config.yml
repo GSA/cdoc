@@ -151,6 +151,8 @@ collections:
     output: true
   highlights:
     output: true
+  ex-officio-members:
+    output: true
 
 permalink: pretty
 
