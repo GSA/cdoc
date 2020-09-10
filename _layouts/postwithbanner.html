@@ -1,0 +1,33 @@
+{% comment %}
+This is used for just about every page. It provides the banner at the top of the page.
+{% endcomment %}
+
+{% include header.html %}
+{% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
+
+
+
+
+<section class="usa-graphic-list usa-section sml-margin bg-gradient">
+    <div class="grid-container">
+        <div class="grid-row grid-gap">
+            <div class="tablet:grid">
+
+                <p><a class="text-white margin-bottom-2" href="{{ site.baseurl }}/community-news/" style="text-decoration:none;">❮ &nbsp; Back to Community News </a></p>
+                <h1 class="text-accent-cool font-sans-lg margin-bottom-1 text-medium card-tag-news"> {{ page.date | date: '%B %d, %Y' }} </h1>
+                <h2 class="text-white font-serif-xl margin-top-0 margin-bottom-0 text-bold"> {{ page.title}} </h2>
+                <p class="text-white font-serif-md padding-bottom-0">By {{ page.author }}</p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="usa-layout-docs usa-section" id="main-content">
+    <div class="grid-container">
+        {{ content }}
+    </div>
+</main>
+
+
+{% include footer.html %}

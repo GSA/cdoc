@@ -1,8 +1,8 @@
 ---
-title: Second page
-layout: post
-date: January 15, 2019
-author: George Washington
+title: Relaunch of resources.data.gov
+layout: newspost
+date: September 10, 2020
+author: CDO Council
 excerpt: This is an excerpt for second page
 ---
 

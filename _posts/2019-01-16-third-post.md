@@ -1,9 +1,9 @@
 ---
-title: Third page
-layout: post
-date: January 16, 2019
-author: Benjamin Franklin
-excerpt: This is an excerpt for second page
+title: Ted Kaouk named Chair of CDO Council
+layout: newspost
+date: Septermber 10, 2020
+author: CDO Council
+excerpt: Ted Kaouk named Chair of CDO Council
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
