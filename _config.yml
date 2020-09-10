@@ -153,6 +153,8 @@ collections:
     output: true
   ex-officio-members:
     output: true
+  omb-members:
+    output: true
 
 permalink: pretty
 

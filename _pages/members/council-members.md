@@ -17,12 +17,8 @@ The CDO Council is comprised of:
 ## Agency CDOs
 {% include members.html %}
 
-## OMB Members
-Maria Roat, Deputy Federal Chief Information Officer, OFCIO
+{% include omb_members.html %}
 
-Dominic Mancini, Deputy Administrator, OIRA
-
-## EX-officio Members
 {% include exofficio_members.html %}
 
 &nbsp;
