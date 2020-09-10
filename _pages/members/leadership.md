@@ -1,6 +1,6 @@
 ---
 title: Members
-subtitle: Council Leadership
+subtitle: Federal CDO Council - Council Leadership
 layout: defaultwithbanner
 sidenav: false
 permalink: /leadership/

@@ -78,7 +78,7 @@ primary_navigation:
     url: /about-us/
   - name: Members
     children:
-      - name: Leadership
+      - name: Council Leadership
         url: "/leadership/"
       - name: Council Members
         url: "/council-members/"
@@ -86,7 +86,7 @@ primary_navigation:
     children:
       - name: Federal Data Strategy
         url: "/federal-data-strategy/"
-      - name: COVID-19
+      - name: COVID-19 Data Coordination
         url: "/covid-19/"
       - name: Data Skills Development
         url: "/data-skills-development/"
@@ -108,7 +108,7 @@ homepage_icons:
   - name: Federal Data Strategy
     logo: /assets/images/logos/covid.svg
     url: /federal-data-strategy/
-  - name: COVID-19
+  - name: COVID-19 Data Coordination
     logo: /assets/images/logos/stratergy.svg
     url: /covid-19/
   - name: Data Skills Development

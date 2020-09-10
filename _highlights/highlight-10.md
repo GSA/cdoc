@@ -5,4 +5,4 @@ layout: wide
 permalink: /news/relaunch-resources-data-gov/
 
 ---
-At consectetur lorem donec massa sapien faucibus et molestie ac. Cras semper auctor neque vitae tempus. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Adipiscing elit pellentesque habitant morbi. At imperdiet dui accumsan sit amet. Vel eros donec ac odio tempor orci. At consectetur lorem donec massa sapien faucibus et molestie. Praesent semper feugiat nibh sed pulvinar proin gravida. Vestibulum lorem sed risus ultricies tristique nulla aliquet. Ut sem nulla pharetra diam sit amet nisl suscipit. Sagittis orci a scelerisque purus semper eget duis at tellus. Tempus quam pellentesque nec nam aliquam sem et tortor.
+Announcing the relaunch of a new <a href = "https://resources.data.gov/" target="_blank">resources.data.gov</a>, an online repository of policies, tools, case studies, and other resources to support data governance, management, exchange, and use throughout the federal government. The site is a joint effort of OMB, the Office of Government...
