@@ -151,6 +151,8 @@ collections:
     output: true
   highlights:
     output: true
+  policies_guidance:
+    output: true
 
 permalink: pretty
 
