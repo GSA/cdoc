@@ -1,8 +1,8 @@
 ---
 subtitle: Leadership
 title: <notitle>
-bio-image: kaouk-ted.png
-preview-image: /assets/images/kaouk-ted.png
+bio-image: kaouk-ted-circle.png
+preview-image: /assets/images/kaouk-ted-circle.png
 bio-image-alt-text: TED KAOUK
 layout: bio
 permalink: /bio/kaouk-ted/
