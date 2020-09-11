@@ -32,6 +32,6 @@ GOALS
 * Provide leadership on the delivery of the [Federal Data Strategy Action Plan](https://strategy.data.gov/action-plan/).
 
 ## Charter
-On May 28, 2020, the CDO Council voted to establish a [charter](/documents/cdo-council-charter-061820.pdf).
+On May 28, 2020, the CDO Council voted to establish a [charter]({{ site.url }}/assets/cdo-council-charter-061820.pdf).
 
 
