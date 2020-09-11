@@ -1,13 +1,12 @@
 <!--********Policies and Guidance items. Individual cards live in the in the _policies_guidance folder**************-->
 
-<div class="usa-media-block tablet:grid-col-9">
-
+<div class="usa-media-block">
+    <p class="filter-count card-tag margin-top-0 text-gray-50 text-thin grid-row "></p>
     <div class="knowledge-sharing grid-row">
-        <p class="filter-count card-tag margin-top-0 text-gray-50 text-thin"></p>
         {% for item in site.policies_guidance %}
         {% if item.layout == "policies-guidance-landing" %}
-        <div class="tablet:grid-col-4  grid-spacing policy {{ item.filters }} ">
-            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover ">
+        <div class="tablet:grid-col-4  grid-spacing policy {{ item.filters }}">
+            <div class="border-top-05 border-accent-warm bg-white padding-2 shadow-5 height-full members-hover width-card-lg">
                 {% if item.permalink %}
                 <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ item.permalink }}">
                     {% else %}

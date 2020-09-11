@@ -8,5 +8,5 @@ type: CXO Fellows
 date: April 29, 2020
 has_date: 'yes'
 author: The Performance.gov Team
-filters: federal-data-strategy
+filters: federal-data-strategy legislation
 ---
