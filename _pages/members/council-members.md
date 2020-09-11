@@ -1,6 +1,6 @@
 ---
 title: Members
-subtitle: Council Members
+subtitle: Federal CDO Council - Council Members
 layout: defaultwithbanner
 sidenav: false
 permalink: /council-members/

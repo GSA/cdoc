@@ -7,7 +7,7 @@ bio-image-alt-text: TED KAOUK
 layout: bio
 permalink: /bio/kaouk-ted/
 name : Ted Kaouk
-department: USDA
+department: United States Department of Agriculture
 job-title: Chief Data Officer
 role: Council Chair
 ---
