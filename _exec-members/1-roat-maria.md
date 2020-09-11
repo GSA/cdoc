@@ -2,7 +2,7 @@
 subtitle: Executive Committee
 title: Council Leadership
 bio-image: roat-maria.png
-bio-image-alt-text: MARIA ROAT
+bio-image-alt-text: Maria Roat
 layout: bio
 permalink: /bio/roat-maria/
 name : Maria Roat

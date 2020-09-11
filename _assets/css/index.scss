@@ -211,7 +211,7 @@ abbr{
     font-weight: bold;
   }
 
-  .title, .role {
+  .title, .role, .council {
     font-size: 13px;
     display: block;
   }
@@ -249,5 +249,12 @@ abbr{
   .right,
   .left {
     height: 115px;
+  }
+}
+
+// Images
+@media screen and (max-width: 768px) {
+  img {
+    max-width: 50%;
   }
 }

@@ -1,10 +1,10 @@
-<h2 class="padding-top-5 margin-0">Agency CDOs</h2>
+<h2 class="padding-top-5 margin-0">EX-officio Members</h2>
 <!-- *****LOOP FOR Members on Members Page *********-->
-<div class="grid-container font-sans-sm container__leadership padding-left-0 padding-right-0">
+<div class="grid-container font-sans-sm container__leadership padding-left-0 padding-right-0 padding-bottom-6">
     <section class="usa-graphic-list padding-top-0" >
         <div class="grid-container padding-0">
             <div class="usa-graphic-list__row grid-row grid-gap">
-                {% for bio in site.members %}
+                {% for bio in site.ex-officio-members %}
                 <div class="desktop:grid-col-4 tablet:grid-col-6 container members-list padding-top-2 card__members">
                     <div class="clearfix shadow-5 radius-lg bg-white padding-2" tabindex="0">
                         <div class="left">
@@ -12,7 +12,10 @@
                         </div>
                         <div class="right padding-left-1">
                             <span class="name">{{ bio.name }}<br></span>
-                            <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
+                            <span class="title">{{ bio.department }}</span>
+                            {% if bio.council%}
+                                <span class="council text-italic">Representing the {{ bio.council }}</span>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
