@@ -1,7 +1,7 @@
 ---
 title: Ted Kaouk named Chair of CDO Council
 layout: newspost
-date: Septermber 10, 2020
+date: September 10, 2020
 author: CDO Council
 excerpt: Ted Kaouk named Chair of CDO Council
 permalink: /news/cdo-chair/
