@@ -1,6 +1,6 @@
 ---
 headline: Ted Kaouk named Chair of CDO Council
-image: /assets/images/members/kaouk-ted.png
+image: /assets/images/members/kaouk-ted-circle.png
 layout: wide
 permalink: /news/cdo-chair/
 
