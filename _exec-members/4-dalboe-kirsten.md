@@ -1,8 +1,7 @@
 ---
 subtitle: Executive Committee
 title: Council Leadership
-bio-image: dalboe-kirsten.png
-preview-image: /assets/images/dalboe-kirsten.png
+bio-image: dalboe-kirsten-circle.jpg
 bio-image-alt-text: Kirsten Dalboe
 layout: bio
 permalink: /bio/dalboe-kirsten/

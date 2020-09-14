@@ -1,8 +1,7 @@
 ---
 subtitle: Executive Committee
 title: Council Leadership
-bio-image: placeholder-headshot.png
-preview-image: /assets/images/beach-thomas.png
+bio-image: beach-thomas-circle.jpg
 bio-image-alt-text: Thomas A. Beach
 layout: bio
 permalink: /bio/beach-thomas/
