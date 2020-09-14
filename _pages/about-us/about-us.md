@@ -1,6 +1,6 @@
 ---
 title:  <notitle>
-subtitle: About Us
+subtitle: Federal CDO Council - About Us
 layout: defaultwithbanner
 permalink: /about-us/
 description: The meta description for the CDOC site will appear here.
@@ -32,6 +32,6 @@ GOALS
 * Provide leadership on the delivery of the [Federal Data Strategy Action Plan](https://strategy.data.gov/action-plan/).
 
 ## Charter
-On May 28, 2020, the CDO Council voted to establish a [charter](https://drive.google.com/drive/u/0/folders/1Qfv6TSPh77fhUio4S_1OHrOrszo2tAos).
+On May 28, 2020, the CDO Council voted to establish a [charter](/assets/documents/cdo-council-charter-061820.pdf).
 
 

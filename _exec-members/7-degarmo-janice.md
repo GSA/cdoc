@@ -1,9 +1,8 @@
 ---
 subtitle: Executive Committee
 title: Council Leadership
-bio-image: degarmo-janice.png
-preview-image: /assets/images/degarmo-janice.png
-bio-image-alt-text: JANICE DEGARMO
+bio-image: degarmo-janice-circle.jpg
+bio-image-alt-text: Janice deGarmo
 layout: bio
 permalink: /bio/degarmo-janice/
 name: Janice deGarmo

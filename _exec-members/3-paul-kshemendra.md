@@ -1,9 +1,8 @@
 ---
 subtitle: Executive Committee
 title: Council Leadership
-bio-image: paul-kshemendra.png
-preview-image: /assets/images/paul-kshemendra.png
-bio-image-alt-text: KSHEMENDRA PAUL
+bio-image: paul-kshemendra-circle.png
+bio-image-alt-text: Kshemendra Paul
 layout: bio
 permalink: /bio/paul-kshemendra/
 name : Kshemendra Paul

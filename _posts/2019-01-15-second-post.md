@@ -4,10 +4,7 @@ layout: newspost
 date: September 10, 2020
 author: CDO Council
 excerpt: This is an excerpt for second page
+permalink: /news/relaunch-resources-data-gov/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
-
-Curabitur sed elit viverra, fermentum massa non, hendrerit ex. Vivamus eget mattis tortor, eu elementum sapien. Praesent elementum feugiat nisi venenatis vestibulum. Nulla pretium ipsum orci, ut feugiat arcu facilisis sit amet.
-
-Morbi bibendum est non nibh aliquam, non dictum massa elementum. Nullam vitae auctor erat. Mauris at arcu ut purus sodales porttitor ut sit amet ex. Donec viverra quam nisl, a congue arcu fermentum rhoncus.
+Announcing the relaunch of a new <a href = "https://resources.data.gov/" target="_blank">resources.data.gov</a>, an online repository of policies, tools, case studies, and other resources to support data governance, management, exchange, and use throughout the federal government. The site is a joint effort of OMB, the Office of Government...

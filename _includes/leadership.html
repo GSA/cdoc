@@ -4,7 +4,7 @@
         <div class="grid-container padding-0">
             <div class="usa-graphic-list__row grid-row grid-gap">
                 {% for bio in site.leadership %}
-                <div class="tablet:grid-col-6">
+                <div class="tablet:grid-col-6 card__leadership">
                     <div class="clearfix shadow-5 radius-lg bg-white padding-2">
                     <a style="color:black;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
                         <div class="left">
@@ -19,7 +19,6 @@
                     </div>
                 </div>
                 {% endfor %}
-
             </div>
         </div>
     </section>

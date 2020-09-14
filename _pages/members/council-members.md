@@ -1,6 +1,6 @@
 ---
 title: Members
-subtitle: Council Members
+subtitle: Federal CDO Council - Council Members
 layout: defaultwithbanner
 sidenav: false
 permalink: /council-members/
@@ -13,26 +13,11 @@ The CDO Council is comprised of:
 * Administrator, Office of Information and Regulatory Affairs (or designee)
 * Ex officio members
 
-
-## Agency CDOs
 {% include members.html %}
 
-## OMB Members
-Maria Roat, Deputy Federal Chief Information Officer, OFCIO
+{% include omb_members.html %}
 
-Dominic Mancini, Deputy Administrator, OIRA
-
-## EX-officio Members
-Hubert Hamer, US Department of Agriculture - Representing the Interagency Council on Statistical Practice
-
-Bobak Talebian, US Department of Justice - Representing the Chief FOIA Officers Council
-
-Kirsten Moncado, Office of Management and Budget - Representing the Federal Privacy Council
-
-Dorothy Aronson, National Science Foundation - Representing the Chief Information Officers Council
-
-Matt Soldner, Department of Education - Representing the Evaluation Officers Council
-
+{% include exofficio_members.html %}
 
 &nbsp;
 
