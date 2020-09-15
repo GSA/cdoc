@@ -1,6 +1,6 @@
 ---
 title: Focus Area
-subtitle: Federal CDO Council - Federal Data Strategy
+subtitle: Federal Data Strategy
 layout: defaultwithbanner
 sidenav: false
 permalink: /federal-data-strategy/
