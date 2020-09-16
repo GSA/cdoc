@@ -1,6 +1,6 @@
 ---
 title: Focus Area
-subtitle: Federal CDO Council - Data Skills Development
+subtitle: Data Skills Development
 layout: defaultwithbanner
 sidenav: false
 permalink: /data-skills-development/

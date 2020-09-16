@@ -1,6 +1,6 @@
 ---
 title: Focus Area
-subtitle: Federal CDO Council - COVID-19 Data Coordination
+subtitle: COVID-19 Data Coordination
 layout: defaultwithbanner
 sidenav: false
 permalink: /covid-19/
