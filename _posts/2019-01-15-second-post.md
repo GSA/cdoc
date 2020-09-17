@@ -1,13 +1,11 @@
 ---
-title: Second page
-layout: post
-date: January 15, 2019
-author: George Washington
+title: Relaunch of resources.data.gov
+layout: newspost
+date: September 10, 2020
+author: CDO Council
 excerpt: This is an excerpt for second page
+permalink: /news/relaunch-resources-data-gov/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
+Announcing the relaunch of a new <a href = "https://resources.data.gov/" target="_blank">resources.data.gov</a>, an online repository of policies, tools, case studies, and other resources to support data governance, management, exchange, and use throughout the federal government. The site is a joint effort of OMB, the Office of Government Information Services of the National Archives, and GSA, as required by the <a href="https://www.congress.gov/115/plaws/publ435/PLAW-115publ435.pdf" target="_blank">OPEN Government Data Act</a>, Title II of the Foundations for Evidence-Based Policymaking Act. This resource promises to become a central hub that gathers, publicizes, and shares high-quality data tools and resources, thereby supporting and amplifying the efforts and products of groups and individual data managers and practitioners across government.
 
-Curabitur sed elit viverra, fermentum massa non, hendrerit ex. Vivamus eget mattis tortor, eu elementum sapien. Praesent elementum feugiat nisi venenatis vestibulum. Nulla pretium ipsum orci, ut feugiat arcu facilisis sit amet.
-
-Morbi bibendum est non nibh aliquam, non dictum massa elementum. Nullam vitae auctor erat. Mauris at arcu ut purus sodales porttitor ut sit amet ex. Donec viverra quam nisl, a congue arcu fermentum rhoncus.

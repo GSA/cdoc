@@ -1,6 +1,7 @@
 // Import the US Web Design System SASS.
 
 @import "uswds";
+@import "../../_sass/knowledgesharing";
 
 // Add your SASS/CSS here
 $cdoc-blue: #1CA7FC;
@@ -269,4 +270,14 @@ abbr{
   img {
     max-width: 50%;
   }
+}
+
+.card-tag {
+  font-size: .9rem;
+  margin-top: .2em;
+  margin-bottom: .15em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #323a45;
 }

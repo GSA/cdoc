@@ -155,6 +155,8 @@ collections:
     output: true
   omb-members:
     output: true
+  policies_guidance:
+    output: true
 
 permalink: pretty
 

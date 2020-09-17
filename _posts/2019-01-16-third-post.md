@@ -1,13 +1,11 @@
 ---
-title: Third page
-layout: post
-date: January 16, 2019
-author: Benjamin Franklin
-excerpt: This is an excerpt for second page
+title: Ted Kaouk named Chair of CDO Council
+layout: newspost
+date: September 10, 2020
+author: CDO Council
+excerpt: Ted Kaouk named Chair of CDO Council
+permalink: /news/cdo-chair/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus interdum pellentesque. Integer eu vehicula elit. Sed cursus magna in dui suscipit rhoncus.
+On June 10th, 2020, OMB named Ted Kaouk, USDA as the inaugural Chair for the Chief Data Officers Council. According to a <a href="https://strategy.data.gov/news/2020/06/10/new-federal-cdo-council-chair/" target="_blank">statement</a> released by the OMB, Ted believes deeply that federal CDOs have an opportunity to engage in work that is meaningful and transformative through the steps outlined in the Federal Data Strategy. At USDA, he has seen first-hand the impacts that delivering data and analytics solutions to leaders and field employees have on how the agency serves the public. He knows the unique power government data has to solve major public challenges.
 
-Curabitur sed elit viverra, fermentum massa non, hendrerit ex. Vivamus eget mattis tortor, eu elementum sapien. Praesent elementum feugiat nisi venenatis vestibulum. Nulla pretium ipsum orci, ut feugiat arcu facilisis sit amet.
-
-Morbi bibendum est non nibh aliquam, non dictum massa elementum. Nullam vitae auctor erat. Mauris at arcu ut purus sodales porttitor ut sit amet ex. Donec viverra quam nisl, a congue arcu fermentum rhoncus.
