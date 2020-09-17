@@ -4,5 +4,5 @@ title: Coming Soon! We will update Financial Data Transformation's latest news h
 type: fdt
 filler: For any questions, please contact CFOC.support@gsa.gov.
 has_date: 'yes'
-filters: data-skills-development playbooks
+filters: data-skills playbooks
 ---
