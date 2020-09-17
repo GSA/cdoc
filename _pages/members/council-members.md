@@ -8,7 +8,7 @@ permalink: /council-members/
 
 ## Council Members
 The CDO Council is comprised of:
-* The Chief Data Officer of each agency*
+* The Chief Data Officer of each <a href="#agency-defination">agency*</a>
 * Administrator, Office of eGovernment (or designee) 
 * Administrator, Office of Information and Regulatory Affairs (or designee)
 * Ex officio members
@@ -19,8 +19,7 @@ The CDO Council is comprised of:
 
 {% include exofficio_members.html %}
 
-&nbsp;
-
+<a name="agency-defination"> </a>
 *The CDO Council definition of “Agency” comes from 44 USC 3502.  Under the definitions in that section the term Agency means:(1)the term “agency” means any executive department, military department, Government corporation, Government controlled corporation, or other establishment in the executive branch of the Government (including the Executive Office of the President), or any independent regulatory agency, but does not include—
 
 
