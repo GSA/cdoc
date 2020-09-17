@@ -6,9 +6,9 @@ filler: Hicham Touti Department of Agriculture Daeshawn Branch Department of Com
 permalink: /knowledge-sharing/cfoc-finance-fellows-class-of-2014-2015/
 type: CXO Fellows
 date: November 01, 2014
-has_date: 'yes'
 author: CFO Council 
 filters: templates federal-data-strategy
 ---
 
 
+test content
