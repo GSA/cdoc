@@ -100,13 +100,13 @@ jQuery(document).ready(function ($) {
             updateFilterCount();
             // Toggle checked status of sort button
             if ( hashFilter["sorts"] ) {
-                $(".sort").addClass("checked");
+                $(".sort").addClass("checked usa-button usa-button--accent-cool");
             } else {
-                $(".sort").removeClass("checked");
+                $(".sort").removeClass("checked usa-button usa-button--accent-cool");
             }
             // Toggle checked status of filter buttons
-            $( ".filter-list" ).find(".checked").removeClass("checked").attr("aria-checked","false");
-            $( ".filter-list" ).find("[data-filter='" + hashFilter["area"] + "'],[data-filter='" + hashFilter["type"] + "']").addClass("checked").attr("aria-checked","true");
+            $( ".filter-list" ).find(".checked").removeClass("checked usa-button usa-button--accent-cool").attr("aria-checked","false");
+            $( ".filter-list" ).find("[data-filter='" + hashFilter["area"] + "'],[data-filter='" + hashFilter["type"] + "']").addClass("checked usa-button usa-button--accent-cool").attr("aria-checked","true");
             //,[data-filter='" + hashFilter["status"] + "']
         }
     } // onHahschange
