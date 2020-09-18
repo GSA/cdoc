@@ -2,7 +2,7 @@
 layout: policies-guidance-landing
 title: Federal Enterprise Data Resources Repository
 subtitle: Federal Enterprise Data Resources Repository
-permalink: https://resources.data.gov/
+doc-link: https://resources.data.gov/
 url: https://resources.data.gov/
 filters: templates playbooks
 ---

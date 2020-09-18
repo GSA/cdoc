@@ -2,7 +2,7 @@
 layout: policies-guidance-landing
 title: Open Data
 subtitle: Open Data
-permalink: https://www.data.gov/
+doc-link: https://www.data.gov/
 url: https://www.data.gov/
 filters:
 ---

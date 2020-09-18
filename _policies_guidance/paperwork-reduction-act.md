@@ -2,7 +2,7 @@
 layout: policies-guidance-landing
 title: Paperwork Reduction Act (PRA)
 subtitle: Paperwork Reduction Act (PRA)
-permalink: https://pra.digital.gov/
+doc-link: https://pra.digital.gov/
 url: https://pra.digital.gov/
 filters: legislation
 ---

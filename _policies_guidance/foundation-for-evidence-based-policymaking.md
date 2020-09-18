@@ -2,7 +2,7 @@
 layout: policies-guidance-landing
 title: Foundations for Evidence-Based Policymaking Act of 2018
 subtitle: Foundations for Evidence-Based Policymaking Act of 2018
-permalink: https://www.congress.gov/bill/115th-congress/house-bill/4174/text
+doc-link: https://www.congress.gov/bill/115th-congress/house-bill/4174/text
 url: https://www.congress.gov/bill/115th-congress/house-bill/4174/text 
 filters: legislation
 ---

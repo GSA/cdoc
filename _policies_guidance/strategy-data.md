@@ -2,7 +2,7 @@
 layout: policies-guidance-landing
 title: Strategy.data.gov
 subtitle: Strategy.data.gov
-permalink: https://strategy.data.gov/action-plan/
+doc-link: https://strategy.data.gov/action-plan/
 url: https://strategy.data.gov/action-plan/
 filters: guidance
 ---

@@ -2,7 +2,7 @@
 layout: policies-guidance-landing
 title: The Federal Data Strategy
 subtitle: The Federal Data Strategy
-permalink: https://strategy.data.gov/overview/
+doc-link: https://strategy.data.gov/overview/
 url: https://strategy.data.gov/overview/
 filters: federal-data-strategy guidance
 ---
