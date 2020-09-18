@@ -5,6 +5,7 @@ subtitle: Phase 1 Implementation of the Foundations for Evidence-Based Policymak
 doc-link: https://www.whitehouse.gov/wp-content/uploads/2019/07/M-19-23.pdf
 url: https://www.whitehouse.gov/wp-content/uploads/2019/07/M-19-23.pdf 
 filters: OMB-guidance
+summary: This Memorandum hereby establishes a Chief Data Officer Council (hereinafter "CDO Council") that will include all agency Chief Data Officers
 ---
 
 

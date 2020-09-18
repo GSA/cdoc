@@ -5,6 +5,7 @@ subtitle: Implementation Guidance for Supplemental Funding Provided in Response 
 doc-link: https://www.whitehouse.gov/wp-content/uploads/2020/04/Implementation-Guidance-for-Supplemental-Funding-Provided-in-Response.pdf
 url: https://www.whitehouse.gov/wp-content/uploads/2020/04/Implementation-Guidance-for-Supplemental-Funding-Provided-in-Response.pdf
 filters: OMB-guidance covid-19
+summary: This Memorandum directs agencies to leverage and continue to employ existing financial transparency and accountability mechanisms wherever possible. In balancing speed with transparency, agencies are to consider the three core principles below
 ---
 
 

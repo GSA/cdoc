@@ -23,7 +23,7 @@
                             {% for filter in filters %}
                             {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
                             {% if has_link == 'No' %}
-                                <div class="grid-col-6">
+                                <div class="grid-col-6 ">
 
                                 <p class="title-resources bg-base-lightest radius-pill padding-05 text-center text-base-darker">
                                 {{ filter | upcase }}
