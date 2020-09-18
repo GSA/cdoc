@@ -25,14 +25,14 @@
                             {% if has_link == 'No' %}
                                 <div class="grid-col-6">
 
-                                <p class="title-resources bg-base-lightest radius-pill padding-05 text-center">
+                                <p class="title-resources bg-base-lightest radius-pill padding-05 text-center text-base-darker">
                                 {{ filter | upcase }}
 
                             </p></div>
                             {% else %}
                             {% assign hyphen_filter = filter | split: '-' %}
                                 <div class="grid-col-6">
-                                <p class="title-resources bg-base-lightest radius-pill padding-05 text-center">
+                                <p class="title-resources bg-base-lightest radius-pill padding-05 text-center text-base-darker">
                                 {% for second_filter in hyphen_filter %}
                                 {{ second_filter | upcase }}
                                 {% endfor %}
