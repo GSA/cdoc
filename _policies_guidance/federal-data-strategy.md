@@ -5,6 +5,7 @@ subtitle: The Federal Data Strategy
 doc-link: https://strategy.data.gov/overview/
 url: https://strategy.data.gov/overview/
 filters: federal-data-strategy guidance
+summary: Provides a common set of data principles and best practices in implementing data
 ---
 
 
