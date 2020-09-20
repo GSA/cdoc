@@ -2,7 +2,7 @@
 layout: policies-guidance-landing
 title: Guidance and Resources
 subtitle: The Federal Data Strategy
-permalink: /guidance-and-resources/federal-data-strategy
+permalink: /guidance-and-resources/federal-data-strategy/
 url: https://strategy.data.gov/overview/
 filters: federal-data-strategy guidance
 summary: Provides a common set of data principles and best practices in implementing data innovations that drive more value for the public. Annual action plans ...

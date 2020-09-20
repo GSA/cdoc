@@ -2,7 +2,7 @@
 layout: policies-guidance-landing
 title: Guidance and Resources
 subtitle: Federal Enterprise Data Resources Repository
-permalink: /guidance-and-resources/federal-enterprise-data-resources-repo
+permalink: /guidance-and-resources/federal-enterprise-data-resources-repo/
 url: https://resources.data.gov/
 filters: templates playbooks
 summary: Resources.data.gov is an online repository of policies, tools, case studies, and other resources to support data governance, management, exchange, and use ...

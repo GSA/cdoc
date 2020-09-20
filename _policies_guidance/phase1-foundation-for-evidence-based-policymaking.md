@@ -2,7 +2,7 @@
 layout: policies-guidance-landing
 title: Guidance and Resources
 subtitle: Phase 1 Implementation of the Foundations for Evidence-Based Policymaking Act of 2018
-permalink: /guidance-and-resources/phase1-implementation-evidence-based-policymaking-act-2018
+permalink: /guidance-and-resources/phase1-implementation-evidence-based-policymaking-act-2018/
 url: https://www.whitehouse.gov/wp-content/uploads/2019/07/M-19-23.pdf 
 filters: OMB-guidance
 summary: This Memorandum hereby establishes a Chief Data Officer Council (hereinafter "CDO Council") that will include all agency Chief Data Officers, the ...
