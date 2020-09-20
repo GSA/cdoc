@@ -13,8 +13,8 @@ This is used for just about every page. It provides the banner at the top of the
         <div class="grid-row grid-gap">
             <div class="tablet:grid">
 
-                <p><a class="text-white margin-bottom-2" href="{{ site.baseurl }}/community-news/" style="text-decoration:none;">❮ &nbsp; Back to Community News </a></p>
-                <h1 class="text-accent-cool font-sans-lg margin-bottom-1 text-medium card-tag-news"> {{ page.date | date: '%B %d, %Y' }} </h1>
+                <!--<p><a class="text-white margin-bottom-2" href="{{ site.baseurl }}/community-news/" style="text-decoration:none;">❮ &nbsp; Back to Community News </a></p>-->
+                <h1 class="text-accent-cool-light font-sans-lg margin-bottom-1 text-medium card-tag-news"> {{ page.date | date: '%B %d, %Y' }} </h1>
                 <h2 class="text-white font-serif-xl margin-top-0 margin-bottom-0 text-bold"> {{ page.title}} </h2>
                 <p class="text-white font-serif-md padding-bottom-0">By {{ page.author }}</p>
 
@@ -23,10 +23,13 @@ This is used for just about every page. It provides the banner at the top of the
     </div>
 </section>
 
-<main class="usa-layout-docs" id="main-content">
+<main class="usa-layout-docs usa-graphic-list" id="main-content">
     <div class="grid-container">
         {{ content }}
+        <br>
+        <p class="card-tag"><a href="{{site.baseurl}}/community-news/">&#10094; &nbsp; Back to Community News</a> </p>
     </div>
+    
 </main>
 
 

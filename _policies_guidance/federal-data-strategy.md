@@ -1,13 +1,14 @@
 ---
 layout: policies-guidance-landing
-title: The Federal Data Strategy
+title: Guidance and Resources
 subtitle: The Federal Data Strategy
-doc-link: https://strategy.data.gov/overview/
+permalink: /guidance-and-resources/federal-data-strategy
 url: https://strategy.data.gov/overview/
 filters: federal-data-strategy guidance
-summary: Provides a common set of data principles and best practices in implementing data
+summary: Provides a common set of data principles and best practices in implementing data innovations that drive more value for the public. Annual action plans ...
 ---
 
+## [The Federal Data Strategy](https://strategy.data.gov/overview/)
 
 Provides a common set of data principles and best practices in implementing data innovations that drive more value for the public. Annual action plans will
 identify and prioritize practice-related steps for a given year, along with targeted timeframes and responsible entities.
