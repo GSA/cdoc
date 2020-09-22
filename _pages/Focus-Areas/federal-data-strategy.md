@@ -5,7 +5,7 @@ layout: defaultwithbanner
 sidenav: false
 permalink: /federal-data-strategy/
 ---
-### Overview:
+### Overview
 The use of data is transforming the world. The way the Federal Government provides, maintains, and uses data has a unique place in society, and maintaining trust in Federal data is pivotal to a democratic process. To meet the changing role of data and needs of democracy, the Federal Government created a coordinated and integrated data strategy that better enables data to deliver on mission, serve the public, and steward resources while respecting privacy and confidentiality.  The mission of the Federal Data Strategy is to fully leverage the value of federal data for mission, service, and the public good by guiding the Federal Government in practicing ethical governance, conscious design, and a learning culture.
 
 ### Why this matters to the CDO Council:
