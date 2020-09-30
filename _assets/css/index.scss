@@ -110,7 +110,7 @@ abbr{
 }
 
 .abstract-background {
-  background-image: url("../assets/images/background/hero-new.jpg");
+  background-image: linear-gradient(to top, rgba(0.4, 0.4, 0.4, 0.4), rgba(0.5, 0.5, 0.5, 0.5)), url("../assets/images/background/hero-new.jpg");
   object-fit: cover;
   background-color: #000;
   background-size: cover;
