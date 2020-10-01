@@ -15,45 +15,32 @@
                         <a class="no-style anchor-fill" href="{{ item.external-url }}">
                         {% endif %}
                         <div class="text-container height-card-lg">
-
-                                <p class="margin-top-0"> <strong>{{ item.subtitle }}</strong></p>
+                            <p class="margin-top-0"> <strong>{{ item.subtitle }}</strong></p>
                             <p class="font-sans-3xs">{{item.summary}}</p>
-
                             <div class="grid-row grid-gap">
 
-                            {% assign filters = item.filters | split: ' ' %}
-                            {% for filter in filters %}
-                            {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
-                            {% if has_link == 'No' %}
-                                <!--<div class="grid-col-6 ">
+                                {% assign filters = item.filters | split: ' ' %}
+                                {% for filter in filters %}
+                                {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
+                                {% if has_link == 'No' %}
+                                <div class="tags">
 
-                                <p class="title-resources bg-base-lightest radius-pill padding-05 text-center text-base-darker">
-                                {{ filter | upcase }}
+                                    <p class="tag">
+                                    {{ filter | upcase }}
 
-                            </p></div>-->
-                            <div class="tags">
-
-                                <p class="tag">
-                                {{ filter | upcase }}
-
-                            </p></div>
-                            {% else %}
-                            {% assign hyphen_filter = filter | split: '-' %}
-                                <!--<div class="grid-col-6">
-                                <p class="title-resources bg-base-lightest radius-pill padding-05 text-center text-base-darker">
-                                {% for second_filter in hyphen_filter %}
-                                {{ second_filter | upcase }}
+                                </p></div>
+                                {% else %}
+                                {% assign hyphen_filter = filter | split: '-' %}
+                                <div class="tags">
+                                    <p class="tag">
+                                    {% for second_filter in hyphen_filter %}
+                                    {{ second_filter | upcase }}
+                                    {% endfor %}
+                                </p></div>
+                                {% endif %}
                                 {% endfor %}
-                            </p></div>-->
-                            <div class="tags">
-                                <p class="tag">
-                                {% for second_filter in hyphen_filter %}
-                                {{ second_filter | upcase }}
-                                {% endfor %}
-                            </p></div>
-                            {% endif %}
-                            {% endfor %}
-                        </div></div></a>
+                            </div>
+                        </div></a>
             </div>
         </div>
         {% endif %}
