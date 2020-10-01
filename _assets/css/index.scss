@@ -34,6 +34,9 @@ $cdoc-blue-50: #2378c3;
     -webkit-columns: 4;
     -moz-columns: 4;
   }
+  .cdo-logo{
+    height:60px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -51,7 +54,9 @@ $cdoc-blue-50: #2378c3;
   .usa-banner__button::after {
     background: url(../img/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
   }
-
+  .cdo-logo{
+    height:40px;
+  }
 }
 
 // default mode hide banner
