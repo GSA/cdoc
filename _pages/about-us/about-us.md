@@ -26,7 +26,7 @@ The CDO Council shall meet regularly to establish government-wide best practices
 ## Vision
 The Council’s vision is to improve government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations. 
 
-GOALS
+## Goals
 * Meet statutory requirements, including the required report to Congress. 
 * Be a community of learning by broadly identifying best practices and resources to facilitate the implementation for the [Foundations for Evidence-Based Policymaking Act of 2018](https://www.congress.gov/bill/115th-congress/house-bill/4174/text).
 * Provide leadership on the delivery of the [Federal Data Strategy Action Plan](https://strategy.data.gov/action-plan/).
