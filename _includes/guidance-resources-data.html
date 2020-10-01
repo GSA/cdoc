@@ -9,49 +9,37 @@
             <div class="bg-white padding-2 shadow-2 height-full members-hover width-card-10 radius-lg">
                 {% if item.permalink %}
                 <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ item.permalink }}">
-                    {% else %}
+                    {% elsif item.doc-link %}
                     <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ item.doc-link }}">
+                        {% elsif item.external-url %}
+                        <a class="no-style anchor-fill" href="{{ item.external-url }}">
                         {% endif %}
                         <div class="text-container height-card-lg">
-
-                                <p class="margin-top-0"> <strong>{{ item.subtitle }}</strong></p>
+                            <p class="margin-top-0"> <strong>{{ item.subtitle }}</strong></p>
                             <p class="font-sans-3xs">{{item.summary}}</p>
-
                             <div class="grid-row grid-gap">
-
-                            {% assign filters = item.filters | split: ' ' %}
-                            {% for filter in filters %}
-                            {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
-                            {% if has_link == 'No' %}
-                                <!--<div class="grid-col-6 ">
-
-                                <p class="title-resources bg-base-lightest radius-pill padding-05 text-center text-base-darker">
-                                {{ filter | upcase }}
-
-                            </p></div>-->
-                            <div class="tags">
-
-                                <p class="tag"><img src="{{ site.baseurl }}/assets/images/background/tags-solid.png" style="" alt="tag">
-                                {{ filter | upcase }}
-
-                            </p></div>
-                            {% else %}
-                            {% assign hyphen_filter = filter | split: '-' %}
-                                <!--<div class="grid-col-6">
-                                <p class="title-resources bg-base-lightest radius-pill padding-05 text-center text-base-darker">
-                                {% for second_filter in hyphen_filter %}
-                                {{ second_filter | upcase }}
+                                {% assign filters = item.filters | split: ' ' %}
+                                {% for filter in filters %}
+                                {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
+                                {% if has_link == 'No' %}
+                                    <div class="tags">
+                                        <p class="tag">
+                                        {{ filter | upcase }}
+                                        </p>
+                                    </div>
+                                {% else %}
+                                    {% assign hyphen_filter = filter | split: '-' %}
+                                    <div class="tags">
+                                        <p class="tag">
+                                        {% for second_filter in hyphen_filter %}
+                                        {{ second_filter | upcase }}
+                                        {% endfor %}
+                                        </p>
+                                    </div>
+                                {% endif %}
                                 {% endfor %}
-                            </p></div>-->
-                            <div class="tags">
-                                <p class="tag"><img src="{{ site.baseurl }}/assets/images/background/tags-solid.png" style="" alt="tag">
-                                {% for second_filter in hyphen_filter %}
-                                {{ second_filter | upcase }}
-                                {% endfor %}
-                            </p></div>
-                            {% endif %}
-                            {% endfor %}
-                        </div></div></a>
+                            </div>
+                        </div></a>
             </div>
         </div>
         {% endif %}
