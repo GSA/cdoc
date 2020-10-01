@@ -9,8 +9,10 @@
             <div class="bg-white padding-2 shadow-2 height-full members-hover width-card-10 radius-lg">
                 {% if item.permalink %}
                 <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ item.permalink }}">
-                    {% else %}
+                    {% elsif item.doc-link %}
                     <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ item.doc-link }}">
+                        {% elsif item.external-url %}
+                        <a class="no-style anchor-fill" href="{{ site.baseurl }}{{ item.external-url }}">
                         {% endif %}
                         <div class="text-container height-card-lg">
 
