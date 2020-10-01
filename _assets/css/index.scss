@@ -301,7 +301,7 @@ abbr{
     display: inline-block;
     height: 26px;
     line-height: 26px;
-    padding: 0 20px 0 23px;
+    padding: 0 20px 0 5px;
     position: relative;
     margin: 5px 10px 10px 5px;
     text-decoration: none;
@@ -314,7 +314,7 @@ abbr{
     overflow: hidden;
     padding: 0;
 }
-.tag::before {
+/*.tag::before {
     background: #fff;
     border-radius: 10px;
     box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
@@ -324,6 +324,12 @@ abbr{
     position: absolute;
     width: 6px;
     top: 10px;
+  background-image: url("/assets/images/background/tags-solid.png");
+}*/
+.tag img{
+  width: 12px;
+  vertical-align: middle;
+  margin-right: 2px;
 }
 .tag::after {
     background: #fff;
