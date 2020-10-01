@@ -23,14 +23,14 @@
                                 {% capture has_link %}{% if filter contains '-' %}Yes{% else %}No{% endif %}{% endcapture%}
                                 {% if has_link == 'No' %}
                                     <div class="tags">
-                                        <p class="tag"><span class="tag-image usa-sr-only">image-tag</span>
+                                        <p class="tag"><span class="tag-image"></span>
                                         {{ filter | upcase }}
                                         </p>
                                     </div>
                                 {% else %}
                                     {% assign hyphen_filter = filter | split: '-' %}
                                     <div class="tags">
-                                        <p class="tag"><span class="tag-image usa-sr-only">image-tag</span>
+                                        <p class="tag"><span class="tag-image"></span>
                                         {% for second_filter in hyphen_filter %}
                                         {{ second_filter | upcase }}
                                         {% endfor %}
