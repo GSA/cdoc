@@ -34,6 +34,9 @@ $cdoc-blue-50: #2378c3;
     -webkit-columns: 4;
     -moz-columns: 4;
   }
+  .cdo-logo{
+    height:60px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -53,7 +56,11 @@ $cdoc-blue-50: #2378c3;
   }
 
 }
-
+@media screen and (max-width: 768px) {
+  .cdo-logo{
+    height:40px;
+  }
+}
 // default mode hide banner
 /*.usa-banner__content {
   display: none;
