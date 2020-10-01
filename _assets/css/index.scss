@@ -54,11 +54,13 @@ $cdoc-blue-50: #2378c3;
   .usa-banner__button::after {
     background: url(../img/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
   }
+
+}
+@media screen and (max-width: 768px) {
   .cdo-logo{
     height:40px;
   }
 }
-
 // default mode hide banner
 /*.usa-banner__content {
   display: none;
