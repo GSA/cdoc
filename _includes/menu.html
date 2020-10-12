@@ -19,7 +19,7 @@ where we provide an easy way to manage your navigation system
         {% if nav_item.link %}
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-            href="{{ nav_item.url }}"><span>{{ nav_item.name | escape }}</span></a>
+            href="{{ nav_item.link }}"><span>{{ nav_item.name | escape }}</span></a>
         </li>
         {% else %}
         <li class="usa-nav__primary-item">
