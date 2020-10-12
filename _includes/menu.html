@@ -16,10 +16,17 @@ where we provide an easy way to manage your navigation system
         {% unless nav_item.children %}
         {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
         {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
+        {% if nav_item.link %}
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
+            href="{{ nav_item.url }}"><span>{{ nav_item.name | escape }}</span></a>
+        </li>
+        {% else %}
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
             href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
         </li>
+        {% endif %}
         {% else %}
         {% assign nav_id = 'primary-nav-' | append: forloop.index %}
         <li class="usa-nav__primary-item">

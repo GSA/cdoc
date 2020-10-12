@@ -21,8 +21,7 @@
 title: CDO
 email: contact@example.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  The CDO Council is a forum for the Federal Chief Data Officers (CDOs). 
-  The Council's vision is to improve government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and
+  The CDO Council is a forum for the Federal Chief Data Officers (CDOs). The Council's vision is to improve government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and
   generation of data in government decision-making and operations.
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -93,7 +92,7 @@ primary_navigation:
       - name: Data Skills Development
         url: "/data-skills-development/"
   - name: Guidance and Resources
-    url: https://resources.data.gov/
+    link: https://resources.data.gov/
   - name: Community News
     url: /community-news/
 
