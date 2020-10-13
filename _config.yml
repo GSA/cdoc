@@ -21,8 +21,9 @@
 title: CDO
 email: contact@example.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.
+  The CDO Council is a forum for the Federal Chief Data Officers (CDOs). The Council's vision is to improve government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and
+  generation of data in government decision-making and operations.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -91,7 +92,7 @@ primary_navigation:
       - name: Data Skills Development
         url: "/data-skills-development/"
   - name: Guidance and Resources
-    url: /guidance-and-resources/
+    link: https://resources.data.gov/
   - name: Community News
     url: /community-news/
 
