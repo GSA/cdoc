@@ -4,8 +4,6 @@ subtitle: Relaunch of resources.data.gov
 layout: newspost
 date: July 23, 2020
 author: CDO Council
-image: data-gov.png
-image_alt_text: Relaunch of resources.data.gov
 excerpt: This is an excerpt for second page
 permalink: /news/relaunch-resources-data-gov/
 ---

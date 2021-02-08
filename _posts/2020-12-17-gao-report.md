@@ -4,8 +4,6 @@ subtitle: GAO Report
 layout: newspost
 date: December 17, 2020
 author: CDO Council
-image: data-gov.png
-image_alt_text: GAO Report
 excerpt: GAO Report
 permalink: /news/gao-report/
 ---

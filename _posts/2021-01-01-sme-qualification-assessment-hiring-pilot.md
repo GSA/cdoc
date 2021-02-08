@@ -4,8 +4,6 @@ subtitle: SME Qualification Assessment Hiring Pilot
 layout: newspost
 date: January 1, 2021
 author: CDO Council
-image: data-gov.png
-image_alt_text: SME Qualification Assessment Hiring Pilot
 excerpt: SME Qualification Assessment Hiring Pilot
 permalink: /news/sme-qualification-assessment-hiring-pilot/
 ---
