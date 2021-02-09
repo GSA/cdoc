@@ -6,8 +6,8 @@ bio-image-alt-text: Greg Fortenly
 layout: bio
 permalink: /bio/fortenly-greg/
 name : Greg Fortenly
-department: 
-job-title: 
+department: Department of Education
+job-title: Chief Data Officer
 role: Data Sharing Working Group
 ---
    
