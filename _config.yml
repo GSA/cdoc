@@ -112,7 +112,7 @@ number_of_icons: 5
 homepage_icons:
   - name: Federal Data Strategy
     logo: /assets/images/logos/covid.svg
-    url: /federal-data-strategy/
+    url: "https://strategy.data.gov/"
   - name: COVID-19 Data Coordination
     logo: /assets/images/logos/stratergy.svg
     url: /covid-19/
