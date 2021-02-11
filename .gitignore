@@ -4,6 +4,6 @@ _site
 node_modules
 .bundle
 .jekyll-cache/
-.idea/
-.idea/workspace.xml
 *.DS_Store
+*.idea
+.idea/vcs.xml
