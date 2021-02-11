@@ -1,6 +1,6 @@
 ---
-bio-image: noaa.png
-bio-image-alt-text: National Oceanic and Atmospheric Administration
+bio-image: logo-main-cfo.png
+bio-image-alt-text: National Science Foundation
 layout: bio
 name: Michael Wetklow
 department: National Science Foundation
