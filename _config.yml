@@ -91,6 +91,10 @@ primary_navigation:
         url: "/covid-19/"
       - name: Data Skills Development
         url: "/data-skills-development/"
+      - name: Data Inventory
+        url: "/data-inventory/"
+      - name: Data Sharing
+        url: "/data-sharing/"
   - name: Guidance and Resources
     link: https://resources.data.gov/
   - name: Community News
@@ -104,7 +108,7 @@ secondary_navigation:
 
 
 
-number_of_icons: 3
+number_of_icons: 5
 homepage_icons:
   - name: Federal Data Strategy
     logo: /assets/images/logos/covid.svg
@@ -115,6 +119,12 @@ homepage_icons:
   - name: Data Skills Development
     logo: /assets/images/logos/data.svg
     url: /data-skills-development/
+  - name: Data Inventory 
+    logo: /assets/images/logos/data-inventory.png
+    url: /data-inventory/
+  - name: Data Sharing
+    logo: /assets/images/logos/data-sharing.png
+    url: /data-sharing/
 
 # Search.gov configuration
 #
@@ -186,7 +196,7 @@ pagination:
   #permalink: '/page/:num.html' # Pages are simple html files
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
   # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
-  title: ":title - page :num"
+  title: ":title "
   # Limit how many pagenated pages to create (default: 0, means all)
   limit: 0
   # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
