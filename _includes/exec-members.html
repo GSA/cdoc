@@ -7,7 +7,7 @@
                 {% for bio in site.exec-members %}
                 <div class="tablet:grid-col-6 container margin-bottom-4" tabindex="0">
                     <div class="clearfix shadow-5 radius-lg bg-white padding-2">
-                        <div>
+                        <a style="color:black;text-decoration: none;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">
                             <div class="left">
                                 <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
                             </div>
@@ -15,9 +15,8 @@
                                 <span class="name">{{ bio.name }}<br></span>
                                 <span class="role">{{ bio.role }}</span>
                                 <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
-                                <span style="font-size: 13px; color: #1155cc;">Read more about <a style="font-size: 13px; color: #1155cc;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></span>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 {% endfor %}
