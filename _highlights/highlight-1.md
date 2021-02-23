@@ -1,5 +1,6 @@
 ---
 headline: CDOC Report to Congress
+image: /assets/images/background/shutterstock_365373944.jpg
 layout: wide
 link: /news/cdoc-report-to-congress/
 

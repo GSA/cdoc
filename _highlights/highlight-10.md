@@ -1,5 +1,6 @@
 ---
 headline: SME Qualification Assessment Hiring Pilot
+image: /assets/images/background/shutterstock_690895558.jpg
 layout: wide
 link: /news/sme-qualification-assessment-hiring-pilot/
 
