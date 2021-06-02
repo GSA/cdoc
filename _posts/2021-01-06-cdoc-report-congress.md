@@ -5,6 +5,8 @@ layout: newspost
 date: January 6, 2021
 author: CDO Council
 excerpt: CDOC Report to Congress
+image: shutterstock_365373944.jpg
+image_alt_text: CDOC report
 permalink: /news/cdoc-report-to-congress/
 ---
 

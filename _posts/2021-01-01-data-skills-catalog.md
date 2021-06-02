@@ -12,8 +12,8 @@ As part of the FDS 2020 Action Plan, the General Services Administration (GSA)�
 
 
 <ul>
-    <li>The <a href="{{ site.baseurl}}/assets/documents/fds_data_skills_catalog.pdf"> Catalog</a>  can be used to help agencies develop competencies for managing data as a strategic asset and making data-driven decisions.</li>
-    <li>The <a href="{{ site.baseurl}}/assets/documents/fds_data_ethics_framework.pdf">Framework</a> can be used by federal leaders and data users as they make ethical decisions when acquiring, managing, and using data to support their agency’s mission.</li>
+    <li>The <a href="https://resources.data.gov/assets/documents/fds-data-skills-catalog.pdf"> Catalog</a>  can be used to help agencies develop competencies for managing data as a strategic asset and making data-driven decisions.</li>
+    <li>The <a href="https://resources.data.gov/assets/documents/fds-data-ethics-framework.pdf">Framework</a> can be used by federal leaders and data users as they make ethical decisions when acquiring, managing, and using data to support their agency’s mission.</li>
 </ul>
 
 The Catalog will be maintained by the Chief Data Officers (CDO) Council, while the Framework will be reviewed and updated by the CDO Council and Interagency Council on Statistical Policy (ICSP) every 24 months.
