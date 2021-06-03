@@ -24,7 +24,7 @@ We’re pleased to share the results of this survey with the public. We’ve inc
 </ul>
 
 **CDO Grade Levels**
-![CDO Grade Levels]({{ site.baseurl }}/assets/images/blog-images/cdo-grade-levels.png)
+<img  alt="CDO Grade Levels"  src="{{ site.baseurl }}/assets/images/blog-images/cdo-grade-levels.png" style="display: block;">
 
 **CDO Areas of Responsibility**
-![CDO Areas Responsibility]({{ site.baseurl }}/assets/images/blog-images/cdo-areas-responsibility.png)
+<img  alt="CDO Areas Responsibility"  src="{{ site.baseurl }}/assets/images/blog-images/cdo-areas-responsibility.png" style="display: block;">

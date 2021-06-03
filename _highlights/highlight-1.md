@@ -1,9 +1,11 @@
 ---
-headline: CDOC Report to Congress
-image: /assets/images/background/shutterstock_365373944.jpg
+headline: CDOC Survey and Results
+image: /assets/images/background/survey-image.jpg
 layout: wide
-link: /news/cdoc-report-to-congress/
+link: /news/cdoc-survey-and-results/
 
 ---
-The CDO Council must submit a report to Congress and OMB every two years.  Our first report describes the initiation of the council and the activities and successes of our first year of activity. 
-<a href="{{ site.baseurl}}/assets/documents/CDO_Council_Report_to_Congress_OMB.pdf">Report to Congress</a>
+With Chief Data Officers appointed at many agencies across government for the first time in FY 2020, the Council conducted a survey of its members to identify:
+* the organizational reporting and grade for CDOs,
+* the areas of responsibility for CDOs,
+* the most common challenges.
