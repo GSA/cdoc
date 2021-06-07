@@ -5,5 +5,5 @@ layout: bio
 name: Alina Semo
 department: National Archives and Records Administration
 job-title: 
-council: Chief Records Officer Council
+council: Chief Freedom of Information Act Officers Council
 ---
