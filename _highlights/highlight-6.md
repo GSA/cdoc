@@ -1,6 +1,7 @@
 ---
 headline: 1-Year Anniversary of Elected Officers
 image: /assets/images/background/1-year-photo.png
+image_alt_text: 1-year themed balloons floating from CDO Council branded box
 layout: wide
 link: /news/1-year-anniversary-of-elected-officers/
 ---

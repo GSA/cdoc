@@ -5,9 +5,10 @@ layout: newspost
 date: June 11,2021
 author: Dan Morgan, CDO Council Vice-Chair
 excerpt: Update on Government-wide Data Scientist Hiring Pilot from CDO Council Vice-Chair Dan Morgan
-permalink: /news/data-scientist-hiring/
 image: handshake.jpeg
-image_alt_text: Handshake between two business people with abstract data graphics overlayed 
+image_alt_text: Handshake between two business people with abstract data graphics overlayed
+permalink: /news/data-scientist-hiring-pilot/
+description: Over the last several years, Federal agencies have been working to manage data as a strategic asset. Indeed, between 2018 and 2019, there was a flurry of activity and guidance focused on maturing how agencies manage and use data. Congress passed important legislation, including the Foundations for Evidence-based Policymaking Act...
 ---
 
 Over the last several years, Federal agencies have been working to manage data as a strategic asset. Indeed, between 2018 and 2019, there was a flurry of activity and guidance focused on maturing how agencies manage and use data. Congress passed important legislation, including the <a href="https://www.congress.gov/bill/115th-congress/house-bill/4174/text">Foundations for Evidence-based Policymaking Act of 2018</a> and the <a href="https://www.congress.gov/bill/115th-congress/house-bill/302/text">Geospatial Data Act</a>. The Office of Management and Budget issued the first-ever Federal Data Strategy and Action Plan as well as key implementation guidance for agencies. Suddenly, every Federal agency had a Chief Data Officer and the Federal Chief Data Officer Council was formed.
