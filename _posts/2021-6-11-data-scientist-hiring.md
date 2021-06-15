@@ -1,10 +1,10 @@
 ---
-title: Update on Government-wide Data Scientist Hiring Pilot from CDO Council Vice-Chair Dan Morgan
-subtitle: Update on Government-wide Data Scientist Hiring Pilot from CDO Council Vice-Chair Dan Morgan
+title: Update on Government-wide Data Scientist Hiring Pilot
+subtitle: Update on Government-wide Data Scientist Hiring Pilot
 layout: newspost
 date: June 11,2021
 author: Dan Morgan, CDO Council Vice-Chair
-excerpt: Update on Government-wide Data Scientist Hiring Pilot from CDO Council Vice-Chair Dan Morgan
+excerpt: Update on Government-wide Data Scientist Hiring Pilot
 image: handshake.jpeg
 image_alt_text: Handshake between two business people with abstract data graphics overlayed
 permalink: /news/data-scientist-hiring-pilot/

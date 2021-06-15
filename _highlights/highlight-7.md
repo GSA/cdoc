@@ -1,5 +1,5 @@
 ---
-headline: Update on Government-wide Data Scientist Hiring Pilot from CDO Council Vice-Chair Dan Morgan
+headline: Update on Government-wide Data Scientist Hiring Pilot
 image: /assets/images/background/handshake.jpeg
 image_alt_text: Handshake between two business people with abstract data graphics overlayed
 layout: wide

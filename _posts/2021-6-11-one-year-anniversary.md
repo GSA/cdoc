@@ -1,6 +1,6 @@
 ---
-title: 1-Year Anniversary of Elected Officers
-subtitle: 1-Year Anniversary of Elected Officers
+title: CDO Council Year in Review
+subtitle: CDO Council Year in Review
 layout: newspost
 date: June 11,2021
 author: Ted Kaouk, CDO Council Chair
