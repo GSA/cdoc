@@ -20,7 +20,9 @@ The U.S. Digital Service pitched their idea to the Federal Chief Data Officer Co
 **How'd it turn out?**
 <img  alt="Government-wide results"  src="{{ site.baseurl }}/assets/images/blog-images/government-wide-results.png" style="display: block;">
 
-The announcement went live on January 11, 2021 and received over 500 applicants in just 48 hours. Subject matter experts and candidates participated in a rigorous qualification assessment process, which completed in March. In the end, just over 100 candidates were found qualified. The agencies that contributed to the SME-QA process are actively interviewing candidates and making offers. This month, some of the applicants will begin joining their agencies.
+The announcement went live on January 11, 2021 and received over 500 applicants in just 48 hours. Subject matter experts and candidates participated in a rigorous qualification assessment process, which completed in March. In the end, just over 100 candidates were found qualified. The agencies that contributed to the SME-QA process are actively interviewing candidates and making offers. After just 2 months, 29 data scientists have accepted positions with the Federal government. This month, some of the applicants will begin joining their agencies.
 
 But even more importantly: we have a surplus of qualified candidates. Agencies that didn’t get involved on the ground floor will now have a chance to hire amazing data science talent, and we’re incredibly hopeful about the prospects of this work. We look forward to welcoming all these qualified candidates into the Federal civil service and can’t wait to see what’s next!
+
+If you want to learn more about this exciting hiring model, please visit <a href="https://smeqa.usds.gov/results/">SMEQA results page</a>.
 
