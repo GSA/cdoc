@@ -1,0 +1,229 @@
+.carousel-container {
+  max-width: 100%;
+
+}
+
+/*This is the actual carousel. Overflow hidden acts as a mask*/
+
+.carousel {
+  position: relative;
+  width: 100%;
+  /*Width of image is 980px. Height is 570px.*/
+  padding-top: 25rem;
+  overflow: hidden;
+}
+
+.carousel-container img {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.left-arrow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+  width: 28%
+}
+
+.grid-gap-banner{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.left-arrow:hover {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+}
+
+.left-arrow:hover .chevron,
+.right-arrow:hover .chevron {
+  border-color: #e6e6e6;
+}
+
+.right-arrow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 28%;
+  cursor: pointer;
+}
+
+.right-arrow:hover {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+}
+
+.chevron {
+  width: 25px;
+  height: 25px;
+  border: solid rgba(255, 255, 255, 0.5);
+  border-width: 10px 10px 0 0;
+}
+
+.chevron.right {
+  transform: rotate(45deg);
+}
+
+.chevron.left {
+  transform: rotate(-135deg);
+}
+
+.circle-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+}
+
+.circle {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.circle-fill {
+  background-color: white;
+}
+
+.text-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  bottom: 45px;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px black;
+  text-align: center;
+}
+
+.text-container p:nth-child(1) {
+  margin: 10px 100px;
+  font-size: 1.5em;
+}
+
+.text-container p:nth-child(2) {
+  margin: 10px 100px 20px 100px;
+}
+
+.carousel-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Animations */
+@keyframes toRight {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes toLeft {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes comeRight {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes comeLeft {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 1480px) and (min-width: 1270px) {
+.left-arrow {
+width: 20%;
+}
+
+}
+
+@media screen and (max-width: 1270px) and (min-width: 1140px) {
+.grid-gap-banner {
+    padding-left: 7.5rem;
+    padding-right: 8.5rem;
+}
+
+}
+
+@media screen and (max-width: 1139px)  {
+   .grid-gap-banner {
+       padding-left: 4.5rem;
+       padding-right: 4.5rem;
+   }
+
+   .left-arrow {
+   width: 10%;
+   }
+
+   .right-arrow {
+   width: 10%;
+   }
+   }
+
+
+@media screen and (max-width: 687px) and (min-width: 580px)  {
+.carousel {
+padding-top: 28rem;
+}
+}
+
+@media screen and (max-width: 580px) and (min-width: 462px)  {
+.carousel {
+padding-top: 32rem;
+}
+}
+
+
+@media screen and (max-width: 508px)  {
+.grid-gap-banner {
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
+}
+.carousel {
+padding-top: 37rem;
+}
+}
