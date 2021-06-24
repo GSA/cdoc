@@ -19,13 +19,28 @@ sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], scre
 highlightCircle(circleStore[0]);
 
 //User clicks on rightArrow
-rightArrow.addEventListener("click", () => {
+rightArrow.addEventListener("click",  () => {
     startAnim("right");
 });
+
+rightArrow.addEventListener("keyup",  (e) => {
+   if (event.keyCode === 13) {
+      event.preventDefault();
+     startAnim("right");
+      }
+});
+
 
 //User clicks on the leftArrow
 leftArrow.addEventListener("click", () => {
     startAnim("left");
+});
+
+leftArrow.addEventListener("keyup",  (e) => {
+   if (event.keyCode === 13) {
+      event.preventDefault();
+     startAnim("left");
+      }
 });
 
 //Start animation. Either towards left or right
@@ -109,6 +124,37 @@ circleStore.forEach(circle => {
     }
 })
 })
+
+
+circleStore.forEach(circle => {
+    circle.addEventListener("keyup", event => {
+      if (event.keyCode === 13) {
+       event.preventDefault();
+           if(!inAnim){
+              //Convert NodeList to Array, to use 'indexOf' method.
+              let circleStoreArray = Array.prototype.slice.call(circleStore);
+              let circleIndex = circleStoreArray.indexOf(event.target);
+              //Configure circle styling
+              highlightCircle(event.target);
+              //Work out whether we need to move right or left, or nowhere.
+              if(circleIndex > currentScreen){
+                  changeScreenCircleClick(circleIndex, "right");
+              }else if (circleIndex < currentScreen){
+                  changeScreenCircleClick(circleIndex, "left");
+              }
+          }
+      }
+
+})
+})
+
+
+
+
+
+
+
+
 
 function changeScreenCircleClick(circleIndex, direction) {
     inAnim = true;
