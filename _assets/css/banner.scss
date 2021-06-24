@@ -3,13 +3,11 @@
 
 }
 
-/*This is the actual carousel. Overflow hidden acts as a mask*/
 
 .carousel {
   position: relative;
   width: 100%;
-  /*Width of image is 980px. Height is 570px.*/
-  padding-top: 25rem;
+  padding-top: 28rem;
   overflow: hidden;
 }
 
@@ -213,7 +211,7 @@ padding-top: 28rem;
 
 @media screen and (max-width: 580px) and (min-width: 462px)  {
 .carousel {
-padding-top: 32rem;
+padding-top: 35rem;
 }
 }
 
@@ -224,6 +222,6 @@ padding-top: 32rem;
     padding-right: 1.5rem;
 }
 .carousel {
-padding-top: 37rem;
+padding-top: 29rem;
 }
 }
