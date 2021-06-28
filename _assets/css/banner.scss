@@ -100,6 +100,30 @@
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.pauseicon{
+    position:relative;
+    margin-top: -2px;
+    border-right:13px solid #fff;
+    height: 8px;
+    flex: 0 1 auto;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.playicon{
+    position:relative;
+    margin-top: -2px;
+    border-right:13px solid #fff;
+    height: 22px;
+    flex: 0 1 auto;
+    margin-right: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 .circle-fill {
   background-color: white;
 }
