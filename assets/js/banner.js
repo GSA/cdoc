@@ -254,6 +254,7 @@ function sortPositioning(mainScreen, leftScreen, rightScreen) {
 let carousel = document.getElementById("carousel-1");
 let scrollTime = Number(carousel.getAttribute("auto-scroll"));
 let pauseButton = document.getElementById('pause');
+let playButton = document.getElementById('play');
 //Only implement the feature if the user has included the attribute 'auto-scroll'.
 if(scrollTime) {
     //Auto Scroll will be set up the very first time
@@ -273,15 +274,21 @@ if(scrollTime) {
 
 }
 
-
-if(scrollTime) {
-let autoWipe = setInterval(() => {
-        startAnim("right");
-    }, scrollTime);
-pauseButton.addEventListener("click", () => {
-  clearInterval(autoWipe);
-  });
-  }
+//
+//if(scrollTime) {
+//let autoWipe = setInterval(() => {
+//        startAnim("right");
+//    }, scrollTime);
+//pauseButton.addEventListener("click", () => {
+//  clearInterval(autoWipe);
+//  });
+//
+//playButton.addEventListener("click", () => {
+//           autoWipe = setInterval(() => {
+//              startAnim("right");
+//          }, scrollTime);
+//      })
+//  }
 
 
 
