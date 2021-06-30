@@ -1,6 +1,8 @@
 <footer class="usa-footer usa-footer--big">
   <div class="grid-container margin-top-2 margin-bottom-2">
+    {% if page.title == "Home" %}
     <div class="border-top-1px border-base-light margin-bottom-2"></div>
+    {% endif %}
     <div class="grid-row flex-align-start flex-justify">
       <a href="#" class="usa-button usa-button--outline border-0">Return to top</a>
       {% if page.title == "Home" %}
