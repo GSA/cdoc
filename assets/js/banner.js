@@ -265,10 +265,8 @@ if(scrollTime) {
     carousel.addEventListener("mouseenter", () => {
         clearInterval(autoWipe);
     });
-       carousel.addEventListener("keydown", () => {
-
+       carousel.addEventListener("keydown", (event) => {
        var code = event.keyCode || event.which;
-
        if (code === 9) {
             clearInterval(autoWipe);
             }
@@ -279,29 +277,9 @@ if(scrollTime) {
             startAnim("right");
         }, scrollTime);
     })
-      carousel.addEventListener("onblur", () => {
-             autoWipe = setInterval(() => {
-                startAnim("right");
-            }, scrollTime);
-        })
 
-}
+};
 
-//
-//if(scrollTime) {
-//let autoWipe = setInterval(() => {
-//        startAnim("right");
-//    }, scrollTime);
-//pauseButton.addEventListener("click", () => {
-//  clearInterval(autoWipe);
-//  });
-//
-//playButton.addEventListener("click", () => {
-//           autoWipe = setInterval(() => {
-//              startAnim("right");
-//          }, scrollTime);
-//      })
-//  }
 
 
 

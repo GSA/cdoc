@@ -159,6 +159,12 @@
   height: 100%;
 }
 
+.abstract-background2{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(1, 1, 1, 0.5)), url(../assets/images/background/hero2.jpg);
+    background-color: #23364d;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
 /* Animations */
 @keyframes toRight {
   0% {
