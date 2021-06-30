@@ -380,3 +380,16 @@ abbr{
   font-family: ui-sans-serif;
   letter-spacing: 2px;
 }
+
+@media screen and (max-width: 745px) {
+
+  .vaccine-container {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vaccine-card {
+    margin-right: unset;
+  }
+}
