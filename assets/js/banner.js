@@ -265,12 +265,25 @@ if(scrollTime) {
     carousel.addEventListener("mouseenter", () => {
         clearInterval(autoWipe);
     });
+       carousel.addEventListener("keydown", () => {
+
+       var code = event.keyCode || event.which;
+
+       if (code === 9) {
+            clearInterval(autoWipe);
+            }
+        });
     //Re-initialise the timer when they hover out of the carousel
     carousel.addEventListener("mouseleave", () => {
          autoWipe = setInterval(() => {
             startAnim("right");
         }, scrollTime);
     })
+      carousel.addEventListener("onblur", () => {
+             autoWipe = setInterval(() => {
+                startAnim("right");
+            }, scrollTime);
+        })
 
 }
 
