@@ -1,6 +1,19 @@
 <footer class="usa-footer usa-footer--big">
   <div class="grid-container margin-top-2 margin-bottom-2">
-    <a href="#" class="usa-button usa-button--outline border-0">Return to top</a>
+    {% if page.title == "Home" %}
+    <div class="border-top-1px border-base-light margin-bottom-2"></div>
+    {% endif %}
+    <div class="grid-row flex-align-start flex-justify">
+      <a href="#" class="usa-button usa-button--outline border-0">Return to top</a>
+      {% if page.title == "Home" %}
+      <div class="grid-row vaccine-container">
+        <div class="vaccine-card">
+          <p class="vaccine-card-content">COVID-19<br>Vaccination</p>
+        </div>
+        <iframe src="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/vaccine-finder-widget.html" scrolling="no" height="230" frameborder="0" width="280" frameborder="0" title="Vaccine Finder Widget" style="overflow: hidden;"> <!– Vaccine Finder Widget !–> </iframe> 
+      </div>
+      {% endif %}
+    </div>
   </div>
   <div class="usa-footer__primary-section">
     <div class="grid-container">
