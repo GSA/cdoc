@@ -6,8 +6,8 @@ bio-image-alt-text: Kevin Duvall
 layout: bio
 permalink: /bio/Duvall-kevin/
 name : Kevin Duvall
-department: Department of Education
-job-title: Chief Data Officer
+department: Department of Health and Human Services
+job-title: Acting Chief Data Officer
 role: Data Sharing Working Group
 ---
 Kevin Duvall is the HHS Acting Chief Data Officer. In his current role, he is responsible for the Department’s planning for and execution of the Foundations for Evidence-Based Policymaking Act and the development of the HHS Protect COVID-19 data sharing ecosystem. 

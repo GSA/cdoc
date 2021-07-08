@@ -6,8 +6,8 @@ bio-image-alt-text: Melanie Carter
 layout: bio
 permalink: /bio/carter-melanie/
 name : Melanie Carter
-department: Treasury Department; Deputy Director, Financial Crimes Enforcement Network
-job-title: Interim Chief Data Officer
+department: Pension Benefit Guaranty Corporation
+job-title: Chief Data Officer & Enterprise Governance Department Director
 role: Operations Working Group
 ---
 Melanie Carter is the Pension Benefit Guaranty Corporation’s (PBGC’s) Enterprise Governance Department Director within the Office of Information Technology (OIT). She is also the Corporation’s Chief Data Officer. She joined PBGC in 1996 and has more than 25 years of government experience in technology and industry leadership, data governance, program management expertise, and executive management acumen.
