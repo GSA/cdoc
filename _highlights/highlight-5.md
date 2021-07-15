@@ -1,5 +1,5 @@
 ---
-headline: CDO Council pilot uses NLP to for Comment Analysis
+headline: CDO Council pilot uses NLP for Comment Analysis
 image: /assets/images/background/comment-circle.png
 image_alt_text: comment analysis post thumbnail
 layout: wide
