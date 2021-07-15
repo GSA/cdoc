@@ -42,7 +42,8 @@ The team also developed a clickable prototype that demonstrates how these tools 
 
 **BENEFITS TO AGENCIES AND GOVERNMENT-WIDE**
 
-These tools offer significant value at the agency level by helping reviewers respond to comments more quickly and easily. They can also offer new and better insights to comment analysts – for example, stakeholders indicated that identifying the meaning or ideas within groups of comments would benefit their review. Cost savings can be realized as agencies gain efficiencies and reduce up-front costs of comment analysis tool development. 
+These tools offer significant value at the agency level by helping reviewers respond to comments more quickly and easily. They can also offer new and better insights to comment analysts – for example, stakeholders indicated that identifying the meaning or ideas within groups of comments would benefit their review. Cost savings can be realized as agencies gain efficiencies and reduce up-front costs of comment analysis tool development.
+
 From a government-wide perspective, sharing these tools can improve development efforts at individual agencies. Services such as Regulations.gov/FDMS have created many cross-agency efficiencies in the rulemaking space. This pilot suggests the potential to create additional efficiencies and standardize comment analysis tools across the federal government by leveraging the latest in NLP advancements in technology.
 
 **WHERE CAN I LEARN MORE?**
