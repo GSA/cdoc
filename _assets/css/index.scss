@@ -393,3 +393,52 @@ abbr{
     margin-right: unset;
   }
 }
+
+// Public Meeting Event Page
+
+.meeting-detail {
+  padding: 0 3rem;
+
+  &__name {
+    font-size: 3rem;
+    color: #005ea2;
+  }
+  
+
+  &__date {
+    font-size: 26px;
+    color: grey;
+    margin-bottom: 2rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    &__name {
+      font-size: 2rem;
+    }
+
+    &__date {
+      font-size: 17px;
+    }
+  }
+
+  &__button--ext {
+    background: url(/assets/images/events/open-icon.png) 3px center no-repeat;
+    width: 13px;
+    height: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+  }
+}
+
+.meeting-description {
+  h2 {
+    color: #005ea2;
+  }
+  img {
+    float: left;
+    position: relative;
+    top: 17px;
+    padding-right: 15px;
+  }
+}
+
