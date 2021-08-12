@@ -12,6 +12,6 @@ description: The meta description for the CDOC site will appear here.
 
 <div class="fade_line"></div>
 
-<h2>Past Events</h2>
+<!-- <h2>Past Events</h2>
 
-{% include past-events.html %}
+{% include past-events.html %} -->
