@@ -180,6 +180,19 @@
 
 }
 
+.abstract-background3{
+  background-image: url(../assets/images/background/hero3.png);
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+@media only screen and (max-width: 660px) {
+  .card-desc {
+    font-size: 13px;
+  }
+}
+
 
 /* Animations */
 @keyframes toRight {
