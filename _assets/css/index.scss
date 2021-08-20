@@ -443,3 +443,10 @@ abbr{
   }
 }
 
+// event landing page
+@media screen and (max-width: 768px) {
+  .event-card img {
+    max-width: 100%;
+  }
+}
+
