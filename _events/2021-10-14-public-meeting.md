@@ -6,6 +6,6 @@ link: /public-meeting/
 end-date: October 14, 2021 #otherwise use end-date
 description: 2021 Public Meeting
 overview: 2021 Public Meeting overview blurb
-image: public-meeting-image.jpg
+image: public-meeting-image-1.png
 image-alt: public meeting image
 ---
