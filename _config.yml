@@ -95,10 +95,13 @@ primary_navigation:
         url: "/data-inventory/"
       - name: Data Sharing
         url: "/data-sharing/"
+  - name: Programs & Events
+    url: /programs-and-events/
+  - name: Community News
+    url: /community-news/    
   - name: Guidance and Resources
     link: https://resources.data.gov/
-  - name: Community News
-    url: /community-news/
+
 
 secondary_navigation:
   - name: Secondary link
