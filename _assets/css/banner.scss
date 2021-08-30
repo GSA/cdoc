@@ -28,7 +28,7 @@
   left: 0;
   height: 100%;
   cursor: pointer;
-  width: 28%
+  width: 25%
 }
 
 .grid-gap-banner{
@@ -53,7 +53,7 @@
   top: 0;
   right: 0;
   height: 100%;
-  width: 28%;
+  width: 25%;
   cursor: pointer;
 }
 
@@ -180,6 +180,14 @@
 
 }
 
+.abstract-background3{
+  background-image: url(../assets/images/background/hero-5.png);
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
 
 /* Animations */
 @keyframes toRight {
@@ -240,7 +248,7 @@ width: 20%;
    }
 
    .left-arrow {
-   width: 17%;
+   width: 14%;
    }
 
    .right-arrow {
