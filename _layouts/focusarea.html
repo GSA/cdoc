@@ -1,0 +1,54 @@
+{% comment %}
+This is used for just the focus area pages
+{% endcomment %}
+
+{% include header.html %}
+{% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
+
+<section class="usa-graphic-list usa-section sml-margin bg-gradient">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col">
+        <span class="text-accent-cool-light font-sans-lg margin-bottom-0 text-bold"> {{ page.title }} </span>
+        <h1 class="text-white font-serif-xl margin-top-0 margin-bottom-0 text-bold"> {{ page.subtitle}} </h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main id="main-content">
+
+  <div class="grid-container line-height-sans-5">
+    <div class="grid-row flex-row-reverse grid-gap-4">
+      <aside class="tablet:grid-col-5">
+        <div class="upper-fold-box shadow-3">
+          <div class="padding-3">
+            <h3>Charter</h3>
+
+            <h3>Focus Area Member</h3>
+
+            <h3>Resources</h3>
+          </div>
+        </div>
+      </aside>
+      <div class="usa-layout-docs__main tablet:grid-col-7 margin-y-2">
+          <div class="line-height-sans-5">
+            <h2 class="font-serif-xl">Purpose</h2>
+            <p>{{ page.purpose }}</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-row bg-accent-cool-lighter">
+    <section class="usa-layout-docs__main grid-row__focus-area">
+      <div class="tablet:grid-col-7 line-height-sans-5">
+        {{ content }}
+      </div>
+    </section>
+  </div>
+
+  {% include homepage_icons.html %}
+</main>
+
+{% include footer.html %}
