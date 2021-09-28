@@ -4,7 +4,8 @@ subtitle: Data Sharing
 layout: focusarea
 sidenav: false
 permalink: /data-sharing/
-purpose: The Data Sharing Working Group will focus on data sharing across federal agencies, and develop a set of well‐written and diverse use cases identified through Listening Sessions, Focus Groups, Environmental Scans, Systematic Web Searches, Document Reviews, and Literature Reviews. These annotated use cases will be available through a Use Case Resource Center.  
+purpose: The Data Sharing Working Group will focus on data sharing across federal agencies, and develop a set of well‐written and diverse use cases identified through Listening Sessions, Focus Groups, Environmental Scans, Systematic Web Searches, Document Reviews, and Literature Reviews. These annotated use cases will be available through a Use Case Resource Center.
+focus-member: Kevin Duvall
 ---
 
 <section>
@@ -22,5 +23,15 @@ purpose: The Data Sharing Working Group will focus on data sharing across federa
 <ul>
     <li>The Data Sharing Working Group supports the goals of the CDO Council, by ensuring the CDO Council and Executive Committee understand the varied data sharing needs and challenges of all agencies across the Federal Government.</li>
     <li>The Data Sharing Working Group supports the implementation of the Evidence Act Phase 2:  Open Data Access and Management, and the Federal Data Strategy Action 7.</li>
+</ul>
+</section>
+
+<section>
+<h3>This serves as a forum to:</h3>
+<ul>
+    <li>Provide leadership, learning, and partnership in implementing the data sharing provisions of the Federal Data Strategy Action Plan and the Foundations for Evidence‐Based Policymaking Act;</li>
+    <li>Be a collaborative body to share, learn, and work together to address data sharing challenges faced by federal agencies.</li>
+    <li>Use consensus‐based decision‐making within the Working Group, while actively communicating and, as necessary, documenting any dissent or range of views when providing recommendations to the CDO Council Executive Committee or Chair. The working group POC will be the designated voting member for their agency.</li>
+    <li>Present to the CDO Council Executive Committee, strategies, solutions, and resources to address policies, procedures, methods and techniques in implementing the Foundations for Evidence‐Based Policymaking Act and Federal Data Strategy requirements regarding the efficient, effective, timely, and secure sharing of data.  </li>
 </ul>
 </section>

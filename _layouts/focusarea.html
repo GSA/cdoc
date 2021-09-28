@@ -24,14 +24,15 @@ This is used for just the focus area pages
         <div class="upper-fold-box shadow-3">
           <div class="padding-3">
             <h3>Charter</h3>
-
+              <a class="usa-button usa-button--outline" href="" target="_blank"><strong>Download</strong></a>
             <h3>Focus Area Member</h3>
-
+              {% include focusarea__member.html name=page.focus-member %}
             <h3>Resources</h3>
+              {% include focusarea__lists.html name=page.subtitle %}
           </div>
         </div>
       </aside>
-      <div class="usa-layout-docs__main tablet:grid-col-7 margin-y-2">
+      <div class="usa-layout-docs__main tablet:grid-col-7 margin-y-3">
           <div class="line-height-sans-5">
             <h2 class="font-serif-xl">Purpose</h2>
             <p>{{ page.purpose }}</p>

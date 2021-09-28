@@ -1,0 +1,17 @@
+
+{% for bio in site.exec-members %}
+{% if bio.name == include.name %}
+    <div class="padding-1">
+        <div class="grid-row grid-gap-2">
+            <div class="tablet:grid-col-4 margin-top-1">
+                <img class="card__image--seal" src="/assets/images/members/duvall-kevin.png" alt="Kevin Duvall">
+            </div>
+            <div class="tablet:grid-col-8 line-height-sans-1">
+                <p class="name tablet:margin-y-1"><strong>Kevin Duvall</strong></p>
+                <small class="title">Acting Chief Data Officer, Department of Health and Human Services</small>
+                <p style="font-size: 13px; color: #1155cc;">Read more about <a style="font-size: 13px; color: #1155cc;" class="height-full" href="/bio/Duvall-kevin/">Kevin Duvall</a></p>
+            </div>   
+        </div>
+    </div>
+{% endif %}
+{% endfor %}

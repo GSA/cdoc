@@ -271,11 +271,19 @@ abbr{
 .upper-fold-box {
   background-color: white;
   min-height: 25em;
-  top: -6em;
+  top: -7em;
   position: absolute;
   width: 85%;
   margin-left: 1em;
   border-radius: 5px;
+  & ul {
+    list-style: none;
+    padding-left: 1em;
+    & li {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+  }
 }
 
 .flex-row-reverse {
