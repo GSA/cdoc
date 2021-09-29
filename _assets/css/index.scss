@@ -267,7 +267,7 @@ abbr{
 
 } // end exec member styles
 
-// focus area pages
+// focus area pages (now known as working groups)
 .upper-fold-box {
   background-color: white;
   min-height: 25em;
@@ -285,6 +285,7 @@ abbr{
     position: absolute;
     width: 85%;
     margin-left: 1em;
+    box-shadow: 0 0.5rem 1rem 0 #71767a61;
   }
 }
 
@@ -292,13 +293,13 @@ abbr{
   flex-direction: row-reverse;
 }
 
-.grid-row__focus-area {
+.grid-row__workinggroup {
   margin: 0 auto;
   max-width: 64em;
   padding-left: 2rem;
   padding-right: 2rem;
   & h2, h3, h4 {
-    font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif
+    font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
   }
   & section {
     margin-bottom: 2rem;
@@ -308,7 +309,7 @@ abbr{
   }
 }
 
-.card__image-focus-area {
+.card__image-workinggroup {
   max-width: 100%;
 }
 
