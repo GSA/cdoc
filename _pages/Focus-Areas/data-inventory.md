@@ -1,5 +1,5 @@
 ---
-title: Focus Area
+title: Working Groups
 subtitle: Data Inventory
 layout: defaultwithbanner
 sidenav: false

@@ -1,5 +1,5 @@
 ---
-title: Focus Area
+title: Working Groups
 subtitle: COVID-19 Data Coordination
 layout: defaultwithbanner
 sidenav: false

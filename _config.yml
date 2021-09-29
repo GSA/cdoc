@@ -83,7 +83,7 @@ primary_navigation:
         url: "/leadership/"
       - name: Council Members
         url: "/council-members/"
-  - name: Focus Areas
+  - name: Working Groups
     children:
       - name: Federal Data Strategy
         url: "/federal-data-strategy/"

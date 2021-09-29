@@ -1,5 +1,5 @@
 ---
-title: Focus Area
+title: Working Groups
 subtitle: Federal Data Strategy
 layout: focusarea
 sidenav: false
