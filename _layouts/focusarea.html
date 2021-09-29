@@ -9,7 +9,7 @@ This is used for just the focus area pages
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col">
-        <span class="text-accent-cool-light font-sans-lg margin-bottom-0 text-bold"> {{ page.title }} </span>
+        <span class="text-accent-cool-light font-sans-lg margin-bottom-0 text-bold">Working Groups</span>
         <h1 class="text-white font-serif-xl margin-top-0 margin-bottom-0 text-bold"> {{ page.subtitle}} </h1>
       </div>
     </div>
@@ -24,32 +24,41 @@ This is used for just the focus area pages
         <div class="upper-fold-box shadow-3">
           <div class="padding-3">
             <h3>Charter</h3>
-              <a class="usa-button usa-button--outline" href="" target="_blank"><strong>Download</strong></a>
-            <h3>Focus Area Member</h3>
+              <a class="usa-button" href="" target="_blank"><strong>Download</strong></a>
+            <h3 class="margin-top-5">Working Group Leader</h3>
               {% include focusarea__member.html name=page.focus-member %}
-            <h3>Resources</h3>
-              {% include focusarea__lists.html name=page.subtitle %}
           </div>
         </div>
       </aside>
-      <div class="usa-layout-docs__main tablet:grid-col-7 margin-y-3">
+      <div class="usa-layout-docs__main tablet:grid-col-7 margin-y-5">
           <div class="line-height-sans-5">
-            <h2 class="font-serif-xl">Purpose</h2>
+            <h2 class="font-serif-xl margin-top-05">Purpose</h2>
             <p>{{ page.purpose }}</p>
           </div>
       </div>
     </div>
   </div>
 
-  <div class="grid-row bg-accent-cool-lighter">
+  <div class="bg-accent-cool-lighter">
     <section class="usa-layout-docs__main grid-row__focus-area">
-      <div class="tablet:grid-col-7 line-height-sans-5">
-        {{ content }}
+      <div class="tablet:grid-col-7 line-height-sans-5 padding-y-4">
+        <section class="usa-accordion" aria-multiselectable="true">
+          {{ content }}
+          <h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a4">Resources</button></h3>
+          <div id="m-a4" class="usa-accordion__content">
+            {% include focusarea__lists.html name=page.subtitle %}
+          </div>  
+        </section>
       </div>
     </section>
   </div>
 
-  {% include homepage_icons.html %}
+  <div class="grid-container line-height-sans-5 margin-y-5">
+    <div class="padding-x-10">
+      <h2 class="text-center">Additional Focus Areas</h2>
+      {% include icons.html %}
+    </div>
+  </div>
 </main>
 
 {% include footer.html %}

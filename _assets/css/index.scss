@@ -271,10 +271,6 @@ abbr{
 .upper-fold-box {
   background-color: white;
   min-height: 25em;
-  top: -7em;
-  position: absolute;
-  width: 85%;
-  margin-left: 1em;
   border-radius: 5px;
   & ul {
     list-style: none;
@@ -284,6 +280,12 @@ abbr{
       margin-bottom: 0.5em;
     }
   }
+  @media screen and (min-width:641px) {
+    top: -5em;
+    position: absolute;
+    width: 85%;
+    margin-left: 1em;
+  }
 }
 
 .flex-row-reverse {
@@ -291,7 +293,7 @@ abbr{
 }
 
 .grid-row__focus-area {
-  margin: 2rem auto;
+  margin: 0 auto;
   max-width: 64em;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -305,6 +307,20 @@ abbr{
     }
   }
 }
+
+.card__image-focus-area {
+  max-width: 100%;
+}
+
+.usa-accordion__content, .usa-accordion__button, .usa-accordion__button:hover {
+  background-color: transparent;
+}
+
+.usa-accordion__heading {
+  font-size: 1.17em;
+}
+
+//end
 
 .card__members {
   .right,
