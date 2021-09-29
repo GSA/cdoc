@@ -17,20 +17,19 @@ This is used for just the focus area pages
 </section>
 
 <main id="main-content">
-
   <div class="grid-container line-height-sans-5">
     <div class="grid-row flex-row-reverse grid-gap-4">
       <aside class="tablet:grid-col-5">
-        <div class="upper-fold-box shadow-3">
+        <div class="upper-fold-box">
           <div class="padding-3">
             <h3>Charter</h3>
               <a class="usa-button" href="" target="_blank"><strong>Download</strong></a>
             <h3 class="margin-top-5">Working Group Leader</h3>
-              {% include focusarea__member.html name=page.focus-member %}
+              {% include workinggroup__member.html name=page.member %}
           </div>
         </div>
       </aside>
-      <div class="usa-layout-docs__main tablet:grid-col-7 margin-y-5">
+      <div class="usa-layout-docs__main tablet:grid-col-7 margin-bottom-5 tablet:margin-y-5">
           <div class="line-height-sans-5">
             <h2 class="font-serif-xl margin-top-05">Purpose</h2>
             <p>{{ page.purpose }}</p>
@@ -40,13 +39,13 @@ This is used for just the focus area pages
   </div>
 
   <div class="bg-accent-cool-lighter">
-    <section class="usa-layout-docs__main grid-row__focus-area">
+    <section class="usa-layout-docs__main grid-row__workinggroup">
       <div class="tablet:grid-col-7 line-height-sans-5 padding-y-4">
         <section class="usa-accordion" aria-multiselectable="true">
           {{ content }}
           <h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a4">Resources</button></h3>
           <div id="m-a4" class="usa-accordion__content">
-            {% include focusarea__lists.html name=page.subtitle %}
+            {% include workinggroup__lists.html %}
           </div>  
         </section>
       </div>
@@ -55,7 +54,7 @@ This is used for just the focus area pages
 
   <div class="grid-container line-height-sans-5 margin-y-5">
     <div class="padding-x-10">
-      <h2 class="text-center">Additional Focus Areas</h2>
+      <h2 class="text-center">Additional Working Groups</h2>
       {% include icons.html %}
     </div>
   </div>

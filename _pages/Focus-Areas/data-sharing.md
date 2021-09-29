@@ -1,11 +1,11 @@
 ---
 title: Working Groups
 subtitle: Data Sharing
-layout: focusarea
+layout: workinggroup
 sidenav: false
 permalink: /data-sharing/
 purpose: The Data Sharing Working Group will focus on data sharing across federal agencies, and develop a set of well‐written and diverse use cases identified through Listening Sessions, Focus Groups, Environmental Scans, Systematic Web Searches, Document Reviews, and Literature Reviews. These annotated use cases will be available through a Use Case Resource Center.
-focus-member: Kevin Duvall
+member: Kevin Duvall
 ---
 
 <h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a1">Goals</button></h3>

@@ -85,16 +85,18 @@ primary_navigation:
         url: "/council-members/"
   - name: Working Groups
     children:
-      - name: Federal Data Strategy
-        url: "/federal-data-strategy/"
-      - name: COVID-19 Data Coordination
-        url: "/covid-19/"
-      - name: Data Skills Development
-        url: "/data-skills-development/"
-      - name: Data Inventory
-        url: "/data-inventory/"
       - name: Data Sharing
         url: "/data-sharing/"
+      - name: Small Agency Committee
+        url: "/small-agency/"
+      - name: Data Inventory
+        url: "/data-inventory/"
+      - name: Operations
+        url: "/operations/"
+      - name: Data Skills
+        url: "/data-skills-development/"
+      - name: Large Agency Committee
+        url: "/large-agency/"
   - name: Programs & Events
     url: /programs-and-events/
   - name: Community News

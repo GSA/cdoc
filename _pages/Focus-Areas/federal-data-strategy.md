@@ -1,7 +1,7 @@
 ---
 title: Working Groups
 subtitle: Federal Data Strategy
-layout: focusarea
+layout: workinggroup
 sidenav: false
 permalink: /federal-data-strategy/
 purpose: The Data Sharing Working Group will focus on data sharing across federal agencies, and develop a set of well‐written and diverse use cases identified through Listening Sessions, Focus Groups, Environmental Scans, Systematic Web Searches, Document Reviews, and Literature Reviews. These annotated use cases will be available through a Use Case Resource Center.
