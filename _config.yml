@@ -94,7 +94,7 @@ primary_navigation:
       - name: Operations
         url: "/operations/"
       - name: Data Skills
-        url: "/data-skills-development/"
+        url: "/data-skills/"
       - name: Large Agency Committee
         url: "/large-agency/"
   - name: Programs & Events

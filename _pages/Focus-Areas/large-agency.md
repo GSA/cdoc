@@ -1,9 +1,9 @@
 ---
 title: Working Groups
 subtitle: Large Agency Committee
-layout: defaultwithbanner
+layout: workinggroup
 sidenav: false
-permalink: /data-inventory/
+permalink: /large-agency/
 purpose: To be a collaborative body of Large Agency CDOs to share, learn, and work together to solve the unique challenges faced by Large Agencies. This committee will communicate and advocate for Large Agency needs with the CDO Council and the Executive Committee; 
 member: Kshemendra Paul
 ---

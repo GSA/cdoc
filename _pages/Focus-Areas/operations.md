@@ -1,7 +1,7 @@
 ---
 title: Working Groups
 subtitle: Operations
-layout: defaultwithbanner
+layout: workinggroup
 sidenav: false
 permalink: /operations/
 purpose: To develop operating and decision making processes for efficient and effective CDO Council operations; and supporting the Executive Committee in handling issues that require rapid response or pre-deliberation.
