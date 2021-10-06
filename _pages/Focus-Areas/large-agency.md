@@ -5,10 +5,11 @@ layout: workinggroup
 sidenav: false
 permalink: /large-agency/
 purpose: To be a collaborative body of Large Agency CDOs to share, learn, and work together to solve the unique challenges faced by Large Agencies. This committee will communicate and advocate for Large Agency needs with the CDO Council and the Executive Committee; 
+top-image: group-line.svg
 member: Kshemendra Paul
 ---
 
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a1">Goals</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt=""> Goals</button></h3>
 <div id="m-a1" class="usa-accordion__content">
   <ul>
     <li>Identify strategies, solutions, and resource needs of Large Agencies;</li>
@@ -19,11 +20,11 @@ member: Kshemendra Paul
     <li>facilitate the implementation for the Foundations for Evidence-Based Policymaking Act of 2018.</li>
   </ul>
 </div>
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a2">Why this matters to the CDO council</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a2"><img src="{{site.baseurl}}/assets/images/icons/question-circle.svg" class="workinggroup__accordion-icon" alt=""> Why this matters to the CDO council</button></h3>
 <div id="m-a2" class="usa-accordion__content">
   <p>The Large Agency Committee supports all of the goals of the CDO Council, as appropriate, by ensuring the CDO Council and Executive Committee understand the unique contributions that the 24 CFO Act Agencies can bring to bear and the challenges these large agencies face.</p>
 </div>    
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a3">This serves as a forum to:</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a3"><img src="{{site.baseurl}}/assets/images/icons/forum.svg" class="workinggroup__accordion-icon" alt=""> This serves as a forum to:</button></h3>
 <div id="m-a3" class="usa-accordion__content">
   <ul>
     <li>Offer experimental and innovative opportunities in the Large Agencies to test ideas that further the shared goals of the CDO Council.</li>

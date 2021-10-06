@@ -124,19 +124,43 @@ abbr{
 
 // Homepage Focus icons
 
-.circle-image {
+.working-group__icon-col {
+  position: relative;
+  box-sizing: border-box;
+  @media screen and (min-width: 860px) {
+    flex: 0 1 auto;
+    width: 12%;
+  }
+  width: 100%;
+}
+
+.circle-image--top {
   border-radius: 50%;
   background: #00bde3;
   padding: 15px;
   width: 100px;
   margin: 0 auto;
+  .picon--top {
+    color: #fff;
+    margin-top:10px;
+    max-width: 75%;
+    width: 3em;
+  }
+}
+
+.circle-image {
+    border-radius: 50%;
+    background: #00bde3;
+    padding: 20px;
+    width: 100px;
+    margin: 0 auto;
 
   .picon {
     color: #fff;
     margin-top:10px;
     max-width: 75%;
+    width: 3.25em;
   }
-
 }
 .circle-image:hover {
   -webkit-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
@@ -270,7 +294,7 @@ abbr{
 // focus area pages (now known as working groups)
 .upper-fold-box {
   background-color: white;
-  min-height: 25em;
+  min-height: 22.5em;
   border-radius: 5px;
   & ul {
     list-style: none;
@@ -281,7 +305,7 @@ abbr{
     }
   }
   @media screen and (min-width:641px) {
-    top: -5em;
+    top: -3.25em;
     position: absolute;
     width: 85%;
     margin-left: 1em;
@@ -313,12 +337,39 @@ abbr{
   max-width: 100%;
 }
 
-.usa-accordion__content, .usa-accordion__button, .usa-accordion__button:hover {
+.usa-accordion__content {
   background-color: transparent;
+}
+
+.usa-accordion__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  &:hover {
+    background-color: #eafaff;
+  }
+}
+
+.usa-accordion--bordered .usa-accordion__content {
+  border-bottom: 0.25rem solid #e1f3f8;
+  border-left: 0.25rem solid #e1f3f8;
+  border-right: 0.25rem solid #e1f3f8;
+  padding-bottom: 1rem;
 }
 
 .usa-accordion__heading {
   font-size: 1.17em;
+}
+
+img.workinggroup-icon {
+  vertical-align: sub;
+  margin-right: 0.25em;
+}
+
+img.workinggroup__accordion-icon {
+  width: 1.5rem;
+  margin-right: 0.75em;
 }
 
 //end

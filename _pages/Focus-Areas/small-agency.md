@@ -5,10 +5,12 @@ layout: workinggroup
 sidenav: false
 permalink: /small-agency/
 purpose: Develop strategies, solutions, and resources to address and advocate for small agency needs and opportunities in implementing the Foundations for Evidence Based Policymaking Act and Federal Data Strategy to ensure that CDO’s at Small Agencies are successful across the data lifecycle.
+top-image: group.svg
 member: Kirsten Dalboe
+pdf: small-agency-wg.pdf
 ---
 
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a1">Goals</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt=""> Goals</button></h3>
 <div id="m-a1" class="usa-accordion__content">
   <ul>
     <li>Provide Small Agency leadership, learning, and partnership on the delivery of the Federal Data Strategy Action Plan and the Foundations for Evidence Based Policy Making Act; </li>
@@ -20,11 +22,11 @@ member: Kirsten Dalboe
     <li>Provide leadership on the delivery of the Federal Data Strategy Action Plan.</li>
   </ul>
 </div>
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a2">Why this matters to the CDO council</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a2"><img src="{{site.baseurl}}/assets/images/icons/question-circle.svg" class="workinggroup__accordion-icon" alt=""> Why this matters to the CDO council</button></h3>
 <div id="m-a2" class="usa-accordion__content">
   <p>The Small Agency Committee supports all of the goals of the CDO Council, as appropriate, by ensuring the CDO Council and Executive Committee understands the unique contributions and challenges of the 50+ Small Agencies across the Federal Government in implementing the Evidence Act and the Federal Data Strategy Action Plan.</p>
 </div>    
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a3">This serves as a forum to:</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a3"><img src="{{site.baseurl}}/assets/images/icons/forum.svg" class="workinggroup__accordion-icon" alt=""> This serves as a forum to:</button></h3>
 <div id="m-a3" class="usa-accordion__content">
   <ul>
     <li>Be a collaborative body of Small Agency CDO’s to share, learn, and work together to solve the unique challenges faced by Small Agencies;</li>

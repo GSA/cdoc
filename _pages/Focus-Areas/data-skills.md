@@ -5,10 +5,12 @@ layout: workinggroup
 sidenav: false
 permalink: /data-skills/
 purpose: The Data Skills & Workforce Development Working Group was established by a vote of the CDO Council on June 25, 2020, with the purposes to support Federal agencies development and implementation of data skills & workforce development with broad sponsorship of data awareness through a Community of Practice (CoP).
+top-image: data.svg
 member: Thomas A. Beach
+pdf: data-skills-wg.pdf
 ---
 
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a1">Goals</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt=""> Goals</button></h3>
 <div id="m-a1" class="usa-accordion__content">
   <ul>
     <li>Facilitate the Council’s ability to deliver value to CDOs and their stakeholders in order to improve the efficiency and effectiveness of data skills & workforce development efforts;</li>
@@ -17,11 +19,11 @@ member: Thomas A. Beach
     <li>Focus on sponsoring continuous and competency based data skills and workforce development, resulting in improving data acumen and closing data skills/development gaps.</li>
   </ul>
 </div>
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a2">Why this matters to the CDO council</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a2"><img src="{{site.baseurl}}/assets/images/icons/question-circle.svg" class="workinggroup__accordion-icon" alt=""> Why this matters to the CDO council</button></h3>
 <div id="m-a2" class="usa-accordion__content">
   <p>This focus area delivers value to the Council, CDOs and their stakeholders by improving the efficiency and effectiveness of proven data skills & workforce development efforts of Federal agencies throughout government. Additionally, it supports actionable, ongoing and competency based data skills and workforce development, resulting in improving data acumen and closing skills/development gaps to successfully cross-collaborate across government.</p>
 </div>    
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button" aria-expanded="false" aria-controls="m-a3">This serves as a forum to:</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a3"><img src="{{site.baseurl}}/assets/images/icons/forum.svg" class="workinggroup__accordion-icon" alt=""> This serves as a forum to:</button></h3>
 <div id="m-a3" class="usa-accordion__content">
   <ul>
     <li>Create a new knowledge base and foster learning through case studies of existing programs in the Federal government, including the who, what, why and where with the how these programs were developed and implemented;</li>
