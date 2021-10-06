@@ -29,7 +29,7 @@ This is used for just the focus area pages
           <div class="padding-3">
             <h3 class="margin-top-4"><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 9%;" class="workinggroup-icon" alt=""> Working Group Leader</h3>
               {% include workinggroup__member.html name=page.member %}
-              {% if page.pdf != blank %}
+              {% if page.pdf != null %}
                 <div class="margin-y-3"> 
                   <a class="usa-button" href="{{site.baseurl}}/assets/documents/{{page.pdf}}" target="_blank"><strong>Download Charter</strong></a>
                 </div>
