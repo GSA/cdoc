@@ -124,19 +124,43 @@ abbr{
 
 // Homepage Focus icons
 
-.circle-image {
+.working-group__icon-col {
+  position: relative;
+  box-sizing: border-box;
+  @media screen and (min-width: 860px) {
+    flex: 0 1 auto;
+    width: 12%;
+  }
+  width: 100%;
+}
+
+.circle-image--top {
   border-radius: 50%;
   background: #00bde3;
   padding: 15px;
   width: 100px;
   margin: 0 auto;
+  .picon--top {
+    color: #fff;
+    margin-top:10px;
+    max-width: 75%;
+    width: 3em;
+  }
+}
+
+.circle-image {
+    border-radius: 50%;
+    background: #00bde3;
+    padding: 20px;
+    width: 100px;
+    margin: 0 auto;
 
   .picon {
     color: #fff;
     margin-top:10px;
     max-width: 75%;
+    width: 3.25em;
   }
-
 }
 .circle-image:hover {
   -webkit-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
@@ -266,6 +290,89 @@ abbr{
   }
 
 } // end exec member styles
+
+// focus area pages (now known as working groups)
+.upper-fold-box {
+  background-color: white;
+  min-height: 22.5em;
+  border-radius: 5px;
+  & ul {
+    list-style: none;
+    padding-left: 1em;
+    & li {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+  }
+  @media screen and (min-width:641px) {
+    top: -3.25em;
+    position: absolute;
+    width: 85%;
+    margin-left: 1em;
+    box-shadow: 0 0.5rem 1rem 0 #71767a61;
+  }
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.grid-row__workinggroup {
+  margin: 0 auto;
+  max-width: 64em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  & h2, h3, h4 {
+    font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+  }
+  & section {
+    margin-bottom: 2rem;
+    & li {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.card__image-workinggroup {
+  max-width: 100%;
+}
+
+.usa-accordion__content {
+  background-color: transparent;
+}
+
+.usa-accordion__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  &:hover {
+    background-color: #eafaff;
+  }
+}
+
+.usa-accordion--bordered .usa-accordion__content {
+  border-bottom: 0.25rem solid #e1f3f8;
+  border-left: 0.25rem solid #e1f3f8;
+  border-right: 0.25rem solid #e1f3f8;
+  padding-bottom: 1rem;
+}
+
+.usa-accordion__heading {
+  font-size: 1.17em;
+}
+
+img.workinggroup-icon {
+  vertical-align: sub;
+  margin-right: 0.25em;
+}
+
+img.workinggroup__accordion-icon {
+  width: 1.5rem;
+  margin-right: 0.75em;
+}
+
+//end
 
 .card__members {
   .right,
