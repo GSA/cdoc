@@ -294,7 +294,7 @@ abbr{
 // focus area pages (now known as working groups)
 .upper-fold-box {
   background-color: white;
-  min-height: 22.5em;
+  min-height: 17.25em;
   border-radius: 5px;
   & ul {
     list-style: none;
@@ -304,15 +304,20 @@ abbr{
       margin-bottom: 0.5em;
     }
   }
-  @media screen and (min-width:641px) {
-    top: -7em;
+  @media screen and (min-width:641px) and (max-width: 770px) {
+    top: -2em;
     position: absolute;
-    width: 85%;
-    margin-left: 1em;
+    margin-left: 1.25em;
+    box-shadow: 0 0.5rem 1rem 0 #71767a61;
+  }
+  @media screen and (min-width:771px) {
+    top: -4em;
+    position: absolute;
+    margin-left: 1.25em;
     box-shadow: 0 0.5rem 1rem 0 #71767a61;
   }
 }
-
+  
 .flex-row-reverse {
   flex-direction: row-reverse;
 }

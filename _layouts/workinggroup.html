@@ -23,11 +23,11 @@ This is used for just the focus area pages
 
 <main id="main-content">
   <div class="grid-container line-height-sans-5">
-    <div class="grid-row flex-row-reverse grid-gap-4">
+    <div class="grid-row flex-row-reverse">
       <aside class="tablet:grid-col-5">
         <div class="upper-fold-box">
-          <div class="padding-3">
-            <h3 class="margin-top-4"><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 9%;" class="workinggroup-icon" alt=""> Working Group Leader</h3>
+          <div class="padding-205">
+            <h3><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 9%;" class="workinggroup-icon" alt=""> Working Group Leader</h3>
               {% include workinggroup__member.html name=page.member %}
               {% if page.pdf != null %}
                 <div class="margin-y-3"> 
@@ -48,7 +48,7 @@ This is used for just the focus area pages
 
   <div>
     <section class="usa-layout-docs__main grid-row__workinggroup">
-      <div class="tablet:grid-col-12 line-height-sans-5 padding-y-4">
+      <div class="tablet:grid-col-12 line-height-sans-5 tablet:margin-y-10">
         <section class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
           {{ content }}
           <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
@@ -63,7 +63,7 @@ This is used for just the focus area pages
   <section style="background-color: #f7fbff;">
   <div class="grid-container line-height-sans-5 margin-y-5">
     <div class="padding-x-4 padding-y-2">
-      <h2 class="text-center">Additional Working Groups</h2>
+      <h2 class="text-center">Additional Working Groups and Committees</h2>
       {% include icons.html %}
     </div>
   </div>
