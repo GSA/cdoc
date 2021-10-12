@@ -6,6 +6,7 @@ gem "jekyll", "~> 3.8"
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
 gem "sprockets", "~> 3.7"
+gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15"

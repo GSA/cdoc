@@ -1,0 +1,16 @@
+{% for bio in site.exec-members %}
+{% if bio.name == include.name %}
+    <div class="padding-05">
+        <div class="grid-row grid-gap-2">
+            <div class="grid-col-4 tablet:grid-col-4 margin-top-1 text-center">
+                <img class="card__image-workinggroup" src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{ bio.bio-image-alt-text }}">
+            </div>
+            <div class="grid-col-8 tablet:grid-col-8 line-height-sans-1">
+                <p class="name tablet:margin-y-1"><strong>{{ bio.name }}</strong></p>
+                <small class="title">{{ bio.job-title }}, {{ bio.department}}</small>
+                <p><small><strong>Read more about <a class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></strong></small><p>
+            </div>   
+        </div>
+    </div>
+{% endif %}
+{% endfor %}

@@ -1,0 +1,17 @@
+<div class="grid-row flex-justify">
+    {% for icon in site.homepage_icons %}
+        <div class="working-group__icon-col text-center margin-y-2 margin-x-1">
+        
+            {% if icon.url %}
+                <a href="{{ site.baseurl }}{{ icon.url }}" class="text-no-underline text-gray-70" style="display: inline-block;">
+            {% else %}
+                <a href="{{ icon.link }}" class="text-no-underline" style="display: inline-block;">
+            {% endif %}
+                    <div class="circle-image picons icon-back">
+                        <img class="picon" src="{{site.baseurl}}{{ icon.logo }}" alt="{{ icon.name }} image" />
+                    </div>
+                    <p class="font-heading-md text-gray-70 text-no-underline">{{ icon.name }}</p>
+                </a>
+        </div>
+    {% endfor %}
+</div>

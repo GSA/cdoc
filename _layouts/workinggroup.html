@@ -1,0 +1,71 @@
+{% comment %}
+This is used for just the focus area pages
+{% endcomment %}
+
+{% include header.html %}
+{% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
+
+<section class="usa-graphic-list usa-section sml-margin bg-gradient">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="text-no-underline text-gray-70 display-flex flex-no-wrap flex-align-center">  
+        <div class="circle-image--top picons icon-back text-center" style="margin-right:1.25em !important;">
+            <img class="picon--top" src="{{site.baseurl}}/assets/images/logos/{{page.top-image}}" alt="">
+        </div>
+      </a>
+      <div class="tablet:grid-col">
+        <span class="text-accent-cool-light font-sans-lg margin-bottom-0 text-bold">{{ page.title }}</span>
+        <h1 class="text-white font-serif-xl margin-top-0 margin-bottom-0 text-bold">{{ page.subtitle}}</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main id="main-content">
+  <div class="grid-container line-height-sans-5">
+    <div class="grid-row flex-row-reverse">
+      <aside class="tablet:grid-col-5">
+        <div class="upper-fold-box">
+            <h3><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 9%;" class="workinggroup-icon" alt=""> {{ page.title }} Leader</h3>
+              {% include workinggroup__member.html name=page.member %}
+              {% if page.pdf != null %}
+                <div class="margin-y-3"> 
+                  <a class="usa-button" href="{{site.baseurl}}/assets/documents/{{page.pdf}}" target="_blank"><strong>Download Charter</strong></a>
+                </div>
+              {% endif %}
+        </div>
+      </aside>
+      <div class="usa-layout-docs__main tablet:grid-col-7 margin-bottom-5 tablet:margin-top-4 tablet:margin-bottom-0">
+          <div class="line-height-sans-5">
+            <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h2>
+            <p class="font-sans-md">{{ page.purpose }}</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <section class="usa-layout-docs__main grid-row__workinggroup">
+      <div class="tablet:grid-col-12 line-height-sans-5 tablet:margin-y-10">
+        <section class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
+          {{ content }}
+          <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
+          <div id="m-a4" class="usa-accordion__content">
+            {% include workinggroup__lists.html %}
+          </div>  
+        </section>
+      </div>
+    </section>
+  </div>
+
+  <section style="background-color: #f7fbff;">
+  <div class="grid-container line-height-sans-5 margin-y-5">
+    <div class="padding-x-4 padding-y-2">
+      <h2 class="text-center">Working Groups and Committees</h2>
+      {% include icons.html %}
+    </div>
+  </div>
+  </section>
+</main>
+
+{% include footer.html %}
