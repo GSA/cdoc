@@ -83,7 +83,7 @@ primary_navigation:
         url: "/leadership/"
       - name: Council Members
         url: "/council-members/"
-  - name: Working Groups
+  - name: Working Groups and Committees
     children:
       - name: Data Sharing
         url: "/data-sharing/"

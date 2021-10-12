@@ -1,5 +1,5 @@
 ---
-title: Working Groups
+title: Working Group
 subtitle: Data Sharing
 layout: workinggroup
 sidenav: false

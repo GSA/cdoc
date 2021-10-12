@@ -1,5 +1,5 @@
 ---
-title: Working Groups
+title: Committee
 subtitle: Large Agency Committee
 layout: workinggroup
 sidenav: false

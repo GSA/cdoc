@@ -1,5 +1,5 @@
 ---
-title: Working Groups
+title: Working Group
 subtitle: Data Skills
 layout: workinggroup
 sidenav: false
