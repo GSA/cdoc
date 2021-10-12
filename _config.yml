@@ -83,20 +83,18 @@ primary_navigation:
         url: "/leadership/"
       - name: Council Members
         url: "/council-members/"
-  - name: Working Groups and Committees
+  - name: Focus Areas
     children:
-      - name: Data Sharing
-        url: "/data-sharing/"
+      - name: Federal Data Strategy
+        url: "/federal-data-strategy/"
+      - name: COVID-19 Data Coordination
+        url: "/covid-19/"
+      - name: Data Skills Development
+        url: "/data-skills-development/"
       - name: Data Inventory
         url: "/data-inventory/"
-      - name: Operations
-        url: "/operations/"
-      - name: Data Skills
-        url: "/data-skills/"
-      - name: Large Agency Committee
-        url: "/large-agency/"
-      - name: Small Agency Committee
-        url: "/small-agency/"
+      - name: Data Sharing
+        url: "/data-sharing/"
   - name: Programs & Events
     url: /programs-and-events/
   - name: Community News
@@ -113,27 +111,23 @@ secondary_navigation:
 
 
 
-number_of_icons: 6
+number_of_icons: 5
 homepage_icons:
-  - name: Data Sharing
-    logo: /assets/images/logos/data-sharing.png
-    url: /data-sharing/
+  - name: Federal Data Strategy
+    logo: /assets/images/logos/covid.svg
+    url: /federal-data-strategy/
+  - name: COVID-19 Data Coordination
+    logo: /assets/images/logos/stratergy.svg
+    url: /covid-19/
+  - name: Data Skills Development
+    logo: /assets/images/logos/data.svg
+    url: /data-skills-development/
   - name: Data Inventory 
     logo: /assets/images/logos/data-inventory.png
     url: /data-inventory/
-  - name: Operations
-    logo: /assets/images/logos/data-base-alt.svg
-    url: /operations/
-  - name: Data Skills
-    logo: /assets/images/logos/data.svg
-    url: /data-skills/
-  - name: Large Agency Committee
-    logo: /assets/images/logos/group-line.svg
-    url: /large-agency/
-  - name: Small Agency Committee
-    logo: /assets/images/logos/group.svg
-    url: /small-agency/
-
+  - name: Data Sharing
+    logo: /assets/images/logos/data-sharing.png
+    url: /data-sharing/
 
 # Search.gov configuration
 #
