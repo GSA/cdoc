@@ -1,5 +1,5 @@
 ---
-title: Working Groups
+title: Working Group
 subtitle: Federal Data Strategy
 layout: workinggroup
 sidenav: false

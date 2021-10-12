@@ -1,5 +1,5 @@
 ---
-title: Working Groups
+title: Working Group
 subtitle: Operations
 layout: workinggroup
 sidenav: false

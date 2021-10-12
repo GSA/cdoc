@@ -1,5 +1,5 @@
 ---
-title: Working Groups
+title: Working Group
 subtitle: Data Inventory
 layout: workinggroup
 sidenav: false
