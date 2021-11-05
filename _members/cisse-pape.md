@@ -1,8 +1,8 @@
 ---
-bio-image: cncs_logo_fb.png
-bio-image-alt-text: Corporation for National and Community Service
+bio-image: americorps.png
+bio-image-alt-text: AmeriCorps
 layout: bio
-name: Pape Cisse
-department: Corporation for National and Community Service
+name: Andrea Gibbons
+department: AmeriCorps
 job-title: Chief Data Officer
 ---
