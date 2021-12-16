@@ -255,6 +255,9 @@ abbr{
 
   .name {
     font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.2;
+    display: block;
   }
 
   .title, .role, .council {
@@ -565,4 +568,10 @@ img.workinggroup__accordion-icon {
 
 .meeting-icon {
   width: 50px;
+}
+
+.usa-summary-box {
+  border: 1px solid #97D4EA;
+  padding: 30px;
+  background: #E7F6F8;
 }
