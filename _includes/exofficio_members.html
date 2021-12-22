@@ -12,11 +12,17 @@
                             <img class="card__image--seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} agency seal">
                         </div>
                         <div class="right padding-left-1">
-                            <span class="name">{{ bio.department }}</span>
+                            <!-- <span class="name">{{ bio.department }}</span>
                             {% if bio.council%}
                                 <span class="council text-italic padding-top-2px">Representing the {{ bio.council }}</span>
                             {% endif %} 
-                            <span class="title">{{ bio.name }}</span>
+                            <span class="title">{{ bio.name }}</span> -->
+                            <span class="name">{{ bio.name }}<br></span>
+                            <span class="title">{{ bio.department }}</span>
+                            {% if bio.council%}
+                                <span class="council text-italic">Representing the {{ bio.council }}</span>
+                            {% endif %}
+                            <span class="title"><a href="">Agency Data Website</a></span>
                         </div>
                     </div>
                 </div>
