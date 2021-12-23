@@ -380,6 +380,28 @@ img.workinggroup__accordion-icon {
 
 //end
 
+ul.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  & .filter-list__item a {
+    display: block;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 80%;
+    border: solid 1px gray;
+    color: #333;
+    text-decoration: none;
+    background: white;
+    &:hover {
+      background: #f7f7f7;
+    }
+  }
+}
+
 .usa-card__container {
   border-top: 0.25rem solid #162E51 ;
   border-bottom: 1px solid #dfe1e2;
