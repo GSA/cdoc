@@ -177,6 +177,9 @@ collections:
     output: true
   policies_guidance:
     output: true
+  success-stories: 
+    output: true
+    permalink: /:collection/:title
 
 permalink: pretty
 
