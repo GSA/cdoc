@@ -380,6 +380,18 @@ img.workinggroup__accordion-icon {
 
 //end
 
+.usa-card__container {
+  border-top: 0.25rem solid #162E51 ;
+  border-bottom: 1px solid #dfe1e2;
+  border-left: 1px solid #dfe1e2;
+  border-right: 1px solid #dfe1e2;
+  .usa-card__body {
+    li {
+      margin-top: 0.5em;
+    }
+  }
+}
+
 .card__members {
   .right,
   .left {
