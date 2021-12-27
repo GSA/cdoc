@@ -22,7 +22,9 @@
                             {% if bio.council%}
                                 <span class="council text-italic">Representing the {{ bio.council }}</span>
                             {% endif %}
-                            <span class="title"><a href="">Agency Data Website</a></span>
+                            {% if bio.website-data %}
+                            <span class="title" style="margin-top: 1px;"><a href="{{ bio.website-data }}">Agency Data Website</a></span>
+                            {% endif%}
                         </div>
                     </div>
                 </div>

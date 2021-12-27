@@ -14,7 +14,9 @@
                         <div class="right padding-left-1">
                             <span class="name">{{ bio.name }}<br></span>
                             <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
-                            <span class="title"><a href="">Agency Data Website</a></span>
+                            {% if bio.website-data %}
+                            <span class="title"><a href="{{ bio.website-data }}">Agency Data Website</a></span>
+                            {% endif%}
                         </div>
                     </div>
                 </div>
