@@ -1,8 +1,8 @@
 ---
-title: Operations working group success story
+title: Operations testing one two
 subtitle: Operations, how we made it all work
 layout: success-stories-post
-date: December 1, 2021
+date: December 21, 2021
 author: Operations Working Group
 slug: test2
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin tincidunt purus, sed semper nibh pellentesque sed. Lorem ipsum dolor sit amet ellentesque sed. 

@@ -402,6 +402,12 @@ ul.filter-list {
   }
 }
 
+.filter-list__item a.checked {
+  background-color: #28a0cb !important;
+  border: none !important;
+  color: white !important;
+}
+
 .usa-card__container {
   border-top: 0.25rem solid #162E51 ;
   border-bottom: 1px solid #dfe1e2;
@@ -412,6 +418,10 @@ ul.filter-list {
       margin-top: 0.5em;
     }
   }
+}
+
+.story-card-group .usa-card__container {
+  min-height: 23em;
 }
 
 .card__members {

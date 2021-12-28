@@ -7,6 +7,7 @@ author: Data Sharing Working Group
 slug: test1
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin tincidunt purus, sed semper nibh pellentesque sed.
 tag: Data Sharing
+# required, this is what becomes the filter
 category: data-sharing
 ---
 

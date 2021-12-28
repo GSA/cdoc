@@ -61,11 +61,11 @@ This is used for just the focus area pages
   <div>
     <section class="usa-layout-docs__main grid-row__workinggroup">
       <h2>Success Stories</h2>
+      <div class="grid-row">
       {% assign working-group = page.subtitle %}
-      <ul class="usa-card-group margin-top-4">
       {% for story in site.success-stories %}
         {% if story.tag == working-group %}
-        <li class="tablet:grid-col-6 usa-card card-{{ story.category }}">
+        <div class="tablet:grid-col-6 usa-card card-{{ story.category }}">
           <div class="usa-card__container radius-md">
               <header class="usa-card__header">
                   <h4>{{ story.title }}</h4>
@@ -74,13 +74,13 @@ This is used for just the focus area pages
                   <p class="font-sans-xs">{{ story.description }}</p>
               </div>
               <div class="usa-card__footer margin-top-2">
-                  <a class="usa-button usa-button--outline" href="{{site.baseurl}}{{story.slug}}">Read more</a>
+                  <a class="usa-button usa-button--outline" href="{{site.baseurl}}/success-stories/{{story.slug}}">Read more</a>
               </div>
           </div>
-        </li>
+        </div>
         {% endif %}
       {% endfor %}
-      </ul>
+      </div>
     </section>
   </div>
 
