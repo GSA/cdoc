@@ -7,6 +7,7 @@ permalink: /large-agency/
 purpose: To be a collaborative body of Large Agency CDOs to share, learn, and work together to solve the unique challenges faced by Large Agencies. This committee will communicate and advocate for Large Agency needs with the CDO Council and the Executive Committee; 
 top-image: group-line.svg
 member: Kshemendra Paul
+has-stories: false
 ---
 
 <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt=""> Goals</button></h3>

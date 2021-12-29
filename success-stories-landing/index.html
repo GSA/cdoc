@@ -11,15 +11,15 @@ tagline-desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulu
     <div id="filter" class="grid-col-12 tablet:grid-col-4 filters">
         <h3>Filter by working group:</h3>
         <ul class="filter-list" data-filter-group="subject">
-            <li class="filter-list__item"><a aria-label="Filter by type: data sharing" role="checkbox" href="javascript:void(0)" data-filter=".story-card--data-sharing">Data Sharing</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: COVID-19" role="checkbox" href="javascript:void(0)" data-filter=".story -card--covid-19">COVID-19</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: data inventory" role="checkbox" href="javascript:void(0)" data-filter=".story-card--data-inventory">Data Inventory</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: data skills" role="checkbox" href="javascript:void(0)" data-filter=".story-card--data-skills">Data Skills</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: operations" role="checkbox" href="javascript:void(0)" data-filter=".story-card--operations">Operations</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: large agency committee" role="checkbox" href="javascript:void(0)" data-filter=".story-card--large-agency-committee">Large Agency Committee</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: small agency commmittee" role="checkbox" href="javascript:void(0)" data-filter=".story-card--small-agency-committee">Small Agency Committee</a></li>
+            <li class="filter-list__item"><a aria-label="Filter by type: data sharing" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".story-card--data-sharing">Data Sharing</a></li>
+            <li class="filter-list__item"><a aria-label="Filter by type: COVID-19" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".story-card--covid-19">COVID-19</a></li>
+            <li class="filter-list__item"><a aria-label="Filter by type: data inventory" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".story-card--data-inventory">Data Inventory</a></li>
+            <li class="filter-list__item"><a aria-label="Filter by type: data skills" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".story-card--data-skills">Data Skills</a></li>
+            <li class="filter-list__item"><a aria-label="Filter by type: operations" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".story-card--operations">Operations</a></li>
+            <li class="filter-list__item"><a aria-label="Filter by type: large agency committee" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".story-card--large-agency-committee">Large Agency Committee</a></li>
+            <li class="filter-list__item"><a aria-label="Filter by type: small agency commmittee" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".story-card--small-agency-committee">Small Agency Committee</a></li>
         </ul>
-        <a class="usa-button btn-primary margin-bottom-2 width-15" href="#subject=*&amp;role=*&amp;status=*">Reset Filters</a>
+        <a class="usa-button btn-primary margin-bottom-2 width-15" href="/success-stories/#subject=*&amp;role=*&amp;status=*">Reset Filters</a>
     </div>
 
     <div class="grid-col-12 tablet:grid-col-8 margin-top-3">
@@ -36,7 +36,7 @@ tagline-desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulu
                 </div>
                 <div class="usa-card__footer margin-y-2">
                     <a class="usa-button usa-button--outline" href="{{site.baseurl}}{{story.slug}}">Read more</a>
-                    <p><strong>Tagged as:</strong> <span class="usa-tag bg-accent-cool-dark">{{ story.tag }}</span></p>
+                    <p><strong>Tagged as:</strong> <span class="usa-tag text-black bg-accent-cool">{{ story.tag }}</span></p>
                 </div>
             </div>
         </div>
