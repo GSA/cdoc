@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
     $container.isotope({
         // options
         itemSelector: ".story-card",
-        layoutMode: "masonry",
+        layoutMode: "fitRows",
         getSortData: {
             date: "p"
         }
@@ -22,7 +22,7 @@ function updateFilterCount() {
     if (iso != null ){
         if ($item_length === 1) {
             $filterCount.text($item_length + ' item');
-        } else if ($item_length > 1) {
+        } else if ($item_length > 1) {  
             $filterCount.text($item_length + ' items');
         } else {
             $filterCount.text("No items found.");
