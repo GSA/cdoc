@@ -403,8 +403,13 @@ ul.filter-list {
 }
 
 .filter-list__item a.checked {
-  background-color: #00bde3 !important;
+  background-color: #07648d !important;
   border: none !important;
+  color: white !important;
+}
+
+.filters a.usa-button {
+  color: white;
 }
 
 .usa-card__container {
