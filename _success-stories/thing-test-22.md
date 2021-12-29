@@ -4,7 +4,7 @@ subtitle: Operations, how we made it all work
 layout: success-stories-post
 date: December 21, 2021
 author: Operations Working Group
-slug: test2
+permalink: /success-stories/test3/
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin tincidunt purus, sed semper nibh pellentesque sed. Lorem ipsum dolor sit amet ellentesque sed. 
 tag: Operations
 # required, this is what becomes the filter

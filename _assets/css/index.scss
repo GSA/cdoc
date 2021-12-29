@@ -413,7 +413,7 @@ ul.filter-list {
 }
 
 .usa-card__container {
-  border-top: 0.25rem solid #162E51 ;
+  border-top: 0.25rem solid #005EA2;
   border-bottom: 1px solid #dfe1e2;
   border-left: 1px solid #dfe1e2;
   border-right: 1px solid #dfe1e2;
@@ -425,7 +425,9 @@ ul.filter-list {
 }
 
 .story-card-group .usa-card__container {
-  min-height: 23em;
+  @media screen and (min-width: 685px) {
+    min-height: 23em;
+  }
 }
 
 .card__members {

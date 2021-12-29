@@ -61,7 +61,7 @@ This is used for just the focus area pages
   {% if page.has-stories %}
   <div>
     <section class="usa-layout-docs__main grid-row__workinggroup">
-      <h2>Success Stories</h2>
+      <h2><img src="{{site.baseurl}}/assets/images/icons/trophy-icon.svg" style="width: 3%;" class="workinggroup-icon" alt=""> Success Stories</h2>
       <div class="grid-row">
       {% assign working-group = page.subtitle %}
       {% for story in site.success-stories %}
@@ -75,13 +75,14 @@ This is used for just the focus area pages
                   <p class="font-sans-xs">{{ story.description }}</p>
               </div>
               <div class="usa-card__footer margin-top-2">
-                  <a class="usa-button usa-button--outline" href="../success-stories/{{story.slug}}">Read more</a>
+                  <a class="usa-button usa-button--outline" href="{{ story.permalink }}">Read more</a>
               </div>
           </div>
         </div>
         {% endif %}
       {% endfor %}
       </div>
+      <p class="card-tag"><a href="/success-stories/">View all Success Stories &rarr;</a></p>
     </section>
   </div>
   {% endif %}
