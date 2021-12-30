@@ -1,3 +1,13 @@
+# CDOC content management notes
+
+## Adding new success story
+
+- inside of _success-stories directory, add new markdown file. Template should be carried over from existing stories
+
+- set front matter, permalink is very important
+
+- to enable section on working group page that shows related success stories: go to the working group markdown file under _pages/Focus-Areas/, change the 'has stories' property to 'true'
+
 <!--
   Federalist recommends you use Continuous Integration to automatically test
   and validate any new changes to your site. CircleCI is free for open source

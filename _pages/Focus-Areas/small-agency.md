@@ -8,6 +8,7 @@ purpose: Develop strategies, solutions, and resources to address and advocate fo
 top-image: group.svg
 member: Kirsten Dalboe
 pdf: small-agency-wg.pdf
+has-stories: false
 ---
 
 <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt=""> Goals</button></h3>
