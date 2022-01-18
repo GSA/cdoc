@@ -1,13 +1,13 @@
 ---
 subtitle: Executive Committee
 title: Council Leadership
-bio-image: Matthew_Graviss.png
+bio-image: graviss-matthew-circle.png
 bio-image-alt-text: Matthew Graviss
 layout: bio
 permalink: /bio/graviss-matthew/
 name: Matthew Graviss
-department: Department of Commerce
-job-title: Interim Chief Data Officer
+department: Department of State
+job-title: Chief Data Officer
 role: Data Skills Working Group
 ---
 In December 2020, Dr. Matthew Graviss became the Chief Data Officer of the Department of State. In this role, Dr. Graviss is responsible for making data accessible, interoperable, and actionable across the Department of State. He also serves as the Managing Director for the Office of Management Strategy and Solution’s Center for Analytics (CfA), which aims to imbue the Department with a data focused culture and corresponding talent, advance data governance, expand analytics capability, and modernize data technology solutions. 
