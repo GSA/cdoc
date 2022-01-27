@@ -75,8 +75,12 @@ ga:
 
 # Site Navigation
 primary_navigation:
-  - name: About Us
-    url: /about-us/
+  - name: About
+    children:
+      - name: About the Council
+        url: "/about-us/"
+      - name: About Chief Data Officers
+        url: "/about-agency-cdos/"
   - name: Members
     children:
       - name: Council Leadership
