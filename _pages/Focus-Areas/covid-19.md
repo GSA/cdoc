@@ -5,7 +5,7 @@ layout: defaultwithbanner
 sidenav: false
 permalink: /covid-19/
 purpose: The COVID-19 pandemic highlights the importance of using data and collaborating across the government.  Sharing lessons learned, resources, and data challenges is critical to advancing our ability to support agency decision making - both in mission achievement and how COVID-19 impacts the Federal workforce.  Additionally, agency representatives can strengthen their own analytics efforts, frameworks, and methodologies by leveraging and integrating knowledge from their counterparts across government.
-has-stories: false
+has-stories: true
 ---
 
 ### Why this matters to the CDO Council
