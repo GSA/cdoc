@@ -17,6 +17,16 @@
 ></script>
 {% endif %}
 
+<script type="text/javascript">
+function scrollToTop() {
+  document.documentElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+document.getElementById('toTopBtn').addEventListener("click", scrollToTop);
+</script>
+
 {% if site.ga.ua %}
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga.ua }}"></script>
