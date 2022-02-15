@@ -1,0 +1,39 @@
+---
+title: <notitle>
+subtitle: About Chief Data Officers
+layout: defaultwithbanner
+sidenav: false
+permalink: /about-agency-cdos/
+---
+
+<p>The federal Chief Data Officer (CDO) position is a pivotal and transformational role that can significantly benefit the collection, organization, analysis and use of data in the agency as well as improve its value to society.</p>
+
+<p>The <a href="https://www.congress.gov/bill/115th-congress/house-bill/4174/text">Foundations for Evidence-Based Policymaking Act of 2018 (P.L. 115-435) 44 USC § 3520A</a>, also known as the “Evidence Act”, requires that the head of each agency designate a nonpolitical appointee employee in the agency as the Chief Data Officer (CDO). </p>
+
+<p>Their responsibilities include:</p>
+<ul>
+ <li>Managing lifecycle data,</li>
+ <li>Coordinating with officials in the agency responsible for using, protecting, disseminating, and generating data to ensure that the data needs of the agency are met,</li>
+ <li>Managing data assets of the agency,</li>
+ <li>Ensuring that agency data conforms with data management best practices,</li>
+ <li>Engaging agency employees, the public, and contractors in using public data assets and encouraging collaborative approaches on improving data use,</li>
+ <li>Supporting the Performance Improvement Officer and the Evaluation Officer of the agency in identifying and obtaining data to carry out necessary functions, </li>
+ <li>Reviewing the impact of the infrastructure of the agency on data asset accessibility and coordinating with the Chief Information Officer of the agency to improve infrastructure to reduce barriers that inhibit data asset accessibility,</li>
+ <li>Maximizing the use of data in the agency,</li>
+ <li>Identifying points of contact for roles and responsibilities related to open data use and implementation, and</li>
+ <li>Serving as chair of the agency’s data governance board and as the agency liaison to other agencies and the Office of Management and Budget on the best way to use existing agency data for statistical purposes</li>
+</ul>
+
+<p>Federal CDOs come into their role needing a wide array of skills. They must have experience in data governance (including creation, application, and maintenance of data standards) and implementing data policies and strategies. They also need to understand responsibilities related to open data use and implementation. Finally, CDOs must be data evangelists responsible for changing agency culture to use data to solve real problems and to adopt enterprise data standards that improve overall data quality as a by-product.</p>
+
+<p>According to federal CDOs, persons in this position must have the ability to:</p>
+
+<ul>
+ <li>Communicate and translate complex concepts to all audiences, </li>
+ <li>Understand and prioritize organizational business challenges and deliver value in these areas, </li>
+ <li>Build and lead teams across the organization, </li>
+ <li>Remain goal oriented and focused on reaching specified objectives by establishing structure and managing towards outcomes,</li>
+ <li>Adapt and deal with different issues of importance to different customers, </li>
+ <li>Influence others to realize the mission value of data, and</li> 
+ <li>Manage change within organizations</li>
+</ul>
