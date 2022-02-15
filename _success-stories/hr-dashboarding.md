@@ -1,5 +1,5 @@
 ---
-title: Data Skills Training Program Implementation Toolkit
+title: HR Dashboarding Report
 layout: success-stories-post
 author: CDO Council
 permalink: /success-stories/hr-dash/
