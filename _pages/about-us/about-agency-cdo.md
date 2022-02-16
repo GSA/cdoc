@@ -10,7 +10,7 @@ permalink: /about-agency-cdos/
 
 <p>The <a href="https://www.congress.gov/bill/115th-congress/house-bill/4174/text">Foundations for Evidence-Based Policymaking Act of 2018 (P.L. 115-435) 44 USC § 3520A</a>, also known as the “Evidence Act”, requires that the head of each agency designate a nonpolitical appointee employee in the agency as the Chief Data Officer (CDO). </p>
 
-<p>Their responsibilities include:</p>
+<p><strong>Their responsibilities include:</strong></p>
 <ul>
  <li>Managing lifecycle data,</li>
  <li>Coordinating with officials in the agency responsible for using, protecting, disseminating, and generating data to ensure that the data needs of the agency are met,</li>
@@ -26,7 +26,7 @@ permalink: /about-agency-cdos/
 
 <p>Federal CDOs come into their role needing a wide array of skills. They must have experience in data governance (including creation, application, and maintenance of data standards) and implementing data policies and strategies. They also need to understand responsibilities related to open data use and implementation. Finally, CDOs must be data evangelists responsible for changing agency culture to use data to solve real problems and to adopt enterprise data standards that improve overall data quality as a by-product.</p>
 
-<p>According to federal CDOs, persons in this position must have the ability to:</p>
+<p><strong>According to federal CDOs, persons in this position must have the ability to:</strong></p>
 
 <ul>
  <li>Communicate and translate complex concepts to all audiences, </li>
