@@ -15,7 +15,7 @@ permalink: /about-agency-cdos/
 <h2>Responsibilities</h2>
 <p><strong>Their responsibilities include:</strong></p>
 <ul>
- <li>Managing lifecycle data,</li>
+ <li>Managing data at every stage of the data lifecycle by establishing effective procedures, standards, and controls to ensure quality, accuracy, access, and protection of data, as well as managing information resources,</li>
  <li>Coordinating with officials in the agency responsible for using, protecting, disseminating, and generating data to ensure that the data needs of the agency are met,</li>
  <li>Managing data assets of the agency,</li>
  <li>Ensuring that agency data conforms with data management best practices,</li>
