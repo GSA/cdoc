@@ -87,7 +87,7 @@ primary_navigation:
         url: "/leadership/"
       - name: Council Members
         url: "/council-members/"
-  - name: Working Groups and Committees
+  - name: Working Groups & Committees
     children:
       - name: Data Sharing
         url: "/data-sharing/"
@@ -101,10 +101,14 @@ primary_navigation:
         url: "/large-agency/"
       - name: Small Agency Committee
         url: "/small-agency/"
-  - name: Programs & Events
+  - name: Events
     url: /programs-and-events/
-  - name: Community News
-    url: /community-news/    
+  - name: Community News & Success Stories
+    children:
+      - name: Community News
+        url: /community-news/
+      - name: Success Stories
+        url: "/success-stories/" 
   - name: Resources
     link: https://resources.data.gov/
 
