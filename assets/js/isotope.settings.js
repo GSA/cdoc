@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
     $container.isotope({
         // options
         itemSelector: ".story-card",
-        layoutMode: "fitRows",
+        layoutMode: "masonry",
         getSortData: {
             date: "p"
         }
