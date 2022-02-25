@@ -3,8 +3,8 @@ title: 'COVID-19 Coordination Working Group: Getting Started Guide'
 layout: success-stories-post
 author: CDO Council
 permalink: /success-stories/covid-working-group/
-description: The COVID-19 Coordination Working Group’s “Getting Started Guide” helped agencies use data and analytics to support their COVID-19 tracking plans and reopening efforts. The guide used work performed by members of the working group to showcase interagency products, share lessons learned, and to identify new and useful data sources.
-
+description: |
+    The COVID-19 Coordination Working Group’s “Getting Started Guide” helped agencies use data and analytics to support their COVID-19 tracking plans and reopening efforts. The guide used work performed by members of the working group to showcase interagency products, share lessons learned, and to identify new and useful data sources.
 tag: COVID-19
 # required, this is what becomes the filter
 category: covid-19
