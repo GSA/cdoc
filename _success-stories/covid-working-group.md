@@ -1,5 +1,6 @@
 ---
 title: 'COVID-19 Coordination Working Group: Getting Started Guide'
+subtitle: 'COVID-19 Coordination Working Group: Getting Started Guide'
 layout: success-stories-post
 author: CDO Council
 permalink: /success-stories/covid-working-group/

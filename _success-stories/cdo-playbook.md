@@ -1,5 +1,6 @@
 ---
 title: CDO Playbook
+subtitle: CDO Playbook
 layout: success-stories-post
 author: CDO Council
 permalink: /success-stories/cdo-playbook/

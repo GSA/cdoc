@@ -1,5 +1,6 @@
 ---
 title: Data Skills Training Program Implementation Toolkit
+subtitle: Data Skills Training Program Implementation Toolkit
 layout: success-stories-post
 author: CDO Council
 permalink: /success-stories/data-skills-implementation/
