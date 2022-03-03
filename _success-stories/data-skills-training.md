@@ -1,5 +1,6 @@
 ---
 title: Data Skills Training Program Case Studies
+subtitle: Data Skills Training Program Case Studies
 layout: success-stories-post
 author: CDO Council
 permalink: /success-stories/data-skills-training/

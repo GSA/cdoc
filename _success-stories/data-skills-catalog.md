@@ -1,10 +1,11 @@
 ---
 title: Data Skills Catalog
+subtitle: Data Skills Catalog
 layout: success-stories-post
 author: CDO Council
 permalink: /success-stories/data-skills-catalog/
 description: |
-    'The <a href="https://resources.data.gov/assets/documents/fds-data-skills-catalog.pdf">Data Skills Catalog</a> can be used to help agencies develop competencies for managing data as a strategic asset and making data-driven decisions. The Catalog consists of two parts: Federal Data Lifecycle and Associated Skills, providing a common vocabulary of the data roles and skills in the Federal data ecosystem, and Federal Learning Opportunities, detailing select Federal data training and courses.'
+    The <a href="https://resources.data.gov/assets/documents/fds-data-skills-catalog.pdf">Data Skills Catalog</a> can be used to help agencies develop competencies for managing data as a strategic asset and making data-driven decisions. The Catalog consists of two parts: Federal Data Lifecycle and Associated Skills, providing a common vocabulary of the data roles and skills in the Federal data ecosystem, and Federal Learning Opportunities, detailing select Federal data training and courses.
 tag: Data Skills
 # required, this is what becomes the filter
 category: data-skills

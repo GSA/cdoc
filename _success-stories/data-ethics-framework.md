@@ -1,5 +1,6 @@
 ---
 title: Data Ethics Framework
+subtitle: Data Ethics Framework
 layout: success-stories-post
 author: CDO Council
 permalink: /success-stories/data-ethics-framework/
