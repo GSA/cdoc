@@ -1,8 +1,14 @@
 <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/isotope.pkgd.min.js"></script>
 
+{% if page.title == 'Success Stories' %}
+<script src="{{ site.baseurl }}/assets/js/isotope.pkgd.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/isotope.settings.js"></script>
+{% endif %}
+
+{% if page.title == 'Home' %}
 <script src="{{ site.baseurl }}/assets/js/banner.js"></script>
+{% endif %}
 
 {% if site.dap.agency %}
 <script
@@ -10,6 +16,16 @@
   src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency={{site.dap.agency}}{% if site.dap.subagency %}&subagency={{site.dap.subagency}}{% endif %}"
 ></script>
 {% endif %}
+
+<script type="text/javascript">
+function scrollToTop() {
+  document.documentElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+document.getElementById('toTopBtn').addEventListener("click", scrollToTop);
+</script>
 
 {% if site.ga.ua %}
 <!-- Google Analytics -->

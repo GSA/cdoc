@@ -383,12 +383,62 @@ img.workinggroup__accordion-icon {
 
 //end
 
-// .card__members {
-//   .right,
-//   .left {
-//     height: 115px;
-//   }
-// }
+ul.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  & .filter-list__item a {
+    display: block;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 80%;
+    border: solid 1px gray;
+    color: #333;
+    text-decoration: none;
+    background: white;
+    &:hover {
+      background: #f7f7f7;
+    }
+  }
+}
+
+.filter-list__item a.checked {
+  background-color: #005EA2 !important;
+  border: none !important;
+  color: white !important;
+}
+
+.filters a.usa-button {
+  color: white;
+}
+
+.usa-card__container {
+  border-top: 0.25rem solid #005EA2;
+  border-bottom: 1px solid #dfe1e2;
+  border-left: 1px solid #dfe1e2;
+  border-right: 1px solid #dfe1e2;
+  .usa-card__body {
+    li {
+      margin-top: 0.5em;
+    }
+  }
+}
+
+.story-card-group .usa-card__container {
+  @media screen and (min-width: 685px) {
+    min-height: 23em;
+  }
+}
+
+.card__members {
+  .right,
+  .left {
+    height: 115px;
+  }
+}
 
 // Images
 @media screen and (max-width: 768px) {
