@@ -93,8 +93,6 @@ primary_navigation:
         url: "/data-sharing/"
       - name: Data Inventory
         url: "/data-inventory/"
-      - name: Operations
-        url: "/operations/"
       - name: Data Skills
         url: "/data-skills/"
       - name: Large Agency Committee
