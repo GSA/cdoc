@@ -5,7 +5,7 @@ layout: success-stories-post
 author: CDO Council
 permalink: /success-stories/data-skills-implementation/
 description: |
-    The The <a href="https://resources.data.gov/resources/data_skills_training_program_implementation_toolkit/">Data Skills Training Program Implementation Toolkit</a> is designed to provide both small and large agencies with information to develop their own data skills training programs. The information provided can serve as a roadmap to designing, implementing, and administering federal data skills training programs
+    The <a href="https://resources.data.gov/resources/data_skills_training_program_implementation_toolkit/">Data Skills Training Program Implementation Toolkit</a> is designed to provide both small and large agencies with information to develop their own data skills training programs. The information provided can serve as a roadmap to designing, implementing, and administering federal data skills training programs.
 # required, this is what becomes the filter
 category: data-skills
 tag: Data Skills
