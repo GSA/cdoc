@@ -5,7 +5,7 @@ layout: success-stories-post
 author: CDO Council
 permalink: /success-stories/cdo-playbook/
 description: |
-    <a href="https://resources.data.gov/categories/skills-development/">The Chief Data Officer (CDO) Playbook</a> explores and defines the evolution of the federal CDO role. It provides new and existing CDOs with guiding principles, opportunities for quick wins, and best practices to navigate some of the key areas that CDOs should focus on today and over the next few years 
+    <a href="https://resources.data.gov/categories/skills-development/">The Chief Data Officer (CDO) Playbook</a> explores and defines the evolution of the federal CDO role. It provides new and existing CDOs with guiding principles, opportunities for quick wins, and best practices to navigate some of the key areas that CDOs should focus on today and over the next few years.
 tag: Data Skills
 # required, this is what becomes the filter
 category: data-skills
