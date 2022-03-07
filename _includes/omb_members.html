@@ -4,15 +4,19 @@
     <section class="usa-graphic-list padding-top-0" >
         <div class="grid-container padding-0">
             <div class="usa-graphic-list__row grid-row grid-gap">
-                {% for bio in site.omb-members %}
+                {% assign sortedCards = site.omb-members | sort: 'department' %}
+                {% for bio in sortedCards %}
                 <div class="desktop:grid-col-4 tablet:grid-col-6 container members-list padding-top-2 card__members">
-                    <div class="clearfix shadow-5 radius-lg bg-white padding-2" tabindex="0">
+                    <div class="clearfix shadow-5 radius-lg border-base-lighter border-top-1 border-2px bg-white padding-2" tabindex="0">
                         <div class="left">
                             <img class="card__image--seal" src="{{ site.baseurl }}/assets/images/agency-seals/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} agency seal">
                         </div>
                         <div class="right padding-left-1">
-                            <span class="name">{{ bio.name }}<br></span>
-                            <span class="title">{{ bio.job-title }}, {{ bio.department}}</span>
+                            <span class="name">{{ bio.department }}</span>
+                            <span class="title">{{ bio.name }}, {{ bio.job-title }}</span>
+                            {% if bio.website-data %}
+                            <span class="title"><a href="{{ bio.website-data }} " title="{{ bio.department }} - data website">Agency Data Website</a></span>
+                            {% endif%}
                         </div>
                     </div>
                 </div>

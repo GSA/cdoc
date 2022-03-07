@@ -46,7 +46,7 @@ This is used for just the focus area pages
 
   <div>
     <section class="usa-layout-docs__main grid-row__workinggroup">
-      <div class="tablet:grid-col-12 line-height-sans-5 tablet:margin-y-10">
+      <div class="tablet:grid-col-12 line-height-sans-5 tablet:margin-y-10 margin-bottom-8">
         <section class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
           {{ content }}
           <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
@@ -58,6 +58,35 @@ This is used for just the focus area pages
     </section>
   </div>
 
+  {% if page.has-stories %}
+  <div>
+    <section class="usa-layout-docs__main grid-row__workinggroup">
+      <h2><img src="{{site.baseurl}}/assets/images/icons/trophy-icon.svg" class="workinggroup__accordion-icon" alt="" style="margin-right: 0.25em;"> Success Stories</h2>
+      <div class="grid-row">
+      {% assign working-group = page.subtitle %}
+      {% for story in site.success-stories %}
+        {% if story.tag == working-group %}
+        <div class="tablet:grid-col-6 usa-card card-{{ story.category }}">
+          <div class="usa-card__container radius-md">
+              <header class="usa-card__header">
+                  <h4>{{ story.title }}</h4>
+              </header>
+              <div class="usa-card__body">
+                  <p class="font-sans-xs">{{ story.description }}</p>
+              </div>
+              <div class="usa-card__footer margin-top-2">
+                  <a class="usa-button usa-button--outline" title="Read: {{story.title}}" href="{{ site.baseurl }}{{ story.permalink }}">Read more</a>
+              </div>
+          </div>
+        </div>
+        {% endif %}
+      {% endfor %}
+      </div>
+      <p class="card-tag"><a href="../success-stories/">View all Success Stories &rarr;</a></p>
+    </section>
+  </div>
+  {% endif %}
+  
   <section style="background-color: #f7fbff;">
   <div class="grid-container line-height-sans-5 margin-y-5">
     <div class="padding-x-4 padding-y-2">
