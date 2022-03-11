@@ -97,7 +97,7 @@ primary_navigation:
         url: "/small-agency/"
   - name: Events
     url: /programs-and-events/
-  - name: Community News & Success Stories
+  - name: News & Success Stories
     children:
       - name: Community News
         url: /community-news/
