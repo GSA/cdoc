@@ -2,7 +2,7 @@
 title: CDO Playbook Provides Guidance as the Federal Government Expands Use of Data as a Strategic Asset
 subtitle: CDO Playbook Provides Guidance as the Federal Government Expands Use of Data as a Strategic Asset
 layout: newspost
-date: March 11, 2022
+date: December 22, 2021
 author: CDO Council
 excerpt: CDOC Report to Congress
 permalink: /news/playbook-guidance/
