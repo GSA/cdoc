@@ -253,6 +253,9 @@ abbr{
 
   .name {
     font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.2;
+    display: block;
   }
 
   .title, .role, .council {
@@ -606,4 +609,10 @@ ul.filter-list {
 
 .meeting-icon {
   width: 50px;
+}
+
+.usa-summary-box {
+  border: 1px solid #97D4EA;
+  padding: 30px;
+  background: #E7F6F8;
 }
