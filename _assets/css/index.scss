@@ -241,7 +241,6 @@ abbr{
       max-width: 100%;
 
       &.card__image--seal {
-        height: 82px;
         width: auto;
       }
     }
@@ -427,13 +426,6 @@ ul.filter-list {
 .story-card-group .usa-card__container {
   @media screen and (min-width: 685px) {
     min-height: 23em;
-  }
-}
-
-.card__members {
-  .right,
-  .left {
-    height: 115px;
   }
 }
 

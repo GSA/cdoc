@@ -11,4 +11,4 @@ category: data-skills
 tag: Data Skills
 ---
 
-The CDO Council’s Data Skills Working Group developed <a href="https://resources.data.gov/resources/cdoc-case-study/">case studies</a> with actionable and relevant examples of data skills training efforts across the Federal Government. Data Skills Training Programs Case Studies outline agency successes, challenges, and lessons learned from existing training efforts. It also shares the impact these training efforts had on the workforce, job placement, and job performance.
+The CDO Council’s Data Skills Working Group developed <a href="https://resources.data.gov/resources/cdoc-case-study/">case studies</a> with actionable and relevant examples of data skills training efforts across the Federal Government. Data Skills Training Programs Case Studies outline agency successes, challenges, and lessons learned from existing training efforts. It also shares the impact these training efforts had on the workforce, job placement, and job performance. 
