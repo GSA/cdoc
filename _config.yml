@@ -127,9 +127,6 @@ homepage_icons:
   - name: Data Inventory 
     logo: /assets/images/logos/data-inventory.png
     url: /data-inventory/
-  - name: Operations
-    logo: /assets/images/logos/data-base-alt.svg
-    url: /operations/
   - name: Data Skills
     logo: /assets/images/logos/data.svg
     url: /data-skills/
