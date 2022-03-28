@@ -5,4 +5,5 @@ layout: bio
 name: Thomas Devine
 department: Selective Service System
 job-title: Deputy General Counsel
+website-data: https://www.sss.gov/data/
 ---
