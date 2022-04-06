@@ -1,8 +1,8 @@
 ---
 bio-image: prc-badge.png
-bio-image-alt-text: Department of Postal Regulatory Commission
+bio-image-alt-text: Postal Regulatory Commission
 layout: bio
-name: Erica Barker
-department: Department of Postal Regulatory Commission
+name: Russell Rappel Schmid
+department: Postal Regulatory Commission
 job-title: Chief Data Officer
 ---
