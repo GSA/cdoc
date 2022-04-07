@@ -5,4 +5,5 @@ layout: bio
 name: Jeremy Wise
 department: U.S. International Trade Commission
 job-title: Chief Data Officer
+website-data: https://dataweb.usitc.gov/
 ---
