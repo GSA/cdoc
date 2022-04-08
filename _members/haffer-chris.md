@@ -5,4 +5,5 @@ layout: bio
 name: Chris Haffer
 department: Equal Employment Opportunity Commission
 job-title: Chief Data Officer
+website-data: https://www.eeoc.gov/data
 ---
