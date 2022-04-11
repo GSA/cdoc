@@ -1,5 +1,5 @@
 ---
-bio-image: nasa_seal.png
+bio-image: nasa_logo.png
 bio-image-alt-text: National Aeronautics and Space Administration
 layout: bio
 name: Ron Thompson
