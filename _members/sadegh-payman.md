@@ -1,5 +1,5 @@
 ---
-bio-image: gsa_seal.png
+bio-image: gsa-logo.png
 bio-image-alt-text: General Services Administration
 layout: bio
 name: Payman Sadegh
