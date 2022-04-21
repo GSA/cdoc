@@ -1,8 +1,8 @@
 ---
-title: Data Sharing Report
-subtitle: Data Sharing Report
+title: Data Sharing Report Published
+subtitle: Data Sharing Report Published
 layout: newspost
-date: April 20, 2022
+date: April 21, 2022
 author: CDO Council
 excerpt: CDOC Report to Congress
 permalink: /news/data-sharing-report/

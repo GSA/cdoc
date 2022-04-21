@@ -1,8 +1,8 @@
 ---
-title: Data Inventory Report
-subtitle: Data Inventory Report
+title: Data Inventory Report Published
+subtitle: Data Inventory Report Published
 layout: newspost
-date: April 20, 2022
+date: April 21, 2022
 author: CDO Council
 excerpt: CDOC Report to Congress
 permalink: /news/data-inventory-report/
