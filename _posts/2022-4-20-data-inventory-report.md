@@ -12,7 +12,7 @@ description: The Chief Data Officers Council Data Inventory Working Group prepar
 
 The Chief Data Officers Council Data Inventory Working Group prepared a [report](https://resources.data.gov/resources/CDOC_Data_Inventory_Report/) to highlight the value proposition for data inventories and describe challenges agencies may face when implementing and managing comprehensive data inventories. It also identifies opportunities agencies can take to overcome some of these challenges and includes a set of recommendations directed towards Agencies, OMB, and the CDO Council (see list of recommendations below).
 
-**Value Proposition**
+**Value Proposition:**
 
 A data inventory is foundational to any formal data management program. Data inventories enable stakeholders to efficiently find, access and use data assets. Inventories are also indispensable to managers who need to evaluate the extent to which the organization's data helps meet mission goals or can be shared with other agencies to meet their missions. Policy and program managers need to know what data the organization collects and maintains and also how it aligns with its intended purpose, what condition it is in, how it is stored and accessed. In addition, data inventories can inform records management teams who need to understand the record retention schedule of the organization's data and information; security and privacy teams who need to ensure the organization has the appropriate security and access management procedures in place; and legal teams who need to ensure the organization is using the data appropriately.
 
