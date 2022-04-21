@@ -10,7 +10,7 @@ description: The Chief Data Officers Council Data Inventory Working Group prepar
 ---
 **Overview:**
 
-The Chief Data Officers Council Data Inventory Working Group prepared a [report](https://resources.data.gov/resources/CDOC_Data_Inventory_Report/)to highlight the value proposition for data inventories and describe challenges agencies may face when implementing and managing comprehensive data inventories. It also identifies opportunities agencies can take to overcome some of these challenges and includes a set of recommendations directed towards Agencies, OMB, and the CDO Council (see list of recommendations below).
+The Chief Data Officers Council Data Inventory Working Group prepared a [report](https://resources.data.gov/resources/CDOC_Data_Inventory_Report/) to highlight the value proposition for data inventories and describe challenges agencies may face when implementing and managing comprehensive data inventories. It also identifies opportunities agencies can take to overcome some of these challenges and includes a set of recommendations directed towards Agencies, OMB, and the CDO Council (see list of recommendations below).
 
 **Value Proposition**
 
