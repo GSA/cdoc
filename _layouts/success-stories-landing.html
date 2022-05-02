@@ -1,0 +1,28 @@
+{% comment %}
+This is used for just about every page. It provides the banner at the top of the page.
+{% endcomment %}
+
+{% include header.html %}
+{% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
+
+<section class="usa-graphic-list usa-section sml-margin bg-gradient">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+
+      <div class="tablet:grid-col">
+        <h1 class="text-white font-serif-xl margin-top-0 margin-bottom-0 text-bold"> {{ page.title }} </h1>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<main id="main-content">
+    <div class="usa-layout-docs__main desktop:grid-col-12">
+    <div class="grid-container font-sans-sm line-height-sans-5">
+      {{ content }}
+    </div>
+  </div>
+</main>
+
+{% include footer.html %}

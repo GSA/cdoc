@@ -8,6 +8,7 @@ purpose: Data inventories are as essential to agencies as card catalogs are to l
 top-image: data-inventory.png
 member: Thomas Dabolt
 pdf: data-inventory-wg.pdf
+has-stories: false
 ---
 
 <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt=""> Goals</button></h3>

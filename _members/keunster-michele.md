@@ -1,5 +1,5 @@
 ---
-bio-image: exim_seal.png
+bio-image: eibus-seal.png
 bio-image-alt-text: Export-Import Bank of the U.S. 
 layout: bio
 name: Michele Keunster

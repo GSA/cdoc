@@ -1,0 +1,29 @@
+{% comment %}
+This is used for just about every page. It provides the banner at the top of the page.
+{% endcomment %}
+
+{% include header.html %}
+{% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
+
+<section class="usa-graphic-list sml-margin bg-gradient">
+    <div class="grid-container">
+        <div class="grid-row grid-gap">
+            <div class="tablet:grid padding-y-4">
+                <span class="text-accent-cool-light font-sans-lg margin-bottom-0 text-bold">Success Story</span>
+                <h2 class="text-white font-serif-xl margin-top-0 margin-bottom-0 text-bold"> {{ page.title}} </h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="usa-layout-docs usa-graphic-list" id="main-content">
+    <div class="grid-container">
+        {{ content }}
+        <br>
+        <p class="card-tag"><a href="{{ site.baseurl }}/success-stories/">&#10094; &nbsp; Back to Success Stories</a> </p>
+    </div>
+    
+</main>
+
+
+{% include footer.html %}

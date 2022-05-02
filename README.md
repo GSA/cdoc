@@ -9,6 +9,29 @@
 
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=18F/federalist-uswds-jekyll)](https://dependabot.com)
 
+# CDOC content management notes
+
+## How to add a new success story
+
+- inside of the /_success-stories/ directory, add new markdown file. Template should be carried over from existing stories, and if none are available all success stories follow this front-matter pattern:
+
+```Ruby
+title: Data sharing with a purpose, how we integrated with federal agencies.
+subtitle: Data sharing with a purpose, how we integrated with federal agencies.
+layout: success-stories-post
+date: December 22, 2021
+author: Data Sharing Working Group
+permalink: /success-stories/test2/
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin tincidunt purus, sed semper nibh pellentesque sed.
+tag: Data Sharing
+# required, this is what becomes the filter
+category: data-sharing
+```
+
+- in the required front matter, permalink is very important and should reflect the post title
+
+- to enable the section on working group pages that shows related success stories: go to the working group's associated markdown file under /_pages/Focus-Areas/, change the 'has stories' property to 'true'
+
 # Federalist + U.S. Web Design System + Jekyll
 
 This [Jekyll theme](https://jekyllrb.com/docs/themes/) is developed using the [U.S. Web Design System v 2.0](https://v2.designsystem.digital.gov) and is focused on providing developers a starter kit and reference implementation for Federalist websites.
