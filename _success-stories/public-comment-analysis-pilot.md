@@ -3,7 +3,7 @@ title: Public Comment Analysis Pilot
 subtitle: Public Comment Analysis Pilot 
 layout: success-stories-post
 author: CDO Council
-permalink: https://resources.data.gov/assets/documents/CDOC_Recommendations_Report_Comment_Analysis_FINAL.pdf
+permalink: /news/public-comment-analysis-pilot/
 description: |
     The CDOC worked with multiple agencies to test how state-of-the-art Natural Language Processing (NLP) techniques could help agencies analyze public comments. This <a href="https://resources.data.gov/assets/documents/CDOC_Recommendations_Report_Comment_Analysis_FINAL.pdf">pilot</a> created a proof-of-concept tool for helping agencies find insights, efficiency, and cost savings in their comment analysis.
 tag: CDO Council

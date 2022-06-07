@@ -3,7 +3,7 @@ title: CDOC Public Meeting
 subtitle: CDOC Public Meeting
 layout: success-stories-post
 author: CDO Council
-permalink: https://www.cdo.gov/public-meeting/
+permalink: /news/public-meeting/
 description: |
     The CDO Councils held a <a href="https://www.cdo.gov/public-meeting/">public meeting</a> in 2021 to share information on its priorities and accomplishments. A number of agencies shared information about their data actions and the Evidence Act Councils discussed collaborative efforts in the Federal data space. The Council also introduced a Request for Information. A summary of comments is available here.
 tag: CDO Council
