@@ -2,7 +2,7 @@
 bio-image: dni_seal.png
 bio-image-alt-text: Intelligence Community
 layout: bio
-name: Nancy Morgan
+name: Lori Wade
 department: Intelligence Community
 job-title: Chief Data Officer
 ---
