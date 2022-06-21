@@ -1,4 +1,5 @@
-<!-- {% for events in site.events %}
+{% assign today_date = 'now' | date:'%s' %}
+{% for events in site.events %}
 {% assign event_date = events.end-date | date: '%s' %}
 {% if event_date >= today_date %}
 
@@ -34,9 +35,9 @@
 </div>
 
 {% endif %}
-{% endfor %} -->
+{% endfor %}
 
-<div class="event-card padding-bottom-3 margin-top-1">
+<!-- <div class="event-card padding-bottom-3 margin-top-1">
   <div class="grid-row clearfix shadow-5 radius-lg bg-white padding-2 flex-align-center">
     <div class="tablet:grid-col-5">
       <img class="padding-right-2 padding-top-0" src="{{site.baseurl}}/assets/images/events/public-meeting-thumbnail-1.png" alt="event thumbnail">
@@ -55,4 +56,4 @@
     </div>
 
   </div>
-</div>
+</div> -->

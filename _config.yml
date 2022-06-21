@@ -166,6 +166,8 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  events:
+    output: true
   members:
     output: true
   leadership:
