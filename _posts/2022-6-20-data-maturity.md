@@ -1,15 +1,15 @@
 ---
-title: Key Mile Marker Reached on Road to Department’s Data Maturity
-subtitle: Key Mile Marker Reached on Road to Department’s Data Maturity
+title: Key Mile Marker Reached on Road to State Department’s Data Maturity
+subtitle: Key Mile Marker Reached on Road to State Department’s Data Maturity
 layout: newspost
-date: June 20, 2022
+date: June 21, 2022
 author: Matthew Graviss, Ph.D., Chief Data Officer
 excerpt: 
 permalink: /news/department-data-maturity/
 description: The Department’s first-ever Enterprise Data Strategy (EDS) was a paradigm shift toward a data-driven culture, but the rubber met the road when the strategy began its implementation phase in October...
 ---
 
-The Department's first-ever [Enterprise Data Strategy (EDS)](https://www.state.gov/the-department-unveils-its-first-ever-enterprise-data-strategy/){:target="_blank"} was a paradigm shift toward a data-driven culture, but the rubber met the road when the strategy began its implementation phase in October. Since then, the Department's multifaceted efforts to leverage data as a critical instrument of diplomacy have been traveling at full speed. The successes of this journey were celebrated at a Department-wide Data Day, hosted by the Office of Management Strategy and Solutions' Center for Analytics in early spring 2022.
+The State Department's first-ever [Enterprise Data Strategy (EDS)](https://www.state.gov/the-department-unveils-its-first-ever-enterprise-data-strategy/){:target="_blank"} was a paradigm shift toward a data-driven culture, but the rubber met the road when the strategy began its implementation phase in October. Since then, the Department's multifaceted efforts to leverage data as a critical instrument of diplomacy have been traveling at full speed. The successes of this journey were celebrated at a Department-wide Data Day, hosted by the Office of Management Strategy and Solutions' Center for Analytics in early spring 2022.
 
 Data Day opened with a ceremony recognizing the winners of the inaugural Data for Diplomacy Awards, which challenge the workforce to submit their innovative projects that use data to support, develop, and advance foreign policy. In its first year, the judges reviewed an impressive 118 submissions. The response, and the quality of the projects, demonstrate how the workforce is integrating data into policy and decision making and aligning to the Secretary's modernization agenda.
 
