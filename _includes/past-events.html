@@ -1,12 +1,43 @@
-<div class="padding-bottom-3 margin-top-1">
+{% assign today_date = 'now' | date:'%s' %}
+{% for events in site.events %}
+{% assign event_date = events.end-date | date: '%s' %}
+{% if event_date < today_date %}
 
-    <img class="tablet:float-left width-15 padding-right-2 padding-top-0 padding-bottom-2 margin-top-2" style="width:160px;" src="{{site.baseurl}}/assets/images/logos/cdo-logo.png" alt="CDO Logo">
-    <p class="card-tag">Sample Past Event</p>
-    <p class="text-primary-darker font-serif-lg text-bold">
-        <a class="text-no-underline" href="">Sample CDO Past Event</a>
-    </p>
-    <p class="margin-top-0">This is a sample page.
-      <a href="">Read more...</a>
-    </p>
+<div class="event-card padding-bottom-3 margin-top-1">
+  <div class="grid-row clearfix shadow-5 radius-lg bg-white padding-2 flex-align-center">
+    <div class="tablet:grid-col-5">
+      <img class="padding-right-2 padding-top-0" src="{{site.baseurl}}/assets/images/events/{{ events.image }}" alt="{{ events.image-alt }}">
+    </div>
+
+    <div class="tablet:grid-col-7">
+      <h3 class="title text-no-underline">
+        {% if events.external-link %}
+        <a class="text-no-underline cdo-link" href="{{ events.external-link }}" style="font-family: Merriweather Web;">{{ events.title }}</a>
+        {% elsif events.internal-link %}
+        <a class="text-no-underline cdo-link" href="{{ site.baseurl }}/{{ events.internal-link }}" style="font-family: Merriweather Web;">{{ events.title }}</a>
+        {% else %}
+          {{ events.title }}
+        {% endif %}
+      </h3>
+      <div class="text-base margin-bottom-1">
+        <div class="margin-top-neg-105">
+          {% if events.start-date %}
+          {{ events.start-date | date: '%a, %b %d, %Y' }} -
+          {% endif %}
+          {{ events.end-date | date: '%a, %b %d, %Y' }}
+        </div>
+      </div>
+      <p class="margin-top-0">{{ events.overview | truncate: 700 }} 
+        {% if events.internal-link %}
+          <a href="{{ site.baseurl }}/{{ events.internal-link }}">Find out more</a>
+        {% else %}
+          <a href="{{ events.external-link }}">Find out more</a>
+        {% endif %}
+      </p>
+    </div>
 
   </div>
+</div>
+
+{% endif %}
+{% endfor %}

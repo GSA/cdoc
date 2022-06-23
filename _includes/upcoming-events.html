@@ -3,57 +3,41 @@
 {% assign event_date = events.end-date | date: '%s' %}
 {% if event_date >= today_date %}
 
-<div class="padding-bottom-3 margin-top-1">
-    <img class="tablet:float-left width-15 padding-right-2 padding-top-0 padding-bottom-2 margin-top-2" style="width:160px;" src="{{ site.baseurl }}/assets/images/events/{{ events.image }}" alt="{{ events.img-alt }}">
-    
-    <p class="card-tag">
-      {% if events.start-date %}
-      {{ events.start-date | date: '%a, %b %d, %Y' }} -
-      {% endif %}
-      {{ events.end-date | date: '%a, %b %d, %Y' }}
-    </p>
-
-    <p class="text-primary-darker font-serif-lg text-bold">
-      {% if events.link and events.link contains "http" %}
-      <a class="text-no-underline" href="{{ events.link }}">{{ events.title }}</a>
-      {% elsif events.link %}
-      <a class="text-no-underline" href="{{ site.baseurl }}{{ events.link }}">{{ events.title }}</a>
-      {% else %}
-        {{ events.title }}
-      {% endif %}
-    </p>
-
-    <p class="">{{ events.overview | truncate: 700 }}
-      {% if events.external != 1 %}
-        <a href="{{ site.baseurl }}{{ events.link }}">Read more about {{ events.title}}</a>
-      {% endif %}
-    </p>
-    {% if events.external_url %}
-      <a class="usa-button usa-button--accent-cool margin-top-1" href="http://{{events.external_url}}">Register for this Event</a>
-    {% endif %}
-
-</div>
-
-{% endif %}
-{% endfor %}
-
-<!-- <div class="event-card padding-bottom-3 margin-top-1">
+<div class="event-card padding-bottom-3 margin-top-1">
   <div class="grid-row clearfix shadow-5 radius-lg bg-white padding-2 flex-align-center">
     <div class="tablet:grid-col-5">
-      <img class="padding-right-2 padding-top-0" src="{{site.baseurl}}/assets/images/events/public-meeting-thumbnail-1.png" alt="event thumbnail">
+      <img class="padding-right-2 padding-top-0" src="{{site.baseurl}}/assets/images/events/{{ events.image }}" alt="{{ events.image-alt }}">
     </div>
 
     <div class="tablet:grid-col-7">
       <h3 class="title text-no-underline">
-        <a class="text-no-underline cdo-link" href="{{ site.baseurl }}/public-meeting/" style="font-family: Merriweather Web;">CDO Council Public Meeting</a>
+        {% if events.external-link %}
+        <a class="text-no-underline cdo-link" href="{{ events.external-link }}" style="font-family: Merriweather Web;">{{ events.title }}</a>
+        {% elsif events.internal-link %}
+        <a class="text-no-underline cdo-link" href="{{ site.baseurl }}/{{ events.internal-link }}" style="font-family: Merriweather Web;">{{ events.title }}</a>
+        {% else %}
+          {{ events.title }}
+        {% endif %}
       </h3>
       <div class="text-base margin-bottom-1">
         <div class="margin-top-neg-105">
-          October 14, 2021
+          {% if events.start-date %}
+          {{ events.start-date | date: '%a, %b %d, %Y' }} -
+          {% endif %}
+          {{ events.end-date | date: '%a, %b %d, %Y' }}
         </div>
       </div>
-      <p class="margin-top-0">The CDO Council held its public meeting on Thursday, October 14, 2021. <a href="{{ site.baseurl }}/public-meeting/">Find out more</a></p>
+      <p class="margin-top-0">{{ events.overview | truncate: 700 }} 
+        {% if events.internal-link %}
+          <a href="{{ site.baseurl }}/{{ events.internal-link }}">Find out more</a>
+        {% else %}
+          <a href="{{ events.external-link }}">Find out more</a>
+        {% endif %}
+      </p>
     </div>
 
   </div>
-</div> -->
+</div>
+
+{% endif %}
+{% endfor %}
