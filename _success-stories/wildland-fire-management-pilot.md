@@ -6,7 +6,7 @@ author: CDO Council
 permalink: /news/wildland-fire-management/
 description: |
     In 2021, the CDOC conducted a <a href="https://resources.data.gov/resources/Fuels_Knowledge_Graph_Project/">pilot project</a> to explore the use of knowledge graphs to achieve more consistent and reliable fuel management performance measures. The data was drawn from a variety of different agencies and their collaboration improved land manager insight and effectiveness while serving as a foundation for future collaboration in the wildland fire community.
-tag: CDO Council
+tag: Data Sharing
 # required, this is what becomes the filter
 category: cdo-council
 ---

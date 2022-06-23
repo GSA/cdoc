@@ -8,7 +8,7 @@ purpose: The Data Sharing Working Group will focus on data sharing across federa
 top-image: data-sharing.png
 member: Nikolaos Ipiotis
 pdf: data-sharing-wg.pdf
-has-stories: false
+has-stories: true
 ---
 
 <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt=""> Goals</button></h3>
