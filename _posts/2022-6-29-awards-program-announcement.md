@@ -2,7 +2,7 @@
 title: NEW CDO Council Awards Program
 subtitle: NEW CDO Council Awards Program
 layout: newspost
-date: June 29, 2022
+date: July 1, 2022
 author: CDO Council
 excerpt: 
 permalink: /news/awards-program-announcement/
@@ -15,5 +15,4 @@ The purpose of the awards program is to recognize both civilian and military emp
 
 Click <a href="{{ site.baseurl }}/assets/documents/Overview CDOC Awards Program.pdf">here</a> to find out more about the CDO Council Awards Program.
 
-<img  alt="attention please"  src="{{ site.baseurl }}/assets/images/background/attention.png">
 
