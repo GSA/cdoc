@@ -24,12 +24,4 @@ It was also discovered that organizational structures vary by agency size:
 - From 2021 to 2022 those who report to a COO doubled from 10% to 20%. The percentage of CDOs reporting to a CIO declined from about 30% to 20%.
 - Small and medium agencies do not have performance measures for the office, while over half of large agencies do.
 
-We are pleased to share the 2021 responses (anonymized) and survey instrument, slides analyzing the data, as well as the 2020 responses and survey instrument.
-
-[CDO Survey - January 2021 - Anonymize]({{site.baseurl}}/assets/documents/CDO Survey - January 2021 - Anonymized.xlsx)
-
-[CDO_Survey_Responses_2021 - Public File]({{site.baseurl}}/assets/documents/cdo_survey_responses_2021 - public file.xlsx)
-
-[CDO_Council-January_2021_Survey]({{site.baseurl}}/assets/documents/CDO_Council_-_January_2021_Survey.pdf)
-
-[CDO_Council-January_2022_Survey]({{site.baseurl}}/assets/documents/CDO_Council_-_January_2022_Survey.pdf)
+We are pleased to share the [2022 responses (anonymized)]({{site.baseurl}}/assets/documents/cdo_survey_responses_2022-Public-file.xlsx) and [2022 survey instrument]({{site.baseurl}}/assets/documents/CDO_Council_-_January_2022_Survey.docx), [slides analyzing the data]({{site.baseurl}}/assets/documents/CDO-Survey-2022-Analysis.pdf), as well as the [2021 responses]({{site.baseurl}}/assets/documents/CDO Survey-January-2021-Public-File.xlsx) and [2021 survey instrument]({{site.baseurl}}/assets/documents/CDO_Council_-_January_2021_Survey.docx).
