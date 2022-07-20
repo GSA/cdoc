@@ -6,10 +6,10 @@ date: July 17, 2022
 author: CDO Council
 excerpt: 
 permalink: /news/survey-results-2022/
-description: The Federal Chief Data Officer Council (CDOC) continues to grow, now has nearly 90 members from both CFO and non-CFO Act agencies.
+description: The Federal Chief Data Officer Council (CDOC) continues to grow and now has nearly 90 members from both CFO and non-CFO Act agencies.
 ---
 
-The Federal Chief Data Officer Council (CDOC) continues to grow, now has nearly 90 members from both CFO and non-CFO Act agencies. The CDOC conducted a 2022 survey of its membership to help understand the evolving state of Federal CDOs - their positions in agencies, their responsibilities, and information about CDOs themselves. This builds on the survey that the council conducted last year which helped our community and our stakeholders learn how the role of CDO is being implemented across the government.
+The Federal Chief Data Officer Council (CDOC) continues to grow and now has nearly 90 members from both CFO and non-CFO Act agencies. The CDOC conducted a 2022 survey of its membership to help understand the evolving state of Federal CDOs - their positions in agencies, their responsibilities, and information about CDOs themselves. This builds on the survey that the council conducted last year which helped our community and our stakeholders learn how the role of CDO is being implemented across the government.
 
 The survey gathered information on experience, tenure, and education of members and responses indicated that:
 
