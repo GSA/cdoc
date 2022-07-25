@@ -6,7 +6,7 @@ permalink: /programs-and-events/
 description: The meta description for the CDOC site will appear here.
 ---
 
-<h2 class="margin-top-3">Current and Upcoming Events</h2>
+<h2 class="margin-top-3">Events</h2>
 
 {% include upcoming-events.html %}
 
