@@ -108,7 +108,11 @@ primary_navigation:
       - name: Success Stories
         url: "/success-stories/" 
   - name: Resources
-    link: https://resources.data.gov/
+    children:
+      - name: Reports and Publications
+        url: https://resources.data.gov/
+      - name: CDOC Award Program
+        url: /awards-program/
 
 
 secondary_navigation:
