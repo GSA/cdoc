@@ -110,7 +110,7 @@ primary_navigation:
   - name: Resources
     children:
       - name: Reports and Publications
-        url: https://resources.data.gov/
+        external-link: https://resources.data.gov/
       - name: CDOC Award Program
         url: /awards-program/
 
