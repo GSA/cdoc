@@ -36,3 +36,11 @@ has-stories: true
       <li>Present to the CDO Council Executive Committee, strategies, solutions, and resources to address policies, procedures, methods and techniques in implementing the Foundations for Evidence‐Based Policymaking Act and Federal Data Strategy requirements regarding the efficient, effective, timely, and secure sharing of data.  </li>
   </ul>
 </div>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
+<div id="m-a4" class="usa-accordion__content">
+  <ul class="add-list-reset">
+      <li><a href="https://community.max.gov/display/DATA/Data+Sharing+Working+Group">Max.Gov</a></li>
+      <li><a href="https://strategy.data.gov/action-plan/">Federal Data Strategy</a></li>
+      <li><a href="https://www.congress.gov/bill/115th-congress/house-bill/4174/text">Foundations for Evidence-Based Policymaking Act of 2018</a></li>
+  </ul>
+</div> 

@@ -99,6 +99,8 @@ primary_navigation:
         url: "/large-agency/"
       - name: Small Agency Committee
         url: "/small-agency/"
+      - name: Data Ethics and Equity
+        url: "/data-ethics-and-equity/"
   - name: Events
     url: /programs-and-events/
   - name: News & Success Stories
@@ -140,6 +142,9 @@ homepage_icons:
   - name: Small Agency Committee
     logo: /assets/images/logos/group.svg
     url: /small-agency/
+  - name: Data Ethics and Equity
+    logo: /assets/images/logos/justice.svg
+    url: /data-ethics-and-equity/
 
 
 # Search.gov configuration
