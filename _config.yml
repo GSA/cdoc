@@ -89,10 +89,12 @@ primary_navigation:
         url: "/council-members/"
   - name: Working Groups & Committees
     children:
-      - name: Data Sharing
-        url: "/data-sharing/"
+      - name: Data Ethics
+        url: "/data-ethics-and-equity/"
       - name: Data Inventory
         url: "/data-inventory/"
+      - name: Data Sharing
+        url: "/data-sharing/"
       - name: Data Skills
         url: "/data-skills/"
       - name: Large Agency Committee
@@ -140,6 +142,9 @@ homepage_icons:
   - name: Small Agency Committee
     logo: /assets/images/logos/group.svg
     url: /small-agency/
+  - name: Data Ethics and Equity
+    logo: /assets/images/logos/justice.svg
+    url: /data-ethics-and-equity/
 
 
 # Search.gov configuration
