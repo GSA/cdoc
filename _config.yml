@@ -89,18 +89,18 @@ primary_navigation:
         url: "/council-members/"
   - name: Working Groups & Committees
     children:
-      - name: Data Sharing
-        url: "/data-sharing/"
+      - name: Data Ethics
+        url: "/data-ethics-and-equity/"
       - name: Data Inventory
         url: "/data-inventory/"
+      - name: Data Sharing
+        url: "/data-sharing/"
       - name: Data Skills
         url: "/data-skills/"
       - name: Large Agency Committee
         url: "/large-agency/"
       - name: Small Agency Committee
         url: "/small-agency/"
-      - name: Data Ethics and Equity
-        url: "/data-ethics-and-equity/"
   - name: Events
     url: /programs-and-events/
   - name: News & Success Stories
