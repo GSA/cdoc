@@ -31,23 +31,23 @@ The CDO Council shall meet regularly to establish government-wide best practices
 * Be a community of learning by broadly identifying best practices and resources to facilitate the implementation for the [Foundations for Evidence-Based Policymaking Act of 2018](https://www.congress.gov/bill/115th-congress/house-bill/4174/text).
 * Provide leadership on the delivery of the [Federal Data Strategy Action Plan](https://strategy.data.gov/action-plan/).
 
-## FY 2021 CDOC Goals
-We have set our goals and objectives for FY 2021. We look forward to working on these with the Council community.
-* Goal 1: Develop a vibrant learning community to ensure that CDOs have the resources to lead data-driven change
-    * Objective: Host regular information sharing sessions to exchange and develop best practices 
-    * Objective: Develop resources to enable CDOs to deliver value
-    * Objective: Develop the CDO profession
-* Goal 2: Demonstrate the Strategic Value of the CDO Council
-    * Objective: Identify and address cross-cutting data challenges 
-    * Objective: Implement CDO Council public engagement & communications plan
-* Goal 3: Develop Efficient and Effective Operating Model for the CDO Council
-    * Objective: Mature templates and standard practices for working groups, committees, and information sharing sessions
-    * Objective: Implement communications protocols for the Council’s internal communications
-    * Objective: Develop the cross-council collaboration framework
-* Goal 4: Facilitate strategic engagement across Federal data activities 
-    * Objective: Provide input on proposed Federal data policies, as applicable
-    * Objective: Provide strategic input to the Advisory Committee on Evidence Building 
-    * Objective: Engage and collaborate with other data-related Councils
+## 2022-2023 CDO Council Goals
+* Goal 1: Strengthen and empower the Federal workforce in the use of data
+    * Objective: Develop resources that help agencies empower their workforce
+    * Objective: Foster collective learning and information sharing around the use of data
+* Goal 2: Enable impactful outcomes from simple, seamless, and secure customer experiences
+    * Objective: Supporting effective data use and sharing across agencies
+    * Objective: Supporting secure and safe data access
+    * Objective: Foster collaboration across agencies
+* Goal 3: Support the application of data ethics and equity
+    * Objective: Steward the Federal Data Ethics framework
+    * Objective: Promote the use of data equity resources
+* Goal 4: Support the strategic use of data for intelligent government operations
+    * Objective: Engage in Federal data policy issues
+    * Objective: Understanding the structural role of CDOs
+    * Objective: Foster cross-council collaboration in addressing the strategic use of data
+    * Objective: Support engagement from the public and stakeholders with Federal data issues
+    * Objective: Effectively manage CDOC operations
 
 ## Charter
 In May 2020, the CDO Council voted to establish a <a href="{{ site.baseurl}}/assets/documents/cdo-council-charter-061820.pdf"> charter</a>.
