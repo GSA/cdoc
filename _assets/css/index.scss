@@ -616,3 +616,8 @@ ul.filter-list {
   padding: 30px;
   background: #E7F6F8;
 }
+
+//navbar arrow
+.nav-link-arrow span::after {
+  background: url(../img/usa-icons/expand_more.svg) no-repeat center/contain;
+}
