@@ -4,7 +4,7 @@
     <div class="border-top-1px border-base-light margin-bottom-2"></div>
     {% endif %}
     <div class="grid-row flex-align-start flex-justify">
-      <button type="button" class="usa-button usa-button--outline border-0" id="toTopBtn" title="Go to top">Return to top</a>
+      <button type="button" class="usa-button usa-button--outline border-0" id="toTopBtn" title="Go to top">Return to top</button>
       {% if page.title == "Home" %}
       <div class="grid-row vaccine-container">
         <div class="vaccine-card">
@@ -102,9 +102,14 @@
 <div class="usa-identifier">
   <section
     class="usa-identifier__section usa-identifier__section--masthead"
-    aria-label="Agency identifier"
+    aria-label="Agency identifier,"
   >
     <div class="usa-identifier__container">
+      <div class="usa-identifier__logos">
+        <a href="https://gsa.gov" class="usa-identifier__logo">
+          <img class="usa-identifier__logo-img" src="{{site.baseurl}}/assets/images/logos/gsa-logo.png" alt="GSA logo" role="img"/>
+        </a>
+      </div>
       <div class="usa-identifier__identity" aria-label="Agency description">
         <p class="usa-identifier__identity-domain">CDO.gov</p>
         <p class="usa-identifier__identity-disclaimer">
