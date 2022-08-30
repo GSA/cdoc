@@ -432,11 +432,11 @@ ul.filter-list {
 }
 
 // Images
-// @media screen and (max-width: 768px) {
-//   img {
-//     max-width: 50%;
-//   }
-// }
+@media screen and (max-width: 768px) {
+  img {
+    max-width: 50%;
+  }
+}
 
 .card-tag {
   font-size: .9rem;
