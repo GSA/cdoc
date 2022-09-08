@@ -19,6 +19,6 @@ Ted and Dan then examine the Evidence Act, which requires all federal agencies t
 
 Finally, Dan talks about the advantages of a data career in government, and what skill sets would help candidates be a success.
 
-Unstructured Data is available to view [here](https://vimeo.com/741193022). You are encouraged to share the podcast as well as comment and offer suggestions. Future Podcasts will be posted on our website and on our new LinkedIn page found [here](https://www.linkedin.com/company/federal-chief-data-officers-council/).
+Unstructured Data is available to view [here](https://vimeo.com/741193022) as well as listen to [here](https://vimeo.com/747354367). You are encouraged to share the podcast as well as comment and offer suggestions. Future Podcasts will be posted on our website and on our new LinkedIn page found [here](https://www.linkedin.com/company/federal-chief-data-officers-council/).
 
 Make sure to follow, engage, and support the CDO Council to learn about the upcoming advancements with data in the government space.
