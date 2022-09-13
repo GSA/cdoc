@@ -2,7 +2,7 @@
 title: New CDO Podcast and Social Channel
 subtitle: New CDO Podcast and Social Channel
 layout: newspost
-date: September 7, 2022
+date: September 13, 2022
 author: CDO Council
 excerpt: 
 permalink: /news/podcast-and-social-channel/
