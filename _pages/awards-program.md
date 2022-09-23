@@ -138,9 +138,9 @@ permalink: /awards-program/
                     <p class="font-sans-md" style='text-align:center;'><strong><u>Working Group and Committee Superior Contributors</u></strong></p>
                     <p class="font-sans-md"><strong>Small Agency Committee:&nbsp;</strong>Kirsten Dalboe, Federal Energy Regulation Commission</p>
                     <p class="font-sans-md"><strong>Large Agency Committee:&nbsp;</strong>Tom Sasala, Department of Defense</p>
-                    <p class="font-sans-md"><strong>Data Sharing Working Group:&nbsp;</strong>Arun Achya, Consumer Product Safety Division</p>
+                    <p class="font-sans-md"><strong>Data Sharing Working Group:&nbsp;</strong>Arun Acharya, Consumer Product Safety Division</p>
                     <p class="font-sans-md"><strong>Data Inventory Working Group:&nbsp;</strong>Robbin Rappaport, Internal Revenue Service</p>
-                    <p class="font-sans-md"><strong>Data Skills Working Group:&nbsp;</strong>Erik Price, Office of the Director of National Intelligence; Layne Morrison, Department of Education; Robin Wagner, National Institute of Health</p>
+                    <p class="font-sans-md"><strong>Data Skills and Workforce Development Working Group:&nbsp;</strong>Erik Price, Office of the Director of National Intelligence; Layne Morrison, Department of Education; Robin Wagner, National Institute of Health</p>
                 </div> 
             </section>
         </div>
