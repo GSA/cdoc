@@ -6,6 +6,7 @@ date: June 21, 2022
 author: Matthew Graviss, Ph.D., Chief Data Officer
 excerpt: 
 permalink: /news/department-data-maturity/
+image_path: /assets/images/background/dos-seal.png
 description: The Department’s first-ever Enterprise Data Strategy (EDS) was a paradigm shift toward a data-driven culture, but the rubber met the road when the strategy began its implementation phase in October...
 ---
 

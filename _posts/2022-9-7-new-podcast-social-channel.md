@@ -6,6 +6,7 @@ date: September 13, 2022
 author: CDO Council
 excerpt: 
 permalink: /news/podcast-and-social-channel/
+image_path: /assets/images/background/CDOPodcastOpenScreen_v3.png
 description: The Federal Chief Data Officers Council (CDOC) is proud to announce the production and distribution of its first official podcast. 
 ---
 
