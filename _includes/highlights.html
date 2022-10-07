@@ -10,7 +10,11 @@ eight.
         <div class="clearfix shadow-5 radius-lg bg-white padding-4">
             <div class="grid-row grid-gap">
                 <div class="usa-media-block tablet:grid-col">
-                    <img class="usa-media-block__img circle-card" src="{{ post.image_path }}">
+                    {% if post.image_path %}
+                    <img class="usa-media-block__img circle-card" src="{{site.baseurl}}{{ post.image_path }}">
+                    {% else %}
+                    <img class="usa-media-block__img circle-card" src="{{site.baseurl}}/assets/images/background/coming-soon.png">
+                    {% endif %}
                     <div class="usa-media-block__body">
                         <h2>{{ post.title }}</h2>
                         <p>{{ post.description }}</p>
