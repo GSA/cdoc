@@ -7,6 +7,25 @@ pagination:
   enabled: false
 ---
 
-<section>
-    
-</section>
+<!--<div class="grid-container">-->
+  <!-- Podcast description and image-->
+  <section class="grid-row">
+    <div class="desktop:grid-col-8 usa-prose padding-right-4">
+        <!-- This loops through the paginated posts -->
+    </div>
+    <aside class="desktop:grid-col-fill margin-top-4 padding-right-4">
+    </aside>
+  </section>
+
+  <!-- list of podcasts-->
+  <section class="grid-row ogp-divider">
+    <div class="desktop:grid-col-12 usa-prose padding-right-4">
+        <!-- This loops through the podcasts -->
+        {% for post in site.data.podcasts %}
+        <div class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
+            
+        </div>
+        {% endfor %}
+    </div>
+  </section>
+
