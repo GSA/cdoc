@@ -1,0 +1,31 @@
+.ogp-podcast{
+  .upper-fold-box{
+    min-height: auto !important;
+    min-height: 0px !important;
+    top: -5em;
+  }
+  .usa-card__container{
+    box-shadow: 0 0.5rem 1rem 0 #71767a61;
+  }
+  .ogp-podcast-main--img{
+    width: 22rem;
+    max-width: none;
+  }
+  .ogp-podcast-card {
+    border: 2px solid #3167A1;
+    border-radius: 0 !important;
+    background-color: white !important;
+  }
+  .ogp-height-7{
+    height: 7rem !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    @media screen and (max-width: 640px) {
+        height:auto !important;
+      }
+  }
+  .ogp-podcast--top-border{
+    border-top: 1px solid #dfe1e2 !important;
+  }
+  
+}

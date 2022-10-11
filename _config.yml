@@ -110,7 +110,7 @@ primary_navigation:
       - name: Success Stories
         url: "/success-stories/" 
       - name: Podcast
-        url: "/podcast'/" 
+        url: "/podcast/" 
   - name: Resources
     children:
       - name: Reports and Publications
