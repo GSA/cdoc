@@ -1,0 +1,11 @@
+# We can add any kind of data in this _data folder and this file.
+# In this example, we create a simple array of options and then in the _pages/collections.md file we 
+# Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it 
+# This is simple, hopefully provides you with a good enough example to make changes as needed
+- title: Dan Morgan - Paving the Road to the CDOC
+  image: /assets/images/podcasts/dan-morgan.png
+  description: On this episode, Ted talks with Dan Morgan, the Chief Data Officer at the Department of Transportation and Vice-Chair of the CDO Council. As the CDO at the DOT since 2014, Dan is the longest-serving cabinet level CDO in the Federal Government, giving him a unique perspective on the role of CDOs and the power of data in government.
+  url: https://vimeo.com/741193022
+  date: October 10, 2022
+  time: "00:28:36"
+
