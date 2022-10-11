@@ -9,6 +9,29 @@
 
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=18F/federalist-uswds-jekyll)](https://dependabot.com)
 
+# CDOC content management notes
+
+## How to add a new success story
+
+- inside of the /_success-stories/ directory, add new markdown file. Template should be carried over from existing stories, and if none are available all success stories follow this front-matter pattern:
+
+```Ruby
+title: Data sharing with a purpose, how we integrated with federal agencies.
+subtitle: Data sharing with a purpose, how we integrated with federal agencies.
+layout: success-stories-post
+date: December 22, 2021
+author: Data Sharing Working Group
+permalink: /success-stories/test2/
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin tincidunt purus, sed semper nibh pellentesque sed.
+tag: Data Sharing
+# required, this is what becomes the filter
+category: data-sharing
+```
+
+- in the required front matter, permalink is very important and should reflect the post title
+
+- to enable the section on working group pages that shows related success stories: go to the working group's associated markdown file under /_pages/Focus-Areas/, change the 'has stories' property to 'true'
+
 # Federalist + U.S. Web Design System + Jekyll
 
 This [Jekyll theme](https://jekyllrb.com/docs/themes/) is developed using the [U.S. Web Design System v 2.0](https://v2.designsystem.digital.gov) and is focused on providing developers a starter kit and reference implementation for Federalist websites.
@@ -133,20 +156,6 @@ ga:
 - `blog/index.html` can be edited, but be careful. It will impact the pagination system for the posts. If you do edit the file, be prepared to edit `_config.yml`.  For example, you may need go change configurations for [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2)
 
 - `search/index.html` is used by search.gov.
-
-### M3 Pages
-The Modernization and Migration Management (M3) pages provide a convenient website format of the [M3 Playbook](https://ussm.gsa.gov/assets/files/M3-Playbook.pdf).
-
-* Content is in `_pages/m3`
-  * Most of the M3 content is highly structured, so it was written as variables in the frontmatter of markdown files
-* Layouts is in `_layouts/m3`
-* Includes is in `_includes/m3`
-* Styles are in `_assets/css`
-* Javascript is in `assets/js/m3.js`
-  * used for filtering items on phase pages and keyTask pages
-* Static JSON API Generator is in `_plugins/json_generator.rb`
-  * After editing the plugin, you must rerun `npm start` for the changes to take effect
-
 
 ## Getting Started
 
