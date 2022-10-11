@@ -5,6 +5,8 @@ layout: newspost
 date: October 06, 2022
 author: CDO Council
 excerpt: 
+image: Data-Sharing.png
+image_alt_text: consumer safety
 permalink: /news/data-sharing-national-electronic-injury/
 description: The Federal CDO Council's Data Sharing Working Group has started a new project to highlight successful data sharing activities.
 ---
