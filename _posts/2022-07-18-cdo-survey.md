@@ -7,6 +7,7 @@ author: CDO Council
 excerpt: 
 permalink: /news/survey-results-2022/
 image_path: /assets/images/background/thumbnail-survey.png
+image_alt_text: Q & A form and a pen
 description: The Federal Chief Data Officer Council (CDOC) continues to grow and now has nearly 90 members from both CFO and non-CFO Act agencies.
 ---
 

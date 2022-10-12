@@ -7,6 +7,7 @@ author: CDO Council
 excerpt: CDOC Report to Congress
 permalink: /news/wildland-fire-management/
 image_path: /assets/images/background/wildland-fire-fuels.png
+image_alt_text: Firefighters fighting a forest fire
 description: In 2021, the Federal Chief Data Officers Council conducted a pilot project to explore the use of knowledge graph technology and its applicability to data governance with a focus on wildland fire fuel reduction efforts...
 ---
 In 2021, the Federal Chief Data Officers Council conducted a <a href="https://resources.data.gov/resources/Fuels_Knowledge_Graph_Project/">pilot project</a> to explore the use of knowledge graph technology and its applicability to data governance with a focus on wildland fire fuel reduction efforts. One of the primary goals of wildland fire management is to reduce the risk of catastrophic fires. To achieve that goal, land managers remove potential fuel for fires before they can burn. These fuels can include living and dead trees, shrubs, and grasses. Fuel reduction projects often take the form of prescribed fires, but fuels can also be reduced by cutting and removing them or other methods.
