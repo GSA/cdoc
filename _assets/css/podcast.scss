@@ -6,7 +6,8 @@
     padding-top: 1.2rem;
     @media screen and (min-width:640px) and (max-width:1023px)
     {
-        margin-left: -1em;
+        margin-left: -3em;
+        top: -8em;
     }
   }
   .usa-card__container{
@@ -15,12 +16,20 @@
   .ogp-podcast-main--img{
     width: 22rem;
     max-width: none;
+    @media screen and (min-width:640px) and (max-width:1023px)
+    {
+        width: 15rem;
+    }
   }
   .ogp-podcast-card {
     border: 2px solid #3167A1;
     border-radius: 0 !important;
     background-color: white !important;
 
+    @media screen and (min-width:640px) and (max-width:1023px){
+        border: 2px solid white;
+        margin-left: -1.5rem;
+    }
     @media screen and (max-width: 640px) {
         border: 2px solid white;
         margin-left: -1.5rem;
@@ -43,8 +52,10 @@
     .usa-card__header{
         margin-left: -1em;
     }
+    .usa-card__media{
+      position: relative !important;
+    }
   }
-  
 }
 
 
