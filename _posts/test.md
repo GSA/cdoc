@@ -1,0 +1,13 @@
+---
+title: Test
+subtitle: Test
+layout: newspost
+date: October 13, 2022
+author: CDO Council
+excerpt: 
+permalink: /news/test/
+image: handshake.jpeg
+image_alt_text: test image
+description: Test 
+---
+Test
