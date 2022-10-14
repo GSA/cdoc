@@ -17,4 +17,7 @@
 
 .ogp-margin-right-neg-3{
   margin-right: -3rem;
+  @media screen and (max-width: 640px) {
+    margin-right: -1.5rem;
+  }
 }
