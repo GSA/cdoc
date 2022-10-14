@@ -41,12 +41,14 @@
   }
   .ogp-height-7{
     height: 7rem !important;
-    margin-left: 0px !important;
+    margin-left: 16px !important;
     padding-left: 0px !important;
     @media screen and (max-width: 640px) {
         height:auto !important;
+        margin-left: 0px !important;
       }
   }
+
   .ogp-podcast--top-border{
     border-top: 1px solid #dfe1e2 !important;
   }
@@ -62,7 +64,9 @@
   }
 
   @media screen and (max-width: 640px) {
-    
+    .ogp-margin-left-0{
+        margin-left: 0px !important;
+    }
  }
 }
 
