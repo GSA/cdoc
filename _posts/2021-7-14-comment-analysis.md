@@ -8,6 +8,7 @@ excerpt: CDOC Report to Congress
 image: comment-circle.png
 image_alt_text: comment analysis post thumbnail
 permalink: /news/comment-analysis/
+image_path: /assets/images/background/comment-circle.png
 description: The CDO Council is excited to share the results of a pilot project that explored using state-of-the-art Natural Language Processing (NLP) techniques to aid and expedite comment analysis in the federal rulemaking process. When a Congressional bill becomes law, agencies may need to draft regulations and publish them to implement those laws. The regulatory review process provides the public with an opportunity to participate in the rulemaking process...
 ---
 The CDO Council is excited to share the results of a pilot project that explored using state-of-the-art Natural Language Processing (NLP) techniques to aid and expedite comment analysis in the federal rulemaking process.
