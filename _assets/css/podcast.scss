@@ -1,4 +1,8 @@
 .ogp-podcast{
+  .ogp-podcast--footer{
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   .upper-fold-box{
     min-height: auto !important;
     min-height: 0px !important;
