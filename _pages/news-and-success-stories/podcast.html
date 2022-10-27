@@ -60,20 +60,35 @@ pagination:
                             <div class="usa-card__body margin-top-neg-105 ogp-height-7">
                                 <p>{{podcast.description}}</p>
                             </div>
-                            <div class="ogp-flex margin-top-3 margin-left-2 ogp-margin-left-0">
-                                <img
-                                    class="usa-card__img"
-                                    src="{{site.baseurl}}/assets/images/podcasts/play-button.png"
-                                    alt="Play image button"
+                            <div class="ogp-flex ogp-podcast--footer margin-top-3 margin-left-2 ogp-margin-left-0">
+                                <div class="ogp-flex">
+                                    <img
+                                        class="usa-card__img"
+                                        src="{{site.baseurl}}/assets/images/podcasts/video_icon.svg"
+                                        alt="Play image button"
+                                        />
+                                    <a href="{{podcast.url_video}}" class="ogp-text-none  ogp-width-15 margin-top-05" target="_blank">
+                                        <i class="text-primary margin-left-105" aria-label="Click here to play the episode - Videos opens in a new tab">Click here to watch the episode</i>
+                                    </a>
+                                </div>
+
+                                <div class="ogp-flex">
+                                    <img 
+                                        class="usa-card__img"
+                                        src="{{site.baseurl}}/assets/images/podcasts/audio_icon.svg"
+                                        alt="Play image button"
                                     />
-                                <a href=" https://vimeo.com/741193022" class="ogp-text-none  margin-top-05" target="_blank">
-                                    <i class="text-primary margin-left-105" aria-label="Click here to play episode- Videos opens in a new tab">Click here to play episode</i>
-                                </a>
+                                    <a href="{{podcast.url_audio}}" class="ogp-text-none  ogp-width-15 margin-top-05" target="_blank">
+                                        <i class="text-primary margin-left-105" aria-label="Click here to listen to the episode - Audio files opens in a new tab">Click here to listen to the episode</i>
+                                    </a>
+                                </div>
+                                                            
                             </div>
                     </div>
                 </div>
             {% endfor %}
         </div>
     </section>
+    <div class="border-top-1px border-base-lighter border-width-2px margin-bottom-2"></div>
 </div>
 
