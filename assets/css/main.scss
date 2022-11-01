@@ -6,3 +6,18 @@
   background: black;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #a9aeb1));
 }
+
+.ogp-flex{
+  display: flex !important;
+}
+
+.ogp-text-none{
+  text-decoration: none;
+}
+
+.ogp-margin-right-neg-3{
+  margin-right: -3rem;
+  @media screen and (max-width: 640px) {
+    margin-right: -1.5rem;
+  }
+}
