@@ -109,6 +109,8 @@ primary_navigation:
         url: /community-news/
       - name: Success Stories
         url: "/success-stories/" 
+      - name: Podcast
+        url: "/podcast/" 
   - name: Resources
     children:
       - name: Reports and Publications

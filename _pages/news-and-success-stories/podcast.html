@@ -1,0 +1,94 @@
+---
+layout: defaultwithbanner
+permalink: /podcast/
+title: Podcast
+subtitle: Unstructured Data
+description: "Welcome to Unstructured Data: Casual Conversations about Federal Data, the official podcast of the Federal Chief Data Officers Council. Hosted by Ted Kaouk, Chair of the Federal CDO Council, each episode will feature federal agency chief data officers and other senior agency officials, discussing their work to leverage the power of data and improve how the Federal Government delivers critical services to citizens." 
+pagination:
+  enabled: false
+---
+
+  <!-- Podcast description and image-->
+  <div class="ogp-podcast">
+    <section class="grid-row">
+        <div class="tablet:grid-col-7 usa-prose margin-top-5">
+            <div class="ogp-flex margin-top-05 margin-bottom-2 ogp-margin-left-0">
+                <img src="{{site.baseurl}}/assets/images/podcasts/microphone.svg" 
+                     class="workinggroup-icon" 
+                     alt="Microphone Image">
+                <h2 class="margin-left-105 text-normal font-alt-xl">{{page.title}}</h2>
+            </div>
+            <div>
+                {{page.description}}
+            </div>
+        </div>
+        <aside class="tablet:grid-col-fill margin-top-4 padding-right-4">
+            <div class="upper-fold-box ogp-minh-auto">
+                <img class="ogp-podcast-main--img"
+                src="{{site.baseurl}}/assets/images/podcasts/podcast-image.png"
+                alt="Podcast Image"
+                />
+            </div>
+        </aside>
+    </section>
+
+    <!-- list of podcasts-->
+    <section class="grid-row ogp-divider">
+        <div class="desktop:grid-col-12 usa-prose padding-right-4">
+            <!-- This loops through the podcasts -->
+            {% for podcast in site.data.podcasts %}
+                <div class=" usa-card usa-card--flag desktop:grid-col-6 padding-bottom-5 margin-top-4 width-full">
+                    <div class="usa-card__container ogp-podcast--top-border margin-right-neg-2 ogp-margin-right-neg-3">
+                        <div class="usa-card__header">
+                            <div class="ogp-flex margin-top-3 margin-bottom-2 margin-left-2 ogp-margin-left-0">
+                                <img src="{{site.baseurl}}/assets/images/podcasts/calendar.svg" class="workinggroup-icon" alt="Calendar icon">
+                                <span class="font-sans-3xs margin-right-3">{{podcast.date}}</span>
+                                <img src="{{site.baseurl}}/assets/images/podcasts/timer.svg" class="workinggroup-icon" alt="Timer icon">
+                                <span class="font-sans-3xs">{{podcast.time}}</span>
+                            </div>
+                            <div class="usa-card__heading text-primary font-sans-lg margin-bottom-1 margin-left-2 ogp-margin-left-0">
+                                <b>{{podcast.title}}</b>
+                            </div>
+                            <div class="usa-card__media margin-3">
+                                <div class="usa-card__img ogp-podcast-card">
+                                    <img
+                                    src="{{site.baseurl}}{{podcast.image}}"
+                                    alt="{{podcast.title}} image"
+                                    />
+                                </div>
+                            </div>
+                            <div class="usa-card__body margin-top-neg-105 ogp-height-7">
+                                <p>{{podcast.description}}</p>
+                            </div>
+                            <div class="ogp-flex ogp-podcast--footer margin-top-3 margin-left-2 ogp-margin-left-0">
+                                <div class="ogp-flex">
+                                    <img
+                                        class="usa-card__img"
+                                        src="{{site.baseurl}}/assets/images/podcasts/video_icon.svg"
+                                        alt="Play image button"
+                                        />
+                                    <a href="{{podcast.url_video}}" class="ogp-text-none  ogp-width-15 margin-top-05" target="_blank">
+                                        <i class="text-primary margin-left-105" aria-label="Click here to play the episode - Videos opens in a new tab">Click here to watch the episode</i>
+                                    </a>
+                                </div>
+
+                                <div class="ogp-flex">
+                                    <img 
+                                        class="usa-card__img"
+                                        src="{{site.baseurl}}/assets/images/podcasts/audio_icon.svg"
+                                        alt="Play image button"
+                                    />
+                                    <a href="{{podcast.url_audio}}" class="ogp-text-none  ogp-width-15 margin-top-05" target="_blank">
+                                        <i class="text-primary margin-left-105" aria-label="Click here to listen to the episode - Audio files opens in a new tab">Click here to listen to the episode</i>
+                                    </a>
+                                </div>
+                                                            
+                            </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+    <div class="border-top-1px border-base-lighter border-width-2px margin-bottom-2"></div>
+</div>
+
