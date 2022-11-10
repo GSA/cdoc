@@ -160,25 +160,15 @@
 }
 
 
-
-@media only screen and (min-width: 1200px){
-.abstract-background2{
-    background-image: url(../assets/images/background/hero2.png);
+.abstract-background2 {
+    background-image: url(../assets/images/background/podcast.png);
     background-color: #172636;
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: cover;
 }
 
-}
 
-@media only screen and (max-width: 1200px){
-.abstract-background2{
-    background-color: #172636;
-    background-repeat: no-repeat;
-    background-position: top center;
-}
-
-}
 
 .abstract-background3{
   background-image: url(../assets/images/background/hero-5-former.png);
