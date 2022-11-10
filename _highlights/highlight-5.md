@@ -1,9 +1,9 @@
 ---
-headline: Key Mile Marker Reached on Road to the State Department’s Data Maturity
-image: /assets/images/background/dos-seal.png
-image_alt_text: Department of State Seal
+headline: Chief Data Officer Council 2022 Survey and Results
+image: /assets/images/background/thumbnail-survey.png
+image_alt_text: Q & A form and a pen
 layout: wide
-link: /news/department-data-maturity/
+link: /news/survey-results-2022/
 ---
 
-The State Department reflects on the initial implementation of the Department's Enterprise Data Strategy and its multifaceted approach to use data as a critical instrument of diplomacy. 
+The Federal Chief Data Officer Council (CDOC) continues to grow and now has nearly 90 members from both CFO and non-CFO Act agencies.

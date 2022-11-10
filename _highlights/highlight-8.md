@@ -1,8 +1,8 @@
 ---
-headline: CDO Playbook Provides Guidance as the Federal Government Expands Use of Data as a Strategic Asset
-image: /assets/images/background/cdo-playbook.png
-image_alt_text: Playbook
+headline: 'Now Available: Summary of Responses from the CDO Council’s RFI'
+image: /assets/images/background/RFI-summary.png
+image_alt_text: Feedback
 layout: wide
-link: /news/playbook-guidance/
+link: /news/rfi-response-summary/
 ---
-The CDO Council has released the Chief Data Officer (CDO) Playbook to help CDOs act as key value drivers as the federal government expands its use of data as a strategic asset.
+On October 14, 2021, the CDO Council held a virtual public meeting.The meeting highlighted the Council’s first year accomplishments, priorities, and working group updates.
