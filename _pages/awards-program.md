@@ -7,27 +7,26 @@ permalink: /awards-program/
 ---
 
   <section class="carousel-container">
-        <div class="carousel" id="carousel-1" auto-scroll="8000">
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background">
+        <div class="carousel" id="carousel-2" auto-scroll="8000">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1">
                 <div class="grid-container">
                     <div class="grid-gap-banner">
                             <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 10px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
                                 <h1 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Data Champion of the year</span>
                                 </h1>
-                                <p class="text-gray-70 font-sans-md text-bold">Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)</p>
+                                <p class="text-gray-70 font-sans-md text-bold">Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon, DOS (CFO)</p>
                             </div>
                     </div>
                 </div>
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2">
                 <div class="grid-container">
                     <div class="grid-gap-banner">
                             <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 10px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
-                                <h1 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">NEW CDO Council Awards Program</span>
+                                <h1 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Distinguished Achievement in Federal Data</span>
                                 </h1>
-                                <p class="text-gray-70 font-sans-md text-bold">Do you know someone who is doing great work with Federal Data? Nominate them for a CDO Council award! </p>
-                                <a class="usa-button usa-button--hover carousel-button"  aria-label="Read more About Us"href="{{ site.baseurl }}/awards-program">Read More</a>
+                                <p class="text-gray-70 font-sans-md text-bold">Chris Haffer, EEOC (Non-CFO) & Wildland Fire Fuels, DOI (CFO)</p>
                             </div>
                     </div>
                 </div>
@@ -37,23 +36,46 @@ permalink: /awards-program/
                 <div class="grid-container">
                     <div class="grid-gap-banner">
                         <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 18px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
-                            <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">CDO Council Public Meeting</span>
+                            <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Distinguished Federal Data innovator Award</span>
                             </h2>
-                            <p class="text-gray-70 font-sans-md text-bold">The CDO Council held its public meeting on Thursday, October 14, 2021.</p>
-                            <a class="usa-button usa-button--hover carousel-button" aria-label="Read more about 1 year anniversary of elected officers" href="{{ site.baseurl }}/public-meeting/">Find Out More</a>
+                            <p class="text-gray-70 font-sans-md text-bold">Agency Reporting Modernization Team FERC (Non-CFO) & Rachel Wang, Jen Storm-Jenkins, DOS (CFO)</p>
                         </div>
                     </div>
                 </div>
             </section>
             
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4">
                 <div class="grid-container">
                     <div class="grid-gap-banner">
                         <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 30px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
-                            <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">CDO Council Year in Review</span>
+                            <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Excellence in data Governance</span>
                             </h2>
-                            <p class="text-gray-70 font-sans-md text-bold">Privacy has been at the heart of our democracy from the inception, and we need it now more than ever. </p>
-                            <a class="usa-button usa-button--hover carousel-button" aria-label="Read more about 1 year anniversary of elected officers" href="https://www.cdo.gov/news/1-year-anniversary-of-elected-officers/">Read More</a>
+                            <p class="text-gray-70 font-sans-md text-bold">Chris Haffer, Mark Leach, Ada Harris, Kevin Malloy, EEOC (Non-CFO) & Stephen Lewis, DOT (CFO)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5">
+                <div class="grid-container">
+                    <div class="grid-gap-banner">
+                        <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 30px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
+                            <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Team of the year</span>
+                            </h2>
+                            <p class="text-gray-70 font-sans-md text-bold">Data Governance Division Data Management Branch, FERC (Non-CFO) & AF Chief Data and Artificial Intelligence Office, DOD (CFO)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6">
+                <div class="grid-container">
+                    <div class="grid-gap-banner">
+                        <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 30px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
+                            <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Working group/Committee superior contributor</span>
+                            </h2>
+                            <p class="text-gray-70 font-sans-md text-bold">Large Agency Committee</p>
+                             <p class="text-gray-70 font-sans-md text-bold">Tom Sasala, DOD</p>
                         </div>
                     </div>
                 </div>
