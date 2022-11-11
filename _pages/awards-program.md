@@ -1,7 +1,7 @@
 ---
 title: <notitle>
 subtitle: Federal Chief Data Officer Council Awards Program
-layout: defaultwithbanner
+layout: wide
 sidenav: false
 permalink: /awards-program/
 ---
