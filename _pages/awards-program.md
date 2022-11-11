@@ -6,7 +6,7 @@ sidenav: false
 permalink: /awards-program/
 ---
 
-  <section class="carousel-container">
+<section class="carousel-container">
         <div class="carousel" id="carousel-2" auto-scroll="8000">
             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1">
                 <div class="grid-container">
@@ -96,10 +96,10 @@ permalink: /awards-program/
                 <span class="chevron right" aria-label="Next slide"  tabindex=0></span>
             </div>
         </div>
-    </section>
+</section>
 
 <section class="usa-graphic_list usa-section clearfix padding-y-5">
-    <div class="clearfix grid-container">
+    <div class="clearfix grid-container line-height-sans-5">
         <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h2>
         <p class="font-sans-md">To recognize both civilian and military employees of federal agencies that demonstrate innovative data practices to advance government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations. Nominations must be made by members of the CDOC and should highlight personnel leading work and noteworthy improvements within the Federal Data community.</p>
     </div>
