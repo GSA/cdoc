@@ -109,10 +109,10 @@ permalink: /awards-program/
     </div>
 </section>
 
-<div>
-    <section class="usa-layout-docs__main">
-        <div class="tablet:grid-col-12 line-height-sans-5 tablet:margin-y-10 margin-bottom-8">
-            <section class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
+<section class="usa-graphic_list bg-gray-10 usa-section usa-prose clearfix padding-y-5">
+    <div class="clearfix grid-container">
+        <div class="shadow-5 radius-lg bg-white padding-x-10">
+            <div class="grid-row">
                 <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">2021 CDOC Award Winners</button></h3>
                 <div id="m-a1" class="usa-accordion__content">
                     <p class="font-sans-md" style='text-align:center;'><strong><u>Distinguished Federal Data Innovator Award</u></strong></p>
@@ -234,7 +234,7 @@ permalink: /awards-program/
                         Annual/ Per Calendar Year (1 Jan - 31 Dec)
                     </p>
                 </div> 
-            </section>
+			 </div>
         </div>
-    </section>
-</div>
+    </div>
+</section>
