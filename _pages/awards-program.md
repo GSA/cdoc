@@ -86,6 +86,8 @@ permalink: /awards-program/
                 <div class="circle" aria-label="slide 2" tabindex=0></div>
                 <div class="circle" aria-label="slide 3" tabindex=0></div>
                 <div class="circle" aria-label="slide 4" tabindex=0></div>
+                <div class="circle" aria-label="slide 5" tabindex=0></div>
+                <div class="circle" aria-label="slide 6" tabindex=0></div>
             </section>
             <div class="left-arrow">
                 <span class="chevron left" aria-label="Previous slide" tabindex=0></span>
