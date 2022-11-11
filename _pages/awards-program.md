@@ -98,16 +98,16 @@ permalink: /awards-program/
         </div>
     </section>
 
-<div class="line-height-sans-5">
-    <div class="grid-row">
-        <div class="usa-layout-docs__main margin-bottom-5 tablet:margin-top-4 tablet:margin-bottom-0">
-            <div class="line-height-sans-5">
+<section class="usa-graphic_list bg-gray-10 usa-section usa-prose clearfix padding-y-5">
+    <div class="clearfix grid-container">
+        <div class="shadow-5 radius-lg bg-white padding-x-10">
+            <div class="grid-row">
             <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h2>
             <p class="font-sans-md">To recognize both civilian and military employees of federal agencies that demonstrate innovative data practices to advance government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations. Nominations must be made by members of the CDOC and should highlight personnel leading work and noteworthy improvements within the Federal Data community.</p>
-            </div>
+			 </div>
         </div>
     </div>
-</div>
+</section>
 
 <div>
     <section class="usa-layout-docs__main">
