@@ -74,8 +74,7 @@ permalink: /awards-program/
                         <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 30px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
                             <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Working group/Committee superior contributor</span>
                             </h2>
-                            <p class="text-gray-70 font-sans-md text-bold">Large Agency Committee</p>
-                             <p class="text-gray-70 font-sans-md text-bold">Tom Sasala, DOD</p>
+                            <p class="text-gray-70 font-sans-md text-bold">Large Agency Committee <br> Tom Sasala, DOD...</p>
                         </div>
                     </div>
                 </div>
