@@ -6,6 +6,19 @@ sidenav: false
 permalink: /awards-program/
 ---
 
+<section class="usa-graphic-list usa-section sml-margin bg-gradient">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+
+      <div class="tablet:grid-col">
+        <h1 class="text-white font-serif-xl margin-top-0 margin-bottom-0 text-bold"> {{ page.subtitle}} </h1>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 <section class="carousel-container">
         <div class="carousel" id="carousel-2" auto-scroll="8000">
             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1">
