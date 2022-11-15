@@ -25,8 +25,8 @@ permalink: /awards-program/
                 <div class="grid-container">
                     <div class="grid-gap-banner">
                             <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 10px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
-                                <h1 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Data Champion of the year</span>
-                                </h1>
+                                <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Data Champion of the year</span>
+                                </h2>
                                 <p class="text-gray-70 font-sans-md text-bold">Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & <br> Brian McKeon, DOS (CFO)</p>
                             </div>
                     </div>
@@ -37,8 +37,8 @@ permalink: /awards-program/
                 <div class="grid-container">
                     <div class="grid-gap-banner">
                             <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 10px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
-                                <h1 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Distinguished Achievement in Federal Data</span>
-                                </h1>
+                                <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Distinguished Achievement in Federal Data</span>
+                                </h2>
                                 <p class="text-gray-70 font-sans-md text-bold">Chris Haffer, EEOC (Non-CFO) & <br> Wildland Fire Fuels, DOI (CFO)</p>
                             </div>
                     </div>
