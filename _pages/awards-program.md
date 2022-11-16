@@ -6,91 +6,24 @@ sidenav: false
 permalink: /awards-program/
 ---
 
-<section class="usa-graphic-list usa-section sml-margin bg-gradient">
-  <div class="grid-container">
-    <div class="grid-row grid-gap">
-
-      <div class="tablet:grid-col">
-        <h1 class="text-white font-serif-xl margin-top-0 margin-bottom-0 text-bold"> {{ page.subtitle}} </h1>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
 <section class="carousel-container">
         <div class="carousel" id="carousel-2" auto-scroll="8000">
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1">
-                <div class="grid-container">
-                    <div class="grid-gap-banner">
-                            <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 10px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
-                                <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Data Champion of the year</span>
-                                </h2>
-                                <p class="text-gray-70 font-sans-md text-bold">Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & <br> Brian McKeon, DOS (CFO)</p>
-                            </div>
-                    </div>
-                </div>
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1">              
             </section>
 
             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2">
-                <div class="grid-container">
-                    <div class="grid-gap-banner">
-                            <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 10px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
-                                <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Distinguished Achievement in Federal Data</span>
-                                </h2>
-                                <p class="text-gray-70 font-sans-md text-bold">Chris Haffer, EEOC (Non-CFO) & <br> Wildland Fire Fuels, DOI (CFO)</p>
-                            </div>
-                    </div>
-                </div>
             </section>
 
             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background3">
-                <div class="grid-container">
-                    <div class="grid-gap-banner">
-                        <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 18px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
-                            <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Distinguished Federal Data innovator Award</span>
-                            </h2>
-                            <p class="text-gray-70 font-sans-md text-bold">Agency Reporting Modernization Team FERC (Non-CFO) & <br> Rachel Wang, Jen Storm-Jenkins, DOS (CFO)</p>
-                        </div>
-                    </div>
-                </div>
             </section>
             
             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4">
-                <div class="grid-container">
-                    <div class="grid-gap-banner">
-                        <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 30px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
-                            <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Excellence in data Governance</span>
-                            </h2>
-                            <p class="text-gray-70 font-sans-md text-bold">Chris Haffer, Mark Leach, Ada Harris, Kevin Malloy, EEOC (Non-CFO) & <br> Stephen Lewis, DOT (CFO)</p>
-                        </div>
-                    </div>
-                </div>
             </section>
 
-             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5">
-                <div class="grid-container">
-                    <div class="grid-gap-banner">
-                        <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 30px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
-                            <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Team of the year</span>
-                            </h2>
-                            <p class="text-gray-70 font-sans-md text-bold">Data Governance Division Data Management Branch, FERC (Non-CFO) & <br> AF Chief Data and Artificial Intelligence Office, DOD (CFO)</p>
-                        </div>
-                    </div>
-                </div>
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5">
             </section>
 
-             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6">
-                <div class="grid-container">
-                    <div class="grid-gap-banner">
-                        <div class="usa-hero__callout " style="background: #cfe8ff; border-radius: 0.5rem; opacity: 0.9; margin-top: 30px; box-shadow: 0 1rem 2rem 0 rgb(0 0 0 / 40%); max-width: 20rem;">
-                            <h2 class="usa-hero__heading"><span class="font-ui-lg text-normal text-primary-darker text-bold">Working group/Committee superior contributor</span>
-                            </h2>
-                            <p class="text-gray-70 font-sans-md text-bold">Large Agency Committee <br> Tom Sasala, DOD...</p>
-                        </div>
-                    </div>
-                </div>
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6">
             </section>
 
             <section class="circle-container">
