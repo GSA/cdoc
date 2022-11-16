@@ -8,6 +8,7 @@ excerpt: CDOC Survey and Results
 permalink: /news/cdoc-survey-and-results/
 image: survey-image.jpg
 image_alt_text: a hand is filling out a survey with a pen
+image_path:  /assets/images/background/survey-image.jpg
 description: The Foundations for Evidence-Based Policy Making Act requires all agencies to have a Chief Data Officer (CDO) and creates a Council that brings all of the CDOs together. The CDO Council now includes approximately 80 member CDOs from both CFO and non-CFO Act agencies across government...
 ---
 
