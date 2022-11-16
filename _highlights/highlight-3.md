@@ -1,9 +1,8 @@
 ---
-headline: Chief Data Officer Council 2022 Survey and Results
-image: /assets/images/background/thumbnail-survey.png
-image_alt_text: Q & A form and a pen
+headline: Profiles in Data Sharing - National Electronic Injury Surveillance System
+image: /assets/images/background/Data-Sharing.png
+image_alt_text: consumer safety
 layout: wide
-link: /news/survey-results-2022/
+link: /news/data-sharing-national-electronic-injury/
 ---
-
-The Federal Chief Data Officer Council (CDOC) continues to grow and now has nearly 90 members from both CFO and non-CFO Act agencies.
+The Federal CDO Council's Data Sharing Working Group has started a new project to highlight successful data sharing activities.

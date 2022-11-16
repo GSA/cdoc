@@ -1,8 +1,8 @@
 ---
-headline: 'Now Available: Summary of Responses from the CDO Council’s RFI'
-image: /assets/images/background/RFI-summary.png
-image_alt_text: Feedback
+headline: Data Ethics
+image: /assets/images/background/thumbnail-ethics.jpg
+image_alt_text: red lock box with a word "ethics"
 layout: wide
-link: /news/rfi-response-summary/
+link: /news/data-ethics/
 ---
-On October 14, 2021, the CDO Council held a virtual public meeting.The meeting highlighted the Council’s first year accomplishments, priorities, and working group updates.
+In March, the Chief Data Officer Council (CDOC) voted to establish a Data Ethics and Equity Working Group (DEEWG) in order to help the council understand, foster, and support data ethics and data equity activities across the Federal Government.

@@ -1,8 +1,9 @@
 ---
-headline: Building a Foundation for Better Wildland Fire Management Outcome Reporting Using Knowledge Graphs
-image: /assets/images/background/wildland-fire-fuels.png
-image_alt_text: Firefighters fighting a forest fire
+headline: Key Mile Marker Reached on Road to the State Department’s Data Maturity
+image: /assets/images/background/dos-seal.png
+image_alt_text: Department of State Seal
 layout: wide
-link: /news/wildland-fire-management/
+link: /news/department-data-maturity/
 ---
-In 2021, the Federal Chief Data Officers Council conducted a pilot project to explore the use of knowledge graph technology and its applicability to data governance with a focus on wildland fire fuel reduction efforts.
+
+The State Department reflects on the initial implementation of the Department's Enterprise Data Strategy and its multifaceted approach to use data as a critical instrument of diplomacy. 

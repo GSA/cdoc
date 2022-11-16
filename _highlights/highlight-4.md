@@ -1,8 +1,9 @@
 ---
-headline: Data Ethics
-image: /assets/images/background/thumbnail-ethics.jpg
-image_alt_text: red lock box with a word "ethics"
+headline: New CDO Podcast and Social Channel
+image: /assets/images/background/CDOPodcastOpenScreen_v3.png
+image_alt_text: CDO Podcast
 layout: wide
-link: /news/data-ethics/
+link: /news/podcast-and-social-channel/
 ---
-In March, the Chief Data Officer Council (CDOC) voted to establish a Data Ethics and Equity Working Group (DEEWG) in order to help the council understand, foster, and support data ethics and data equity activities across the Federal Government.
+
+The Federal Chief Data Officers Council (CDOC) is proud to announce the production and distribution of its first official podcast.

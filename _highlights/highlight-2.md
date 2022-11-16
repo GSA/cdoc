@@ -1,9 +1,8 @@
 ---
-headline: New CDO Podcast and Social Channel
-image: /assets/images/background/CDOPodcastOpenScreen_v3.png
-image_alt_text: CDO Podcast
+headline: "Unstructured Data Episode 2: Solving Problems with Data"
+image: /assets/images/background/janice-degarmo-thumbnail.png
+image_alt_text: consumer safety
 layout: wide
-link: /news/podcast-and-social-channel/
+link: /podcast/
 ---
-
-The Federal Chief Data Officers Council (CDOC) is proud to announce the production and distribution of its first official podcast.
+Janice deGarmo, Director of The State Department's Office of Management Strategy and Solutions, shares her thoughts of the transformative role of CDOs in government. 
