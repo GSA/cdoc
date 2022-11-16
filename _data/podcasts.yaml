@@ -2,11 +2,19 @@
 # In this example, we create a simple array of options and then in the _pages/collections.md file we 
 # Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it 
 # This is simple, hopefully provides you with a good enough example to make changes as needed
-- title: Dan Morgan - Paving the Road to the CDOC
+- title: Janice deGarmo - Solving Problems With Data (Episode 2)
+  image: /assets/images/podcasts/janice-degarmo.png
+  description: CDOC Chair, Ted Kaouk talks with Janice deGarmo, former Department of State Chief Data Officer at the Center for Analytics and current Director of State Department's Office of Management Strategy and Solutions. As a former CDO, and now Director, Janice offers unique perspectives on the role of a CDO, how analytics can solve problems, and the future of data in the Federal Government.
+  url_audio: https://vimeo.com/768582444
+  url_video: https://vimeo.com/764597644
+  date: November 10, 2022
+  time: "00:30:27"
+- title: Dan Morgan - Paving the Road to the CDOC (Episode 1)
   image: /assets/images/podcasts/dan-morgan.png
   description: On this episode, Ted talks with Dan Morgan, the Chief Data Officer at the Department of Transportation and Vice-Chair of the CDO Council. As the CDO at the DOT since 2014, Dan is the longest-serving cabinet level CDO in the Federal Government, giving him a unique perspective on the role of CDOs and the power of data in government.
   url_audio: https://vimeo.com/747354367
   url_video: https://vimeo.com/741193022
   date: October 10, 2022
   time: "00:28:36"
+
 
