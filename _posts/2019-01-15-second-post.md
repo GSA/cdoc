@@ -8,6 +8,7 @@ image_alt_text: Relaunch of resources.data.gov
 author: CDO Council
 excerpt: This is an excerpt for second page
 permalink: /news/relaunch-resources-data-gov/
+image_path:  /assets/images/logos/data-gov.png
 description: Announcing the relaunch of a new resources.data.gov, an online repository of policies, tools, case studies, and other resources to support data governance, management, exchange, and use throughout the federal government.
 ---
 
