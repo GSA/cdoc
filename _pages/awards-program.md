@@ -8,22 +8,22 @@ permalink: /awards-program/
 
 <section class="carousel-container">
         <div class="carousel" id="carousel-2" auto-scroll="8000">
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1">              
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1 sr-only  sr-only-focusable">              
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2 sr-only  sr-only-focusable">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background3">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background3 sr-only  sr-only-focusable">
             </section>
             
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4 sr-only  sr-only-focusable">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5 sr-only  sr-only-focusable">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6 sr-only  sr-only-focusable">
             </section>
 
             <section class="circle-container">
