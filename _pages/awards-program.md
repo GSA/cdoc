@@ -22,7 +22,7 @@ permalink: /awards-program/
 
             <section class="carousel-screen usa-graphic-list padding-y-4">
             <div class="top">
-            <img src="../assets/images/background/distinguished-federal.png" alt="Distinguished-Federal" height="500px" width="2000px" aria-label="Distinguished Federal Data innovator Award (Agency Reporting Modernization Team FERC (Non-CFO) & Rachel Wang, Jen Storm-Jenkins, DOS (CFO))>
+            <img src="../assets/images/background/distinguished-federal.png" alt="Distinguished-Federal" height="500px" width="2000px" aria-label="Distinguished Federal Data innovator Award (Agency Reporting Modernization Team FERC (Non-CFO) & Rachel Wang, Jen Storm-Jenkins, DOS (CFO))">
             </div>
             </section>
             
