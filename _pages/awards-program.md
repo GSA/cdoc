@@ -9,7 +9,7 @@ permalink: /awards-program/
 <section class="carousel-container">
         <div class="carousel" id="carousel-2" auto-scroll="8000">
             <div class="carousel-screen usa-graphic-list padding-y-4">
-            <img src="../assets/images/background/data-champion.png" alt="Data-Champion" height="500px" width="2000px" aria-label="Data Champion of the year Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)">
+            <img src="../assets/images/background/data-champion.png" alt="Data-Champion"  aria-label="Data Champion of the year Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)">
             </div>
 
             <section class="carousel-screen usa-graphic-list padding-y-4">
