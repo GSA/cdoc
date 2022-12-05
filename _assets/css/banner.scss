@@ -292,8 +292,8 @@ padding-top: 29rem;
     margin-top:-50px
 }
 
-.awards-abstract-background1 {
-    background-image: url("../assets/images/background/data-champion.png");
+.img {
+    object-fit: cover;
+    height:500px;
+    width:2000px;
 }
- 
-
