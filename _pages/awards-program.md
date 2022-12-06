@@ -28,7 +28,7 @@ permalink: /awards-program/
             
             <section class="carousel-screen usa-graphic-list padding-y-4">
             <div class="top">
-            <img src="../assets/images/background/excellence-data.png" alt="Excellence-Data" class="img" aria-label="Excellence in data Governance Chris Haffer, Mark Leach, Ada Harris, Kevin Malloy, EEOC (Non-CFO) & Stephen Lewis, DOT (CFO)">
+            <img src="../assets/images/background/excellence-data-new.png" alt="Excellence-Data" class="img" aria-label="Excellence in data Governance Chris Haffer, Mark Leach, Ada Harris, Kevin Malloy, EEOC (Non-CFO) & Stephen Lewis, DOT (CFO)">
             </div>
             </section>
 
