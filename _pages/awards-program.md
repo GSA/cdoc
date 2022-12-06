@@ -40,7 +40,13 @@ permalink: /awards-program/
 
             <section class="carousel-screen usa-graphic-list padding-y-4">
             <div class="top">
-            <img src="../assets/images/background/committee-superior.png" alt="Committee-Superior" class="img"  aria-label="Working group/Committee superior contributor Large Agency Committee Tom Sasala, DOD Small Agency Committee Kristen Dalboe, FERC Data Working Group Arun Acharya, CPSC Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH Data Inventory Working Group">
+            <img src="../assets/images/background/working-group.png" alt="Working-Group" class="img"  aria-label="Working group contributor Data Working Group Arun Acharya, CPSC Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH Data Inventory Working Group">
+            </div>
+            </section>
+
+             <section class="carousel-screen usa-graphic-list padding-y-4">
+            <div class="top">
+            <img src="../assets/images/background/committee-superior.png" alt="Committee-Superior" class="img"  aria-label="Committee superior contributor Large Agency Committee Tom Sasala, DOD Small Agency Committee Kristen Dalboe, FERC">
             </div>
             </section>
 
@@ -51,6 +57,7 @@ permalink: /awards-program/
                 <div class="circle" aria-label="slide 4" tabindex=0></div>
                 <div class="circle" aria-label="slide 5" tabindex=0></div>
                 <div class="circle" aria-label="slide 6" tabindex=0></div>
+                <div class="circle" aria-label="slide 7" tabindex=0></div>
             </section>
             <div class="left-arrow">
                 <span class="chevron left" aria-label="Previous slide" tabindex=0></span>
