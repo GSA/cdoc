@@ -8,56 +8,53 @@ permalink: /awards-program/
 
 <section class="carousel-container">
         <div class="carousel" id="carousel-2" auto-scroll="8000">
-           <section class="carousel-screen usa-graphic-list padding-y-4">
+           <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1">
+            </section>
+
+            <section class="carousel-screen usa-graphic-list padding-y-4">
             <div class="top">
-            <img src="../assets/images/background/data-champion.png" alt="Data-Champion" class="img" aria-label="Data Champion of the year Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)">
+            <img src="../assets/images/background/distinguished-achievement.png" alt="Distinguished-Achievement" class="img" aria-label="">
             </div>
             </section>
 
             <section class="carousel-screen usa-graphic-list padding-y-4">
             <div class="top">
-            <img src="../assets/images/background/distinguished-achievement.png" alt="Distinguished-Achievement" class="img" aria-label="Distinguished Achievement Chris Haffer, EEOC (Non-CFO) & Wildland Fire Fuels, DOI (CFO)">
-            </div>
-            </section>
-
-            <section class="carousel-screen usa-graphic-list padding-y-4">
-            <div class="top">
-            <img src="../assets/images/background/distinguished-federal.png" alt="Distinguished-Federal" class="img" aria-label="Distinguished Federal Data innovator Award Agency Reporting Modernization Team FERC (Non-CFO) & Rachel Wang, Jen Storm-Jenkins, DOS (CFO)">
+            <img src="../assets/images/background/distinguished-federal.png" alt="Distinguished-Federal" class="img" aria-label="">
             </div>
             </section>
             
             <section class="carousel-screen usa-graphic-list padding-y-4">
             <div class="top">
-            <img src="../assets/images/background/excellence-data.png" alt="Excellence-Data" class="img" aria-label="Excellence in data Governance Chris Haffer, Mark Leach, Ada Harris, Kevin Malloy, EEOC (Non-CFO) & Stephen Lewis, DOT (CFO)">
+            <img src="../assets/images/background/excellence-data.png" alt="Excellence-Data" class="img" aria-label="">
             </div>
             </section>
 
             <section class="carousel-screen usa-graphic-list padding-y-4">
             <div class="top">
-            <img src="../assets/images/background/team-year.png" alt="Team-Year" class="img" aria-label="Team of the year Data Governance Division Data Management Branch, FERC (Non-CFO) & AF Chief Data and Artificial Intelligence Office, DOD (CFO)">
+            <img src="../assets/images/background/team-year.png" alt="Team-Year" class="img" aria-label="">
             </div>
             </section>
 
             <section class="carousel-screen usa-graphic-list padding-y-4">
             <div class="top">
-            <img src="../assets/images/background/working-group.png" alt="Working-Group" class="img"  aria-label="Working group contributor Data Working Group Arun Acharya, CPSC Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH Data Inventory Working Group">
+            <img src="../assets/images/background/working-group.png" alt="Working-Group" class="img"  aria-label="">
             </div>
             </section>
 
              <section class="carousel-screen usa-graphic-list padding-y-4">
             <div class="top">
-            <img src="../assets/images/background/committee-superior.png" alt="Committee-Superior" class="img"  aria-label="Committee superior contributor Large Agency Committee Tom Sasala, DOD Small Agency Committee Kristen Dalboe, FERC">
+            <img src="../assets/images/background/committee-superior.png" alt="Committee-Superior" class="img"  aria-label="">
             </div>
             </section>
 
             <section class="circle-container">
-                <div class="circle" aria-label="slide 1" tabindex=0></div>
-                <div class="circle" aria-label="slide 2" tabindex=0></div>
-                <div class="circle" aria-label="slide 3" tabindex=0></div>
-                <div class="circle" aria-label="slide 4" tabindex=0></div>
-                <div class="circle" aria-label="slide 5" tabindex=0></div>
-                <div class="circle" aria-label="slide 6" tabindex=0></div>
-                <div class="circle" aria-label="slide 7" tabindex=0></div>
+                <div class="circle" aria-label="slide 1 Distinguished Federal Data innovator Award Agency Reporting Modernization Team FERC (Non-CFO) & Rachel Wang, Jen Storm-Jenkins, DOS (CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 2 Excellence in data Governance Chris Haffer, Mark Leach, Ada Harris, Kevin Malloy, EEOC (Non-CFO) & Stephen Lewis, DOT (CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 3 Team of the year Data Governance Division Data Management Branch, FERC (Non-CFO) & AF Chief Data and Artificial Intelligence Office, DOD (CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 4 Data Champion of the year Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 5 Distinguished Achievement Chris Haffer, EEOC (Non-CFO) & Wildland Fire Fuels, DOI (CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 6 Working group contributor Data Working Group Arun Acharya, CPSC Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH Data Inventory Working Group" tabindex=0></div>
+                <div class="circle" aria-label="slide 7 Committee superior contributor Large Agency Committee Tom Sasala, DOD Small Agency Committee Kristen Dalboe, FERC" tabindex=0></div>
             </section>
             <div class="left-arrow">
                 <span class="chevron left" aria-label="Previous slide" tabindex=0></span>
