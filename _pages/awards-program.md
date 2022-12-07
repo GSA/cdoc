@@ -11,40 +11,22 @@ permalink: /awards-program/
            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4">
-            <div class="top">
-            <img src="../assets/images/background/distinguished-achievement.png" alt="Distinguished-Achievement" class="img" aria-label="">
-            </div>
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4">
-            <div class="top">
-            <img src="../assets/images/background/distinguished-federal.png" alt="Distinguished-Federal" class="img" aria-label="">
-            </div>
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background3">
             </section>
             
-            <section class="carousel-screen usa-graphic-list padding-y-4">
-            <div class="top">
-            <img src="../assets/images/background/excellence-data.png" alt="Excellence-Data" class="img" aria-label="">
-            </div>
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4">
-            <div class="top">
-            <img src="../assets/images/background/team-year.png" alt="Team-Year" class="img" aria-label="">
-            </div>
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4">
-            <div class="top">
-            <img src="../assets/images/background/working-group.png" alt="Working-Group" class="img"  aria-label="">
-            </div>
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6">
             </section>
 
-             <section class="carousel-screen usa-graphic-list padding-y-4">
-            <div class="top">
-            <img src="../assets/images/background/committee-superior.png" alt="Committee-Superior" class="img"  aria-label="">
-            </div>
+             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background7">
             </section>
 
             <section class="circle-container">
