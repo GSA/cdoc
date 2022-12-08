@@ -46,7 +46,7 @@ permalink: /awards-program/
 
             <section class="carousel-screen usa-graphic-list padding-y-4">
              <div class="top">
-            <img src="../assets/images/background/working-grouo-2.png" alt="Working-Group" class="img"  aria-label="Working group contributor Data Working Group Arun Acharya, CPSC Data Working Group Arun Acharya, CPSC Data Inventory Working Group Robbin Rappaport, IRS">
+            <img src="../assets/images/background/working-group-2.png" alt="Working-Group" class="img"  aria-label="Working group contributor Data Working Group Arun Acharya, CPSC Data Working Group Arun Acharya, CPSC Data Inventory Working Group Robbin Rappaport, IRS">
              </div>
             </section>
 
