@@ -77,7 +77,7 @@ permalink: /awards-program/
 
 <section class="usa-graphic_list usa-section clearfix padding-y-5">
     <div class="clearfix grid-container line-height-sans-5">
-        <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h2>
+        <h1 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h1>
         <p class="font-sans-md">To recognize both civilian and military employees of federal agencies that demonstrate innovative data practices to advance government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations. Nominations must be made by members of the CDOC and should highlight personnel leading work and noteworthy improvements within the Federal Data community.</p>
     </div>
 </section>
@@ -85,7 +85,7 @@ permalink: /awards-program/
 <section class="usa-graphic_list usa-section clearfix padding-y-5">
     <div class="clearfix grid-container">
          <section class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
-                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">2021 CDOC Award Winners</button></h3>
+                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">2021 CDOC Award Winners</button></h2>
                 <div id="m-a1" class="usa-accordion__content">
                     <p class="font-sans-md" style='text-align:center;'><strong><u>Distinguished Federal Data Innovator Award</u></strong></p>
                     <p class="font-sans-md"><strong><em>Agency Reporting Modernizations Team, Federal Energy Regulation Commission:</em></strong></p>
@@ -119,7 +119,7 @@ permalink: /awards-program/
                     <p class="font-sans-md"><strong>Data Inventory Working Group:&nbsp;</strong>Robbin Rappaport, Internal Revenue Service</p>
                     <p class="font-sans-md"><strong>Data Skills and Workforce Development Working Group:&nbsp;</strong>Erik Price, Office of the Director of National Intelligence; Layne Morrison, Department of Education; Robin Wagner, National Institute of Health</p>
                 </div> 
-                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a2"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Award Categories</button></h3>
+                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a2"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Award Categories</button></h2>
                 <div id="m-a2" class="usa-accordion__content">
                     <p class="font-sans-md">
                         <strong><span style="color:#0070C0;">Federal Chief Data Officer Council Distinguished Achievement in Federal Data</span></strong> &ndash; Individuals or Teams who make truly exceptional contributions to Federal Data and the use of data in policy-making.
@@ -140,7 +140,7 @@ permalink: /awards-program/
                         <strong><span style="color:#0070C0;">Federal Chief Data Officer Council Award Working Group Superior Contributor</span></strong> &ndash; For CDOC WG members with superior performance in the execution of WG goals. Selected by WG chair.
                     </p>
                 </div>
-                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a3"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Nomination Criteria</button></h3>
+                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a3"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Nomination Criteria</button></h2>
                 <div id="m-a3" class="usa-accordion__content">
                     <p class="font-sans-md">
                         Award nominations <span class="text-underline">must be submitted by a CDO Council member</span> and should describe, in an unclassified manner, the challenge and outcomes of the project or team actions. Nominations will be scored based on accomplishment of any of the following:
@@ -152,7 +152,7 @@ permalink: /awards-program/
                         <li>Promotion of Data Culture</li>
                     </ul>
                 </div> 
-                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Eligibility</button></h3>
+                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Eligibility</button></h2>
                 <div id="m-a4" class="usa-accordion__content">
                     <p class="font-sans-md">
                         Only Federal Employees and military personnel are eligible for this program. Each category will allocate up to two awards annually, one for a CFO-Act Agency recipient or team and one for a non-CFO Act Agency recipient or team. Contract staff are ineligible for consideration. 
@@ -200,7 +200,7 @@ permalink: /awards-program/
                         </li>
                     </ul>
                 </div> 
-                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a5"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Award Period</button></h3>
+                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a5"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Award Period</button></h2>
                 <div id="m-a5" class="usa-accordion__content">
                     <p class="font-sans-md">
                         Annual/ Per Calendar Year (1 Jan - 31 Dec)
