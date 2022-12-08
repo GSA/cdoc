@@ -8,9 +8,10 @@ permalink: /awards-program/
 
 <section class="carousel-container">
         <div class="carousel" id="carousel-2" auto-scroll="8000">
-           <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1">
-           <div aria-label="Distinguished Federal Data innovator Award Agency Reporting Modernization Team FERC (Non-CFO) & Rachel Wang, Jen Storm-Jenkins, DOS (CFO)" tabindex=0>
-           </div>
+           <section class="carousel-screen usa-graphic-list padding-y-4">
+          <div class="top">
+            <img src="../assets/images/background/data-champion.png" alt="Data-Champion" class="img" aria-label="Data Champion of the year Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)">
+            </div>
             </section>
 
             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2">
