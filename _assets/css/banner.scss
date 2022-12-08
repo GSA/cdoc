@@ -298,12 +298,3 @@ padding-top: 29rem;
     width: 2000px;
     background-color: #16447E;
 }
-
-@media screen and (max-width: 640px){
-    .img {
-        object-fit: cover;
-        height: 500px;
-        min-width: fit-content;
-        background-color: #16447E;
-    }
-}

@@ -40,13 +40,13 @@ permalink: /awards-program/
 
             <section class="carousel-screen usa-graphic-list padding-y-4">
              <div class="top">
-            <img src="../assets/images/background/working-group-1.png" alt="Working-Group" class="img"  aria-label="Working group contributor Data Working Group Arun Acharya, CPSC Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH">
+            <img src="../assets/images/background/working-group-1.png" alt="Working-Group" class="img"  aria-label="Working group contributor Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH">
              </div>
             </section>
 
             <section class="carousel-screen usa-graphic-list padding-y-4">
              <div class="top">
-            <img src="../assets/images/background/working-group-2.png" alt="Working-Group" class="img"  aria-label="Working group contributor Data Working Group Arun Acharya, CPSC Data Working Group Arun Acharya, CPSC Data Inventory Working Group Robbin Rappaport, IRS">
+            <img src="../assets/images/background/working-group-2.png" alt="Working-Group" class="img"  aria-label="Working group contributor Data Working Group Arun Acharya, CPSC Data Inventory Working Group Robbin Rappaport, IRS">
              </div>
             </section>
 
@@ -62,8 +62,8 @@ permalink: /awards-program/
                 <div class="circle" aria-label="slide 3 Team of the year Data Governance Division Data Management Branch, FERC (Non-CFO) & AF Chief Data and Artificial Intelligence Office, DOD (CFO)" tabindex=0></div>
                 <div class="circle" aria-label="slide 4 Data Champion of the year Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)" tabindex=0></div>
                 <div class="circle" aria-label="slide 5 Distinguished Achievement Chris Haffer, EEOC (Non-CFO) & Wildland Fire Fuels, DOI (CFO)" tabindex=0></div>
-                <div class="circle" aria-label="slide 6 Working group contributor Data Working Group Arun Acharya, CPSC Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH" tabindex=0></div>
-                <div class="circle" aria-label="slide 7 Working group contributor Data Working Group Arun Acharya, CPSC Data Working Group Arun Acharya, CPSC Data Inventory Working Group Robbin Rappaport, IRS" tabindex=0></div>
+                <div class="circle" aria-label="slide 6 Working group contributor Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH" tabindex=0></div>
+                <div class="circle" aria-label="slide 7 Working group contributor Data Working Group Arun Acharya, CPSC Data Inventory Working Group Robbin Rappaport, IRS" tabindex=0></div>
                 <div class="circle" aria-label="slide 8 Committee superior contributor Large Agency Committee Tom Sasala, DOD Small Agency Committee Kristen Dalboe, FERC" tabindex=0></div>
             </section>
             <div class="left-arrow">
