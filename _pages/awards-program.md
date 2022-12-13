@@ -7,7 +7,7 @@ permalink: /awards-program/
 ---
 
 <section class="carousel-container">
-        <div class="carousel carousel-padding" id="carousel-2" auto-scroll="8000">
+        <div class="carousel" id="carousel-2" auto-scroll="8000">
            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1" role="img" aria-label="Distinguished Federal Data innovator Award Agency Reporting Modernization Team FERC (Non-CFO) & Rachel Wang, Jen Storm-Jenkins, DOS (CFO)"> 
             </section>
 
