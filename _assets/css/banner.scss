@@ -288,13 +288,67 @@ padding-top: 29rem;
 }
 }
 
-.top {
-    margin-top: -3.25rem;
+.carousel-padding{
+    padding-top:20rem !important;
 }
 
-.img {
-    object-fit: cover;
-    height: 500px;
-    width: 2000px;
-    background-color: #16447E;
+.awards-abstract-background1 {
+    background-image: url("../assets/images/background/distinguished-federal.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.awards-abstract-background2 {
+    background-image: url("../assets/images/background/excellence-data.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.awards-abstract-background3 {
+    background-image: url("../assets/images/background/team-year.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.awards-abstract-background4 {
+    background-image: url("../assets/images/background/data-champion.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.awards-abstract-background5 {
+    background-image: url("../assets/images/background/distinguished-achievement.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.awards-abstract-background6 {
+    background-image: url("../assets/images/background/working-group-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.awards-abstract-background7 {
+    background-image: url("../assets/images/background/working-group-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.awards-abstract-background8 {
+    background-image: url("../assets/images/background/committee-superior.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 640px) {
+    .awards-abstract-background2 {
+        background-image: url("../assets/images/background/excellence-data-mobile.png");
+    }
 }
