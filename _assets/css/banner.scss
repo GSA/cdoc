@@ -348,7 +348,28 @@ padding-top: 29rem;
 }
 
 @media screen and (max-width: 640px) {
+    .awards-abstract-background1 {
+        background-image: url("../assets/images/background/distinguished-federal-mobile.png");
+    }
     .awards-abstract-background2 {
         background-image: url("../assets/images/background/excellence-data-mobile.png");
+    }
+    .awards-abstract-background3 {
+        background-image: url("../assets/images/background/team-year-mobile.png");
+    }
+    .awards-abstract-background4 {
+        background-image: url("../assets/images/background/data-champion-mobile.png");
+    }
+    .awards-abstract-background5 {
+        background-image: url("../assets/images/background/distinguished-achievement-mobile.png");
+    }
+    .awards-abstract-background6 {
+        background-image: url("../assets/images/background/working-group-1-mobile.png");
+    }
+    .awards-abstract-background7 {
+        background-image: url("../assets/images/background/working-group-2-mobile.png");
+    }
+    .awards-abstract-background8 {
+        background-image: url("../assets/images/background/committee-superior-mobile.png");
     }
 }
