@@ -8,6 +8,7 @@ excerpt: 1-Year Anniversary of Elected Officers
 permalink: /news/1-year-anniversary-of-elected-officers/
 image: 1-year-photo.png
 image_alt_text: 1-year themed balloons floating from CDO Council branded box
+image_path: /assets/images/background/1-year-photo.png
 description: When over eighty of my fellow agency Chief Data Officers met for the first time in January 2020 at the first meeting of the Federal Chief Data Officer (CDO) Council, we did not imagine that our collective responsibilities for harnessing, sharing, and using data to inform decision-making would be put to the test quite so quickly or with such urgency...
 ---
 
