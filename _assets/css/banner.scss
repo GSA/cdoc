@@ -369,7 +369,11 @@ padding-top: 29rem;
     .awards-abstract-background8 {
         background-image: url("../assets/images/background/committee-superior-mobile.png");
     }
+}
+
+@media screen and (max-width: 640px) {
     .carousel-padding {
         padding-top: 20rem !important;
     }
 }
+
