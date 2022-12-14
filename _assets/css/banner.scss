@@ -288,9 +288,6 @@ padding-top: 29rem;
 }
 }
 
-.carousel-padding {
-    padding-top: 20rem !important;
-}
 
 .awards-abstract-background1 {
     background-image: url("../assets/images/background/distinguished-federal.png");
@@ -347,7 +344,7 @@ padding-top: 29rem;
     background-position: center;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1200px) {
     .awards-abstract-background1 {
         background-image: url("../assets/images/background/distinguished-federal-mobile.png");
     }
@@ -372,5 +369,7 @@ padding-top: 29rem;
     .awards-abstract-background8 {
         background-image: url("../assets/images/background/committee-superior-mobile.png");
     }
-
+    .carousel-padding {
+        padding-top: 20rem !important;
+    }
 }
