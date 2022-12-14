@@ -20,7 +20,7 @@ permalink: /awards-program/
             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4" role="img" aria-label="Data Champion of the year Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5" role="img" aria-label="Distinguished Achievement Chris Haffer, EEOC (Non-CFO) & Wildland Fire Fuels, DOI (CFO)">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5" role="img" aria-label="Distinguished Achievement in Federal Data Chris Haffer, EEOC (Non-CFO) & Wildland Fire Fuels, DOI (CFO)">
             </section>
 
             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6" role="img" aria-label="Working group contributor Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH">
