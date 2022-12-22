@@ -8,6 +8,7 @@ excerpt:
 image: Data-Sharing.png
 image_alt_text: consumer safety
 permalink: /news/data-sharing-national-electronic-injury/
+image_path:  /assets/images/background/Data-Sharing.png
 description: The Federal CDO Council's Data Sharing Working Group has started a new project to highlight successful data sharing activities.The first <a href="https://resources.data.gov/resources/profiles-in-data-sharing/">Profile in Data Sharing</a> focuses on a collaboration between the Consumer Product Safety 
 ---
 
