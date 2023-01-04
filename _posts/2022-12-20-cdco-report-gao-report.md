@@ -1,13 +1,13 @@
 ---
-title: 2022 CDCO Report to Congress and GAO Report
-subtitle: 2022 CDCO Report to Congress and GAO Report
+title: 2022 CDOC Report to Congress and GAO Report
+subtitle: 2022 CDOC Report to Congress and GAO Report
 layout: newspost
 date: December 27, 2022
 author: CDO Council
 excerpt: 
 image: report-icon.jpg
 image_alt_text: report icon
-permalink: /news/2022-cdco-gao-report/
+permalink: /news/2022-cdoc-gao-report/
 image_path: /assets/images/background/report-icon.jpg
 image_alt_text: CDO Podcast
 description: Wondering what we've been up to? Check out the CDOC's 2022 Report to Congress and GAO's evaluation of the Council! 
