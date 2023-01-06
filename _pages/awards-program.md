@@ -1,27 +1,67 @@
 ---
 title: <notitle>
 subtitle: Federal Chief Data Officer Council Awards Program
-layout: defaultwithbanner
+layout: wide
 sidenav: false
 permalink: /awards-program/
 ---
 
-<div class="line-height-sans-5">
-    <div class="grid-row">
-        <div class="usa-layout-docs__main margin-bottom-5 tablet:margin-top-4 tablet:margin-bottom-0">
-            <div class="line-height-sans-5">
-            <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h2>
-            <p class="font-sans-md">To recognize both civilian and military employees of federal agencies that demonstrate innovative data practices to advance government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations. Nominations must be made by members of the CDOC and should highlight personnel leading work and noteworthy improvements within the Federal Data community.</p>
+<section class="carousel-container">
+        <div class="carousel carousel-padding" id="carousel-2" auto-scroll="8000">
+           <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1" role="img" aria-label="Distinguished Federal Data innovator Award Agency Reporting Modernization Team FERC (Non-CFO) & Rachel Wang, Jen Storm-Jenkins, DOS (CFO)"> 
+            </section>
+
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2" role="img" aria-label="Excellence in data Governance Chris Haffer, Mark Leach, Ada Harris, Kevin Malloy, EEOC (Non-CFO) & Stephen Lewis, DOT (CFO)">
+            </section>
+
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background3" role="img" aria-label="Team of the year Data Governance Division Data Management Branch, FERC (Non-CFO) & AF Chief Data and Artificial Intelligence Office, DOD (CFO)">
+            </section>
+            
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4" role="img" aria-label="Data Champion of the year Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)">
+            </section>
+
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5" role="img" aria-label="Distinguished Achievement in Federal Data Chris Haffer, EEOC (Non-CFO) & Wildland Fire Fuels, DOI (CFO)">
+            </section>
+
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6" role="img" aria-label="Working group contributor Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH">
+            </section>
+
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background7" role="img" aria-label="Working group contributor Data Working Group Arun Acharya, CPSC Data Inventory Working Group Robbin Rappaport, IRS">
+            </section>
+
+             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background8" role="img" aria-label="Committee superior contributor Large Agency Committee Tom Sasala, DOD Small Agency Committee Kristen Dalboe, FERC">
+            </section>
+
+            <section class="circle-container">
+                <div class="circle" aria-label="slide 1 Distinguished Federal Data innovator Award Agency Reporting Modernization Team FERC (Non-CFO) & Rachel Wang, Jen Storm-Jenkins, DOS (CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 2 Excellence in data Governance Chris Haffer, Mark Leach, Ada Harris, Kevin Malloy, EEOC (Non-CFO) & Stephen Lewis, DOT (CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 3 Team of the year Data Governance Division Data Management Branch, FERC (Non-CFO) & AF Chief Data and Artificial Intelligence Office, DOD (CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 4 Data Champion of the year Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 5 Distinguished Achievement in Federal Data Chris Haffer, EEOC (Non-CFO) & Wildland Fire Fuels, DOI (CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 6 Working group contributor Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH" tabindex=0></div>
+                <div class="circle" aria-label="slide 7 Working group contributor Data Working Group Arun Acharya, CPSC Data Inventory Working Group Robbin Rappaport, IRS" tabindex=0></div>
+                <div class="circle" aria-label="slide 8 Committee superior contributor Large Agency Committee Tom Sasala, DOD Small Agency Committee Kristen Dalboe, FERC" tabindex=0></div>
+            </section>
+            <div class="left-arrow">
+                <span class="chevron left" aria-label="Previous slide" tabindex=0></span>
+            </div>
+            <div class="right-arrow">
+                <span class="chevron right" aria-label="Next slide"  tabindex=0></span>
             </div>
         </div>
-    </div>
-</div>
+</section>
 
-<div>
-    <section class="usa-layout-docs__main">
-        <div class="tablet:grid-col-12 line-height-sans-5 tablet:margin-y-10 margin-bottom-8">
-            <section class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
-                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">2021 CDOC Award Winners</button></h3>
+<section class="usa-graphic_list usa-section clearfix padding-y-5">
+    <div class="clearfix grid-container line-height-sans-5">
+        <h1 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h1>
+        <p class="font-sans-md">To recognize both civilian and military employees of federal agencies that demonstrate innovative data practices to advance government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations. Nominations must be made by members of the CDOC and should highlight personnel leading work and noteworthy improvements within the Federal Data community.</p>
+    </div>
+</section>
+
+<section class="usa-graphic_list usa-section clearfix padding-y-5">
+    <div class="clearfix grid-container">
+         <section class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
+                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">2021 CDOC Award Winners</button></h2>
                 <div id="m-a1" class="usa-accordion__content">
                     <p class="font-sans-md" style='text-align:center;'><strong><u>Distinguished Federal Data Innovator Award</u></strong></p>
                     <p class="font-sans-md"><strong><em>Agency Reporting Modernizations Team, Federal Energy Regulation Commission:</em></strong></p>
@@ -55,7 +95,7 @@ permalink: /awards-program/
                     <p class="font-sans-md"><strong>Data Inventory Working Group:&nbsp;</strong>Robbin Rappaport, Internal Revenue Service</p>
                     <p class="font-sans-md"><strong>Data Skills and Workforce Development Working Group:&nbsp;</strong>Erik Price, Office of the Director of National Intelligence; Layne Morrison, Department of Education; Robin Wagner, National Institute of Health</p>
                 </div> 
-                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a2"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Award Categories</button></h3>
+                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a2"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Award Categories</button></h2>
                 <div id="m-a2" class="usa-accordion__content">
                     <p class="font-sans-md">
                         <strong><span style="color:#0070C0;">Federal Chief Data Officer Council Distinguished Achievement in Federal Data</span></strong> &ndash; Individuals or Teams who make truly exceptional contributions to Federal Data and the use of data in policy-making.
@@ -76,7 +116,7 @@ permalink: /awards-program/
                         <strong><span style="color:#0070C0;">Federal Chief Data Officer Council Award Working Group Superior Contributor</span></strong> &ndash; For CDOC WG members with superior performance in the execution of WG goals. Selected by WG chair.
                     </p>
                 </div>
-                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a3"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Nomination Criteria</button></h3>
+                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a3"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Nomination Criteria</button></h2>
                 <div id="m-a3" class="usa-accordion__content">
                     <p class="font-sans-md">
                         Award nominations <span class="text-underline">must be submitted by a CDO Council member</span> and should describe, in an unclassified manner, the challenge and outcomes of the project or team actions. Nominations will be scored based on accomplishment of any of the following:
@@ -88,7 +128,7 @@ permalink: /awards-program/
                         <li>Promotion of Data Culture</li>
                     </ul>
                 </div> 
-                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Eligibility</button></h3>
+                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Eligibility</button></h2>
                 <div id="m-a4" class="usa-accordion__content">
                     <p class="font-sans-md">
                         Only Federal Employees and military personnel are eligible for this program. Each category will allocate up to two awards annually, one for a CFO-Act Agency recipient or team and one for a non-CFO Act Agency recipient or team. Contract staff are ineligible for consideration. 
@@ -136,13 +176,12 @@ permalink: /awards-program/
                         </li>
                     </ul>
                 </div> 
-                <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a5"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Award Period</button></h3>
+                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a5"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Award Period</button></h2>
                 <div id="m-a5" class="usa-accordion__content">
                     <p class="font-sans-md">
                         Annual/ Per Calendar Year (1 Jan - 31 Dec)
                     </p>
                 </div> 
-            </section>
-        </div>
-    </section>
-</div>
+          </section>
+    </div>
+</section>
