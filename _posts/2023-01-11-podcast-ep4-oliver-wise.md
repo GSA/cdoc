@@ -2,7 +2,7 @@
 title: 'Unstructured Data Episode 4: Counting on Data'
 subtitle: 'Unstructured Data Episode 4: Counting on Data'
 layout: newspost
-date: January 12, 2023
+date: January 13, 2023
 author: CDO Council
 excerpt: 
 image_alt_text: Oliver Wise headshot
