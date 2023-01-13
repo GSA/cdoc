@@ -2,6 +2,13 @@
 # In this example, we create a simple array of options and then in the _pages/collections.md file we 
 # Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it 
 # This is simple, hopefully provides you with a good enough example to make changes as needed
+- title: Oliver Wise - Counting on the Data (Episode 4)
+  image: /assets/images/podcasts/oliver-wise.png
+  description: On this episode, Ted talks with Oliver Wise, Chief Data Officer at the Department of Commerce. As a newer Chief Data Officer, Oliver brings his experience from previous work with the city of New Orleans, LA into the Federal space.  Watch now to learn how he is bridging the gap and bringing new ideas on cross-functional data sharing.
+  url_audio: https://vimeo.com/787739329
+  url_video: https://vimeo.com/780751340
+  date: January 13, 2023
+  time: "00:23:59"
 - title: Kirsten Dalboe - Staying on Beat With Data (Episode 3)
   image: /assets/images/podcasts/kirsten-dalboe.png
   description: On this episode, Ted talks with Kirsten Dalboe, the first Chief Data Officer at the Federal Energy Regulatory Commission and current lead of the Council's Small Agency Committee. As a highly successful Chief Data Officer, Kirsten seamlessly balances parenthood, transforming FERC through the strategic application of Data, and her passion for the violin. Watch now to learn how she maintains balance and excellence within Federal Service.
