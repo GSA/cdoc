@@ -159,6 +159,15 @@
   height: 100%;
 }
 
+.carousel-content-box {
+  background: #cfe8ff;
+  border-radius: 0.5rem;
+  opacity: 0.9;
+  margin-top: 10px;
+  box-shadow: 0 1rem 2rem 0 RGB(0 0 0 / 40%);
+  max-width: 20rem;
+}
+
 
 .abstract-background2 {
     background-image: url(../assets/images/background/podcast.png);
@@ -188,6 +197,14 @@
 
 .abstract-background1{
   background-image: url(../assets/images/background/year-in-review-carousel.png);
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.abstract-background-meeting-2023{
+  background-image: url(../assets/images/background/hero-publick-meeting-2023.jpg);
   background-color: #172636;
   background-repeat: no-repeat;
   background-position: top center;
