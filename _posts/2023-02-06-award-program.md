@@ -10,7 +10,7 @@ image_alt_text:
 permalink: /news/award-program/
 image_path: 
 image_alt_text: 
-description: The CDOC Awards Program is accepting nominations through 1 March 2023!<br>
+description: The CDOC Awards Program is accepting nominations through 1 March 2023!
 ---
 
 The CDO Council Awards Program has been a success in highlighting and celebrating the work and achievements of individuals and teams from across government that are doing great work in the data space. The Awards Program is open again for nominations reflecting 2022 innovation and successes. Nominations must be made by members of the CDO Council and should highlight innovative and tenacious personnel and teams driving worthy improvements within the Federal Data community. 
