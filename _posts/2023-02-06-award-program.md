@@ -5,11 +5,11 @@ layout: newspost
 date: February 7, 2023
 author: CDO Council
 excerpt: 
-image: blog-default-thumbnail.png
-image_alt_text: CDO Logo
+image: 
+image_alt_text: 
 permalink: /news/award-program/
-image_path: /assets/images/background/blog-default-thumbnail.png
-image_alt_text: CDO Logo
+image_path: 
+image_alt_text: 
 description: The CDOC Awards Program is accepting nominations through 1 March 2023!<br>
 ---
 
