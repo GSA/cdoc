@@ -31,7 +31,7 @@ redirect_from:
                     post.description | truncate:350}} {% comment %} We default to using post.content, but
                     you can also use post.excerpt. If you use excerpt then you have to
                     make sure the content is on each post header {% endcomment %}
-                    <a href="{{site.baseurl}}{{post.permalink}}">Continue Reading</a>
+                    <a href="{{site.baseurl}}{{post.permalink}}" aria-label="Read more about {{ post.title }}">Continue Reading</a>
                 </div>
             </div>
             {% endfor %}
