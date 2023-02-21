@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: policies-guidance-landing
 title: Guidance and Resources
 subtitle: Implementation Guidance for Supplemental Funding Provided in Response to the Coronavirus Disease 2019 (COVID-19)
@@ -14,4 +14,4 @@ This Memorandum directs agencies to leverage and continue to employ existing fin
 
 - Mission achievement - Federal managers and recipients at all levels should use data and evidence to achieve program objectives;
 - Expediency - Agencies should rapidly issue awards and fund programs to meet crucial needs;and
-- Transparency and accountability - Agencies must report information on awards to provide the public with information in a clear, accurate, and timely manner.
+- Transparency and accountability - Agencies must report information on awards to provide the public with information in a clear, accurate, and timely manner. -->
