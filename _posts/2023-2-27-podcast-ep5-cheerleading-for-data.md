@@ -2,7 +2,7 @@
 title: 'Unstructured Data Episode 5: Cheerleading for Data'
 subtitle: 'Unstructured Data Episode 5: Cheerleading for Data'
 layout: newspost
-date: March 1, 2023
+date: March 7, 2023
 author: CDO Council
 excerpt: 
 image_alt_text: Chris Haffer headshot
