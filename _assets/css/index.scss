@@ -556,6 +556,10 @@ ul.filter-list {
 .meeting-detail {
   padding: 0 3rem;
 
+  @media screen and (max-width: 638px) {
+    margin-top: 2rem;
+  }
+
   &__name {
     font-size: 30px;
     color: #005ea2;
