@@ -6,8 +6,8 @@ sidenav: false
 permalink: /about-agency-cdos/
 ---
 
-<h2>Overview</h2>
-
+<h2>Overview</h2>  
+ 
 <p>While there are many roles in the Federal Government that relate to data management, since 2018, Chief Data Officers (CDOs) have emerged to lead organizational development of processes to leverage the power of data. CDOs enable data driven decision-making in a variety of ways, from providing and leveraging centralized agency analytics capacity to creating tools and platforms that enable self-service across their agencies and for the public. CDOs serve in a central leadership position, with visibility into relevant agency operations, and are positioned highly enough to regularly engage with other agency leadership,including the head of the agency.</p>
 
 <p>The <a href="https://www.congress.gov/bill/115th-congress/house-bill/4174/text">Foundations for Evidence-Based Policymaking Act of 2018 (P.L. 115-435) 44 USC § 3520A</a> formally establishes within agencies the position of the CDO, who, through the functions described below, and in coordination with other agency leaders, will ensure the successful execution of the agency's data management responsibilities.  The Evidence Act also requires that CDOs be a nonpolitical appointee employee in the agency. </p>
