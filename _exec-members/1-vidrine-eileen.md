@@ -6,6 +6,7 @@ bio-image-alt-text: Eileen Vidrine Photo
 layout: bio
 permalink: /bio/eileen-vidrine/
 name : Eileen Vidrine
+stick-top: false
 department: Department of the Air Force
 job-title: Chief Data and Artificial Intelligence Officer
 role: Data Skills and Workforce Development Working Group
