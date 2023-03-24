@@ -11,7 +11,7 @@ let currentScreen = 0;
 //currently in animation or not
 let inAnim = false;
 //Animation Time
-let animTime = 500;
+let animTime = 800;
 
 //Sort out starting position
 sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);

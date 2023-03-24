@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: policies-guidance-landing
 title: Guidance and Resources
 subtitle: Paperwork Reduction Act (PRA)
@@ -10,4 +10,4 @@ summary: The Paperwork Reduction Act (PRA) is a law governing how federal agenci
 
 ## [Paperwork Reduction Act (PRA)](https://pra.digital.gov/)
 
-The Paperwork Reduction Act (PRA) is a law governing how federal agencies collect information from the American public.
+The Paperwork Reduction Act (PRA) is a law governing how federal agencies collect information from the American public. -->

@@ -123,10 +123,11 @@ permalink: /awards-program/
                     </p>
                     <ul class="font-sans-md">
                         <li>Creativity, innovative approach to a data challenge;</li>
-                        <li>Impact (ie: Saved time, money, resources; increased synergies, collaboration, etc.)</li>
-                        <li>Increased/exercise collaboration external to Data professionals;</li>
+                        <li>Impact (ie: Saved time, money, resources; increased synergies, collaboration, etc.);</li>
+                        <li>Impact on Internal and/or External Customer Experience;</li>
                         <li>Promotion of Data Culture</li>
                     </ul>
+                    <p>Each nomination will be scored on a scale of 1-5 in each for the aforementioned criteria. Nominations must score an average of 3 or higher for selection as a winner in any category.</p>
                 </div> 
                 <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Eligibility</button></h2>
                 <div id="m-a4" class="usa-accordion__content">
