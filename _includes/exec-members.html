@@ -7,7 +7,7 @@
                 {% assign top-members = site.exec-members | where: 'stick-top', true %}
                 {% assign remaining-members = site.exec-members | where: 'stick-top', nil | sort %}
                 {% assign exec-members = top-members | concat: remaining-members %}
-                {% for bio in site.exec-members %}
+                {% for bio in exec-members %}
                 <div class="tablet:grid-col-6 container margin-bottom-4" tabindex="0">
                     <div class="clearfix shadow-5 radius-lg bg-white padding-2">
                         <div>
