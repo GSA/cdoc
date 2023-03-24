@@ -9,6 +9,7 @@ name : Kirsten Dalboe
 department: Federal Energy Regulatory Commission
 job-title: Chief Data Officer
 role: Non-CFO Act Agency Representative
+stick-top: false
 ---
   Kirsten Dalboe, the first Chief Data Officer at the Federal Energy Regulatory Commission, is a data trailblazer with a passion for establishing effective data governance structures that set agency-wide data guidance, policies, best practices, and priorities to successfully deliver data products and capabilities.  Kirsten got her Bachelors of Science in Engineering from Tufts University (with a specialty in Civil Engineering) and her Masters of Science in Technology Management from George Mason University.  
   
