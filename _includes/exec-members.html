@@ -5,7 +5,7 @@
         <div class="grid-containe padding-left-0 padding-right-0">
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
                 {% assign top-members = site.exec-members | where: 'stick-top', true | sort: "name" %}
-                {% assign remaining-members = site.exec-members | where: 'stick-top', false | sort: "name" %}
+                {% assign remaining-members = site.exec-members | where: 'stick-top', false | sort: "role" %}
                 {% assign exec-members = top-members | concat: remaining-members %}
                 {% for bio in exec-members %}
                 <div class="tablet:grid-col-6 container margin-bottom-4" tabindex="0">
