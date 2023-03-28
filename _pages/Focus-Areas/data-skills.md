@@ -7,6 +7,10 @@ permalink: /data-skills/
 purpose: The Data Skills & Workforce Development Working Group was established by a vote of the CDO Council on June 25, 2020, with the purposes to support Federal agencies development and implementation of data skills & workforce development with broad sponsorship of data awareness through a Community of Practice (CoP).
 top-image: data.svg
 member: Christopher Alvares
+members:
+  - Nikolaos Ipiotis
+  - Dan Morgan
+  - Christopher Alvares
 pdf: data-skills-wg.pdf
 has-stories: true
 ---
