@@ -1,5 +1,6 @@
 {% for bio in site.exec-members %}
 {% if bio.name == include.name %}
+<!-- This condition is for top card content in the page -->
     <div class="padding-05 left-align margin-1 {% if include.structure == 'many' %} ogp-shadow {% endif %}">
         <div class="grid-row grid-gap-2">
             <div class="grid-col-4 tablet:grid-col-4 margin-top-1 text-center">
