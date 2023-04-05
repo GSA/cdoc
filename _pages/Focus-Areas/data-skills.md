@@ -8,8 +8,8 @@ purpose: The Data Skills & Workforce Development Working Group was established b
 top-image: data.svg
 member: Christopher Alvares
 members:
-  - Nikolaos Ipiotis
-  - Dan Morgan
+  - Christopher Alvares
+  - Eileen Vidrine
 pdf: data-skills-wg.pdf
 has-stories: true
 ---
