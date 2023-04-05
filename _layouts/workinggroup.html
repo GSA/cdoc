@@ -22,7 +22,9 @@ This is used for just the focus area pages
 </section>
 
 <main id="main-content">
-  <div class="grid-container line-height-sans-5">
+  <div class="grid-container line-height-sans-5 {% if include.structure == 'many' %} ogp-grid-container {% endif %} ">
+    
+      {% if page.member and page.members == null %}  
     <div class="grid-row flex-row-reverse">
       <aside class="tablet:grid-col-5">
         <div class="upper-fold-box">
@@ -34,14 +36,44 @@ This is used for just the focus area pages
                 </div>
               {% endif %}
         </div>
+        
       </aside>
       <div class="usa-layout-docs__main tablet:grid-col-7 margin-bottom-5 tablet:margin-top-4 tablet:margin-bottom-0">
-          <div class="line-height-sans-5">
-            <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h2>
-            <p class="font-sans-md">{{ page.purpose }}</p>
-          </div>
+        <div class="line-height-sans-5">
+          <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h2>
+          <p class="font-sans-md">{{ page.purpose }}</p>
+        </div>
+      </div> 
+    </div>
+      {% endif %}
+    <!-- This condition is for top card content in the page -->
+      {% if page.members %}
+    <div class="grid-row">
+      <aside class="">
+        <div class="upper-fold-container display-flex flex-column flex-align-center">
+            <h3><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 30px;" class="workinggroup-icon" alt=""> {{ page.title }} Leaders</h3>
+
+            <div class="display-flex flex-wrap">
+              {% for member in page.members %}
+                {% include workinggroup__member.html name=member structure='many' %}
+              {% endfor %}
+            </div>
+            
+              {% if page.pdf != null %}
+                <div class="margin-y-3"> 
+                  <a class="usa-button" href="{{site.baseurl}}/assets/documents/{{page.pdf}}" target="_blank"><strong>Download Charter</strong></a>
+                </div>
+              {% endif %}
+        </div>
+      </aside>
+      <div class="usa-layout-docs__main  margin-bottom-5 tablet:margin-top-4 tablet:margin-bottom-0">
+        <div class="line-height-sans-5">
+          <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h2>
+          <p class="font-sans-md">{{ page.purpose }}</p>
+        </div>
       </div>
     </div>
+    {% endif %}
   </div>
 
   <div>
