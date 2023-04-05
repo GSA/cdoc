@@ -10,7 +10,6 @@ member: Christopher Alvares
 members:
   - Nikolaos Ipiotis
   - Dan Morgan
-  - Christopher Alvares
 pdf: data-skills-wg.pdf
 has-stories: true
 ---
