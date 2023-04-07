@@ -326,7 +326,8 @@ abbr{
   min-height: 17.25em;
   border-radius: 5px;
   padding: 0.75em 1.25rem;
-  margin-top: -1.875rem;
+  margin-top: -1.25rem;
+  box-shadow: 0 0.5rem 1rem 0 #71767a61;
   & ul {
     list-style: none;
     padding-left: 1em;
@@ -370,10 +371,15 @@ abbr{
 .ogp-shadow{
   box-shadow: 0 0.5rem 1rem 0 #71767a61;
   border-radius: 5px;
-  max-width: 19rem;
+  max-width: 18.75rem;
+  
+  @media screen and (max-width:771px) {
+    max-width:none;
+  }
 }
 
 .card__image-workinggroup {
+  margin-left: 0.25rem;
   max-width: 100%;
   width: 12.5rem;
 }

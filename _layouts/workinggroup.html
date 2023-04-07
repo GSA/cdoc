@@ -28,7 +28,7 @@ This is used for just the focus area pages
     <div class="grid-row flex-row-reverse">
       <aside class="tablet:grid-col-5">
         <div class="upper-fold-box">
-            <h3><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 9%;" class="workinggroup-icon" alt=""> {{ page.title }} Leader</h3>
+            <h2 class="font-sans-md"><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 9%;" class="workinggroup-icon" alt=""> {{ page.title }} Leader</h2>
               {% include workinggroup__member.html name=page.member %}
               {% if page.pdf != null %}
                 <div class="margin-y-3"> 
@@ -51,7 +51,7 @@ This is used for just the focus area pages
     <div class="grid-row">
       <aside class="">
         <div class="upper-fold-container display-flex flex-column flex-align-center">
-            <h3><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 30px;" class="workinggroup-icon" alt=""> {{ page.title }} Leaders</h3>
+            <h2 class="font-sans-md"><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 30px;" class="workinggroup-icon" alt=""> {{ page.title }} Leaders</h2>
 
             <div class="display-flex flex-wrap">
               {% for member in page.members %}
