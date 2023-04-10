@@ -367,13 +367,17 @@ abbr{
 .ogp-grid-container{
   padding-left:12.5px;
 }
-
+.margin-top{
+@media screen and (max-width:40em) {
+    margin-top:2em;
+}
+}
 .ogp-shadow{
   box-shadow: 0 0.5rem 1rem 0 #71767a61;
   border-radius: 5px;
   max-width: 18.75rem;
   
-  @media screen and (max-width:771px) {
+  @media screen and (max-width:640px) {
     max-width:none;
   }
 }
