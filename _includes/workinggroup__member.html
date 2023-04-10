@@ -10,7 +10,7 @@
                 <p class="name tablet:margin-y-1"><strong>{{ bio.name }}</strong></p>
                 <small class="title">{{ bio.job-title }}, {{ bio.department}}</small>
                 {% if include.structure == 'many' %}
-                    <p><small><strong><a class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">Read more</a></strong></small><p>
+                    <p><small><strong><a class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}" title="Link to {{bio.name}}">Read more</a></strong></small><p>
                 {% endif %}
 
                 {% if include.structure != 'many' %}

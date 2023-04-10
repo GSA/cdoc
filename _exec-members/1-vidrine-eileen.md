@@ -2,7 +2,7 @@
 subtitle: Executive Committee
 title: Council Leadership
 bio-image: eileen-headshot.png
-bio-image-alt-text: Eileen Vidrine Photo
+bio-image-alt-text: Eileen Vidrine' headshot
 layout: bio
 permalink: /bio/eileen-vidrine/
 name : Eileen Vidrine
