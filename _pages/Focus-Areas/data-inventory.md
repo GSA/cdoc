@@ -34,7 +34,7 @@ has-stories: true
     <li>Identifying data inventory best practices used in the private sector as well as within agencies and their sub-components.</li>
   </ul>
 </div>
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4" aria-label="Resources in Data Inventory"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
 <div id="m-a4" class="usa-accordion__content">
   <ul class="add-list-reset">
       <li><a href="https://resources.data.gov/resources/CDOC_Data_Inventory_Report/">Data Inventory Report</a></li>

@@ -44,7 +44,7 @@ has-stories: false
   </ul>
 </div>
 
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4" aria-label="Resources in Data Ethics"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
 <div id="m-a4" class="usa-accordion__content">
     <ul class="add-list-reset">
         <li><a href="{{site.baseurl}}/assets/documents/fds-data-ethics-framework.pdf">Federal Data Ethics Framework</a></li>
