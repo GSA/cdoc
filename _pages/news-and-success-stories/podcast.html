@@ -71,7 +71,7 @@ pagination:
                                         <i class="text-primary margin-left-105" aria-label="Click here to play {{podcast.title}} - Videos opens in a new tab">Click here to watch the episode</i>
                                     </a>
                                 </div>
-
+                                {% if podcast.url_audio %}
                                 <div class="ogp-flex">
                                     <img 
                                         class="usa-card__img"
@@ -82,7 +82,7 @@ pagination:
                                         <i class="text-primary margin-left-105" aria-label="Click here to listen to {{podcast.title}} - Audio files opens in a new tab">Click here to listen to the episode</i>
                                     </a>
                                 </div>
-                                                            
+                                {% endif %}                            
                             </div>
                     </div>
                 </div>
