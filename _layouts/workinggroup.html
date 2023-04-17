@@ -48,12 +48,12 @@ This is used for just the focus area pages
       {% endif %}
     <!-- This condition is for top card content in the page -->
       {% if page.members %}
-    <div class="grid-row">
-      <aside class="">
-        <div class="upper-fold-container display-flex flex-column flex-align-center">
+    <div class="grid-row flex-row-reverse">
+      <aside class="tablet:grid-col-5">
+        <div class="upper-fold-box" style="position:inherit">
             <h2><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 30px;margin-bottom:3px" class="workinggroup-icon" alt=""> {{ page.title }} Leaders</h2>
 
-            <div class="display-flex flex-wrap margin">
+            <div class="display-flex flex-wrap">
               {% for member in page.members %}
                 {% include workinggroup__member.html name=member structure='many' %}
               {% endfor %}
@@ -66,7 +66,7 @@ This is used for just the focus area pages
               {% endif %}
         </div>
       </aside>
-      <div class="usa-layout-docs__main  margin-top margin-bottom-5 tablet:margin-top-4 tablet:margin-bottom-0">
+      <div class="usa-layout-docs__main tablet:grid-col-7 margin-bottom-5 tablet:margin-top-4 tablet:margin-bottom-0">
         <div class="line-height-sans-5">
           <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt="" style="margin-right: 0.25em;"> Purpose</h2>
           <p class="font-sans-md">{{ page.purpose }}</p>
