@@ -2,7 +2,7 @@
 title: '2023 CDOC Public Meeting Question and Answer Themes'
 subtitle: '2023 CDOC Public Meeting Question and Answer Themes'
 layout: newspost
-date: April 13, 2023
+date: April 19, 2023
 author: CDO Council
 excerpt:
 image: meeting-thumbnail.png
