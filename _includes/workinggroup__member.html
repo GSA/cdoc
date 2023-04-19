@@ -9,13 +9,7 @@
             <div class="grid-col-8 tablet:grid-col-8 line-height-sans-1">
                 <p class="name tablet:margin-y-1"><strong>{{ bio.name }}</strong></p>
                 <small class="title">{{ bio.job-title }}, {{ bio.department}}</small>
-                {% if include.structure == 'many' %}
-                    <p><small><strong><a class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}" title="Link to {{bio.name}}' bio">Read more</a></strong></small><p>
-                {% endif %}
-
-                {% if include.structure != 'many' %}
-                    <p><small><strong>Read more about <a class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></strong></small><p>
-                {% endif %}
+                 <p><small><strong>Read more about <a class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></strong></small><p>
             </div>   
         </div>
     </div>
