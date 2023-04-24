@@ -2,6 +2,12 @@
 # In this example, we create a simple array of options and then in the _pages/collections.md file we 
 # Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it 
 # This is simple, hopefully provides you with a good enough example to make changes as needed
+- title: Dorothy Aronson - Evolving with Data (Episode 6)
+  image: /assets/images/podcasts/dorothy-aronson.png
+  description: On this episode, Ted talks with Dorothy Aronson, the Chief Information Officer and Chief Data Officer at the National Science Foundation (NSF). As a CIO and CDO, Dorothy shares how she manages to balance both important roles at the same time and her excitement with watching data evolve.
+  url_video: https://vimeo.com/808134801
+  date: April 10, 2023
+  time: "00:14:14"
 - title: Dr. Chris Haffer - Cheerleading for Data (Episode 5)
   image: /assets/images/podcasts/chris-haffer.png
   description: On this episode, guest host Dan Morgan, Vice Chair of the Federal CDO Council talks with Dr. Chris Haffer, the Equal Employment Opportunity Commission’s first CDO. As Chris prepares for retirement from Federal Service, he provides valuable insight on his long spanning federal career, how to seek new opportunities, and his hope for data ethics in the future.
