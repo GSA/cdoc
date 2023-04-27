@@ -9,6 +9,7 @@ name : Nikolaos Ipiotis
 department: Department of Health and Human Services
 job-title: Acting Chief Data Officer
 role: Data Sharing Working Group
+stick-top: false
 ---
 
 In September 2021 Nikolaos Ipiotis was appointed as the Acting Chief Data Officer (CDO) for the U.S. Department of Health and Human Services (HHS).  In this role, Nikolaos oversees the HHS data governance, works to increase workforce data skills, develops, and publishes data strategies, and implements systems and processes to improve data sharing across the department and federal government.

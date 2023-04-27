@@ -7,6 +7,9 @@ permalink: /data-skills/
 purpose: The Data Skills & Workforce Development Working Group was established by a vote of the CDO Council on June 25, 2020, with the purposes to support Federal agencies development and implementation of data skills & workforce development with broad sponsorship of data awareness through a Community of Practice (CoP).
 top-image: data.svg
 member: Christopher Alvares
+members:
+  - Christopher Alvares
+  - Eileen Vidrine
 pdf: data-skills-wg.pdf
 has-stories: true
 ---
@@ -33,7 +36,7 @@ has-stories: true
     <li>Use consensus-based decision-making within the Working Group, while actively communicating and, as necessary, documenting any dissent or range of views when providing recommendations to the CDO Council Executive Committee or Chair</li>
   </ul>
 </div>
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4" aria-label="Resources in Data Skills"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
 <div id="m-a4" class="usa-accordion__content">
   <ul class="add-list-reset">
       <li><a href="https://community.max.gov/display/DATA/Data+Sharing+Working+Group">Max.Gov</a></li>
