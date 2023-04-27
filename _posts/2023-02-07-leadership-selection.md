@@ -6,7 +6,7 @@ date: February 7, 2023
 author: CDO Council
 excerpt: 
 image: 
-image_alt_text: 
+image_alt_text: CDOC Logo
 permalink: /announcing-newest-executive-committee-members/
 image_path:  
 description: Congratulations and welcome to the newest leaders within the CDO Council.

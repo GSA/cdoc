@@ -12,7 +12,7 @@ image_path:  /assets/images/background/blog-post-thumbnail-lightbulb.png
 description: If this sounds like you, the Chief Data Officers (CDO) Council might have just the perfect solution, through the CXO Fellows Program.
 ---
 
-<div class="cxo-quote">"What you do makes a difference, and you have to decide what kind of difference you want to make." &mdash; <b>Jane Goodall</b></div>
+<p class="cxo-quote">"What you do makes a difference, and you have to decide what kind of difference you want to make." &mdash; <b>Jane Goodall</b></p>
 
 If this sounds like you, the Chief Data Officers (CDO) Council might have just the perfect solution, through the CXO Fellows Program. Check with your agency POC for any internal application processes as well as find out more about the program and how to apply <a href="https://www.cfo.gov/cxo-fellows/">here</a>. The application period for the FY 2024 CXO Fellows Program opens May 1 and ends on June 9th at 5 p.m. (EST). 
 
