@@ -8,8 +8,7 @@ excerpt:
 image: 
 image_alt_text: CDOC Logo
 permalink: /news/award-program/
-image_path: 
-image_alt_text: 
+image_path:
 description: The CDOC Awards Program is accepting nominations through 1 March 2023!
 ---
 
