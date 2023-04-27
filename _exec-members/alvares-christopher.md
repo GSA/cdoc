@@ -9,6 +9,7 @@ name : Christopher Alvares
 department: United States Department of Agriculture
 job-title: Chief Data Officer
 role: Data Skills and Workforce Development Working Group
+stick-top: false
 ---
 
 Christopher Alvares serves as the Chief Data Officer (CDO) at the United States Department of Agriculture (USDA). In this role, he is responsible for developing strategies that enable USDA to fully leverage its data as a strategic asset, improving organizational decision-making and outcomes for citizens. He is also a member of the Federal Chief Data Officer Council working with other CDOs to improve the use of data across government.  

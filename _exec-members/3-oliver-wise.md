@@ -9,6 +9,7 @@ name : Oliver Wise
 department: Department of Commerce
 job-title: Chief Data Officer
 role: CFO Act Agency Representative
+stick-top: false
 ---
 Oliver Wise is Chief Data Officer at the Department of Commerce. In this position, Wise is responsible for leading the Commerce Department's data strategy, advancing capacity for evidence-based decision-making by implementing the [Evidence Act](https://twitter.com/hashtag/EvidenceAct?src=hashtag_click){:target="_blank"} and aligning and scaling the department’s data resources to better meet the needs of users.
 

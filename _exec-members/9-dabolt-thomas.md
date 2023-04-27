@@ -9,6 +9,7 @@ name : Thomas Dabolt
 department: Department of the Interior
 job-title: Chief Data Officer (CDO)
 role: Data Inventory Working Group
+stick-top: false
 ---
 Secretary Bernhardt named Tod as the Department of the Interior’s Chief Data Officer (CDO) in August 2019. As CDO he’s helping the Department transparently answer tomorrow’s questions today while opening up DOI’s data to the next generation.  For the past 5 years Tod has been a senior leader in the Department's CIO organization.  
  
