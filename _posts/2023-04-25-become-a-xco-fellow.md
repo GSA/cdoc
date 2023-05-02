@@ -2,7 +2,7 @@
 title: "Ready for a Change? Become a CXO Fellow and Enhance Your Leadership in Data"
 subtitle: "Ready for a Change? Become a CXO Fellow and Enhance Your Leadership in Data"
 layout: newspost
-date: April 25, 2023
+date: May 2, 2023
 author: CDO Council
 excerpt:
 image: blog-post-thumbnail-lightbulb.png
