@@ -7,7 +7,7 @@ author: CDO Council
 excerpt:
 image: blog-post-thumbnail-lightbulb.png
 image_alt_text: CDO enrollment blog thumbnail
-permalink: /public-meeting-question-answer/
+permalink: /become-a-cxo-fellow/
 image_path:  /assets/images/background/blog-post-thumbnail-lightbulb.png
 description: If this sounds like you, the Chief Data Officers (CDO) Council might have just the perfect solution, through the CXO Fellows Program.
 ---
