@@ -8,39 +8,39 @@ permalink: /awards-program/
 
 <section class="carousel-container">
         <div class="carousel carousel-padding" id="carousel-2" auto-scroll="8000">
-           <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1" role="img" aria-label="Distinguished Federal Data innovator Award Agency Reporting Modernization Team FERC (Non-CFO) & Rachel Wang, Jen Storm-Jenkins, DOS (CFO)"> 
+           <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1" role="img" aria-label="Distinguished Federal Data innovator Award Shawn Tufts, Jay Gregory, Seth Hasty, and Eli Vasquez (DOT)"> 
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2" role="img" aria-label="Excellence in data Governance Chris Haffer, Mark Leach, Ada Harris, Kevin Malloy, EEOC (Non-CFO) & Stephen Lewis, DOT (CFO)">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2" role="img" aria-label="Excellence in Data Governance Nicholas Buggs (NRC) & Erycka Reid (DAF)">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background3" role="img" aria-label="Team of the year Data Governance Division Data Management Branch, FERC (Non-CFO) & AF Chief Data and Artificial Intelligence Office, DOD (CFO)">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background3" role="img" aria-label="Team of the Year Operation Welcome Nica (DOS)">
             </section>
             
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4" role="img" aria-label="Data Champion of the year Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4" role="img" aria-label="Data Champion of the Year John Stevens (FRS) & Andrea Palm (HHS)">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5" role="img" aria-label="Distinguished Achievement in Federal Data Chris Haffer, EEOC (Non-CFO) & Wildland Fire Fuels, DOI (CFO)">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5" role="img" aria-label="Distinguished Achievement in Federal Data Katherine Tom (FRS) & Sharon Boivin, Layne Morrison, and Soumya Sathya (Education)">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6" role="img" aria-label="Working group contributor Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6" role="img" aria-label="Working Group Contributor Data Skills Working Group Arun Acharya, CPSC and Lin Zhang, DOI">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background7" role="img" aria-label="Working group contributor Data Working Group Arun Acharya, CPSC Data Inventory Working Group Robbin Rappaport, IRS">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background7" role="img" aria-label="Working Group Contributor Data Sharing Working Group Monique Eleby, Census & Data Inventory Working Group Brian Rickenbach, State">
             </section>
 
-             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background8" role="img" aria-label="Committee superior contributor Large Agency Committee Tom Sasala, DOD Small Agency Committee Kristen Dalboe, FERC">
+             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background8" role="img" aria-label="Committee Superior Contributor Large Agency Committee Dorothy Aronson, NSF & Small Agency Committee Katherine Tom, FRB and Geoffrey Nieboer, FDIC">
             </section>
 
             <section class="circle-container">
-                <div class="circle" aria-label="slide 1 Distinguished Federal Data innovator Award Agency Reporting Modernization Team FERC (Non-CFO) & Rachel Wang, Jen Storm-Jenkins, DOS (CFO)" tabindex=0></div>
-                <div class="circle" aria-label="slide 2 Excellence in data Governance Chris Haffer, Mark Leach, Ada Harris, Kevin Malloy, EEOC (Non-CFO) & Stephen Lewis, DOT (CFO)" tabindex=0></div>
-                <div class="circle" aria-label="slide 3 Team of the year Data Governance Division Data Management Branch, FERC (Non-CFO) & AF Chief Data and Artificial Intelligence Office, DOD (CFO)" tabindex=0></div>
-                <div class="circle" aria-label="slide 4 Data Champion of the year Kimberly Lewis and Yolanda Cooper, FERC (Non-CFO) & Brian McKeon,DOS(CFO)" tabindex=0></div>
-                <div class="circle" aria-label="slide 5 Distinguished Achievement in Federal Data Chris Haffer, EEOC (Non-CFO) & Wildland Fire Fuels, DOI (CFO)" tabindex=0></div>
-                <div class="circle" aria-label="slide 6 Working group contributor Data Skills Working Group Erik Price, ODNI Layne Morrison, DOE Robin Wagner, NIH" tabindex=0></div>
-                <div class="circle" aria-label="slide 7 Working group contributor Data Working Group Arun Acharya, CPSC Data Inventory Working Group Robbin Rappaport, IRS" tabindex=0></div>
-                <div class="circle" aria-label="slide 8 Committee superior contributor Large Agency Committee Tom Sasala, DOD Small Agency Committee Kristen Dalboe, FERC" tabindex=0></div>
+                <div class="circle" aria-label="slide 1 Distinguished Federal Data innovator Award Shawn Tufts, Jay Gregory, Seth Hasty, and Eli Vasquez (DOT)" tabindex=0></div>
+                <div class="circle" aria-label="slide 2 Excellence in Data Governance Nicholas Buggs (NRC) & Erycka Reid (DAF)" tabindex=0></div>
+                <div class="circle" aria-label="slide 3 Team of the Year Operation Welcome Nica (DOS)" tabindex=0></div>
+                <div class="circle" aria-label="slide 4 Data Champion of the Year John Stevens (FRS) & Andrea Palm (HHS)" tabindex=0></div>
+                <div class="circle" aria-label="slide 5 Distinguished Achievement in Federal Data Katherine Tom (FRS) & Sharon Boivin, Layne Morrison, and Soumya Sathya (Education)" tabindex=0></div>
+                <div class="circle" aria-label="slide 6 Working Group Contributor Data Skills Working Group Arun Acharya, CPSC and Lin Zhang, DOI" tabindex=0></div>
+                <div class="circle" aria-label="slide 7 Working Group Contributor Data Sharing Working Group Monique Eleby, Census & Data Inventory Working Group Brian Rickenbach, State" tabindex=0></div>
+                <div class="circle" aria-label="slide 8 Committee Superior Contributor Large Agency Committee Dorothy Aronson, NSF & Small Agency Committee Katherine Tom, FRB and Geoffrey Nieboer, FDIC" tabindex=0></div>
             </section>
             <div class="left-arrow">
                 <span class="chevron left" aria-label="Previous slide" tabindex=0></span>
