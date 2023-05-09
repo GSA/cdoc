@@ -23,13 +23,13 @@ permalink: /awards-program/
             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5" role="img" aria-label="Distinguished Achievement in Federal Data Katherine Tom (FRS) & Sharon Boivin, Layne Morrison, and Soumya Sathya (Education)">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6" role="img" aria-label="Working Group Contributor Data Skills Working Group Arun Acharya, CPSC and Lin Zhang, DOI & Data Ethics and Equity Working Group Erin Dawson, NSF">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6" role="img" aria-label="Working Group Contributor Data Skills Working Group Arun Acharya (CPSC) and Lin Zhang (DOI) & Data Ethics and Equity Working Group Erin Dawson (NSF)">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background7" role="img" aria-label="Working Group Contributor Data Sharing Working Group Monique Eleby, Census & Data Inventory Working Group Brian Richenbach, State">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background7" role="img" aria-label="Working Group Contributor Data Sharing Working Group Monique Eleby (Census) & Data Inventory Working Group Brian Richenbach (State)">
             </section>
 
-             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background8" role="img" aria-label="Committee Superior Contributor Large Agency Committee Dorothy Aronson, NSF & Small Agency Committee Katherine Tom, FRB and Geoffrey Nieboer, FDIC">
+             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background8" role="img" aria-label="Committee Superior Contributor Large Agency Committee Dorothy Aronson (NSF) & Small Agency Committee Katherine Tom, FRB and Geoffrey Nieboer (FDIC)">
             </section>
 
             <section class="circle-container">
@@ -38,9 +38,9 @@ permalink: /awards-program/
                 <div class="circle" aria-label="slide 3 Team of the Year Operation Welcome Nica (DOS)" tabindex=0></div>
                 <div class="circle" aria-label="slide 4 Data Champion of the Year John Stevens (FRS) & Andrea Palm (HHS)" tabindex=0></div>
                 <div class="circle" aria-label="slide 5 Distinguished Achievement in Federal Data Katherine Tom (FRS) & Sharon Boivin, Layne Morrison, and Soumya Sathya (Education)" tabindex=0></div>
-                <div class="circle" aria-label="slide 6 Working Group Contributor Data Skills Working Group Arun Acharya, CPSC and Lin Zhang, DOI & Data Ethics and Equity Working Group Erin Dawson, NSF" tabindex=0></div>
-                <div class="circle" aria-label="slide 7 Working Group Contributor Data Sharing Working Group Monique Eleby, Census & Data Inventory Working Group Brian Richenbach, State" tabindex=0></div>
-                <div class="circle" aria-label="slide 8 Committee Superior Contributor Large Agency Committee Dorothy Aronson, NSF & Small Agency Committee Katherine Tom, FRB and Geoffrey Nieboer, FDIC" tabindex=0></div>
+                <div class="circle" aria-label="slide 6 Working Group Contributor Data Skills Working Group Arun Acharya (CPSC) and Lin Zhang (DOI) & Data Ethics and Equity Working Group Erin Dawson (NSF)" tabindex=0></div>
+                <div class="circle" aria-label="slide 7 Working Group Contributor Data Sharing Working Group Monique Eleby (Census) & Data Inventory Working Group Brian Richenbach (State)" tabindex=0></div>
+                <div class="circle" aria-label="slide 8 Committee Superior Contributor Large Agency Committee Dorothy Aronson (NSF) & Small Agency Committee Katherine Tom, FRB and Geoffrey Nieboer (FDIC)" tabindex=0></div>
             </section>
             <div class="left-arrow">
                 <span class="chevron left" aria-label="Previous slide" tabindex=0></span>
