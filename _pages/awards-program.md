@@ -26,7 +26,7 @@ permalink: /awards-program/
             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6" role="img" aria-label="Working Group Contributor Data Skills Working Group Arun Acharya, CPSC and Lin Zhang, DOI & Data Ethics and Equity Working Group Erin Dawson, NSF">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background7" role="img" aria-label="Working Group Contributor Data Sharing Working Group Monique Eleby, Census & Data Inventory Working Group Brian Reichenbach, DOS">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background7" role="img" aria-label="Working Group Contributor Data Sharing Working Group Monique Eleby, Census Bureau & Data Inventory Working Group Brian Reichenbach, DOS">
             </section>
 
              <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background8" role="img" aria-label="Committee Superior Contributor Large Agency Committee Dorothy Aronson, NSF & Small Agency Committee Katherine Tom, FRB and Geoffrey Nieboer, FDIC">
@@ -39,7 +39,7 @@ permalink: /awards-program/
                 <div class="circle" aria-label="slide 4 Data Champion of the Year John Stevens, FRS (Non-CFO) & Andrea Palm, HHS (CFO)" tabindex=0></div>
                 <div class="circle" aria-label="slide 5 Distinguished Achievement in Federal Data Katherine Tom, CDO, FRS (Non-CFO) & Sharon Boivin, Layne Morrison, Soumya Sathya, DOE (CFO)" tabindex=0></div>
                 <div class="circle" aria-label="slide 6 Working Group Contributor Data Skills Working Group Arun Acharya, CPSC and Lin Zhang, DOI & Data Ethics and Equity Working Group Erin Dawson, NSF" tabindex=0></div>
-                <div class="circle" aria-label="slide 7 Working Group Contributor Data Sharing Working Group Monique Eleby, Census & Data Inventory Working Group Brian Reichenbach, DOS" tabindex=0></div>
+                <div class="circle" aria-label="slide 7 Working Group Contributor Data Sharing Working Group Monique Eleby, Census Bureau & Data Inventory Working Group Brian Reichenbach, DOS" tabindex=0></div>
                 <div class="circle" aria-label="slide 8 Committee Superior Contributor Large Agency Committee Dorothy Aronson, NSF & Small Agency Committee Katherine Tom, FRB and Geoffrey Nieboer, FDIC" tabindex=0></div>
             </section>
             <div class="left-arrow">
