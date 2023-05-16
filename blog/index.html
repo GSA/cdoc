@@ -15,7 +15,7 @@ redirect_from:
             <!-- This loops through the paginated posts -->
             {% for post in paginator.posts %}
             <div class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
-                <h2 class="title text-no-underline" style="font-size:21.44px">
+                <h2 class="title text-no-underline font-22">
                     <a class="text-no-underline cdo-link" href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
                 </h2>
                 <div class="text-base margin-bottom-2">
@@ -76,7 +76,7 @@ redirect_from:
             <div
                     class="border-top-1 border-accent-cool padding-top-2 margin-bottom-4 usa-prose"
             >
-                <h3 style="font-size:15.68px">Popular Posts</h3>
+                <h3 class="font-16">Popular Posts</h3>
                 <ul class="usa-list--unstyled padding-top-2">
                     {% for post in site.posts limit:3 %}
                     <li class="padding-bottom-1">
