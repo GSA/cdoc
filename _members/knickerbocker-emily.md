@@ -4,6 +4,6 @@ bio-image-alt-text: Small Business Administration
 layout: bio
 name: Blake Hoing
 department: Small Business Administration
-job-title: Chief Data Officer
+job-title: Acting Chief Data Officer
 website-data: https://www.sba.gov/data
 ---
