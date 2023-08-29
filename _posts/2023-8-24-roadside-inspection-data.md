@@ -2,7 +2,7 @@
 title: Profiles in Data Sharing - Roadside Inspection Data
 subtitle: Profiles in Data Sharing - Roadside Inspection Data
 layout: newspost
-date: August 24, 2023
+date: August 29, 2023
 author: CDO Council
 excerpt:
 image:
