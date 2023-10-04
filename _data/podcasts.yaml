@@ -2,6 +2,12 @@
 # In this example, we create a simple array of options and then in the _pages/collections.md file we 
 # Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it 
 # This is simple, hopefully provides you with a good enough example to make changes as needed
+- title: 'Dr. Gil Alterovitz - Serving with AI and Data: The Department of Veterans Affairs (Episode 7)'
+  image: /assets/images/podcasts/dr-gil-alterovitz.png
+  description: On this episode, Ted talks with Dr. Gil Alterovitz, the Chief Artificial Intelligence Officer at the Department of Veteran Affairs (VA) and Director of the VA’s National Artificial Intelligence Institute. As a leader in AI, Gil explains how data is the key, to be successful in developing and implementing an AI strategy. 
+  url_video: https://vimeo.com/846034458
+  date: October 3, 2023
+  time: "00:25:44"
 - title: Dorothy Aronson - Evolving with Data (Episode 6)
   image: /assets/images/podcasts/dorothy-aronson.png
   description: On this episode, Ted talks with Dorothy Aronson, the Chief Information Officer and Chief Data Officer at the National Science Foundation (NSF). As a CIO and CDO, Dorothy shares how she manages to balance both important roles at the same time and her excitement with watching data evolve.
