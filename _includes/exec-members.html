@@ -9,7 +9,7 @@
                 {% assign remaining-members = site.exec-members | where: 'stick-top', false | sort: "role" %}
                 {% assign exec-members = top-members | concat: remaining-members %}
                 {% for bio in exec-members %}
-                <div class="tablet:grid-col-6 container margin-bottom-4" tabindex="0">
+                <div class="tablet:grid-col-6 container margin-bottom-4">
                     <div class="clearfix shadow-5 radius-lg bg-white padding-2">
                         <div>
                             <div class="left">
