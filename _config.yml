@@ -178,7 +178,7 @@ collections:
     output: true
     permalink: /:path/
   members:
-    output: true
+    output: false
   leadership:
     output: true
   exec-members:
