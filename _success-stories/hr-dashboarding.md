@@ -5,7 +5,7 @@ layout: success-stories-post
 author: CDO Council
 permalink: /success-stories/hr-dash/
 description: |
-    The CDO Council worked with the US Department of Agriculture, the Department of the Treasury, the United States Agency for International Development, and the Department of Transportation to develop a Diversity Profile Dashboard and a <a href="https://resources.data.gov/resources/CDO_HR_Dashboard/">report</a> to explore the value of shared HR decision support across agencies. 
+    The CDO Council worked with the US Department of Agriculture, the Department of the Treasury, the United States Agency for International Development, and the Department of Transportation to develop a Diversity Profile Dashboard and a <a href="https://resources.data.gov/resources/CDO_HR_Dashboard/" aria-label="HR Dashboarding Report">report</a> to explore the value of shared HR decision support across agencies. 
 # required, this is what becomes the filter
 category: cdo-council
 tag: CDO Council

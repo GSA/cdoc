@@ -9,6 +9,7 @@
 
 .ogp-flex{
   display: flex !important;
+  margin-top: 1rem;
 }
 
 .ogp-text-none{
@@ -25,4 +26,8 @@
 .cxo-quote {
   text-align: center;
   font-style: italic;
+}
+
+.margin-top{
+    margin-top: 2rem !important;
 }
