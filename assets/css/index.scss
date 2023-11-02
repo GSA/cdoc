@@ -1,7 +1,11 @@
+---
+---
 // Import the US Web Design System SASS.
 
-@import "uswds";
-@import "../../_sass/knowledgesharing";
+$theme-show-notifications: false;
+@import "../node_modules/uswds/dist/scss/uswds";
+@import "knowledgesharing";
+
 
 // Add your SASS/CSS here
 $cdoc-blue: #1CA7FC;
@@ -115,7 +119,7 @@ abbr{
 }
 
 .abstract-background {
-  background-image: url("../assets/images/background/hero-new.jpg");
+  background-image: url("../images/background/hero-new.jpg");
   object-fit: cover;
   background-color: #000;
   background-size: cover;
@@ -562,7 +566,7 @@ ul.filter-list {
   color: #005ea2;
 }
 .tag-image {
-  background: url("../assets/images/background/tags-solid.png") no-repeat;
+  background: url("../images/background/tags-solid.png") no-repeat;
   width: 16px;
   height: 16px;
   background-size: 16px 16px;
@@ -634,7 +638,7 @@ ul.filter-list {
   }
 
   &__button--ext {
-    background: url("../assets/images/events/open-icon.png") 3px center no-repeat;
+    background: url("../images/events/open-icon.png") 3px center no-repeat;
     width: 13px;
     height: 10px;
     padding-right: 20px;
