@@ -2,7 +2,7 @@
 title: Profiles in Data Sharing - National Electronic Interstate Compact Enterprise
 subtitle: Profiles in Data Sharing - National Electronic Interstate Compact Enterprise
 layout: newspost
-date: November 1, 2023
+date: November 2, 2023
 author: CDO Council
 excerpt:
 image:
