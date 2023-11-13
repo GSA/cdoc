@@ -46,5 +46,5 @@
 </script>
 {% endif %}
 
-{% asset uswds.min.js %}
-{% asset app.js %}
+<script src="{{ site.baseurl }}/assets/js/uswds.min.js?{{ site.time | date: '%s%N' }}"></script>
+<script src="{{ site.baseurl }}/assets/js/app.js?{{ site.time | date: '%s%N' }}"></script>
