@@ -20,7 +20,7 @@ In 2023, the survey received 35 responses from agency CDOs – 20 from large age
 - The majority of respondents have been in the public sector for ten years or more, with small agency respondents reporting shorter tenures.
 - Educational distribution wide ranging, with education ranging from bachelor’s degrees to Ph.D.s, without professional data and analytics certifications. Programs such as these were likely nonexistent when respondents received their education.
 
-In addition, from 2022 to 2023, the survey indicated changes in the size of CDO teams as well as the role of CDO. In particular, CDOs reported:
+In addition, from 2022 to 2023, the survey indicated changes in the size of CDO teams as well as role of CDO. In particular, CDOs reported:
 
 - Size of teams
   - ~14% overall increase in respondents having a Central Data Team as opposed to a one-person CDO Office.
