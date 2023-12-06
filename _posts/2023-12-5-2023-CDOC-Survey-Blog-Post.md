@@ -1,6 +1,6 @@
 ---
-title: 2023 CDOC Survey Blog Post
-subtitle: 2023 CDOC Survey Blog Post
+title: 2023 CDO Council Survey Results
+subtitle: 2023 CDO Council Survey Results
 layout: newspost
 date: December 5, 2023
 author: CDO Council
