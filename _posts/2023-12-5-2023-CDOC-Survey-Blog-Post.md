@@ -28,7 +28,7 @@ In addition, from 2022 to 2023, the survey indicated changes in the size of CDO 
   - Large Agency respondents had greater personnel resources than both Medium / Small Sized Agencies: 
     - ~56% of Large Agency respondents reported 5-15 FTEs and 69% reported 5-25 Contractors reporting to the CDO, 
     - ~43% of Medium Agency respondents reported upwards of 5 FTEs, 57% had 0 Contractors and
-- 100% of Small Agency respondents reported having one-person CDO Offices.
+  - 100% of Small Agency respondents reported having one-person CDO Offices.
 
 - Responsibilities
   - Respondent responsibility changed from Primary Accountable Official to Partner in: 
