@@ -2,7 +2,7 @@
 title: 2023 CDO Council Survey Results
 subtitle: 2023 CDO Council Survey Results
 layout: newspost
-date: December 5, 2023
+date: December 8, 2023
 author: CDO Council
 excerpt:
 image: 
