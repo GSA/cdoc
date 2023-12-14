@@ -2,7 +2,7 @@
 title: 'Navigating the Metrics Maze: Lessons from Diverse Domains for Federal Chief Data Officers'
 subtitle: 'Navigating the Metrics Maze: Lessons from Diverse Domains for Federal Chief Data Officers'
 layout: newspost
-date: December 12, 2023
+date: December 14, 2023
 author: CDO Council
 excerpt:
 image:
