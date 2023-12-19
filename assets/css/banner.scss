@@ -428,3 +428,10 @@ padding-top: 29rem;
 .text-center{
     text-align:center;
 }
+
+@media screen and (max-width: 640px) {
+    .usa-hero__heading {
+        margin-top: -10px;
+        line-height: 1;
+    }
+}
