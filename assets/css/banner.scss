@@ -161,6 +161,10 @@
   height: 100%;
 }
 
+.wide-content-box {
+  max-width: 24rem !important;
+}
+
 .carousel-content-box {
   background: #cfe8ff;
   border-radius: 0.5rem;
@@ -169,7 +173,6 @@
   box-shadow: 0 1rem 2rem 0 RGB(0 0 0 / 40%);
   max-width: 20rem;
 }
-
 
 .abstract-background2 {
     background-image: url(../images/background/podcast.png);
@@ -215,6 +218,14 @@
 
 .abstract-background-value-impact{
   background-image: url(../images/background/hero-banner-impact.jpg);
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.abstract-background-brain{
+  background-image: url(../images/background/brain-bg.jpg);
   background-color: #172636;
   background-repeat: no-repeat;
   background-position: top center;
@@ -416,4 +427,11 @@ padding-top: 29rem;
 
 .text-center{
     text-align:center;
+}
+
+@media screen and (max-width: 640px) {
+    .usa-hero__heading {
+        margin-top: -10px;
+        line-height: 1;
+    }
 }
