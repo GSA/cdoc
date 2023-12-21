@@ -8,7 +8,7 @@ excerpt:
 image:
 image_alt_text: Enterprise analytics thumbnail
 permalink: /power-of-enterprise-analytics/
-image_path:  /assets/images/meeting-thumbnail.png
+image_path:  /assets/images/background/public-meeting-2023-thumbnail.jpg
 description: Delve into the transformative capabilities of CDOs, examining case studies from the USDA and the Department of State to uncover success factors in implementing enterprise analytics within their respective agencies.
 ---
 
