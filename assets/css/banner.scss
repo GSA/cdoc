@@ -230,6 +230,19 @@
   }
 }
 
+@media screen and (min-width: 820px) and (max-width: 1270px) {
+  .abstract-background-review-2023 {
+    background-image: url(../images/background/year-in-review-banner-tablet.jpg);
+  }
+}
+
+@media screen and (max-width: 819px) {
+  .abstract-background-review-2023 {
+    background-image: url(../images/background/year-in-review-banner-mobile.jpg);
+  }
+}
+
+
 .abstract-background-value-impact{
   background-image: url(../images/background/hero-banner-impact.jpg);
   background-color: #172636;
