@@ -224,19 +224,19 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1271px) and (max-width: 1440px) {
   .abstract-background-review-2023 {
     background-image: url(../images/background/year-in-review-banner-laptop.jpg);
   }
 }
 
-@media screen and (min-width: 820px) and (max-width: 1270px) {
+@media screen and (min-width: 768px) and (max-width: 1270px) {
   .abstract-background-review-2023 {
     background-image: url(../images/background/year-in-review-banner-tablet.jpg);
   }
 }
 
-@media screen and (max-width: 819px) {
+@media screen and (max-width: 767px) {
   .abstract-background-review-2023 {
     background-image: url(../images/background/year-in-review-banner-mobile.jpg);
   }
