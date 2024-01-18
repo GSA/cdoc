@@ -216,6 +216,33 @@
   background-size: cover;
 }
 
+.abstract-background-review-2023{
+  background-image: url(../images/background/year-in-review-banner.jpg);
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1271px) and (max-width: 1440px) {
+  .abstract-background-review-2023 {
+    background-image: url(../images/background/year-in-review-banner-laptop.jpg);
+  }
+}
+
+@media screen and (min-width: 838px) and (max-width: 1270px) {
+  .abstract-background-review-2023 {
+    background-image: url(../images/background/year-in-review-banner-tablet.jpg);
+  }
+}
+
+@media screen and (max-width: 837px) {
+  .abstract-background-review-2023 {
+    background-image: url(../images/background/year-in-review-banner-mobile.jpg);
+  }
+}
+
+
 .abstract-background-value-impact{
   background-image: url(../images/background/hero-banner-impact.jpg);
   background-color: #172636;
