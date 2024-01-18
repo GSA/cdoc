@@ -2,7 +2,7 @@
 title: 'CDO Council 2023 Review'
 subtitle: 'CDO Council 2023 Review'
 layout: newspost
-date: January 17, 2024
+date: January 18, 2024
 author: CDO Council
 excerpt:
 image:
