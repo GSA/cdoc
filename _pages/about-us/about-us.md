@@ -11,9 +11,9 @@ redirect_from:
 ---
 ## Welcome Message
 
-"I believe deeply that we as Federal CDOs have an opportunity to engage in work that is meaningful and transformative through the foundational steps outlined in the Federal Data Strategy.  As a Chief Data Officer, I have seen first-hand the impact that delivering data and analytics solutions to our leaders and field employees has on how we serve the public, and we know the unique power government data has to solve major public challenges.  The Federal CDO Council is committed to creating a supportive environment for CDOs to share information on the best practices that foster data-driven organizations, while we identify and solve cross-cutting Federal-wide data challenges through collaboration and shared leadership." 
+“Data is life and the foundation of every function of government. I am profoundly committed to the idea that our role as a Council presents a unique opportunity for meaningful and transformative work. Having witnessed the impact of delivering data and analytic solutions, I recognize the earnest effect it has on how we serve the Nation. The commitment of our Council is to foster collaboration, share best practices, and address federal-wide data challenges. In these transformative times, we are overwhelmed with excitement and gratitude to serve the data community together.” 
 
--**Ted Kaouk, Chair**
+-**Kirsten Dalboe, Chair**
 
 
 ## Authority
