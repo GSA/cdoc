@@ -11,9 +11,9 @@ redirect_from:
 ---
 ## Welcome Message
 
-"I believe deeply that we as Federal CDOs have an opportunity to engage in work that is meaningful and transformative through the foundational steps outlined in the Federal Data Strategy.  As a Chief Data Officer, I have seen first-hand the impact that delivering data and analytics solutions to our leaders and field employees has on how we serve the public, and we know the unique power government data has to solve major public challenges.  The Federal CDO Council is committed to creating a supportive environment for CDOs to share information on the best practices that foster data-driven organizations, while we identify and solve cross-cutting Federal-wide data challenges through collaboration and shared leadership." 
+“Data is life and the foundation of every function of government. I am profoundly committed to the idea that our role as a Council presents a unique opportunity for meaningful and transformative work. Having witnessed the impact of delivering data and analytic solutions, I recognize the earnest effect it has on how we serve the Nation. The commitment of our Council is to foster collaboration, share best practices, and address federal-wide data challenges. In these transformative times, we are overwhelmed with excitement and gratitude to serve the data community together.” 
 
--**Ted Kaouk, Chair**
+-**Kirsten Dalboe, Chair**
 
 
 ## Authority
@@ -24,7 +24,7 @@ The CDO Council was established by statute in the Foundations for [Evidence-Base
 The Council’s vision is to improve government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations. 
 
 ## Purpose
-The CDO Council shall meet regularly to establish government-wide best practices for the management, use, protection, dissemination, and generation of data; promote and encourage data sharing agreements between agencies; identify ways in which agencies can improve upon the production of evidence for use in policymaking; consult with the public and engage with private users of Government data and other stakeholders on how to improve access to data assets of the Federal Government; and identify and evaluate new technology solutions for improving the collection and use of data. The CDO Council shares responsibilities with other interagency councils that conduct and impact data-related activities, including those focused on information technology, statistics, information security, evaluation, privacy, freedom of information, and other government objectives. The CDO Council coordinates its activities with these councils and bodies in order to assure that these activities are complementary and carried out efficiently and effectively
+The CDO Council shall meet regularly to establish government-wide best practices for the management, use, protection, dissemination, and generation of data; promote and encourage data sharing agreements between agencies; identify ways in which agencies can improve upon the production of evidence for use in policymaking; consult with the public and engage with private users of Government data and other stakeholders on how to improve access to data assets of the Federal Government; and identify and evaluate new technology solutions for improving the collection and use of data. The CDO Council shares responsibilities with other interagency councils that conduct and impact data-related activities, including those focused on information technology, statistics, information security, evaluation, privacy, freedom of information, and other government objectives. The CDO Council coordinates its activities with these councils and bodies in order to assure that these activities are complementary and carried out efficiently and effectively.
 
 ## Goals
 * Meet statutory requirements, including the required report to Congress. 
