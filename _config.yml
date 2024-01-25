@@ -260,6 +260,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - docker-compose.yml
+  - member_archive/
 
 autoprefixer:
   browsers:
