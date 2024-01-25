@@ -6,7 +6,7 @@ sidenav: false
 permalink: /data-inventory/
 purpose: Data inventories are as essential to agencies as card catalogs are to libraries. These inventories make data assets discoverable to machines and humans. To inform policy decisions, CDO’s must ensure their data inventories support their agency missions. 
 top-image: data-inventory.png
-member: Thomas Dabolt
+member: Austin Gerig
 pdf: data-inventory-wg.pdf
 has-stories: true
 ---
