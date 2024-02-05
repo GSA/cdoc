@@ -18,7 +18,7 @@ redirect_from:
 
 ## Authority
 
-The CDO Council was established by statute in the Foundations for [Evidence-Based Policymaking Act of 2018 (P.L. 115-435) 44 USC § 3520A](https://www.congress.gov/bill/115th-congress/house-bill/4174/text). The Council is set to sunset in January 2025, 2 years after GAO completes an evaluation of the council, which is due to Congress by January 2023.
+The CDO Council was established by statute in the Foundations for [Evidence-Based Policymaking Act of 2018 (P.L. 115-435) 44 USC § 3520A](https://www.congress.gov/bill/115th-congress/house-bill/4174/text).
 
 ## Vision
 The Council’s vision is to improve government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations. 
