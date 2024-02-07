@@ -1,8 +1,8 @@
 ---
 subtitle: Executive Committee
 title: Council Leadership
-bio-image: headshot-placeholder-cdo-logo.png
-bio-image-alt-text: CDO logo
+bio-image: dean-circle.png
+bio-image-alt-text: Dr. Mahnaz Dean
 layout: bio
 permalink: /bio/dean-mahnaz/
 name : Dr. Mahnaz Dean
