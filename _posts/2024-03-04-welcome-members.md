@@ -2,7 +2,7 @@
 title: 'Welcome to the CDO Council’s Newest Executive Committee Members'
 subtitle: 'Welcome to the CDO Council’s Newest Executive Committee Members'
 layout: newspost
-date: March 4, 2024
+date: March 8, 2024
 author: CDO Council
 excerpt:
 image:
