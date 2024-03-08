@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   generation of data in government decision-making and operations.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cdo.gov" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.cdo.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
@@ -260,10 +260,20 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - docker-compose.yml
+  - member_archive/
 
-assets:
-  sources:
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
-    - node_modules/netlify-cms/dist
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - "last 2 versions"
+    - "IE 11"
+    - "not dead"
+
+sass:
+  sass_dir: _sass
+  load_paths:
+    - node_modules/uswds/dist/
+  sourcemap: development
+  quiet_deps: true
+  style: compressed
+  verbose: true
