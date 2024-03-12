@@ -2,9 +2,11 @@
 ---
 // Import the US Web Design System SASS.
 
-$theme-show-notifications: false;
-@import "../node_modules/uswds/dist/scss/uswds";
-@import "knowledgesharing";
+// $theme-show-notifications: false;
+// @import "../node_modules/uswds/dist/scss/uswds";
+@use "uswds" as *;
+// @import "knowledgesharing";
+@use "../../_sass/knowledgesharing" as *;
 
 
 // Add your SASS/CSS here
@@ -23,6 +25,15 @@ $cdoc-blue-50: #2378c3;
 
 .usa-banner__button:hover::after, .usa-banner__button[aria-expanded="true"]:hover::after, .usa-banner__header-action::after{
   background-color: transparent;
+}
+
+.usa-banner__button::after,  .usa-banner__button:hover::after{
+  position: relative;
+}
+
+.usa-banner__button[aria-expanded="true"]::after, .usa-banner__button[aria-expanded="true"]:hover::after {
+  background: url(../img/usa-icons/expand_less.svg) no-repeat center / 1rem 1rem;
+  position: relative;
 }
 
 // for lists like (A), (B), (C)...
@@ -876,4 +887,13 @@ ul.filter-list {
 }
 .font-22{
     font-size: 21.44px !important;
+}
+
+
+.usa-search--small [type="submit"], .usa-search--small .usa-search__submit {
+  background-image: url(../img/search.svg), linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1rem;
+  width: 3rem;
 }

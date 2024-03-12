@@ -212,7 +212,7 @@ pagination:
   # Site-wide kill switch, disabled here it doesn't run at all
   enabled: true
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: false
+  debug: true
   # The default document collection to paginate if nothing is specified ('posts' is default)
   collection: "posts"
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
@@ -243,10 +243,8 @@ pagination:
     after: 2
   # Optional, the default file extension for generated pages (e.g html, json, xml).
   # Internally this is set to html by default
-  extension: html
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
-  indexpage: "index.html"
 
 exclude:
   - package.json
@@ -272,7 +270,7 @@ autoprefixer:
 sass:
   sass_dir: _sass
   load_paths:
-    - node_modules/uswds/dist/
+    - node_modules/@uswds/uswds/packages
   sourcemap: development
   quiet_deps: true
   style: compressed
