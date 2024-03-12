@@ -20,7 +20,7 @@ $cdoc-blue-50: #2378c3;
 }
 
 .usa-banner__button::after, .usa-banner__button[aria-expanded="true"]::after, .usa-banner__header-action::after {
-  background: url(../img/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
+  background: url(../images/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
 }
 
 .usa-banner__button:hover::after, .usa-banner__button[aria-expanded="true"]:hover::after, .usa-banner__header-action::after{
@@ -891,7 +891,7 @@ ul.filter-list {
 
 
 .usa-search--small [type="submit"], .usa-search--small .usa-search__submit {
-  background-image: url(../img/search.svg), linear-gradient(transparent, transparent);
+  background-image: url(../images/search.svg), linear-gradient(transparent, transparent);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 1rem;
