@@ -441,6 +441,15 @@ abbr{
   font-size: 1.17em;
 }
 
+.usa-accordion__button[aria-expanded="false"].bg-accent-cool-lighter, .usa-accordion__button[aria-expanded="false"]:hover.bg-accent-cool-lighter {
+  background-image: url(../img/plus.svg), linear-gradient(transparent, transparent);
+  background-size: 1rem;
+}
+.usa-accordion__button[aria-expanded="true"].bg-accent-cool-lighter {
+  background-image: url(../img/minus.svg), linear-gradient(transparent, transparent);
+  background-size: 1rem;
+}
+
 img.workinggroup-icon {
   vertical-align: sub;
   margin-right: 0.25em;
