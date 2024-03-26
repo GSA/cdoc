@@ -19,22 +19,29 @@ $cdoc-blue-50: #2378c3;
   margin-right: auto;
 }
 
-.usa-banner__button::after, .usa-banner__button[aria-expanded="true"]::after, .usa-banner__header-action::after {
-  background: url(../images/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
+// Government Banner
+@media all and (min-width: 40em) {
+  .usa-banner__button::after, .usa-banner__button:hover::after, .usa-banner__button[aria-expanded=true]::after, .usa-banner__button[aria-expanded=true]:hover::after {
+    position:unset
+  }
 }
 
-.usa-banner__button:hover::after, .usa-banner__button[aria-expanded="true"]:hover::after, .usa-banner__header-action::after{
-  background-color: transparent;
-}
+// .usa-banner__button::after, .usa-banner__button[aria-expanded="true"]::after, .usa-banner__header-action::after {
+//   background: url(../images/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
+// }
 
-.usa-banner__button::after,  .usa-banner__button:hover::after{
-  position: relative;
-}
+// .usa-banner__button:hover::after, .usa-banner__button[aria-expanded="true"]:hover::after, .usa-banner__header-action::after{
+//   background-color: transparent;
+// }
 
-.usa-banner__button[aria-expanded="true"]::after, .usa-banner__button[aria-expanded="true"]:hover::after {
-  background: url(../img/usa-icons/expand_less.svg) no-repeat center / 1rem 1rem;
-  position: relative;
-}
+// .usa-banner__button::after,  .usa-banner__button:hover::after{
+//   position: relative;
+// }
+
+// .usa-banner__button[aria-expanded="true"]::after, .usa-banner__button[aria-expanded="true"]:hover::after {
+//   background: url(../img/usa-icons/expand_less.svg) no-repeat center / 1rem 1rem;
+//   position: relative;
+// }
 
 // for lists like (A), (B), (C)...
 .ol-upperCase ol { counter-reset: item }
@@ -63,12 +70,12 @@ $cdoc-blue-50: #2378c3;
   .usa-media-block {
     display: block;
   }
-  .usa-banner__button[aria-expanded="true"]::after{
-      background: url(../img/close-alt.svg) no-repeat center / 1rem 1rem;
-  }
-  .usa-banner__button::after {
-    background: url(../img/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
-  }
+  // .usa-banner__button[aria-expanded="true"]::after{
+  //     background: url(../img/close-alt.svg) no-repeat center / 1rem 1rem;
+  // }
+  // .usa-banner__button::after {
+  //   background: url(../img/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
+  // }
 
 }
 @media screen and (max-width: 768px) {
