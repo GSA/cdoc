@@ -60,7 +60,7 @@ permalink: /awards-program/
 
 <section class="usa-graphic_list usa-section clearfix padding-y-5">
     <div class="clearfix grid-container">
-         <section class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
+         <section class="usa-accordion usa-accordion--bordered" data-allow-multiple>
                 <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a6"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">2023 CDOC Award Winners</button></h2>
                 <div id="m-a6" class="usa-accordion__content">
                     <p class="font-sans-md" class="text-center"><strong><u>Distinguished Federal Data Innovator Award</u></strong></p>                   

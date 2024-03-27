@@ -2,9 +2,11 @@
 ---
 // Import the US Web Design System SASS.
 
-$theme-show-notifications: false;
-@import "../node_modules/uswds/dist/scss/uswds";
-@import "knowledgesharing";
+// $theme-show-notifications: false;
+// @import "../node_modules/uswds/dist/scss/uswds";
+@use "uswds" as *;
+// @import "knowledgesharing";
+@use "../../_sass/knowledgesharing" as *;
 
 
 // Add your SASS/CSS here
@@ -17,12 +19,11 @@ $cdoc-blue-50: #2378c3;
   margin-right: auto;
 }
 
-.usa-banner__button::after, .usa-banner__button[aria-expanded="true"]::after, .usa-banner__header-action::after {
-  background: url(../img/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
-}
-
-.usa-banner__button:hover::after, .usa-banner__button[aria-expanded="true"]:hover::after, .usa-banner__header-action::after{
-  background-color: transparent;
+// Government Banner
+@media all and (min-width: 40em) {
+  .usa-banner__button::after, .usa-banner__button:hover::after, .usa-banner__button[aria-expanded=true]::after, .usa-banner__button[aria-expanded=true]:hover::after {
+    position:unset
+  }
 }
 
 // for lists like (A), (B), (C)...
@@ -52,21 +53,11 @@ $cdoc-blue-50: #2378c3;
   .usa-media-block {
     display: block;
   }
-  .usa-banner__button[aria-expanded="true"]::after{
-      background: url(../img/close-alt.svg) no-repeat center / 1rem 1rem;
-  }
-  .usa-banner__button::after {
-    background: url(../img/chevron.svg) no-repeat center / 1.3128205128ex 0.8ex;
-  }
 
 }
 @media screen and (max-width: 768px) {
 
 }
-// default mode hide banner
-/*.usa-banner__content {
-  display: none;
-}*/
 
 @media screen and (min-width: 640px) {
   .tablet\:width-1\/3 {
@@ -110,10 +101,6 @@ $cdoc-blue-50: #2378c3;
   }
 }
 
-// html,p,div {
-// font-family: "Public Sanas Sans"!important;
-// }
-
 abbr{
   text-decoration: none !important;
 }
@@ -124,6 +111,11 @@ abbr{
   background-color: #000;
   background-size: cover;
   background-position: 0 30px;
+}
+
+// Side nav
+.usa-nav__close.side-nav img {
+  width: .75rem;
 }
 
 // Homepage Focus icons
@@ -179,14 +171,6 @@ abbr{
   margin-left: 0;
 }
 
-/*.usa-button {
-  background-color: $cdoc-blue;
-
-  &.bg-white {
-    background-color: #fff;
-  }
-}*/
-
 #main-content{
   background-color: #fefefe;
 }
@@ -204,7 +188,6 @@ abbr{
 }
 .bg-gradient{
   background: rgb(19,38,139);
-  /*background: linear-gradient(52deg, rgba(19,38,139,1) 0%, rgba(15,34,121,1) 49%, rgba(10,30,104,1) 58%, rgba(6,26,90,1) 67%, rgba(1,21,74,0.9794292717086834) 74%, rgba(0,20,70,1) 100%);*/
   background: linear-gradient(52deg, #162e51 0%, #005ea2 100%);
 
 }
@@ -407,9 +390,6 @@ abbr{
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
- /* &:hover {
-    background-color: #eafaff;
-  }*/
 }
 
 .usa-accordion--bordered .usa-accordion__content {
@@ -421,6 +401,15 @@ abbr{
 
 .usa-accordion__heading {
   font-size: 1.17em;
+}
+
+.usa-accordion__button[aria-expanded="false"].bg-accent-cool-lighter, .usa-accordion__button[aria-expanded="false"]:hover.bg-accent-cool-lighter {
+  background-image: url(../img/plus.svg), linear-gradient(transparent, transparent);
+  background-size: 1rem;
+}
+.usa-accordion__button[aria-expanded="true"].bg-accent-cool-lighter {
+  background-image: url(../img/minus.svg), linear-gradient(transparent, transparent);
+  background-size: 1rem;
 }
 
 img.workinggroup-icon {
@@ -876,4 +865,13 @@ ul.filter-list {
 }
 .font-22{
     font-size: 21.44px !important;
+}
+
+
+.usa-search--small [type="submit"], .usa-search--small .usa-search__submit {
+  background-image: url(../images/search.svg), linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1rem;
+  width: 3rem;
 }
