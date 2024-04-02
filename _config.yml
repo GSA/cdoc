@@ -243,10 +243,8 @@ pagination:
     after: 2
   # Optional, the default file extension for generated pages (e.g html, json, xml).
   # Internally this is set to html by default
-  extension: html
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
-  indexpage: "index.html"
 
 exclude:
   - package.json
@@ -272,7 +270,7 @@ autoprefixer:
 sass:
   sass_dir: _sass
   load_paths:
-    - node_modules/uswds/dist/
+    - node_modules/@uswds/uswds/packages
   sourcemap: development
   quiet_deps: true
   style: compressed
