@@ -9,7 +9,6 @@ top-image: data.svg
 member: Christopher Alvares
 members:
   - Christopher Alvares
-  - Eileen Vidrine
 pdf: data-skills-wg.pdf
 has-stories: true
 ---

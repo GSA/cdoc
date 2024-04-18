@@ -31,23 +31,8 @@ The CDO Council shall meet regularly to establish government-wide best practices
 * Be a community of learning by broadly identifying best practices and resources to facilitate the implementation for the [Foundations for Evidence-Based Policymaking Act of 2018](https://www.congress.gov/bill/115th-congress/house-bill/4174/text).
 * Provide leadership on the delivery of the [Federal Data Strategy Action Plan](https://strategy.data.gov/action-plan/).
 
-## 2022-2023 CDO Council Goals
-* Goal 1: Strengthen and empower the Federal workforce in the use of data
-    * Objective: Develop resources that help agencies empower their workforce
-    * Objective: Foster collective learning and information sharing around the use of data
-* Goal 2: Enable impactful outcomes from simple, seamless, and secure customer experiences
-    * Objective: Supporting effective data use and sharing across agencies
-    * Objective: Supporting secure and safe data access
-    * Objective: Foster collaboration across agencies
-* Goal 3: Support the application of data ethics and equity
-    * Objective: Steward the Federal Data Ethics framework
-    * Objective: Promote the use of data equity resources
-* Goal 4: Support the strategic use of data for intelligent government operations
-    * Objective: Engage in Federal data policy issues
-    * Objective: Understanding the structural role of CDOs
-    * Objective: Foster cross-council collaboration in addressing the strategic use of data
-    * Objective: Support engagement from the public and stakeholders with Federal data issues
-    * Objective: Effectively manage CDOC operations
+## 2024-2025 CDO Council Goals
+<img src="{{ site.baseurl }}/assets/images/CDOC FY2425 Goals V1.png" alt="2024-2025 CDO Council Goals" class="maxw-full">
 
 ## Charter
 In May 2020, the CDO Council voted to establish a <a href="{{ site.baseurl}}/assets/documents/cdo-council-charter-061820.pdf"> charter</a>.
