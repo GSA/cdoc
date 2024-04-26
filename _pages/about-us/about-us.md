@@ -26,11 +26,6 @@ The Council’s vision is to improve government mission achievement and increase
 ## Purpose
 The CDO Council shall meet regularly to establish government-wide best practices for the management, use, protection, dissemination, and generation of data; promote and encourage data sharing agreements between agencies; identify ways in which agencies can improve upon the production of evidence for use in policymaking; consult with the public and engage with private users of Government data and other stakeholders on how to improve access to data assets of the Federal Government; and identify and evaluate new technology solutions for improving the collection and use of data. The CDO Council shares responsibilities with other interagency councils that conduct and impact data-related activities, including those focused on information technology, statistics, information security, evaluation, privacy, freedom of information, and other government objectives. The CDO Council coordinates its activities with these councils and bodies in order to assure that these activities are complementary and carried out efficiently and effectively.
 
-## Goals
-* Meet statutory requirements, including the required report to Congress. 
-* Be a community of learning by broadly identifying best practices and resources to facilitate the implementation for the [Foundations for Evidence-Based Policymaking Act of 2018](https://www.congress.gov/bill/115th-congress/house-bill/4174/text).
-* Provide leadership on the delivery of the [Federal Data Strategy Action Plan](https://strategy.data.gov/action-plan/).
-
 ## 2024-2025 CDO Council Goals
 <img src="{{ site.baseurl }}/assets/images/CDOC FY2425 Goals V1.png" alt="In April 2024, the CDO Council updated its goals and objectives for 2024-2025. During this period, the activities of the Council will strive to advance the following five goals: Strengthen and empower the Federal workforce in the use of data; Professionalize CDO Function; Optimize the business of the data life cycle (costs, logistics, burden); Optimize customer experience through efficient collection and use of data (input); and Empower modern digital experiences (Output). Each goal has various corresponding objectives to help guide progress and accomplishment through December 2025." class="maxw-full">
 
