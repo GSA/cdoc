@@ -32,7 +32,7 @@ The CDO Council shall meet regularly to establish government-wide best practices
 * Provide leadership on the delivery of the [Federal Data Strategy Action Plan](https://strategy.data.gov/action-plan/).
 
 ## 2024-2025 CDO Council Goals
-<img src="{{ site.baseurl }}/assets/images/CDOC FY2425 Goals V1.png" alt="2024-2025 CDO Council Goals" class="maxw-full">
+<img src="{{ site.baseurl }}/assets/images/CDOC FY2425 Goals V1.png" alt="In April 2024, the CDO Council updated its goals and objectives for 2024-2025. During this period, the activities of the Council will strive to advance the following five goals: Strengthen and empower the Federal workforce in the use of data; Professionalize CDO Function; Optimize the business of the data life cycle (costs, logistics, burden); Optimize customer experience through efficient collection and use of data (input); and Empower modern digital experiences (Output). Each goal has various corresponding objectives to help guide progress and accomplishment through December 2025." class="maxw-full">
 
 ## Charter
 In May 2020, the CDO Council voted to establish a <a href="{{ site.baseurl}}/assets/documents/cdo-council-charter-061820.pdf"> charter</a>.
