@@ -11,7 +11,7 @@ members:
   - Christopher Alvares
   - Dan Morgan
 pdf:
-has-stories: true
+has-stories: false
 ---
 
 <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a1"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt=""> Goals</button></h3>
@@ -38,11 +38,11 @@ has-stories: true
     <li>Use consensus-based decision-making within the Working Group, while actively communicating and, as necessary, documenting any dissent or range of views when providing recommendations to the CDO Council Executive Committee or Chair</li>
   </ul>
 </div> -->
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4" aria-label="Resources in Data Skills"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
+<!-- <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4" aria-label="Resources in Data Skills"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
 <div id="m-a4" class="usa-accordion__content">
   <ul class="add-list-reset">
       <li><a href="https://community.max.gov/display/DATA/Data+Sharing+Working+Group">Max.Gov</a></li>
       <li><a href="https://strategy.data.gov/action-plan/">Federal Data Strategy</a></li>
       <li><a href="https://www.congress.gov/bill/115th-congress/house-bill/4174/text">Foundations for Evidence-Based Policymaking Act of 2018</a></li>
   </ul>
-</div> 
+</div>  -->
