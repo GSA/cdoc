@@ -89,14 +89,14 @@ primary_navigation:
         url: "/council-members/"
   - name: Working Groups & Committees
     children:
-      - name: Data Ethics
-        url: "/data-ethics-and-equity/"
+      - name: Business of Data
+        url: "/business-of-data/"
+      - name: Data Culture for the Workforce
+        url: "/data-culture-for-the-workforce/"
       - name: Data Inventory
         url: "/data-inventory/"
       - name: Data Sharing
         url: "/data-sharing/"
-      - name: Data Skills
-        url: "/data-skills/"
       - name: Large Agency Committee
         url: "/large-agency/"
       - name: Small Agency Committee
@@ -129,24 +129,24 @@ secondary_navigation:
 
 number_of_icons: 6
 homepage_icons:
-  - name: Data Sharing
-    logo: /assets/images/logos/data-sharing.png
-    url: /data-sharing/
+  - name: Business of Data
+    logo: /assets/images/logos/justice.svg
+    url: /business-of-data/
+  - name: Data Culture for the Workforce
+    logo: /assets/images/logos/data.svg
+    url: /data-culture-for-the-workforce/
   - name: Data Inventory 
     logo: /assets/images/logos/data-inventory.png
     url: /data-inventory/
-  - name: Data Skills
-    logo: /assets/images/logos/data.svg
-    url: /data-skills/
+  - name: Data Sharing
+    logo: /assets/images/logos/data-sharing.png
+    url: /data-sharing/
   - name: Large Agency Committee
     logo: /assets/images/logos/group-line.svg
     url: /large-agency/
   - name: Small Agency Committee
     logo: /assets/images/logos/group.svg
     url: /small-agency/
-  - name: Data Ethics and Equity
-    logo: /assets/images/logos/justice.svg
-    url: /data-ethics-and-equity/
 
 
 # Search.gov configuration
@@ -259,6 +259,7 @@ exclude:
   - Gemfile.lock
   - docker-compose.yml
   - member_archive/
+  - _unpublished
 
 autoprefixer:
   browsers:
