@@ -8,39 +8,27 @@ permalink: /awards-program/
 
 <section class="carousel-container">
         <div class="carousel carousel-padding" id="carousel-2" auto-scroll="8000">
-           <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1" role="img" aria-label="Distinguished Federal Data innovator Award Shawn Tufts, Jay Gregory, Seth Hasty, Eli Velazquez, DOT (CFO)"> 
+           <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background1" role="img" aria-label="Distinguished Achievement in Federal Data: James Barham, Department of Agriculture (CFO)"> 
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2" role="img" aria-label="Excellence in Data Governance Erycka Reid, DAF (CFO) & Nicholas Buggs and Joshua Spicka (Team), NRC (CFO)">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background2" role="img" aria-label="Distinguished Federal Data Innovator: Sara Cermenaro, Social Security Administration (CFO) and The Data Policy and Access Team, Equal Employment Opportunity Commission (Non-CFO)">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background3" role="img" aria-label="Team of the Year Operation Welcome Nica, DOS (CFO)">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background3" role="img" aria-label="Excellence in Data Governance: Dr. Neeraj Koul, Department of Transportation (CFO)">
             </section>
             
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4" role="img" aria-label="Data Champion of the Year John Stevens, FRS (Non-CFO) & Andrea Palm, HHS (CFO)">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background4" role="img" aria-label="Data Champion of the Year: Andre Newsom, Department of Energy (CFO)">
             </section>
 
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5" role="img" aria-label="Distinguished Achievement in Federal Data Katherine Tom, CDO, FRS (Non-CFO) & Sharon Boivin, Layne Morrison, Soumya Sathya, DOE (CFO)">
-            </section>
-
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background6" role="img" aria-label="Working Group Contributor Data Skills Working Group Arun Acharya, CPSC and Lin Zhang, DOI & Data Ethics and Equity Working Group Erin Dawson, NSF">
-            </section>
-
-            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background7" role="img" aria-label="Working Group Contributor Data Sharing Working Group Monique Eleby, Census Bureau & Data Inventory Working Group Brian Reichenbach, DOS">
-            </section>
-
-             <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background8" role="img" aria-label="Committee Superior Contributor Large Agency Committee Dorothy Aronson, NSF & Small Agency Committee Katherine Tom, FRB and Geoffrey Nieboer, FDIC">
+            <section class="carousel-screen usa-graphic-list padding-y-4 awards-abstract-background5" role="img" aria-label="Team of the Year: The CDO Team, Railroad Retirement Board (Non-CFO) and The NEAS Team, National Aeronautics and Space Administration (CFO)">
             </section>
 
             <section class="circle-container">
-                <div class="circle" aria-label="slide 1 Distinguished Federal Data innovator Award Shawn Tufts, Jay Gregory, Seth Hasty, Eli Velazquez, DOT (CFO)" tabindex=0></div>
-                <div class="circle" aria-label="slide 2 Excellence in Data Governance Erycka Reid, DAF (CFO) & Nicholas Buggs and Joshua Spicka (Team), NRC (CFO)" tabindex=0></div>
-                <div class="circle" aria-label="slide 3 Team of the Year Operation Welcome Nica, DOS (CFO)" tabindex=0></div>
-                <div class="circle" aria-label="slide 4 Data Champion of the Year John Stevens, FRS (Non-CFO) & Andrea Palm, HHS (CFO)" tabindex=0></div>
-                <div class="circle" aria-label="slide 5 Distinguished Achievement in Federal Data Katherine Tom, CDO, FRS (Non-CFO) & Sharon Boivin, Layne Morrison, Soumya Sathya, DOE (CFO)" tabindex=0></div>
-                <div class="circle" aria-label="slide 6 Working Group Contributor Data Skills Working Group Arun Acharya, CPSC and Lin Zhang, DOI & Data Ethics and Equity Working Group Erin Dawson, NSF" tabindex=0></div>
-                <div class="circle" aria-label="slide 7 Working Group Contributor Data Sharing Working Group Monique Eleby, Census Bureau & Data Inventory Working Group Brian Reichenbach, DOS" tabindex=0></div>
-                <div class="circle" aria-label="slide 8 Committee Superior Contributor Large Agency Committee Dorothy Aronson, NSF & Small Agency Committee Katherine Tom, FRB and Geoffrey Nieboer, FDIC" tabindex=0></div>
+                <div class="circle" aria-label="slide 1 Distinguished Achievement in Federal Data: James Barham, Department of Agriculture (CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 2 Distinguished Federal Data Innovator: Sara Cermenaro, Social Security Administration (CFO) and The Data Policy and Access Team, Equal Employment Opportunity Commission (Non-CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 3 Excellence in Data Governance: Dr. Neeraj Koul, Department of Transportation (CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 4 Data Champion of the Year: Andre Newsom, Department of Energy (CFO)" tabindex=0></div>
+                <div class="circle" aria-label="slide 5 Team of the Year: The CDO Team, Railroad Retirement Board (Non-CFO) and The NEAS Team, National Aeronautics and Space Administration (CFO)" tabindex=0></div>
             </section>
             <div class="left-arrow">
                 <span class="chevron left" aria-label="Previous slide" tabindex=0></span>
