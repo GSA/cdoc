@@ -8,7 +8,7 @@ permalink: /bio/essene-ren/
 name : Ren Essene
 department: Consumer Financial Protection Bureau
 job-title: Chief Data Officer
-stick-top: true
+stick-top: false
 role: 
 ---
 

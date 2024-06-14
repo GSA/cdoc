@@ -4,12 +4,10 @@
     <section class="usa-graphic-list padding-top-0">
         <div class="grid-containe padding-left-0 padding-right-0">
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
-                <!-- Display Top members and Remaining members and concatenating both -->
                 {% assign top-members = site.exec-members | where: 'stick-top', true | sort: "name" %}
-                {% assign remaining-members = site.exec-members | where: 'stick-top', false | sort: "role" %}
+                {% assign remaining-members = site.exec-members | where: 'stick-top', false %}
                 {% assign exec-members = top-members | concat: remaining-members %}
-                {% assign sorted-members = exec-members | sort: 'department' %}
-                {% for bio in sorted-members %}
+                {% for bio in exec-members %}
                 <div class="tablet:grid-col-6 container margin-bottom-4">
                     <div class="clearfix shadow-5 radius-lg bg-white padding-2">
                         <div>
