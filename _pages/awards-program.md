@@ -70,28 +70,6 @@ permalink: /awards-program/
                     <p class="font-sans-md">The U.S. Railroad Retirement Board is pioneering digital transformation under its first Chief Data Officer, Dr. Kathleen McGuire, along with Annette Catalano, William Davis, James George, Vadim Libes, Keith McElroy, focusing on improving customer and digital experiences to reduce costs and manual labor. Key accomplishments include consolidating on-premise servers, addressing data and latency issues in legacy systems, converting outdated reports to relational databases, and training employees in data analytics and integration, all aimed at propelling the agency into a data-driven organization.</p>
                     <p class="font-sans-md"><strong><em>The NEAS Team, National Aeronautics and Space Administration (CFO):</em></strong></p>
                     <p class="font-sans-md">The NASA Enterprise Automation Service (NEAS) has enhanced data upskilling and accessibility by integrating the Microsoft Power Platform and dataverse across NASA, centralizing low-code/no-code tools for efficient task automation. The transition to Power BI has improved data visualization and decision-making capabilities with a significant boost in tool adoption following the "Microsoft Power Palooza'' training event, organized by NEAS, increasing monthly active users by over 230% from 11,000 to 26,000 today.</p>
-                    <p class="font-sans-md" class="text-center"><strong><u>Data Skills Working Group Superior Contributors:</u></strong></p>
-                    <ul class="font-sans-md">
-                        <li><em>2023 Excellence In Government Cohort: Data Scientist Hiring Toolkit Team</em>
-                            <ul>
-                                <li>William Berry, DOT</li>
-                                <li>Grace Lee, VA</li>
-                                <li>Kasey Martin, USDA</li>
-                                <li>Wendy Peterson, DoD</li>
-                                <li>Bryan Reed, NIH</li>
-                                <li>Kim Richards, NARA</li>
-                            </ul>
-                        </li>
-                        <li><em>Federal Data Skills Program Survey Team</em>
-                            <ul>
-                                <li>Layne Morrison, ED</li>
-                                <li>Erik Price, ODNI</li>
-                                <li>Arun Acharya, CPSC</li>
-                                <li>Juan Mendez, IRS</li>
-                                <li>Brian Reichenbach, State</li>
-                            </ul>
-                        </li>
-                    </ul>
                 </div>
                 <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a2"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">Award Categories</button></h2>
                 <div id="m-a2" class="usa-accordion__content">
