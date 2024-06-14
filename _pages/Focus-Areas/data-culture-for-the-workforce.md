@@ -26,8 +26,10 @@ has-stories: false
 </div>
 <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a2"><img src="{{site.baseurl}}/assets/images/icons/question-circle.svg" class="workinggroup__accordion-icon" alt=""> Why this matters to the CDO council</button></h3>
 <div id="m-a2" class="usa-accordion__content">
-  <p>This focus area delivers value to the Council, CDOs and their stakeholders by improving the efficiency and effectiveness of proven data culture and workforce development efforts of Federal agencies throughout government. Additionally, the actions of the working group primarily support the Council’s goals to “Strengthen and empower the Federal workforce in the use of data” and “Professionalize the CDO Function”.</p>
-  <p>The Data Culture for the Workforce working group aims to support actionable, ongoing and competency based data skills and workforce development, resulting in improving ethical and equitable data acumen and closing skills/development gaps to successfully cross-collaborate across government.</p>
+  <ul>
+    <li>This focus area delivers value to the Council, CDOs and their stakeholders by improving the efficiency and effectiveness of proven data culture and workforce development efforts of Federal agencies throughout government. Additionally, the actions of the working group primarily support the Council’s goals to “Strengthen and empower the Federal workforce in the use of data” and “Professionalize the CDO Function”.</li>
+    <li>The Data Culture for the Workforce working group aims to support actionable, ongoing and competency based data skills and workforce development, resulting in improving ethical and equitable data acumen and closing skills/development gaps to successfully cross-collaborate across government.</li>
+  </ul>
 </div>    
 <!-- <h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a3"><img src="{{site.baseurl}}/assets/images/icons/forum.svg" class="workinggroup__accordion-icon" alt=""> This serves as a forum to:</button></h3>
 <div id="m-a3" class="usa-accordion__content">
