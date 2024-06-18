@@ -8,7 +8,7 @@ permalink: /bio/alvares-christopher/
 name : Christopher Alvares
 department: United States Department of Agriculture
 job-title: Chief Data Officer
-role: Data Skills and Workforce Development Working Group
+role: Data Culture for the Workforce Working Group
 stick-top: false
 ---
 
