@@ -190,7 +190,7 @@ permalink: /awards-program/
                     <p class="font-sans-md"><strong>Data Skills Working Group:&nbsp;</strong>Arun Acharya, Consumer Product Safety Division and Lin Zhang, Department of Interior</p>
                     <p class="font-sans-md"><strong>Data Ethics and Equity Working Group:&nbsp;</strong>Erin Dawson, National Science Foundation</p>             
                 </div>
-                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a7"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">2021 CDOC Award Winners</button></h2>
+                <h2 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a7"><img src="{{site.baseurl}}/assets/images/icons/ribbon-outline.svg" class="workinggroup__accordion-icon" alt="">2022 CDOC Award Winners</button></h2>
                 <div id="m-a7" class="usa-accordion__content">
                     <p class="font-sans-md" class="text-center"><strong><u>Distinguished Federal Data Innovator Award</u></strong></p>
                     <p class="font-sans-md"><strong><em>Agency Reporting Modernizations Team, Federal Energy Regulation Commission:</em></strong></p>
