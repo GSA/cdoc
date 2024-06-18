@@ -2,7 +2,7 @@
 title: 2024 CDO Council Award Winners
 subtitle: 2024 CDO Council Award Winners
 layout: newspost
-date: June 5, 2024
+date: June 18, 2024
 author: CDO Council
 excerpt: 
 image_alt_text: CDO awards graphic
