@@ -5,7 +5,7 @@ layout: success-stories-post
 author: CDO Council
 permalink: /news/data-inventory-report/
 description: |
-    The CDOC’s Data Inventory Working Group created a <a href="https://resources.data.gov/resources/CDOC_Data_Inventory_Report/">report</a> to highlight the value proposition for data inventories and describe challenges agencies may face when implementing and managing comprehensive data inventories. Additionally, the report identifies the ways all agencies can overcome these challenges and includes a set of recommendations directed towards Agencies, OMB, and the CDO Council.
+    The CDOC’s Data Inventory Working Group created a <a href="https://resources.data.gov/resources/CDOC_Data_Inventory_Report/" aria-label="Data Inventory Report">report</a> to highlight the value proposition for data inventories and describe challenges agencies may face when implementing and managing comprehensive data inventories. Additionally, the report identifies the ways all agencies can overcome these challenges and includes a set of recommendations directed towards Agencies, OMB, and the CDO Council.
 tag: Data Inventory
 # required, this is what becomes the filter
 category: data-inventory
