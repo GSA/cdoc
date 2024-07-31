@@ -4,6 +4,6 @@ bio-image-alt-text: Department of Veterans Affairs
 layout: bio
 name: Lisa Rosenmerkel
 department: Department of Veterans Affairs
-job-title: Acting Chief Data Officer
+job-title: Chief Data Officer
 website-data: https://www.data.va.gov/
 ---
