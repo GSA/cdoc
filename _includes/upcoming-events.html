@@ -1,49 +1,35 @@
-<!-- {% for events in site.events %}
-{% assign event_date = events.end-date | date: '%s' %}
-{% if event_date >= today_date %}
 
-<div class="padding-bottom-3 margin-top-1">
-    <img class="tablet:float-left width-15 padding-right-2 padding-top-0 padding-bottom-2 margin-top-2" style="width:160px;" src="{{ site.baseurl }}/assets/images/events/{{ events.image }}" alt="{{ events.img-alt }}">
-    
-    <p class="card-tag">
-      {% if events.start-date %}
-      {{ events.start-date | date: '%a, %b %d, %Y' }} -
-      {% endif %}
-      {{ events.end-date | date: '%a, %b %d, %Y' }}
-    </p>
-
-    <p class="text-primary-darker font-serif-lg text-bold">
-      {% if events.link and events.link contains "http" %}
-      <a class="text-no-underline" href="{{ events.link }}">{{ events.title }}</a>
-      {% elsif events.link %}
-      <a class="text-no-underline" href="{{ site.baseurl }}{{ events.link }}">{{ events.title }}</a>
-      {% else %}
-        {{ events.title }}
-      {% endif %}
-    </p>
-
-    <p class="">{{ events.overview | truncate: 700 }}
-      {% if events.external != 1 %}
-        <a href="{{ site.baseurl }}{{ events.link }}">Read more about {{ events.title}}</a>
-      {% endif %}
-    </p>
-    {% if events.external_url %}
-      <a class="usa-button usa-button--accent-cool margin-top-1" href="http://{{events.external_url}}">Register for this Event</a>
-    {% endif %}
-
-</div>
-
-{% endif %}
-{% endfor %} -->
 
 <div class="event-card padding-bottom-3 margin-top-1">
-  <div class="grid-row clearfix shadow-5 radius-lg bg-white padding-2 flex-align-center">
+  <div class="grid-row clearfix shadow-5 radius-lg bg-white padding-2">
+    <div class="tablet:grid-col-5">
+      <img class="padding-right-2 padding-top-0" src="{{site.baseurl}}/assets/images/events/Symposium-thumbnail.jpg" alt="Symposium thumbnail">
+    </div>
+
+    <div class="tablet:grid-col-7">
+      <h3 class="margin-top-0 text-no-underline">
+        <a class="text-no-underline cdo-link" href="{{ site.baseurl }}/2024-cdo-council-symposium/" style="font-family: Merriweather Web;" aria-label="2024 CDO Council Symposium">2024 CDO Council Symposium</a>
+      </h3>
+      <div class="text-base margin-bottom-1">
+        <div class="margin-top-neg-105">
+          November 21st, 2024
+        </div>
+      </div>
+      <p class="margin-top-0">The CDO Council will host its first Data Symposium on Thursday, November 21, 2024, from 8:00 AM to 3:30 PM ET at the GSA Headquarters Auditorium (1800 F Street NW, Washington, DC 20270). The Symposium’s theme is "Data Powers Mission: Transforming Business and Mission with Data." As data is essential to every government function, the Federal Chief Data Officers (CDO) Council is committed to fostering collaboration, sharing best practices, and addressing federal data challenges. This Symposium highlights our dedication to positioning data as a strategic asset and explores innovative strategies for managing and leveraging data to achieve mission success across the Federal Enterprise. This will be an in-person event. Registration: TBD
+        Are you a member of the Press? If so, in addition to this registration, please RSVP to press@gsa.gov. <a href="{{ site.baseurl }}/2024-cdo-council-symposium/" aria-label="Find out more about 2024 CDO council symposium">Find out more</a></p>
+    </div>
+
+  </div>
+</div>
+
+<div class="event-card padding-bottom-3 margin-top-1">
+  <div class="grid-row clearfix shadow-5 radius-lg bg-white padding-2">
     <div class="tablet:grid-col-5">
       <img class="padding-right-2 padding-top-0" src="{{site.baseurl}}/assets/images/events/public-meeting-2023-thumbnail.jpg" alt="event thumbnail">
     </div>
 
     <div class="tablet:grid-col-7">
-      <h3 class="title text-no-underline">
+      <h3 class="margin-top-0 text-no-underline">
         <a class="text-no-underline cdo-link" href="{{ site.baseurl }}/public-meeting-2023/" style="font-family: Merriweather Web;" aria-label="CDO Council Public Meeting - 2023">CDO Council Public Meeting</a>
       </h3>
       <div class="text-base margin-bottom-1">
@@ -58,13 +44,13 @@
 </div>
 
 <div class="event-card padding-bottom-3 margin-top-1">
-  <div class="grid-row clearfix shadow-5 radius-lg bg-white padding-2 flex-align-center">
+  <div class="grid-row clearfix shadow-5 radius-lg bg-white padding-2">
     <div class="tablet:grid-col-5">
       <img class="padding-right-2 padding-top-0" src="{{site.baseurl}}/assets/images/events/public-meeting-thumbnail-1.png" alt="event thumbnail">
     </div>
 
     <div class="tablet:grid-col-7">
-      <h3 class="title text-no-underline">
+      <h3 class="margin-top-0 text-no-underline">
         <a class="text-no-underline cdo-link" href="{{ site.baseurl }}/public-meeting/" style="font-family: Merriweather Web;" aria-label="CDO Council Public Meeting - 2021">CDO Council Public Meeting</a>
       </h3>
       <div class="text-base margin-bottom-1">
