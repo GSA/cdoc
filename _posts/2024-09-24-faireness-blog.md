@@ -2,7 +2,7 @@
 title: CDOC Completion of the Building Trust and FAIRness Into The Process for Finding and Using Government Data Project (FAIRness Project)
 subtitle: CDOC Completion of the Building Trust and FAIRness Into The Process for Finding and Using Government Data Project (FAIRness Project)
 layout: newspost
-date: September 25, 2024
+date: September 27, 2024
 author: Thomas "Tod" Dabolt, Interior and Michael Ratcliff, Census
 excerpt: 
 image_alt_text: cdo logo
