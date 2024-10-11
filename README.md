@@ -192,6 +192,10 @@ This will create a copy of this repo in a Github repository of your choice but y
     (Make sure to replace `<your-org>` and `<your-repo>` above with the correct values)
     $ git push -u origin main
 ```
+### Enable 2FA
+```
+  We expect all developers to have 2FA enabled with github.
+```
 
 ### Installation for development
     $ git clone https://github.com/18F/federalist-uswds-jekyll
