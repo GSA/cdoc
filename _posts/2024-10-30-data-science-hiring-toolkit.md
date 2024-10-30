@@ -2,7 +2,7 @@
 title: "CDOC Publication: Data Science Hiring Toolkit"
 subtitle: "CDOC Publication: Data Science Hiring Toolkit"
 layout: newspost
-date: October 29, 2024
+date: October 30, 2024
 author: Dan Morgan, Transportation and Chris Alvares, Agriculture
 excerpt: 
 image_alt_text: cdo logo
