@@ -13,7 +13,7 @@ description: Today, the CISO Council and CDO Council released the Federal Zero T
 
 Today, the CISO Council and CDO Council released the [Federal Zero Trust (ZT) Data Security Guide](https://www.cio.gov/assets/files/Zero-Trust-Data-Security-Guide_Oct24-Final.pdf), a first-of-its-kind document and key deliverable of OMB M-22-09, Moving the U.S. Government Towards Zero Trust Cybersecurity Principles. M-22-09 charged the Federal CDO Council and Federal CISO Council to convene a cross-agency working group of data and security experts to develop a data security guide for Federal agencies.
 
-More than 30 Federal agencies and departments answered the call to author the [Federal Zero Trust Data Security Guide](https://www.cio.gov/assets/files/Zero-Trust-Data-Security-Guide_Oct24-Final.pdf). The Guide and companion document will assist practitioners in operationalizing data security using a ZT framework.
+More than 30 Federal agencies and departments answered the call to author the [Federal Zero Trust Data Security Guide](https://www.cio.gov/assets/files/Zero-Trust-Data-Security-Guide_Oct24-Final.pdf). The Guide and [companion document](https://www.cio.gov/assets/files/Zero-Trust-DataSecurityGuide_Oct24-Appendices-Final.pdf) will assist practitioners in operationalizing data security using a ZT framework.
 
 "To meet the moment of the security paradigm shift to zero trust, the Federal Government is transforming how we work. This is the first time that Federal security teams and data teams are coming together in this way to tackle a challenge of this magnitude." – Steven Hernandez, Chief Information Security Officer (Department of Education), Co-Chair of the CISO Council
 
