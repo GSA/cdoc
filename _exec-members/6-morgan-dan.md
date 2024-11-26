@@ -1,7 +1,7 @@
 ---
 subtitle: Leadership
 title: Council Members
-bio-image: dan-morgan-circle.jpg
+bio-image: daniel-morgan-circle-updated.png
 bio-image-alt-text: DAN MORGAN
 layout: bio
 permalink: /bio/morgan-dan/
