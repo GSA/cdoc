@@ -235,7 +235,19 @@ function sortPositioning(mainScreen, leftScreen, rightScreen) {
         leftScreen = screenStore[numOfScreens - 1];
     }
     screenStore.forEach(screen => {
+
+        //To make sure only the visible slide is tabable
+        screen.tabIndex = -1
+        function changingChildren(tabIndexNumber){
+            let childrenOfScreen = screen.querySelectorAll("a")
+            childrenOfScreen.forEach(child => {
+                child.tabIndex = tabIndexNumber
+            });
+        }
+        changingChildren(-1)
+
         if (screen === mainScreen) {
+            changingChildren(0)
             screen.style.display = "block";
             screen.style.left = "0px";
         } else if (screen === leftScreen) {
