@@ -9,4 +9,5 @@ description: |
 tag: Data Culture, Data Skills, CDO Council
 # required, this is what becomes the filter
 category: data-culture, data-skills, cdo-council
+redirect_to: https://www.cdo.gov/data-science-hiring-toolkit/ 
 ---

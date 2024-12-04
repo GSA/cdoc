@@ -9,4 +9,5 @@ description: |
 tag:  CDO Council, Operations
 # required, this is what becomes the filter
 category: cdo-council, operations
+redirect_to: https://www.cdo.gov/about-us/ 
 ---

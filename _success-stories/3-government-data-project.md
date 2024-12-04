@@ -9,4 +9,5 @@ description: |
 tag:  CDO Council, Data Inventory
 # required, this is what becomes the filter
 category: cdo-council, data-inventory
+redirect_to: https://www.cdo.gov/fairness-project/ 
 ---

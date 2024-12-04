@@ -9,4 +9,5 @@ description: |
 tag:  Operations, CDO Council, Business Of Data
 # required, this is what becomes the filter
 category: operations, cdo-council, business-of-data
+redirect_to: https://www.cdo.gov/power-of-enterprise-analytics/ 
 ---
