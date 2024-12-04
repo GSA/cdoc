@@ -11,6 +11,6 @@ tag: Data Security
 # required, this is what becomes the filter
 category: zero-trust
 category: data-security
-redirect_to: /federal-zero-trust-data-security-guide/
+redirect_to: https://www.cdo.gov/federal-zero-trust-data-security-guide/
 ---
 
