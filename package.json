@@ -15,5 +15,9 @@
   "devDependencies": {
     "a11y": "^0.5.1",
     "rimraf": "^3.0.2"
+  },
+  "overrides": {
+    "cross-spawn": "6.0.6",
+    "minimist": "1.2.8"
   }
 }
