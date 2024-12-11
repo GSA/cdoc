@@ -81,6 +81,8 @@ primary_navigation:
         url: "/about-us/"
       - name: About Chief Data Officers
         url: "/about-agency-cdos/"
+      - name: Council Goals
+        url: "/about-us/#2024-2025-cdo-council-goals"
   - name: Members
     children:
       - name: Council Leadership
