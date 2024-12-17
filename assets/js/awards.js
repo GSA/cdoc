@@ -18,43 +18,45 @@ sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], scre
 //Sort out circle styling
 highlightCircle(circleStore[0]);
 
+if (rightArrow) {
 //User clicks on rightArrow
-rightArrow.addEventListener("click", () => {
-    startAnim("right");
-});
-
-rightArrow.addEventListener("keyup", (e) => {
-    if (event.keyCode === 13) {
-        event.preventDefault();
+    rightArrow.addEventListener("click", () => {
         startAnim("right");
-    }
-});
+    });
+
+    rightArrow.addEventListener("keyup", (e) => {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            startAnim("right");
+        }
+    });
 
 
 //User clicks on the leftArrow
-leftArrow.addEventListener("click", () => {
-    startAnim("left");
-});
-
-leftArrow.addEventListener("keyup", (e) => {
-    if (event.keyCode === 13) {
-        event.preventDefault();
+    leftArrow.addEventListener("click", () => {
         startAnim("left");
-    }
-});
+    });
+
+    leftArrow.addEventListener("keyup", (e) => {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            startAnim("left");
+        }
+    });
+}
 
 //Start animation. Either towards left or right
 function startAnim(direction) {
-    if (!inAnim) {
+    if(!inAnim) {
         inAnim = true;
-        if (direction === "right") {
+        if(direction === "right") {
             moveRight();
             highlightCircle(circleStore[currentScreen + 1], "right");
-        } else if (direction === "left") {
+        }else if(direction === "left"){
             moveLeft();
             highlightCircle(circleStore[currentScreen - 1], "left");
-        } else {
-            inAnim = false;
+        }else{
+            isAnim = false;
             return
         }
     }
@@ -63,15 +65,15 @@ function startAnim(direction) {
 //Move to the right
 function moveRight() {
     //Move towards Next screen as usual
-    if (currentScreen < numOfScreens - 1) {
-        toLeft(screenStore[currentScreen]);
-        comeRight(screenStore[currentScreen + 1]);
-        setTimeout(() => {
-            inAnim = false;
-            currentScreen++;
-            sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
-        }, animTime)
-    } else {
+    if(currentScreen < numOfScreens - 1){
+    toLeft(screenStore[currentScreen]);
+    comeRight(screenStore[currentScreen + 1]);
+    setTimeout(() => {
+        inAnim = false;
+        currentScreen++;
+        sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
+    }, animTime)
+    }else{
         //Or the screen coming in is the first screen again
         toLeft(screenStore[currentScreen]);
         comeRight(screenStore[0]);
@@ -86,15 +88,15 @@ function moveRight() {
 //Move to the left
 function moveLeft() {
     //Move back to screen previously on, as usual
-    if (currentScreen > 0) {
+    if(currentScreen > 0){
         toRight(screenStore[currentScreen]);
         comeLeft(screenStore[currentScreen - 1]);
         setTimeout(() => {
-            inAnim = false;
-            currentScreen--;
-            sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
+        inAnim = false;
+        currentScreen--;
+        sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
         }, animTime)
-    } else {
+    }else{
         //Move back to the last screen container
         toRight(screenStore[currentScreen]);
         comeLeft(screenStore[numOfScreens - 1]);
@@ -102,50 +104,50 @@ function moveLeft() {
             inAnim = false;
             currentScreen = numOfScreens - 1;
             sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
-        }, animTime)
+            }, animTime)
     }
 }
 
 //User clicks on one of the circles
 circleStore.forEach(circle => {
     circle.addEventListener("click", event => {
-        if (!inAnim) {
-            //Convert NodeList to Array, to use 'indexOf' method.
-            let circleStoreArray = Array.prototype.slice.call(circleStore);
-            let circleIndex = circleStoreArray.indexOf(event.target);
-            //Configure circle styling
-            highlightCircle(event.target);
-            //Work out whether we need to move right or left, or nowhere.
-            if (circleIndex > currentScreen) {
-                changeScreenCircleClick(circleIndex, "right");
-            } else if (circleIndex < currentScreen) {
-                changeScreenCircleClick(circleIndex, "left");
-            }
+        if(!inAnim){
+        //Convert NodeList to Array, to use 'indexOf' method.
+        let circleStoreArray = Array.prototype.slice.call(circleStore);
+        let circleIndex = circleStoreArray.indexOf(event.target);
+        //Configure circle styling
+        highlightCircle(event.target);
+        //Work out whether we need to move right or left, or nowhere.
+        if(circleIndex > currentScreen){
+            changeScreenCircleClick(circleIndex, "right");
+        }else if (circleIndex < currentScreen){
+            changeScreenCircleClick(circleIndex, "left");
         }
-    })
+    }
+})
 })
 
 
 circleStore.forEach(circle => {
     circle.addEventListener("keyup", event => {
-        if (event.keyCode === 13) {
-            event.preventDefault();
-            if (!inAnim) {
-                //Convert NodeList to Array, to use 'indexOf' method.
-                let circleStoreArray = Array.prototype.slice.call(circleStore);
-                let circleIndex = circleStoreArray.indexOf(event.target);
-                //Configure circle styling
-                highlightCircle(event.target);
-                //Work out whether we need to move right or left, or nowhere.
-                if (circleIndex > currentScreen) {
-                    changeScreenCircleClick(circleIndex, "right");
-                } else if (circleIndex < currentScreen) {
-                    changeScreenCircleClick(circleIndex, "left");
-                }
-            }
-        }
+      if (event.keyCode === 13) {
+       event.preventDefault();
+           if(!inAnim){
+              //Convert NodeList to Array, to use 'indexOf' method.
+              let circleStoreArray = Array.prototype.slice.call(circleStore);
+              let circleIndex = circleStoreArray.indexOf(event.target);
+              //Configure circle styling
+              highlightCircle(event.target);
+              //Work out whether we need to move right or left, or nowhere.
+              if(circleIndex > currentScreen){
+                  changeScreenCircleClick(circleIndex, "right");
+              }else if (circleIndex < currentScreen){
+                  changeScreenCircleClick(circleIndex, "left");
+              }
+          }
+      }
 
-    })
+})
 })
 
 
@@ -158,35 +160,35 @@ circleStore.forEach(circle => {
 
 function changeScreenCircleClick(circleIndex, direction) {
     inAnim = true;
-    if (direction === "right") {
+    if(direction === "right"){
         sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[circleIndex]);
         toLeft(screenStore[currentScreen]);
         comeRight(screenStore[circleIndex]);
-    } else if (direction === "left") {
+    }else if (direction === "left"){
         sortPositioning(screenStore[currentScreen], screenStore[circleIndex], screenStore[currentScreen + 1]);
         toRight(screenStore[currentScreen]);
         comeLeft(screenStore[circleIndex]);
-    } else {
+    }else{
         inAnim = false;
         return
     }
     setTimeout(() => {
-        inAnim = false;
-        currentScreen = circleIndex;
-        sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
+    inAnim = false;
+    currentScreen = circleIndex;
+    sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
     }, animTime)
 }
 
 function highlightCircle(circleSelect, direction) {
-    if (circleSelect === undefined && direction === "right") {
+    if(circleSelect === undefined && direction === "right"){
         circleSelect = circleStore[0];
-    } else if (circleSelect === undefined && direction === "left") {
+    }else if (circleSelect === undefined && direction === "left"){
         circleSelect = circleStore[numOfScreens - 1];
     }
     circleStore.forEach(circle => {
-        if (circle === circleSelect) {
+        if(circle === circleSelect){
             circle.classList.add("circle-fill");
-        } else {
+        }else{
             circle.classList.remove("circle-fill");
         }
     })
@@ -227,24 +229,24 @@ function comeLeft(screen) {
 //Sort positioning. Don't want images to overlap
 function sortPositioning(mainScreen, leftScreen, rightScreen) {
     //If right screen is undefined. We need to repeat first screen again
-    if (rightScreen === undefined) {
+    if(rightScreen === undefined){
         rightScreen = screenStore[0];
     }
     //If left screen is undefined. We use the last screen
-    if (leftScreen === undefined) {
+    if(leftScreen === undefined){
         leftScreen = screenStore[numOfScreens - 1];
     }
     screenStore.forEach(screen => {
-        if (screen === mainScreen) {
+        if(screen === mainScreen){
             screen.style.display = "block";
             screen.style.left = "0px";
-        } else if (screen === leftScreen) {
+        }else if (screen === leftScreen){
             screen.style.display = "block";
             screen.style.left = "-100%";
-        } else if (screen === rightScreen) {
+        }else if (screen === rightScreen){
             screen.style.display = "block";
             screen.style.left = "100%";
-        } else {
+        }else{
             screen.style.display = "none";
         }
     })
@@ -252,34 +254,33 @@ function sortPositioning(mainScreen, leftScreen, rightScreen) {
 
 //Auto Scroll feature
 let carousel = document.getElementById("carousel-2");
-let scrollTime = Number(carousel.getAttribute("auto-scroll"));
-let pauseButton = document.getElementById('pause');
-let playButton = document.getElementById('play');
+if(carousel) {
+    let scrollTime = Number(carousel.getAttribute("auto-scroll"));
+    let pauseButton = document.getElementById('pause');
+    let playButton = document.getElementById('play');
+
 //Only implement the feature if the user has included the attribute 'auto-scroll'.
-if (scrollTime) {
-    //Auto Scroll will be set up the very first time
-    let autoWipe = setInterval(() => {
-        startAnim("right");
-    }, scrollTime);
-    //Clear the timer when they hover on carousel
-    carousel.addEventListener("mouseenter", () => {
-        clearInterval(autoWipe);
-    });
-    carousel.addEventListener("keydown", (event) => {
-        var code = event.keyCode || event.which;
-        if (code === 9) {
-            clearInterval(autoWipe);
-        }
-    });
-    //Re-initialise the timer when they hover out of the carousel
-    carousel.addEventListener("mouseleave", () => {
-        autoWipe = setInterval(() => {
+    if (scrollTime) {
+        //Auto Scroll will be set up the very first time
+        let autoWipe = setInterval(() => {
             startAnim("right");
         }, scrollTime);
-    })
+        //Clear the timer when they hover on carousel
+        carousel.addEventListener("mouseenter", () => {
+            clearInterval(autoWipe);
+        });
+        carousel.addEventListener("keydown", (event) => {
+            var code = event.keyCode || event.which;
+            if (code === 9) {
+                clearInterval(autoWipe);
+            }
+        });
+        //Re-initialise the timer when they hover out of the carousel
+        carousel.addEventListener("mouseleave", () => {
+            autoWipe = setInterval(() => {
+                startAnim("right");
+            }, scrollTime);
+        })
 
-};
-
-
-
-
+    }
+}
