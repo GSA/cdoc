@@ -24,7 +24,6 @@
     "trim":">=0.0.3",
     "tough-cookie": ">=4.1.4",
     "got": ">=11.8.5",
-    "trim-newlines": ">=5.0.0",
-    "@cypress/request": "^3.0.0"
+    "trim-newlines": ">=5.0.0"
   }
 }
