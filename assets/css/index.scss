@@ -922,7 +922,7 @@ ul li {
 }
 
 .member-card {
-  display: none; 
+//   display: none; 
 }
 
 .year-fltr {
@@ -954,6 +954,7 @@ ul li {
 }
 
 .role-fltr{
+  text-transform:capitalize;
   .fltr-btn:hover {
     outline: none;
 
