@@ -1,6 +1,3 @@
-// Filter based on two factors + alphabetical sort
-// Uses URI hash as trigger allowing direct links etc
-// Losely based on: http://isotope.metafizzy.co/filtering.html#url-hash
 
 jQuery(document).ready(function ($) {
         
