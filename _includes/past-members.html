@@ -5,48 +5,49 @@
 <div class="grid-row grid-gap">
     <div class="fltrs desktop:grid-col-3">
         <!-- Left Column: Role Filter -->
-        <div class="role-fltr usa-layout__docs-sidenav margin-top-4 desktop:margin-top-0 padding-top-4 display-none desktop:padding-top-0 desktop:display-block desktop:order-first border-base border-top desktop:border-top-0">
+        <nav class="role-fltr usa-layout__docs-sidenav margin-top-4 desktop:margin-top-0 padding-top-4  desktop:padding-top-0 display-block desktop:order-first border-base border-top desktop:border-top-0">
             <!-- <h3>Filter by Role</h3> -->
-            <ul class="usa-sidenav border-top-0 border-bottom-0">
-                <li><a class="usa-sidenav__item usa-h2 fltr-btn border-top-0 selected" data-role="All">All Roles</a></li>
-                <li><a class="usa-sidenav__item usa-h2 fltr-btn border-top-0" href="#chair">CDO Council Chair</a></li>
-                <li><a class="usa-sidenav__item usa-h2 fltr-btn border-top-0" href="#vice-chair">CDO Council Vice-Chair</a></li>
-                <li><a class="usa-sidenav__item usa-h2 fltr-btn border-top-0" href="#members">Members</a></li>
-                <!-- {% assign roles = site.past-members | map: 'role' | uniq %}
+            <ul class="usa-sidenav display-flex desktop:display-block border-top-0 border-bottom-0" data-filter-group="role">
+                <li><a class="usa-sidenav__item usa-h2 fltr-btn border-top-0 selected" data-filter="" data-role="All">All Roles</a></li>
+   
+    
+                {% assign roles = site.past-members | map: 'role' | uniq | sort %}
                 {% for role in roles %}
                     {% if role | strip != "" %}
-                        <li><a class="fltr-btn usa-sidenav__item usa-h2 border-top-0" data-role="{{ role }}">{{ role }}</a></li>
+                        <li><a class="fltr-btn usa-sidenav__item usa-h2 border-top-0"  data-filter="{{ role }}" data-role="{{ role }}">{{ role }}</a></li>
                     {% endif %}
-                {% endfor %} -->
+                {% endfor %}
             </ul>
-        </div>
+        </nav>
     </div>
 
     <div class="desktop:grid-col-9 grid-container font-sans-sm padding-left-0 padding-right-0 container__leadership">
-        <div class="year-fltr">
+        <nav class="year-fltr">
             <!-- <h3>Filter by Year</h3> -->
-            <ul>
-                <li><a class="fltr-btn selected" data-year="All">All Years</a></li>
+            <ul data-filter-group="year">
+                <li><a class="fltr-btn selected" data-filter="">All Years</a></li>
                 {% assign allYears = site.past-members | map: 'active-year' | join: ',' | split: ',' | uniq | sort | reverse %}
                 {% for year in allYears %}
-                    <li><a class="fltr-btn" data-year="{{ year | strip }}">{{ year | strip }}</a></li>
+                    <li><a class="fltr-btn" data-filter="{{ year | strip }}">{{ year | strip }}</a></li>
                 {% endfor %}
             </ul>
-        </div>
+        </nav>
         {% assign chair-members = site.past-members | where: "role", "Council Chair" | sort: "name" %}
         {% assign vice-members = site.past-members | where: "role", "Council Vice Chair" | sort: "name" %}
         {% assign other-members = site.past-members | where: "role", "member" | sort: "name" %}
-        <!-- {% assign top-members = site.past-members | where: 'stick-top', true | sort: "name" %}
-        {% assign remaining-members = site.past-members | where: 'stick-top', false %}
-        {% assign past-members = top-members | concat: remaining-members %} -->
-        
+
+
         <section class="usa-graphic-list padding-top-0">
             <h2 id="chair" class="section__title padding-top-1 margin-top-5">CDO Council Chair</h2>
-            <div class="grid-containe padding-left-0 padding-right-0">
-                <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="usa-graphic-list__row grid-row grid-gap padding-top-0" id="council-chair-list">
                     {% for bio in chair-members %}
                         <!-- Ensure the data-year is a comma-separated list of years -->
-                        <div class="tablet:grid-col-6 container margin-bottom-4 member-card" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
+                       
+                        {% assign years = bio.active-year | split: "," %}
+                        {% assign formatted_years = years | join: " " %}
+                        
+                        <div class="tablet:grid-col-6 container margin-bottom-4 member-card display-block {{ formatted_years }}" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
                             <div class="clearfix shadow-5 radius-lg bg-white padding-2">
                                 <div>
                                     <div class="left">
@@ -65,13 +66,17 @@
                 </div>
             </div>
         </section>
+
         <section class="usa-graphic-list padding-top-0">
             <h2 id="vice-chair" class="section__title padding-top-1 margin-top-5">CDO Council Vice-Chair</h2>
-            <div class="grid-containe padding-left-0 padding-right-0">
-                <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="usa-graphic-list__row grid-row grid-gap padding-top-0" id="council-vicechair-list">
                     {% for bio in vice-members %}
+
+                    {% assign years = bio.active-year | split: "," %}
+                    {% assign formatted_years = years | join: " " %}
                         <!-- Ensure the data-year is a comma-separated list of years -->
-                        <div class="tablet:grid-col-6 container margin-bottom-4 member-card" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
+                        <div class="tablet:grid-col-6 container margin-bottom-4 member-card display-block {{ formatted_years }}" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
                             <div class="clearfix shadow-5 radius-lg bg-white padding-2">
                                 <div>
                                     <div class="left">
@@ -90,13 +95,16 @@
                 </div>
             </div>
         </section>
+        
         <section class="usa-graphic-list padding-top-0">
             <h2 id="members" class="section__title padding-top-1 margin-top-5">Members</h2>
-            <div class="grid-containe padding-left-0 padding-right-0">
-                <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="usa-graphic-list__row grid-row grid-gap padding-top-0" id="council-member-list">
                     {% for bio in other-members %}
+                    {% assign years = bio.active-year | split: "," %}
+                    {% assign formatted_years = years | join: " " %}
                         <!-- Ensure the data-year is a comma-separated list of years -->
-                        <div class="tablet:grid-col-6 container margin-bottom-4 member-card" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
+                        <div class="tablet:grid-col-6 container margin-bottom-4 member-card display-block {{ formatted_years }}" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
                             <div class="clearfix shadow-5 radius-lg bg-white padding-2">
                                 <div>
                                     <div class="left">
@@ -118,50 +126,3 @@
     </div>
 </div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const roleButtons = document.querySelectorAll('.role-fltr .fltr-btn');
-        const yearButtons = document.querySelectorAll('.year-fltr .fltr-btn');
-        const members = document.querySelectorAll('.member-card');
-        
-        // Filter function
-        function filterMembers() {
-            const selectedRole = document.querySelector('.role-fltr .fltr-btn.selected')?.dataset.role || "All";
-            const selectedYear = document.querySelector('.year-fltr .fltr-btn.selected')?.dataset.year || "All";
-    
-            members.forEach(member => {
-                const memberRole = member.getAttribute('data-role');
-                const memberYears = member.getAttribute('data-year').split(',').map(year => year.trim());
-    
-                // Show or hide based on selected role and year
-                if ((selectedRole === "All" || memberRole === selectedRole) &&
-                    (selectedYear === "All" || memberYears.includes(selectedYear))) {
-                    member.style.display = "block";
-                } else {
-                    member.style.display = "none";
-                }
-            });
-        }
-    
-        // Add event listeners to role filter buttons
-        roleButtons.forEach(button => {
-            button.addEventListener('click', function () {
-                roleButtons.forEach(btn => btn.classList.remove('selected'));
-                button.classList.add('selected');
-                filterMembers();
-            });
-        });
-    
-        // Add event listeners to year filter buttons
-        yearButtons.forEach(button => {
-            button.addEventListener('click', function () {
-                yearButtons.forEach(btn => btn.classList.remove('selected'));
-                button.classList.add('selected');
-                filterMembers();
-            });
-        });
-    
-        // Initial filter application
-        filterMembers();
-    });
-</script>
