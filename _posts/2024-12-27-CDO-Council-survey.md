@@ -2,7 +2,7 @@
 title: 2024 CDO Council Survey Results
 subtitle: 2024 CDO Council Survey Results
 layout: newspost
-date: December 4, 2024
+date: December 27, 2024
 author: Federal CDO Council
 excerpt:
 image_alt_text: cdo logo
