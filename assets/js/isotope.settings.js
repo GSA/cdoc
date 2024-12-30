@@ -87,7 +87,8 @@ jQuery(document).ready(function ($) {
     });
 
     // Reset filters
-    $(".btn-primary").on("click", function () {
+    $(".btn-primary").on("click", function (e) {
+        e.preventDefault(); // Prevent default behavior (e.g., scrolling to the top)
         $(".filter-list a").removeClass("checked");
         filters = {};
         $container.isotope({ filter: '*' });
