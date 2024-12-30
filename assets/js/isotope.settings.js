@@ -51,39 +51,40 @@ jQuery(document).ready(function ($) {
     });
 
     // Set up filters array with default values
-    var filters = {};
+    var filters = []; // Initialize an array to hold selected filters
+
     // When a button is pressed, run filterSelect
-    $( ".filter-list a" ).on( "click", filterSelect );
-    // Set the URI hash to the current selected filters
-    function filterSelect() {
-        // Current hash value
-        var hashFilter = getHashFilter();
-        // Set filters to current values (important for first run)
-        filters["subject"] = hashFilter["subject"] ? hashFilter["subject"].split(",") : [];
-        filters["role"] = hashFilter["role"] ? hashFilter["role"].split(",") : [];
-        // data-filter attribute of clicked button
-        var currentFilter = $(this).attr("data-filter").replace(".", "");
-        // Navigation group (subject or role) as object
-        var $navGroup = $(this).parents(".filter-list");
-        // data-filter-group key for the current nav group
-        var filterGroup = $navGroup.attr("data-filter-group");
-        // If the current data-filter attribute matches the current filter,
-        if (filters[filterGroup].includes(currentFilter)) {
-            // Remove the filter if it's already applied
-            filters[filterGroup] = filters[filterGroup].filter(f => f !== currentFilter);
+    $(".filter-list a").on("click", function (e) {
+        e.preventDefault(); // Prevent default anchor behavior
+        var $this = $(this);
+        var filter = $this.attr("data-filter");
+
+        // Toggle the selected filter
+        if ($this.hasClass("checked")) {
+            $this.removeClass("checked").attr("aria-checked", "false");
+            filters = filters.filter(f => f !== filter); // Remove the filter from the array
         } else {
-            // Add the filter if it's not already applied
-            filters[filterGroup].push(currentFilter);
+            $this.addClass("checked").attr("aria-checked", "true");
+            filters.push(filter); // Add the filter to the array
         }
-        // Create new hash
-        var newHash = "subject=" + filters["subject"].join(",") + "&role=" + filters["role"].join(",");
-        // If sort value exists, add it to hash
-        if (sortValue) {
-            newHash = newHash + "&sort=" + encodeURIComponent(sortValue);
-        }
-        // Apply the new hash to the URI, triggering onHahschange()
-        location.hash = newHash;
-    } // filterSelect
+
+        // Combine all selected filters
+        var combinedFilter = filters.join(", ");
+
+        // Apply the filters to the Isotope container
+        $container.isotope({ filter: combinedFilter || "*" });
+
+        updateFilterCount(); // Update the filter count
+    });
+
+    // Reset filters
+    $(".btn-primary").on("click", function (e) {
+        e.preventDefault(); // Prevent default button behavior
+        filters = []; // Clear all selected filters
+        $(".filter-list a").removeClass("checked").attr("aria-checked", "false"); // Reset button states
+        $container.isotope({ filter: "*" }); // Show all items
+        updateFilterCount(); // Update the filter count
+    });
 
     function onHashChange() {
         // Current hash value
@@ -95,40 +96,40 @@ jQuery(document).ready(function ($) {
 
         var theFilter = allFilters.map(f => `.${f}`).join(", ");
 
-        if ( hashFilter ) {
+        if (hashFilter) {
             // Repaint Isotope container with current filters and sorts
-            $container.isotope( {
-                filter:  theFilter || "*",
+            $container.isotope({
+                filter: theFilter || "*",
                 sortBy: hashFilter["sorts"]
-            } );
+            });
 
             updateFilterCount();
             // Toggle checked status of sort button
-            if ( hashFilter["sorts"] ) {
+            if (hashFilter["sorts"]) {
                 $(".sort").addClass("checked");
             } else {
                 $(".sort").removeClass("checked");
             }
             // Toggle checked status of filter buttons
-            $( ".filter-list" ).find(".checked").removeClass("checked").attr("aria-checked","false");
+            $(".filter-list").find(".checked").removeClass("checked").attr("aria-checked", "false");
             allFilters.forEach(filter => {
-                $( ".filter-list" ).find("[data-filter='." + filter + "']").addClass("checked").attr("aria-checked","true");
+                $(".filter-list").find(`[data-filter='.${filter}']`).addClass("checked").attr("aria-checked", "true");
             });
         }
     } // onHahschange
 
     function getHashFilter() {
         // Get filters (matches) and sort order (sorts)
-        var subject = location.hash.match( /subject=([^&]+)/i );
-        var role = location.hash.match( /role=([^&]+)/i );
-        var sorts = location.hash.match( /sort=([^&]+)/i );
+        var subject = location.hash.match(/subject=([^&]+)/i);
+        var role = location.hash.match(/role=([^&]+)/i);
+        var sorts = location.hash.match(/sort=([^&]+)/i);
 
         // Set up a hashFilter array
         var hashFilter = {};
         // Populate array with matches and sorts using ternary logic
         hashFilter["subject"] = subject ? subject[1] : "*";
         hashFilter["role"] = role ? role[1] : "*";
-        hashFilter["sorts"] = sorts ? sorts[1]: "";
+        hashFilter["sorts"] = sorts ? sorts[1] : "";
 
         return hashFilter;
     } // getHashFilter
