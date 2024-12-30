@@ -1,6 +1,6 @@
 // Filter based on two factors + alphabetical sort
 // Uses URI hash as trigger allowing direct links etc
-// Losely based on: http://isotope.metafizzy.co/filtering.html#url-hash
+// Loosely based on: http://isotope.metafizzy.co/filtering.html#url-hash
 
 jQuery(document).ready(function ($) {
 
@@ -17,12 +17,14 @@ jQuery(document).ready(function ($) {
 
     var iso = $container.data('isotope');
     var $filterCount = $('.filter-count');
+    var filters = {}; // Store filters for each group
+
     function updateFilterCount() {
-        var $item_length = iso.filteredItems.length; 
-        if (iso != null ){
+        var $item_length = iso.filteredItems.length;
+        if (iso != null) {
             if ($item_length === 1) {
                 $filterCount.text($item_length + ' item');
-            } else if ($item_length > 1) {  
+            } else if ($item_length > 1) {
                 $filterCount.text($item_length + ' items');
             } else {
                 $filterCount.text("No items found.");
@@ -33,15 +35,15 @@ jQuery(document).ready(function ($) {
     // Alphabetical sort
     // Sort items alphabetically based on course title
     var sortValue = false;
-    $(".sort").on("click", function(){
+    $(".sort").on("click", function () {
         // Get current URI hash
         var currentHash = location.hash;
         // If button is currently unchecked:
-        if ( $(this).hasClass("checked") ) {
+        if ($(this).hasClass("checked")) {
             // Set sort to false
             sortValue = false;
             // Remove sort attribute in hash
-            location.hash = currentHash.replace( /&sort=([^&]+)/i, "");
+            location.hash = currentHash.replace(/&sort=([^&]+)/i, "");
         } else {
             // Set sortValue to current sort value
             sortValue = $(this).attr("data-sort-value");
@@ -50,56 +52,59 @@ jQuery(document).ready(function ($) {
         }
     });
 
-    // Set up filters array with default values
-    var filters = []; // Initialize an array to hold selected filters
-
-    // When a button is pressed, run filterSelect
+    // Set the URI hash to the current selected filters
     $(".filter-list a").on("click", function (e) {
-        e.preventDefault(); // Prevent default anchor behavior
+        e.preventDefault();
         var $this = $(this);
-        var filter = $this.attr("data-filter");
+        var filterGroup = $this.parents(".filter-list").attr("data-filter-group");
+        var filterValue = $this.attr("data-filter");
 
-        // Toggle the selected filter
-        if ($this.hasClass("checked")) {
-            $this.removeClass("checked").attr("aria-checked", "false");
-            filters = filters.filter(f => f !== filter); // Remove the filter from the array
-        } else {
-            $this.addClass("checked").attr("aria-checked", "true");
-            filters.push(filter); // Add the filter to the array
+        // Toggle active class
+        $this.toggleClass("checked");
+
+        // Initialize the group if not already
+        if (!filters[filterGroup]) {
+            filters[filterGroup] = [];
         }
 
-        // Combine all selected filters
-        var combinedFilter = filters.join("");
+        // Add or remove filter from the group
+        if ($this.hasClass("checked")) {
+            filters[filterGroup].push(filterValue);
+        } else {
+            filters[filterGroup] = filters[filterGroup].filter(function (value) {
+                return value !== filterValue;
+            });
+        }
 
-        // Apply the filters to the Isotope container
-        $container.isotope({ filter: combinedFilter || "*" });
+        // Combine all filters
+        var filterQuery = Object.values(filters).map(function (group) {
+            return group.join('');
+        }).join('');
 
-        updateFilterCount(); // Update the filter count
+        // Apply filters
+        $container.isotope({ filter: filterQuery });
+        updateFilterCount();
     });
 
     // Reset filters
-    $(".btn-primary").on("click", function (e) {
-        e.preventDefault(); // Prevent default button behavior
-        filters = []; // Clear all selected filters
-        $(".filter-list a").removeClass("checked").attr("aria-checked", "false"); // Reset button states
-        $container.isotope({ filter: "*" }); // Show all items
-        updateFilterCount(); // Update the filter count
+    $(".btn-primary").on("click", function () {
+        $(".filter-list a").removeClass("checked");
+        filters = {};
+        $container.isotope({ filter: '*' });
+        updateFilterCount();
     });
 
-    function onHashChange() {
+    // When the hash changes, run onHashChange
+    window.onhashchange = function () {
         // Current hash value
         var hashFilter = getHashFilter();
         // Concatenate subject and role for Isotope filtering
-        var subjectFilters = hashFilter["subject"].split(",");
-        var roleFilters = hashFilter["role"].split(",");
-        var allFilters = subjectFilters.concat(roleFilters).filter(Boolean);
-
-        var theFilter = allFilters.map(f => `.${f}`).join(", ");
+        var theFilter = hashFilter["subject"] + hashFilter["role"];
 
         if (hashFilter) {
             // Repaint Isotope container with current filters and sorts
             $container.isotope({
-                filter: theFilter || "*",
+                filter: decodeURIComponent(theFilter),
                 sortBy: hashFilter["sorts"]
             });
 
@@ -112,11 +117,15 @@ jQuery(document).ready(function ($) {
             }
             // Toggle checked status of filter buttons
             $(".filter-list").find(".checked").removeClass("checked").attr("aria-checked", "false");
-            allFilters.forEach(filter => {
-                $(".filter-list").find(`[data-filter='.${filter}']`).addClass("checked").attr("aria-checked", "true");
-            });
+            var subjectFilters = hashFilter["subject"].split(",");
+            var roleFilters = hashFilter["role"].split(",");
+            var allFilters = subjectFilters.concat(roleFilters);
+            allFilters = allFilters.concat(subjectFilters);
+            for (filter in allFilters) {
+                $(".filter-list").find("[data-filter='" + allFilters[filter] + "']").addClass("checked").attr("aria-checked", "true");
+            }
         }
-    } // onHahschange
+    };
 
     function getHashFilter() {
         // Get filters (matches) and sort order (sorts)
@@ -132,12 +141,8 @@ jQuery(document).ready(function ($) {
         hashFilter["sorts"] = sorts ? sorts[1] : "";
 
         return hashFilter;
-    } // getHashFilter
-
-    // When the hash changes, run onHashchange
-    window.onhashchange = onHashChange;
+    }
 
     // When the page loads for the first time, run onHashChange
-    onHashChange();
-
+    window.onhashchange();
 });

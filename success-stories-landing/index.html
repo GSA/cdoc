@@ -6,27 +6,43 @@ subtitle: Success Stories
 tagline: Our Working Groups and their Successes
 tagline-desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sollicitudin tincidunt purus, sed semper nibh pellentesque sed. In eget enim ut tellus scelerisque laoreet eu eget orci. Vestibulum vitae porta massa, sed malesuada leo.
 ---
+<h2 class="usa-sr-only">{{site.tagline}}</h2>
 <div class="grid-row">
     <div id="filter" class="grid-col-12 tablet:grid-col-4 filters">
         <p class="font-sans-lg text-bold">Filter:</p>
         <ul class="filter-list" data-filter-group="subject">
-            <li class="filter-list__item"><a aria-label="Filter by type: zero trust" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".zero-trust">ZeroTrust</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: data culture" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".data-culture">Data Culture</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: data sharing" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".data-sharing">Data Sharing</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: CDO council" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".cdo-council">CDO Council</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: COVID-19" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".covid-19">COVID-19</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: data inventory" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".data-inventory">Data Inventory</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: data skills" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".data-skills">Data Skills</a></li>
-            <li class="filter-list__item"><a aria-label="Filter by type: operations" role="checkbox" href="javascript:void(0);" tabindex="0" data-filter=".operations">Operations</a></li>
+            <li class="filter-list__item">
+                <a aria-label="Filter by type: Zero Trust" role="checkbox" href="#" tabindex="0" data-filter=".story-card--zero-trust">ZeroTrust</a>
+            </li>
+            <li class="filter-list__item">
+                <a aria-label="Filter by type: Data Culture" role="checkbox" href="#" tabindex="0" data-filter=".story-card--data-culture">Data Culture</a>
+            </li>
+            <li class="filter-list__item">
+                <a aria-label="Filter by type: Data Sharing" role="checkbox" href="#" tabindex="0" data-filter=".story-card--data-sharing">Data Sharing</a>
+            </li>
+            <li class="filter-list__item">
+                <a aria-label="Filter by type: CDO Council" role="checkbox" href="#" tabindex="0" data-filter=".story-card--cdo-council">CDO Council</a>
+            </li>
+            <li class="filter-list__item">
+                <a aria-label="Filter by type: COVID-19" role="checkbox" href="#" tabindex="0" data-filter=".story-card--covid-19">COVID-19</a>
+            </li>
+            <li class="filter-list__item">
+                <a aria-label="Filter by type: Data Inventory" role="checkbox" href="#" tabindex="0" data-filter=".story-card--data-inventory">Data Inventory</a>
+            </li>
+            <li class="filter-list__item">
+                <a aria-label="Filter by type: Data Skills" role="checkbox" href="#" tabindex="0" data-filter=".story-card--data-skills">Data Skills</a>
+            </li>
+            <li class="filter-list__item">
+                <a aria-label="Filter by type: Operations" role="checkbox" href="#" tabindex="0" data-filter=".story-card--operations">Operations</a>
+            </li>
         </ul>
-        <a class="usa-button btn-primary margin-bottom-2 width-15" href="javascript:void(0);">Reset Filters</a>
+        <a class="usa-button btn-primary margin-bottom-2 width-15" href="#">Reset Filters</a>
     </div>
     <div class="grid-col-12 tablet:grid-col-8 margin-top-3">
         <p class="filter-count margin-top-0 margin-bottom-2 text-gray-50 text-bold count"></p>
         <section class="usa-card-group story-card-group">
             {% for story in site.success-stories %}
-            <div class="tablet:grid-col-6 usa-card story-card" 
-                 data-filter="{% if story.tags %}{% for tag in story.tags %}.{{ tag | downcase }} {% endfor %}{% else %}.{{ story.tag | downcase }}{% endif %}">
+            <div class="tablet:grid-col-6 usa-card story-card story-card--{{ story.category }}">
                 <div class="usa-card__container radius-md">
                     <header class="usa-card__header">
                         <h3 class="margin-0">{{ story.title }}</h3>
@@ -35,18 +51,8 @@ tagline-desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulu
                         <p class="font-sans-xs">{{ story.description }}</p>
                     </div>
                     <div class="usa-card__footer margin-y-2">
-                        <a class="usa-button usa-button--outline" title="Read: {{ story.title }}" 
-                           href="{{ site.baseurl }}{{ story.permalink }}" 
-                           aria-label="Read {{ story.title }} Story">Read more</a>
-                        <p><strong>Tagged as:</strong> 
-                            {% if story.tags %}
-                                {% for tag in story.tags %}
-                                    <span class="usa-tag bg-primary" style="text-transform: none;">{{ tag }}</span>
-                                {% endfor %}
-                            {% else %}
-                                <span class="usa-tag bg-primary" style="text-transform: none;">{{ story.tag }}</span>
-                            {% endif %}
-                        </p>
+                        <a class="usa-button usa-button--outline" title="Read: {{story.title}}" href="{{ site.baseurl }}{{story.permalink}}" aria-label="Read {{ story.title }} Story">Read more</a>
+                        <p><strong>Tagged as:</strong> <span class="usa-tag bg-primary" style="text-transform: none;">{{ story.tag }}</span></p>
                     </div>
                 </div>
             </div>
