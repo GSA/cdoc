@@ -15,20 +15,20 @@ jQuery(document).ready(function ($) {
         }
     });
 
-var iso = $container.data('isotope');
-var $filterCount = $('.filter-count');
-function updateFilterCount() {
-    var $item_length = iso.filteredItems.length; 
-    if (iso != null ){
-        if ($item_length === 1) {
-            $filterCount.text($item_length + ' item');
-        } else if ($item_length > 1) {  
-            $filterCount.text($item_length + ' items');
-        } else {
-            $filterCount.text("No items found.");
+    var iso = $container.data('isotope');
+    var $filterCount = $('.filter-count');
+    function updateFilterCount() {
+        var $item_length = iso.filteredItems.length; 
+        if (iso != null ){
+            if ($item_length === 1) {
+                $filterCount.text($item_length + ' item');
+            } else if ($item_length > 1) {  
+                $filterCount.text($item_length + ' items');
+            } else {
+                $filterCount.text("No items found.");
+            }
         }
     }
-}
 
     // Alphabetical sort
     // Sort items alphabetically based on course title
@@ -59,28 +59,27 @@ function updateFilterCount() {
         // Current hash value
         var hashFilter = getHashFilter();
         // Set filters to current values (important for first run)
-        filters["subject"] = hashFilter["subject"];
-        filters["role"] = hashFilter["role"];
+        filters["subject"] = hashFilter["subject"] ? hashFilter["subject"].split(",") : [];
+        filters["role"] = hashFilter["role"] ? hashFilter["role"].split(",") : [];
         // data-filter attribute of clicked button
-        var currentFilter = $(this).attr("data-filter");
+        var currentFilter = $(this).attr("data-filter").replace(".", "");
         // Navigation group (subject or role) as object
         var $navGroup = $(this).parents(".filter-list");
         // data-filter-group key for the current nav group
         var filterGroup = $navGroup.attr("data-filter-group");
         // If the current data-filter attribute matches the current filter,
-        if ( currentFilter == hashFilter["subject"] || currentFilter == hashFilter["role"] ) {
-            // Reset group filter as the user has unselected the button
-            filters[ filterGroup ] = "*";
+        if (filters[filterGroup].includes(currentFilter)) {
+            // Remove the filter if it's already applied
+            filters[filterGroup] = filters[filterGroup].filter(f => f !== currentFilter);
         } else {
-            // Set data-filter of current button as value with filterGroup as key
-            filters[ filterGroup ] = $(this).attr("data-filter");
+            // Add the filter if it's not already applied
+            filters[filterGroup].push(currentFilter);
         }
         // Create new hash
-        // var newHash = "subject=" + encodeURIComponent( filters["subject"] ) + "&role=" + encodeURIComponent( filters["role"] ) + "&status=" + encodeURIComponent( filters["status"] );
-        var newHash = "subject=" +  filters["subject"]  + "&role=" +  filters["role"];
+        var newHash = "subject=" + filters["subject"].join(",") + "&role=" + filters["role"].join(",");
         // If sort value exists, add it to hash
-        if ( sortValue ) {
-            newHash = newHash + "&sort=" + encodeURIComponent( sortValue );
+        if (sortValue) {
+            newHash = newHash + "&sort=" + encodeURIComponent(sortValue);
         }
         // Apply the new hash to the URI, triggering onHahschange()
         location.hash = newHash;
@@ -90,12 +89,16 @@ function updateFilterCount() {
         // Current hash value
         var hashFilter = getHashFilter();
         // Concatenate subject and role for Isotope filtering
-        var theFilter = hashFilter["subject"] + hashFilter["role"];
+        var subjectFilters = hashFilter["subject"].split(",");
+        var roleFilters = hashFilter["role"].split(",");
+        var allFilters = subjectFilters.concat(roleFilters).filter(Boolean);
+
+        var theFilter = allFilters.map(f => `.${f}`).join(", ");
 
         if ( hashFilter ) {
             // Repaint Isotope container with current filters and sorts
             $container.isotope( {
-                filter:  decodeURIComponent( theFilter ),
+                filter:  theFilter || "*",
                 sortBy: hashFilter["sorts"]
             } );
 
@@ -108,14 +111,9 @@ function updateFilterCount() {
             }
             // Toggle checked status of filter buttons
             $( ".filter-list" ).find(".checked").removeClass("checked").attr("aria-checked","false");
-            var subjectFilters = hashFilter["subject"].split(",");
-            var roleFilters = hashFilter["role"].split(",");
-            var allFilters = subjectFilters.concat(roleFilters);
-            allFilters = allFilters.concat(subjectFilters);
-            for (filter in allFilters){
-                $( ".filter-list" ).find("[data-filter='" + allFilters[filter] + "']").addClass("checked").attr("aria-checked","true");
-            }
-            // $( ".filter-list" ).find("[data-filter='" + hashFilter["subject"] + "'],[data-filter='" + hashFilter["role"] + "'] ,[data-filter='" + hashFilter["status"] + "']").addClass("checked").attr("aria-checked","true");
+            allFilters.forEach(filter => {
+                $( ".filter-list" ).find("[data-filter='." + filter + "']").addClass("checked").attr("aria-checked","true");
+            });
         }
     } // onHahschange
 
