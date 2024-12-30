@@ -69,7 +69,7 @@ jQuery(document).ready(function ($) {
         }
 
         // Combine all selected filters
-        var combinedFilter = filters.join(", ");
+        var combinedFilter = filters.join("");
 
         // Apply the filters to the Isotope container
         $container.isotope({ filter: combinedFilter || "*" });
