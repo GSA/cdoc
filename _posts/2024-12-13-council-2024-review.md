@@ -8,7 +8,7 @@ excerpt:
 image_alt_text: cdo logo
 permalink: /cdo-council-2024-review/
 image_path:
-description: ""
+description: "2024 shone insight into the future of the CDO Council! Click below for the comprehensive Year-In-Review message from our Chair, Kirsten Dalboe."
 ---
 With 2024 drawing to a close and as we anticipate the excitement of what is to come in the new year, Rob and I find it fitting to reflect on our time as a Council and celebrate the many successes that have marked the year.
 
