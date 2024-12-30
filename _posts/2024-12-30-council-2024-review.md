@@ -2,7 +2,7 @@
 title: CDO Council 2024 Review
 subtitle: CDO Council 2024 Review
 layout: newspost
-date: December 4, 2024
+date: December 30, 2024
 author: CDO Council
 excerpt:
 image_alt_text: cdo logo
