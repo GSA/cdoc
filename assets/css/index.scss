@@ -481,6 +481,10 @@ ul.filter-list {
   }
 }
 
+span[class*="tag"], .tag {
+  white-space: nowrap;
+}
+
 .card-tag {
   font-size: .9rem;
   margin-top: .2em;
@@ -875,9 +879,5 @@ ul.filter-list {
   width: 3rem;
 }
 
-//just makes sure the tags on success stories have seperate lines instead of breaking the tag apart
-span[class*="tag"], .tag {
-  white-space: nowrap;
-}
 
 
