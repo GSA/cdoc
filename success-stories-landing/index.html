@@ -53,14 +53,15 @@ tagline-desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulu
                     <div class="usa-card__footer margin-y-2">
                         <a class="usa-button usa-button--outline" title="Read: {{story.title}}" href="{{ site.baseurl }}{{story.permalink}}" aria-label="Read {{ story.title }} Story">Read more</a>
                         <p><strong>Tagged as:</strong> 
+                            {% assign unique_tags = story.tags | uniq %}
                             {% if story.tag %}
                                 <span class="usa-tag bg-primary" style="text-transform: none;">{{ story.tag }}</span>
                             {% endif %}
-                            {% if story.tags %}
-                                {% for tag in story.tags %}
+                            {% for tag in unique_tags %}
+                                {% if tag != story.tag %}
                                     <span class="usa-tag bg-primary" style="text-transform: none;">{{ tag }}</span>
-                                {% endfor %}
-                            {% endif %}
+                                {% endif %}
+                            {% endfor %}
                         </p>
                     </div>
                 </div>
