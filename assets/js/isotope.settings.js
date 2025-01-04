@@ -76,10 +76,10 @@ jQuery(document).ready(function ($) {
             });
         }
 
-        // Combine all filters
+        // Combine all filters using ',' for OR logic
         var filterQuery = Object.values(filters).map(function (group) {
-            return group.join('');
-        }).join('');
+            return group.join(','); // Use ',' to combine filters for OR condition
+        }).join(',');
 
         // Apply filters
         $container.isotope({ filter: filterQuery });
