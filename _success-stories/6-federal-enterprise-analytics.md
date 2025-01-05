@@ -11,6 +11,9 @@ tags:
   - Data Sharing
   - Data Skills
 # required, this is what becomes the filter
-category: operations
+categories:
+- operations
+- data-skills
+- data-sharing
 redirect_to: https://www.cdo.gov/power-of-enterprise-analytics/ 
 ---
