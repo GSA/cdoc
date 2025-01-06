@@ -13,7 +13,7 @@ let inAnim = false;
 //Animation Time
 let animTime = 800;
 
-
+console.log("test")
 
 
 //Sort out starting position
