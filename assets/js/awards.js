@@ -13,8 +13,6 @@ let inAnim = false;
 //Animation Time
 let animTime = 800;
 
-console.log("test")
-
 
 //Sort out starting position
 sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], screenStore[currentScreen + 1]);
