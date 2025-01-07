@@ -269,6 +269,13 @@ if(carousel) {
         carousel.addEventListener("mouseenter", () => {
             clearInterval(autoWipe);
         });
+        carousel.addEventListener("click", () => {
+            clearInterval(autoWipe);
+        });
+        carousel.addEventListener("mouseover", () => {
+            clearInterval(autoWipe);
+        });
+        
         carousel.addEventListener("keydown", (event) => {
             var code = event.keyCode || event.which;
             if (code === 9) {
