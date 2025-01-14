@@ -14,6 +14,6 @@ tags:
 categories:
 - cdo-council
 - operations
-- Business Of Data
+- business-of-data
 redirect_to: https://www.cdo.gov/navigating-the-metrics-maze/ 
 ---
