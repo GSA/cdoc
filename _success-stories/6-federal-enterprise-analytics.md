@@ -8,12 +8,12 @@ description: |
     In an era dominated by data, the role of the Federal Chief Data Officer (CDO) has emerged as pivotal and transformational, especially in the strategic management and utilization of data. This report examines success factors in implementing enterprise analytics across CFO Act agencies. 
 tags:
   - Operations
-  - Data Sharing
-  - Data Skills
+  - CDO Council
+  - Business Of Data
 # required, this is what becomes the filter
 categories:
 - operations
-- data-skills
-- data-sharing
+- cdo-council
+- business-of-data
 redirect_to: https://www.cdo.gov/power-of-enterprise-analytics/ 
 ---
