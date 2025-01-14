@@ -481,6 +481,10 @@ ul.filter-list {
   }
 }
 
+span[class*="tag"], .tag {
+  white-space: nowrap;
+}
+
 .card-tag {
   font-size: .9rem;
   margin-top: .2em;
@@ -874,3 +878,6 @@ ul.filter-list {
   background-size: 1rem;
   width: 3rem;
 }
+
+
+
