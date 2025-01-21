@@ -10,13 +10,22 @@
             <ul class="usa-sidenav display-flex desktop:display-block border-top-0 border-bottom-0" data-filter-group="role">
                 <li><a class="usa-sidenav__item usa-h2 fltr-btn border-top-0 selected" data-filter="" data-role="All">All Roles</a></li>
    
-    
                 {% assign roles = site.past-members | map: 'role' | uniq | sort %}
+                {% for role in roles %}
+                    {% if role | strip != "" %}
+                        {% assign display_role = role %}
+                        {% if role == "member" %}
+                            {% assign display_role = "Executive Committee Members" %}
+                        {% endif %}
+                        <li><a class="fltr-btn usa-sidenav__item usa-h2 border-top-0" data-filter="{{ role }}" data-role="{{ role }}">{{ display_role }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                <!-- {% assign roles = site.past-members | map: 'role' | uniq | sort %}
                 {% for role in roles %}
                     {% if role | strip != "" %}
                         <li><a class="fltr-btn usa-sidenav__item usa-h2 border-top-0"  data-filter="{{ role }}" data-role="{{ role }}">{{ role }}</a></li>
                     {% endif %}
-                {% endfor %}
+                {% endfor %} -->
             </ul>
         </nav>
     </div>
@@ -97,7 +106,7 @@
         </section>
         
         <section class="usa-graphic-list padding-top-0">
-            <h2 id="members" class="section__title padding-top-1 margin-top-5">Members</h2>
+            <h2 id="members" class="section__title padding-top-1 margin-top-5">Executive Committee Members</h2>
             <div class="grid-container padding-left-0 padding-right-0">
                 <div class="usa-graphic-list__row grid-row grid-gap padding-top-0" id="council-member-list">
                     {% for bio in other-members %}

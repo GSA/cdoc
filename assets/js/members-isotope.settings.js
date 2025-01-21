@@ -1,6 +1,6 @@
 
 jQuery(document).ready(function ($) {
-        
+
     let currentYearFilter = "";
     let currentRoleFilter = "";
 
@@ -48,14 +48,16 @@ jQuery(document).ready(function ($) {
     }
 
     // Event listeners for year and role filter elements
-    $(".year-fltr a").on("click", function() {
+    $(".year-fltr a").on("click", function(e) {
+        e.preventDefault();
         $(".year-fltr a").removeClass("selected");
         $(this).addClass("selected");
         // Set the year filter and apply
         setFilter("year", $(this).data("filter")); // assuming 'data-filter' holds the year class
     });
 
-    $(".role-fltr a").on("click", function() {
+    $(".role-fltr a").on("click", function(e) {
+        e.preventDefault();
         $(".role-fltr a").removeClass("selected");
         $(this).addClass("selected");
         // Set the role filter and apply
