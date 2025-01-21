@@ -18,7 +18,7 @@ redirect_from:
 
 ## Authority
 
-The CDO Council was established by statute in the [Foundations for Evidence-Based Policymaking Act of 2018 (P.L. 115-435) 44 USC § 3520A](https://www.congress.gov/bill/115th-congress/house-bill/4174/text) and extended in [M-25-06 Re-establishing the Chief Data Officer Council](https://www.whitehouse.gov/wp-content/uploads/2025/01/M-25-06-Re-establishing-the-Chief-Data-Officer-Council.pdf).
+The CDO Council was established by statute in the [Foundations for Evidence-Based Policymaking Act of 2018 (P.L. 115-435) 44 USC § 3520A](https://www.congress.gov/bill/115th-congress/house-bill/4174/text) and extended in [M-25-06 Re-establishing the Chief Data Officer Council]({{ site.baseurl }}/assets/documents/M-25-06-Re-establishing-the-Chief-Data-Officer-Council.pdf).
 
 ## Vision
 The Council’s vision is to improve government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations. 
