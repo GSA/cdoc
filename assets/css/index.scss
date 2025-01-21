@@ -901,6 +901,7 @@ ul li {
 .fltr-btn:hover {
   border: none;
   outline: none;
+  cursor:pointer;
 }
 
 .member-card {
@@ -939,7 +940,7 @@ ul li {
   text-transform:capitalize;
   .fltr-btn:hover {
     outline: none;
-
+    cursor:pointer;
   }
 }
 
