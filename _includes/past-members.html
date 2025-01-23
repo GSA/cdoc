@@ -50,29 +50,30 @@
             <h2 id="chair" class="section__title padding-top-1 margin-top-5">CDO Council Chair</h2>
             <div class="grid-container padding-left-0 padding-right-0">
                 <div class="usa-graphic-list__row grid-row grid-gap padding-top-0" id="council-chair-list">
-                    {% for bio in chair-members %}
-                        <!-- Ensure the data-year is a comma-separated list of years -->
-                       
-                        {% assign years = bio.active-year | split: "," %}
-                        {% assign formatted_years = years | join: " " %}
-                        
-                        <div class="tablet:grid-col-6 container margin-bottom-4 member-card display-block {{ formatted_years }}" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
-                            <div class="clearfix shadow-5 radius-lg bg-white padding-2">
-                                <div>
-                                    <div class="left">
-                                        <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
-                                    </div>
-                                    <div class="right padding-1">
-                                        <span class="name">{{ bio.name }}<br></span>
-                                        <span class="role">{{ bio.role }}</span>
-                                        <span class="title">{{ bio.full-role }}</span>
-                                        <span class="title">Tenure: {{ bio.year-range }}</span>
-                                        <span style="font-size: 13px; color: #1155cc;">Read more about <a style="font-size: 13px; color: #1155cc;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    {% assign unique_bios = chair-members | group_by: 'name' %}
+{% for group in unique_bios %}
+    {% assign bio = group.items[0] %}
+    {% assign years = bio.active-year | split: "," %}
+    {% assign formatted_years = years | join: " " %}
+    <div class="tablet:grid-col-6 container margin-bottom-4 member-card display-block {{ formatted_years }}" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
+        <div class="clearfix shadow-5 radius-lg bg-white padding-2">
+            <div>
+                <div class="left">
+                    <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
+                </div>
+                <div class="right padding-1">
+                    <span class="name">{{ group.name }}<br></span>
+                    {% for bio in group.items %}
+                        <span class="title">{{ bio.full-role }}</span>
+                        <span class="title">Tenure: {{ bio.year-range }}</span>
+                        <span style="font-size: 13px; color: #1155cc;">Read more about <a style="font-size: 13px; color: #1155cc;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></span>
                     {% endfor %}
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
                 </div>
             </div>
         </section>
@@ -81,28 +82,30 @@
             <h2 id="vice-chair" class="section__title padding-top-1 margin-top-5">CDO Council Vice-Chair</h2>
             <div class="grid-container padding-left-0 padding-right-0">
                 <div class="usa-graphic-list__row grid-row grid-gap padding-top-0" id="council-vicechair-list">
-                    {% for bio in vice-members %}
-
-                    {% assign years = bio.active-year | split: "," %}
-                    {% assign formatted_years = years | join: " " %}
-                        <!-- Ensure the data-year is a comma-separated list of years -->
-                        <div class="tablet:grid-col-6 container margin-bottom-4 member-card display-block {{ formatted_years }}" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
-                            <div class="clearfix shadow-5 radius-lg bg-white padding-2">
-                                <div>
-                                    <div class="left">
-                                        <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
-                                    </div>
-                                    <div class="right padding-1">
-                                        <span class="name">{{ bio.name }}<br></span>
-                                        <span class="role">{{ bio.role }}</span>
-                                        <span class="title">{{ bio.full-role }}</span>
-                                        <span class="title">Tenure: {{ bio.year-range }}</span>
-                                        <span style="font-size: 13px; color: #1155cc;">Read more about <a style="font-size: 13px; color: #1155cc;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    {% assign unique_bios = vice-members | group_by: 'name' %}
+{% for group in unique_bios %}
+    {% assign bio = group.items[0] %}
+    {% assign years = bio.active-year | split: "," %}
+    {% assign formatted_years = years | join: " " %}
+    <div class="tablet:grid-col-6 container margin-bottom-4 member-card display-block {{ formatted_years }}" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
+        <div class="clearfix shadow-5 radius-lg bg-white padding-2">
+            <div>
+                <div class="left">
+                    <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
+                </div>
+                <div class="right padding-1">
+                    <span class="name">{{ group.name }}<br></span>
+                    {% for bio in group.items %}
+                        <span class="title">{{ bio.full-role }}</span>
+                        <span class="title">Tenure: {{ bio.year-range }}</span>
+                        <span style="font-size: 13px; color: #1155cc;">Read more about <a style="font-size: 13px; color: #1155cc;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></span>
                     {% endfor %}
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
                 </div>
             </div>
         </section>
