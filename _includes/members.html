@@ -13,7 +13,11 @@
                         </div>
                         <div class="right padding-left-1">
                             <span class="name">{{ bio.department }}</span>
+                            {% if bio.job-title %}
                             <span class="title">{{ bio.name }}, {{ bio.job-title }}</span>
+                            {% else %}
+                            <span class="title">{{ bio.name }}</span>
+                            {% endif %}
                             {% if bio.website-data %}
                             <span class="title"><a href="{{ bio.website-data }} " aria-label="{{ bio.department }} - Agency CDOs data website">Agency Data Website</a></span>
                             {% endif %}

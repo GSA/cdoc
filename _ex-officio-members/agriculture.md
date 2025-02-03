@@ -1,10 +1,10 @@
 ---
-bio-image: agriculture_department_seal.png
-bio-image-alt-text: Department of Agriculture
+bio-image: icsp_logo.png
+bio-image-alt-text: ICSP
 layout: bio
 name: Vacant
-department: Department of Agriculture
+department: Vacant
 job-title: NASS Administrator
 council: Statistical Officers' Council
-website-data: https://www.usda.gov/data
+# website-data: https://www.usda.gov/data
 ---
