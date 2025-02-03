@@ -1,5 +1,5 @@
 ---
-bio-image: cio-council-logo.png
+bio-image: cio_2.png
 bio-image-alt-text: Chief Information Officers Council logo
 layout: bio
 name: Vacant
