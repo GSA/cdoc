@@ -6,11 +6,11 @@ bio-image-alt-text: Tod Dabolt
 layout: leader
 permalink: /previous-council/tod-dabolt/
 name : Tod Dabolt
-department: Data Sharing Working Group (WG)
-job-title: Data Sharing WG Lead
+department: Data Inventory Working Group (WG)
+job-title: Data Inventory WG Lead
 role: member
 active-year: "2020,2021,2022,2023"
-full-role: Data Sharing WG Lead
+full-role: Data Inventory WG Lead
 year-range: 2020-2023
 ---
 Tod Dabolt was named the United States Department of the Interior’s (DOI) Chief Data Officer (CDO) in August 2019. As CDO, he’s helping the department transparently answer tomorrow’s questions today while opening up DOI’s data to the next generation. For the past five years, Tod has been a senior leader in the department's Chief Information Officer organization.  
