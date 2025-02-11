@@ -6,11 +6,11 @@ bio-image-alt-text: Thomas Beach
 layout: leader
 permalink: /previous-council/beach-thomas/
 name : Thomas Beach
-department: Data Sharing Working Group (WG)
-job-title: Data Sharing WG Lead
+department: Data Skills Working Group (WG)
+job-title: Data Skills WG Lead
 role: member
 active-year: "2020,2021"
-full-role: Data Sharing WG Lead
+full-role: Data Skills WG Lead
 year-range: 2020-2021
 ---
 While leading the Data Skills Working Group, Thomas served as the interim Chief Data Officer (CDO) at the United States Department of Commerce (DOC) where he led the department’s data governance activities; executes key data collection, inventory and quality processes; and provided strategic direction and guidance for the bureaus’ collection, storage, access, and use of their data assets across twelve bureaus and offices.  
