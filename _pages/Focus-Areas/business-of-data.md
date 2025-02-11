@@ -20,7 +20,7 @@ has-stories: false
     <li>Develop CDO competency model.</li>
     <li>Position CDOs to include data goals within agency strategic plans.</li>
     <li>Explore credentialing programs used by other C-Suite communities.</li>
-    <li>Promote inclusive and diverse CDO community.</li>
+    <li>Promote robust and engaged CDO community.</li>
   </ul>
   <p><u>Optimize The Business of the Data Life Cycle (Costs, Logistics, Burden)</u></p>
   <ul>
