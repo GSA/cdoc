@@ -41,9 +41,9 @@
                 {% endfor %}
             </ul>
         </nav>
-        {% assign chair-members = site.past-members | where: "role", "Council Chair" | sort: "name" %}
-        {% assign vice-members = site.past-members | where: "role", "Council Vice Chair" | sort: "name" %}
-        {% assign other-members = site.past-members | where: "role", "member" | sort: "name" %}
+        {% assign chair-members = site.past-members | where: "role", "Council Chair" | sort: "last-name" %}
+        {% assign vice-members = site.past-members | where: "role", "Council Vice Chair" | sort: "last-name" %}
+        {% assign other-members = site.past-members | where: "role", "member" | sort: "last-name" %}
 
 
         <section class="usa-graphic-list padding-top-0">

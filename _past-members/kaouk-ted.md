@@ -3,7 +3,7 @@ layout: leader
 title: Council Leadership
 subtitle: Executive Committee
 name : Ted Kaouk
-bio-image: kaouk-ted-circle.png
+bio-image: kaouk-ted-circle-updated.png
 bio-image-alt-text: Ted Kaouk
 permalink: /previous-council/kaouk-ted/
 card-detail: Deputy Director for Human Capital Data Management and Modernization and the Chief Data Officer, Office of Personnel Management
