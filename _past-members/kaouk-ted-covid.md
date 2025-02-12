@@ -1,7 +1,7 @@
 ---
 subtitle: Executive Committee
 title: Council Leadership
-bio-image: kaouk-ted-circle.png
+bio-image: kaouk-ted-circle-updated.png
 bio-image-alt-text: Ted Kaouk
 layout: leader
 permalink: /previous-council/kaouk-ted-covid/
