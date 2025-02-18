@@ -81,7 +81,7 @@ primary_navigation:
         url: "/about-us/"
       - name: About Chief Data Officers
         url: "/about-agency-cdos/"
-      - name: Previous Councils
+      - name: Legacy Leadership
         url: "/previous-councils/"
   - name: Members
     children:
