@@ -7,10 +7,10 @@ layout: leader
 permalink: /previous-council/graviss-matthew/
 name : Matthew Graviss
 department: Data Sharing Working Group (WG)
-job-title: Data Sharing WG Lead
+job-title: Data Skills WG Lead
 role: member
 active-year: "2022,2023"
-full-role: Data Sharing WG Lead
+full-role: Data Skills WG Lead
 year-range: 2022-2023
 ---
 Dr. Matthew Graviss became the Chief Data and Artificial Intelligence Officer of the United States Department of State (DOS) in December 2020. In this role, Matthew is responsible for making data accessible, interoperable, and actionable across DOS. He also serves as the Managing Director for the Office of Management Strategy and Solutions Center for Analytics (CfA), which aims to imbue CfA with a data-focused culture and corresponding talent, advance data governance, expand analytics capability, and modernize data technology solutions. 
