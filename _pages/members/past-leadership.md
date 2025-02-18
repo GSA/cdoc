@@ -1,6 +1,6 @@
 ---
 title:  ""
-subtitle: Previous CDO Council Leadership
+subtitle: Legacy CDO Council Leadership
 isotopeSettings: members
 layout: defaultwithbanner
 sidenav: false
