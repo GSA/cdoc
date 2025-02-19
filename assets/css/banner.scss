@@ -14,12 +14,14 @@
 }
 
 .carousel-container img {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    background-position: center;
-    background-size: cover;
-    color: #fff;
+  max-width: 25vw; 
+  width: auto; 
+  height: auto; 
+  object-fit: contain; 
+  overflow: hidden; 
+  position: relative; 
 }
+
 
 .left-arrow {
   position: absolute;
@@ -218,6 +220,40 @@
 
 .abstract-background-review-2023{
   background-image: url(../images/background/year-in-review-banner.jpg);
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.abstract-background-federal-data-trust{
+  background-image: url(../images/background/cdo_federal_zero_trust.png);
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+
+
+.abstract-background-review-2024{
+  background-image: url(../images/background/year-review-2024-carousel.jpg);
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.abstract-background-cdoc-symposium{
+  background-image: url(../images/background/2025_data_powers_mission1.png);
+  background-color: #172636;
+  background-repeat: no-repeat;
+  background-position: 35%;
+  background-size: cover;
+}
+
+.abstract-background-fairness-project{
+  background-image: url(../images/background/fairness-project-carousel.jpg);
   background-color: #172636;
   background-repeat: no-repeat;
   background-position: top center;

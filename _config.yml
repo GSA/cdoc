@@ -83,6 +83,8 @@ primary_navigation:
         url: "/about-agency-cdos/"
       - name: Legacy Leadership
         url: "/legacy-leadership/"
+      - name: Council Goals
+        url: "/about-us/#2024-2025-cdo-council-goals"
   - name: Members
     children:
       - name: Council Leadership
