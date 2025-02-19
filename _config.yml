@@ -81,6 +81,8 @@ primary_navigation:
         url: "/about-us/"
       - name: About Chief Data Officers
         url: "/about-agency-cdos/"
+      - name: Legacy Leadership
+        url: "/legacy-leadership/"
       - name: Council Goals
         url: "/about-us/#2024-2025-cdo-council-goals"
   - name: Members
@@ -184,6 +186,8 @@ collections:
   leadership:
     output: true
   exec-members:
+    output: true
+  past-members:
     output: true
   highlights:
     output: true

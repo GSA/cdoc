@@ -1,0 +1,149 @@
+<!-- *****LOOP FOR Executive Members Section on Leadership Page *********-->
+<span class="padding-top-5"></span>
+
+<!-- Top Bar: Year Filter -->
+<div class="grid-row grid-gap">
+    <div class="fltrs desktop:grid-col-3">
+        <!-- Left Column: Role Filter -->
+        <nav class="role-fltr usa-layout__docs-sidenav margin-top-4 desktop:margin-top-0 padding-top-4  desktop:padding-top-0 display-block desktop:order-first border-base border-top desktop:border-top-0">
+            <!-- <h3>Filter by Role</h3> -->
+            <ul class="usa-sidenav display-flex desktop:display-block border-top-0 border-bottom-0" data-filter-group="role">
+                <li><a class="usa-sidenav__item usa-h2 fltr-btn border-top-0 selected" data-filter="" data-role="All">All Roles</a></li>
+   
+                {% assign roles = site.past-members | map: 'role' | uniq | sort %}
+                {% for role in roles %}
+                    {% if role | strip != "" %}
+                        {% assign display_role = role %}
+                        {% if role == "member" %}
+                            {% assign display_role = "Executive Committee Members" %}
+                        {% endif %}
+                        <li><a class="fltr-btn usa-sidenav__item usa-h2 border-top-0" data-filter="{{ role }}" data-role="{{ role }}">{{ display_role }}</a></li>
+                    {% endif %}
+                {% endfor %}
+                <!-- {% assign roles = site.past-members | map: 'role' | uniq | sort %}
+                {% for role in roles %}
+                    {% if role | strip != "" %}
+                        <li><a class="fltr-btn usa-sidenav__item usa-h2 border-top-0"  data-filter="{{ role }}" data-role="{{ role }}">{{ role }}</a></li>
+                    {% endif %}
+                {% endfor %} -->
+            </ul>
+        </nav>
+    </div>
+
+    <div class="desktop:grid-col-9 grid-container font-sans-sm padding-left-0 padding-right-0 container__leadership">
+        <nav class="year-fltr">
+            <!-- <h3>Filter by Year</h3> -->
+            <ul data-filter-group="year">
+                <li><a class="fltr-btn selected" data-filter="">All Years</a></li>
+                {% assign allYears = site.past-members | map: 'active-year' | join: ',' | split: ',' | uniq | sort | reverse %}
+                {% for year in allYears %}
+                    <li><a class="fltr-btn" data-filter="{{ year | strip }}">{{ year | strip }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        {% assign chair-members = site.past-members | where: "role", "Council Chair" | sort: "last-name" %}
+        {% assign vice-members = site.past-members | where: "role", "Council Vice Chair" | sort: "last-name" %}
+        {% assign other-members = site.past-members | where: "role", "member" | sort: "last-name" %}
+
+
+        <section class="usa-graphic-list padding-top-0">
+            <h2 id="chair" class="section__title padding-top-1 margin-top-5">CDO Council Chair</h2>
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="usa-graphic-list__row grid-row grid-gap padding-top-0" id="council-chair-list">
+                    {% assign unique_bios = chair-members | group_by: 'name' %}
+{% for group in unique_bios %}
+    {% assign bio = group.items[0] %}
+    {% assign years = bio.active-year | split: "," %}
+    {% assign formatted_years = years | join: " " %}
+    <div class="tablet:grid-col-6 container margin-bottom-4 member-card display-block {{ formatted_years }}" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
+        <div class="clearfix shadow-5 radius-lg bg-white padding-2">
+            <div>
+                <div class="left">
+                    <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
+                </div>
+                <div class="right padding-1">
+                    <span class="name">{{ group.name }}<br></span>
+                    {% for bio in group.items %}
+                        <span class="title">{{ bio.full-role }}</span>
+                        <span class="title">Tenure: {{ bio.year-range }}</span>
+                        <span style="font-size: 13px; color: #1155cc;">Read more about <a style="font-size: 13px; color: #1155cc;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></span>
+                    {% endfor %}
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <section class="usa-graphic-list padding-top-0">
+            <h2 id="vice-chair" class="section__title padding-top-1 margin-top-5">CDO Council Vice-Chair</h2>
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="usa-graphic-list__row grid-row grid-gap padding-top-0" id="council-vicechair-list">
+                    {% assign unique_bios = vice-members | group_by: 'name' %}
+{% for group in unique_bios %}
+    {% assign bio = group.items[0] %}
+    {% assign years = bio.active-year | split: "," %}
+    {% assign formatted_years = years | join: " " %}
+    <div class="tablet:grid-col-6 container margin-bottom-4 member-card display-block {{ formatted_years }}" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
+        <div class="clearfix shadow-5 radius-lg bg-white padding-2">
+            <div>
+                <div class="left">
+                    <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
+                </div>
+                <div class="right padding-1">
+                    <span class="name">{{ group.name }}<br></span>
+                    {% for bio in group.items %}
+                        <span class="title">{{ bio.full-role }}</span>
+                        <span class="title">Tenure: {{ bio.year-range }}</span>
+                        <span style="font-size: 13px; color: #1155cc;">Read more about <a style="font-size: 13px; color: #1155cc;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></span>
+                    {% endfor %}
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+                </div>
+            </div>
+        </section>
+        
+        <section class="usa-graphic-list padding-top-0">
+            <h2 id="members" class="section__title padding-top-1 margin-top-5">Executive Committee Members</h2>
+            <div class="grid-container padding-left-0 padding-right-0">
+                <div class="usa-graphic-list__row grid-row grid-gap padding-top-0" id="council-member-list">
+                 
+
+
+                    {% assign unique_bios = other-members | group_by: 'name' %}
+{% for group in unique_bios %}
+    {% assign bio = group.items[0] %}
+    {% assign years = bio.active-year | split: "," %}
+    {% assign formatted_years = years | join: " " %}
+    <div class="tablet:grid-col-6 container margin-bottom-4 member-card display-block {{ formatted_years }}" data-role="{{ bio.role }}" data-year="{{ bio.active-year }}">
+        <div class="clearfix shadow-5 radius-lg bg-white padding-2">
+            <div>
+                <div class="left">
+                    <img src="{{ site.baseurl }}/assets/images/members/{{ bio.bio-image }}" alt="{{bio.bio-image-alt-text }} portrait">
+                </div>
+                <div class="right padding-1">
+                    <span class="name">{{ group.name }}<br></span>
+                    {% for bio in group.items %}
+                        <span class="title">{{ bio.full-role }}</span>
+                        <span class="title">Tenure: {{ bio.year-range }}</span>
+                        <span style="font-size: 13px; color: #1155cc;">Read more about <a style="font-size: 13px; color: #1155cc;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></span>
+                    {% endfor %}
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
