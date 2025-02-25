@@ -895,3 +895,78 @@ span[class*="tag"], .tag {
 }
 
 
+// For previous leaders
+
+.fltrs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+.fltr-btn {
+  color: #565c65;
+  font-size: 80%;
+}
+
+.fltr-btn:hover {
+  border: none;
+  outline: none;
+  cursor:pointer;
+}
+
+.member-card {
+//   display: none; 
+}
+
+.year-fltr {
+  display: flex;
+  align-items: center;
+  gap: 10px; // Space between the title and the list
+
+  h3 {
+    margin: 0; // Remove default margin from h3
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex; // Display list items inline
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-right: 10px; // Space between buttons
+  }
+
+  .fltr-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+  }
+}
+
+.role-fltr{
+  text-transform:capitalize;
+  .fltr-btn:hover {
+    outline: none;
+    cursor:pointer;
+  }
+}
+
+.fltr-btn.selected {
+  font-weight: bold;
+}
+
+.fltr-btn:hover {
+  text-decoration: underline;
+}
