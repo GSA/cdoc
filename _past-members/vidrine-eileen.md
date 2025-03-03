@@ -1,19 +1,19 @@
 ---
 subtitle: Executive Committee
-title: Data Sharing Working Group Lead
+title: Data Skills Working Group Lead
 bio-image: vidrine-eileen.png
 bio-image-alt-text: Eileen Vidrine
 layout: leader
 permalink: /previous-council/vidrine-eileen/
 name : Eileen Vidrine
-department: Data Sharing Working Group (WG)
-job-title: Data Sharing Working Group Lead
+department: Data Skills Working Group (WG)
+job-title: Data Skills Working Group Lead
 role: member
 active-year: "2023,2024"
-full-role: Data Sharing Working Group Lead
+full-role: Data Skills Working Group Lead
 year-range: 2023-2024
 ---
-Eileen M. Vidrine was a member of the Senior Executive Service and served as the Department of the Air Force Chief Data and Artificial Intelligence Officer, the Pentagon, Arlington, Virginia. As the CDAO for the Department of the Air Force, Eilee developed and implemented strategies for enterprise data management, analytics, digital transformation, and responsible artificial intelligence to optimize performance and drive innovation in and across all missions and operations.
+Ms. Vidrine was a member of the Senior Executive Service and served as the Department of the Air Force Chief Data and Artificial Intelligence Officer, the Pentagon, Arlington, Virginia. As the CDAO for the Department of the Air Force, Ms. Vidrine developed and implemented strategies for enterprise data management, analytics, digital transformation, and responsible artificial intelligence to optimize performance and drive innovation in and across all missions and operations.
 
 Ms. Vidrine returned to this role following a one-year detail serving as the Senior Strategic Advisor for Data to the Federal Chief Information Officer, Office of Management and Budget, Executive Office of the President, Washington, D.C.
 
