@@ -1,7 +1,7 @@
 ---
 subtitle: Executive Committee
 title: Data Sharing Working Group Lead
-bio-image: vidrine-eileen.jpg
+bio-image: vidrine-eileen.png
 bio-image-alt-text: Eileen Vidrine
 layout: leader
 permalink: /previous-council/vidrine-eileen/
