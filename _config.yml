@@ -81,8 +81,6 @@ primary_navigation:
         url: "/about-us/"
       - name: About Chief Data Officers
         url: "/about-agency-cdos/"
-      - name: Legacy Leadership
-        url: "/legacy-leadership/"
       - name: Council Goals
         url: "/about-us/#2024-2025-cdo-council-goals"
   - name: Members
@@ -91,6 +89,8 @@ primary_navigation:
         url: "/leadership/"
       - name: Council Members
         url: "/council-members/"
+      - name: Legacy Leadership
+        url: "/legacy-leadership/"
   - name: Working Groups & Committees
     children:
       - name: Business of Data
