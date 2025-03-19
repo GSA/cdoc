@@ -1,7 +1,7 @@
 ---
 subtitle: Executive Committee
 title: Council Leadership
-bio-image: paul-kshemendra-circle.png
+bio-image: petrey-harry.png
 bio-image-alt-text: Harry Petrey
 layout: leader
 permalink: /previous-council/petrey-harry/

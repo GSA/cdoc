@@ -1,7 +1,7 @@
 ---
 subtitle: Executive Committee
 title: Council Leadership
-bio-image: paul-kshemendra-circle.png
+bio-image: essene-ren.png
 bio-image-alt-text: Ren Essene
 layout: leader
 permalink: /previous-council/essene-ren/
