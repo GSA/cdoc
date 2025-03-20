@@ -10,7 +10,7 @@ department: Small Agency Committee
 job-title: Small Agency Committee Leader
 role: member
 active-year: "2024,2025"
-job-title: Small Agency Committee Leader
+full-role: Small Agency Committee Chair
 year-range: 2024-2025
 ---
 Ren Essene has over 30 years of public service experience at the intersection of data, consumer protection, and community development. Ms. Essene currently serves as the Chief Data Officer at the Consumer Financial Protection Bureau where she leads the CFPB's enterprise data strategy and facilitates the effective management, use, sharing, and protection of agency data assets. Ms. Essene was awarded the 2023 CDO Datum Award by the Data Foundation and named among the Global Data Power Women List for 2023.
