@@ -2,7 +2,7 @@
 bio-image: labor_department_seal.png
 bio-image-alt-text: Department of Labor
 layout: bio
-name: Vacant
+name: C.J. Krizan
 department: Department of Labor
 job-title: Chief Data Officer
 website-data: https://www.dol.gov/data
