@@ -6,10 +6,7 @@ sidenav: false
 permalink: /business-of-data/
 purpose: Consistent with the CDO Council Charter, the Business of Data Working Group was created to establish best practices for Chief Data Officers (CDOs) to evaluate their effectiveness and monitor progress, providing guidance on indicators of success, and supporting CDOs in implementing successful change management strategies. Through these objectives, we aim to foster a data-driven culture that enhances decision-making, innovation, and organizational effectiveness.
 top-image: justice.svg
-member: Harry Petrey
-members:
-    - Harry Petrey
-    - Jiashen You
+member: Jiashen You
 has-stories: false
 ---
 
