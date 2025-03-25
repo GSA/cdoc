@@ -1,24 +1,21 @@
-{% comment %}
-Use this section to highlight key elements of your site. Some sites will only have two while others may have six to
-eight.
-{% endcomment %}
+
 
 <div class="clearfix padding-y-4">
     <h2 class="text-primary-darker header-center" style="text-align: center;">Community News</h2>
-    {% for post in paginator.posts | sort: 'date' | reverse limit: 8 %}
+    {% for post in site.posts | sort: 'date' | reverse limit: 8 %}
     <section class="usa-graphic-list usa-section usa-prose clearfix grid-container padding-y-105">
         <div class="clearfix shadow-5 radius-lg bg-white padding-4">
             <div class="grid-row grid-gap">
                 <div class="usa-media-block tablet:grid-col">
                     {% if post.image_path %}
-                    <img class="usa-media-block__img circle-card" src="{{site.baseurl}}{{ post.image_path }}" alt="post.image_alt_text">
+                    <img class="usa-media-block__img circle-card" src="{{site.baseurl}}{{ post.image_path }}" alt="{{post.image_alt_text}}">
                     {% else %}
-                    <img class="usa-media-block__img circle-card" src="{{site.baseurl}}/assets/images/background/CDOC Logo  - Primary Mark Color with Spacing.png" alt="post.image_alt_text">
+                    <img class="usa-media-block__img circle-card" src="{{site.baseurl}}/assets/images/background/CDOC Logo  - Primary Mark Color with Spacing.png" alt="{{post.image_alt_text}}">
                     {% endif %}
                     <div class="usa-media-block__body">
                         <h2>{{ post.title }}</h2>
                         <p>{{ post.description }}</p>
-                        <a href="{{site.baseurl}}{{post.url}}" class="usa-button usa-button--outline border-0 bg-white">Explore</a>
+                        <a href="{{site.baseurl}}{{post.url}}" aria-label="Explore more about {{ post.title }}" class="usa-button usa-button--outline border-0 bg-white">Explore</a>
                     </div>
                 </div>
             </div>

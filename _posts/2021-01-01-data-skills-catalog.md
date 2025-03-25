@@ -6,7 +6,7 @@ date: January 1,2021
 author: CDO Council
 excerpt: Data Skills Catalog & Data Ethics Framework
 permalink: /news/data-skills-catalog-data-ethics-framework/
-description: 'As part of the FDS 2020 Action Plan, the General Services Administration (GSA) committed to complete <strong>Action 13: Develop a Curated Data Skills Catalog (Catalog) and Action 14: Develop a Data Ethics Framework (Framework).'
+description: 'As part of the FDS 2020 Action Plan, the General Services Administration (GSA) committed to complete <strong>Action 13: Develop a Curated Data Skills Catalog (Catalog) and Action 14: Develop a Data Ethics Framework (Framework).</strong>'
 ---
 
 As part of the FDS 2020 Action Plan, the General Services Administration (GSA) committed to complete <strong>Action 13: Develop a Curated Data Skills Catalog (Catalog)</strong> and <strong>Action 14: Develop a Data Ethics Framework (Framework).</strong>
