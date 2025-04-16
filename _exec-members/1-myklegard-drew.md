@@ -9,7 +9,7 @@ name: Drew Myklegard
 first-name: Drew
 last-name: Myklegard
 department: Office of Management and Budget
-job-title: Deputy Federal Chief Information Officer, Office of the Federal Chief Information Officer (OFCIO), Office of Management and Budget
+job-title: Deputy Federal Chief Information Officer, Office of the Federal Chief Information Officer (OFCIO)
 stick-top: true
 role: 
 ---
