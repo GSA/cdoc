@@ -1,0 +1,585 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 9]>
+<html class="lt-ie9">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+  <!-- Basic Page Needs
+    ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="robots" content="index, follow">
+  <!-- Mobile Specific Metas
+    ================================================== -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title and meta description
+    ================================================== -->
+  <title>Federal CDO Council - Agency Data Strategy Repository</title>
+  <meta property="og:title" content="CDO">
+  <meta name="description" content="The CDO Council is a forum for the Federal Chief Data Officers (CDOs). The Council's vision is to improve government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations.">
+  <meta property="og:description" content="The CDO Council is a forum for the Federal Chief Data Officers (CDOs). The Council's vision is to improve government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations.">
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@18F" />
+  <meta name="twitter:title" content="CDO" />
+  <meta name="twitter:description" content="The CDO Council is a forum for the Federal Chief Data Officers (CDOs). The Council's vision is to improve government mission achievement and increase the benefits to the Nation through improvement in the management, use, protection, dissemination, and generation of data in government decision-making and operations." />
+
+  <meta property="og:type" content="article">
+  <link rel="canonical" href="http://localhost:4000/success-stories/5-agency-data-strategy-repository" />
+  <meta property="og:url" content="http://localhost:4000/success-stories/5-agency-data-strategy-repository" />
+  <!-- Favicons
+    ================================================== -->
+  <!-- 128x128 -->
+  <!-- <link rel="shortcut icon" type="image/ico" href="/assets/images/favicons/favicon.ico"> -->
+  <link rel="icon" type="image/png" href="/assets/images/favicons/android-chrome-192x192.png">
+  <!-- 192x192, as recommended for Android http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android -->
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/android-chrome-192x192.png">
+  <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicons/favicon.ico">
+  <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicons/favicon.ico">
+  <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/apple-touch-icon.png">
+  <!-- CSS
+    ================================================== -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/index.css?1744832671974549000">
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css?1744832671974549000">
+  <link rel="stylesheet" type="text/css" href="/assets/css/banner.css?1744832671974549000">
+  <link rel="stylesheet" type="text/css" href="/assets/css/podcast.css?1744832671974549000">
+  <script src="/assets/js/uswds-init.min.js?1744832671974549000"></script>
+
+</head>
+<div class="page-landing-page layout-demo ">
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+  <section
+  class="usa-banner"
+  aria-label="Official website of the United States government"
+>
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img
+            aria-hidden="true"
+            class="usa-banner__header-flag"
+            src="/assets/img/us_flag_small.png"
+            alt="US Flag"
+          />
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+          <p class="usa-banner__header-text">
+            An official website of the United States government
+          </p>
+          <p class="usa-banner__header-action">Here’s how you know</p>
+        </div>
+        <button
+          type="button"
+          class="usa-accordion__button usa-banner__button"
+          aria-expanded="false"
+          aria-controls="gov-banner-default"
+        >
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
+    </header>
+    <div
+      class="usa-banner__content usa-accordion__content"
+      id="gov-banner-default"
+    >
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img
+            class="usa-banner__icon usa-media-block__img"
+            src="/assets/img/icon-dot-gov.svg"
+            role="img"
+            alt="Dot Gov"
+            aria-hidden="true"
+          />
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong><br />A
+              <strong>.gov</strong> website belongs to an official government
+              organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img
+            class="usa-banner__icon usa-media-block__img"
+            src="/assets/img/icon-https.svg"
+            role="img"
+            alt="Https Icon"
+            aria-hidden="true"
+          />
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong><br />A
+              <strong>lock</strong> (
+              <span class="icon-lock"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="52"
+                  height="64"
+                  viewBox="0 0 52 64"
+                  class="usa-banner__lock-image"
+                  role="img"
+                  aria-labelledby="banner-lock-description-default"
+                  focusable="false"
+                >
+                  <title id="banner-lock-title-default">Lock</title>
+                  <desc id="banner-lock-description-default">Locked padlock icon</desc>
+                  <path
+                    fill="#000000"
+                    fill-rule="evenodd"
+                    d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"
+                  />
+                </svg> </span
+              >) or <strong>https://</strong> means you’ve safely connected to
+              the .gov website. Share sensitive information only on official,
+              secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <div class="usa-overlay"></div>
+</div>
+
+
+<header class="usa-header usa-header--extended" role="banner">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+  <em class="usa-logo__text">
+    <a href="/" title="CDO Home" aria-label="CDO Home">
+      <img src="/assets/images/logos/cdo-logo.png" class="cdo-logo" style="" alt="Federal CDO council" title="Federal CDO council">
+    </a>
+  </em>
+</div>
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav role="navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close side-nav"><img alt="close" src="/assets/img/close.svg"></button>
+      <ul class="usa-nav__primary usa-accordion">
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-1"><span>About</span></button>
+          <ul id="primary-nav-1" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/about-us/">About the Council</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/about-agency-cdos/">About Chief Data Officers</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/about-us/#2024-2025-cdo-council-goals">Council Goals</a>
+              
+            </li>
+            
+          </ul>
+
+        </li>
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-2"><span>Members</span></button>
+          <ul id="primary-nav-2" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/leadership/">Council Leadership</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/council-members/">Council Members</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/legacy-leadership/">Legacy Leadership</a>
+              
+            </li>
+            
+          </ul>
+
+        </li>
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-3"><span>Working Groups &amp; Committees</span></button>
+          <ul id="primary-nav-3" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/business-of-data/">Business of Data</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/data-culture-for-the-workforce/">Data Culture for the Workforce</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/data-inventory/">Data Inventory</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/data-sharing/">Data Sharing</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/large-agency/">Large Agency Committee</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/small-agency/">Small Agency Committee</a>
+              
+            </li>
+            
+          </ul>
+
+        </li>
+        
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a class="usa-nav__link"
+            href="/programs-and-events/"><span>Events</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-5"><span>News &amp; Success Stories</span></button>
+          <ul id="primary-nav-5" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/community-news/">Community News</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/success-stories/">Success Stories</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/podcast/">Podcast</a>
+              
+            </li>
+            
+          </ul>
+
+        </li>
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false"
+            aria-controls="primary-nav-6"><span>Resources</span></button>
+          <ul id="primary-nav-6" class="usa-nav__submenu">
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="https://resources.data.gov/">Reports and Publications</a>
+              
+            </li>
+            
+            <li class="usa-nav__submenu-item">
+              
+              <a href="/awards-program/">CDOC Award Program</a>
+              
+            </li>
+            
+          </ul>
+
+        </li>
+        
+        
+      </ul>
+      <div class="usa-nav__secondary">
+        <!-- <ul class="usa-nav__secondary-links">
+          
+          <li class="usa-nav__secondary-item">
+            <a href="#main-content">Secondary link</a>
+          </li>
+          
+          <li class="usa-nav__secondary-item">
+            <a href="#main-content">Another secondary link</a>
+          </li>
+          
+        </ul> -->
+        
+
+
+  
+    <form id="search_form" class="usa-search usa-search--small" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+  
+    
+  
+    <input name="utf8" type="hidden" value="&#x2713;" />
+    <input name="affiliate" type="hidden" value="cdo_gov" />
+  
+    <div role="search">
+      <label class="usa-sr-only" for="extended-search-field-small">Search small</label>
+      <input class="usa-input usagov-search-autocomplete" id="extended-search-field-small" type="search" name="query" autocomplete="off">
+      <button class="usa-button usa-button--accent-cool" type="submit"><span class="usa-sr-only">Search</span></button>
+    </div>
+  </form>
+
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="usa-graphic-list sml-margin bg-gradient">
+    <div class="grid-container">
+        <div class="grid-row grid-gap">
+            <div class="tablet:grid padding-y-4">
+                <span class="text-accent-cool-light font-sans-lg margin-bottom-0 text-bold">Success Story</span>
+                <h2 class="text-white font-serif-xl margin-top-0 margin-bottom-0 text-bold"> Agency Data Strategy Repository </h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="usa-layout-docs usa-graphic-list" id="main-content">
+    <div class="grid-container">
+        
+
+        <br>
+        <p class="card-tag"><a href="/success-stories/">&#10094; &nbsp; Back to Success Stories</a> </p>
+    </div>
+    
+</main>
+
+
+<footer class="usa-footer usa-footer--big">
+  <div class="grid-container margin-top-2 margin-bottom-2">
+    
+    <div class="grid-row flex-align-start flex-justify">
+      <button type="button" class="usa-button usa-button--outline border-0" id="toTopBtn" title="Go to top">Return to top</button>
+      <!--  -->
+    </div>
+  </div>
+  
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <nav class="usa-footer__nav " aria-label="Footer navigation">
+
+          <div class=" mobile-lg:grid-col-12">
+            <section class=" usa-footer__primary-content usa-footer__primary-content--collapsible">
+            <h3 class="usa-footer__primary-link">Related Councils</h3>
+            <ul class="usa-list usa-list--unstyled footerLinksFourColumns">
+              <li class="cdo_custom_footer_links"><a href="https://www.acquisition.gov/cao-home">
+                  <abbr title="Chief Acquisition Officers">CAO</abbr>
+                  Council</a></li>
+              <li class="cdo_custom_footer_links"><a href="https://www.chcoc.gov/">
+                  <abbr title="Chief Human Capital Officers">CHCO</abbr>
+                  Council</a></li>
+              <li class="cdo_custom_footer_links"><a href="https://www.cio.gov/">
+                  <abbr title="Chief Information Officers">CIO</abbr>
+                  Council</a></li>
+              <li class="cdo_custom_footer_links"><a href="https://www.cfo.gov/">
+                  <abbr title="Chief Financial Officers">CFO</abbr>
+                  Council</a>
+              </li>
+              <li class="cdo_custom_footer_links"><a
+                  href="https://www.justice.gov/oip/chief-foia-officers-council">Chief <abbr title="Freedom of Information Act">FOIA</abbr> Officers Council</a></li>
+              <li class="cdo_custom_footer_links"><a href="https://www.evaluation.gov/">Evaluation Officer Council</a>
+              </li>
+              <li class="cdo_custom_footer_links"><a href="https://www.fpc.gov/">Federal Privacy Council</a></li>
+              <li class="cdo_custom_footer_links"><a
+                  href="https://www.gsa.gov/policy-regulations/policy/real-property-policy/asset-management/federal-real-property-council-frpc">Federal
+                  Real Property Council</a>
+              </li>
+              <li class="cdo_custom_footer_links"><a href="https://www.fcsm.gov/">Federal Committee on Statistical Methodology</a></li>
+              <li class="cdo_custom_footer_links"><a href="https://www.statspolicy.gov/">Interagency Council on Statistical Policy</a></li>
+              <li class="cdo_custom_footer_links"><a href="https://www.performance.gov/pic/">Performance Improvement Council</a></li>
+              <li class="cdo_custom_footer_links"><a href="https://www.sac.gov/">Small Agency Council</a></li>
+            </ul>
+            </section>
+
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          <div class="mobile-lg:grid-col-auto">
+            <img class="usa-footer__logo-img" alt="Office of Management and Budget Logo" src="/assets/images/logos/omb-logo.png">
+          </div>
+          <div class="mobile-lg:grid-col-auto">
+            <strong>
+              Office of Management and Budget
+            </strong>
+          </div>
+        </div>
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          <h3 class="usa-footer__contact-heading">Contact Us</h3>
+          <address class="usa-footer__address">
+            <div class="usa-footer__contact-info grid-row grid-gap">
+              <div class="grid-col-auto">
+                <a href="mailto:cdocstaff@gsa.gov">cdocstaff@gsa.gov</a>
+              </div>
+            </div>
+          </address>
+          <div class="grid-col-auto margin-top-1">
+            <a href="https://www.linkedin.com/company/federal-chief-data-officers-council/" target="_blank" title="(Opens New Window)">
+              <img
+              src="/assets/images/icons/linkedin-icon.png"
+              alt="LinkedIn Icon"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="ogp-identifier" class="usa-identifier">
+  <section
+    class="usa-identifier__section usa-identifier__section--masthead"
+    aria-label="Agency identifier,"
+  >
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__identity" aria-label="Agency description">
+        <p class="usa-identifier__identity-domain">CDO.gov</p>
+        <p class="usa-identifier__identity-disclaimer">
+          An official website of the Federal Government</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <nav
+    class="usa-identifier__section usa-identifier__section--required-links"
+    aria-label="Important links,,"
+  >
+    <div class="usa-identifier__container">
+      <ul class="usa-identifier__required-links-list">
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.whitehouse.gov/omb/" class="usa-identifier__required-link usa-link">About OMB</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsa.gov/website-information/accessibility-aids" class="usa-identifier__required-link usa-link">Accessibility support</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="usa-identifier__required-link usa-link">FOIA requests</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" class="usa-identifier__required-link usa-link">No FEAR Act data</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link">Office of the Inspector General</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsa.gov/reference/reports/budget-performance" class="usa-identifier__required-link usa-link">Performance reports</a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="https://www.gsa.gov/website-information/website-policies" class="usa-identifier__required-link usa-link">Privacy policy</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section
+    class="usa-identifier__section usa-identifier__section--usagov"
+    aria-label="U.S. government information and services,,"
+  >
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__usagov-description">
+        Looking for U.S. government information and services?
+      </div>
+      <a href="https://www.usa.gov/" class="usa-link">Visit USA.gov</a>
+    </div>
+  </section>
+</div>
+
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<script src="/assets/js/jquery-3.6.0.min.js"></script>
+
+
+
+
+
+
+
+
+
+<script id="_fed_an_ua_tag"
+        src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script>
+
+
+<script type="text/javascript">
+    function scrollToTop() {
+        document.documentElement.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
+    document.getElementById('toTopBtn').addEventListener("click", scrollToTop);
+</script>
+
+
+
+<script src="/assets/js/uswds.min.js?1744832671974549000"></script>
+<script src="/assets/js/app.js?1744832671974549000"></script>
+
+
