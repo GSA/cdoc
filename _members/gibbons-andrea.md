@@ -1,5 +1,5 @@
 ---
-bio-image: Americorps_logo.png
+bio-image: americorps.png
 bio-image-alt-text: Americorps
 layout: bio
 name: Andrea Gibbons
