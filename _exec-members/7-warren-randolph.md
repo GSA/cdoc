@@ -1,7 +1,7 @@
 ---
 subtitle: Leadership
 title: Council Members
-bio-image: warren-randolph.jpg
+bio-image: warren-randolph-circular.png
 bio-image-alt-text: WARREN RANDOLPH
 layout: bio
 permalink: /bio/warren-randolph/
