@@ -6,6 +6,7 @@ sidenav: false
 permalink: /small-agency/
 purpose: Develop strategies, solutions, and resources to address and advocate for small agency needs and opportunities in implementing the Foundations for Evidence Based Policymaking Act and Federal Data Strategy to ensure that CDO’s at Small Agencies are successful across the data lifecycle.
 top-image: group.svg
+member: Warren Randolph
 pdf: small-agency-wg.pdf
 has-stories: false
 ---
