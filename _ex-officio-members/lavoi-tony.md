@@ -1,10 +1,8 @@
 ---
-bio-image: fgdc-new-logo-web-white.png
-bio-image-alt-text: National Oceanic and Atmospheric Administration
+bio-image: FGDC_logo.png
+bio-image-alt-text: Federal Geographic Data Committee
 layout: bio
-name: Tony Lavoi
-department: National Oceanic and Atmospheric Administration
-job-title: 
-council: Federal Geographic Data Committee
-website-data: https://data.noaa.gov/datasetsearch/
+name: Tony Lavoi, National Oceanic and Atmospheric Administration
+department: Federal Geographic Data Committee
+#website-data: 
 ---

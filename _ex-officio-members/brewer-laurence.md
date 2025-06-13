@@ -1,10 +1,8 @@
 ---
 bio-image: nara_seal.png
-bio-image-alt-text: National Archives and Records Administration
+bio-image-alt-text: Chief Records Officer Council
 layout: bio
-name: Laurence Brewer
-department: National Archives and Records Administration
-job-title: 
-council: Chief Records Officer Council
-website-data: https://www.archives.gov/data
+name: Laurence Brewer, National Archives and Records Administration
+department: Chief Records Officer Council
+#website-data: 
 ---
