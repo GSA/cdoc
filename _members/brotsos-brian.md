@@ -2,8 +2,8 @@
 bio-image: transportation_department_seal.png
 bio-image-alt-text: Department of Transportation
 layout: bio
-name: Daniel Morgan
+name: Brian Brotsos
 department: Department of Transportation
-job-title: Chief Data Officer
+job-title: Acting Chief Data & AI Officer
 website-data: https://www.transportation.gov/data
 ---
