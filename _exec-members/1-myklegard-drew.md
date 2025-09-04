@@ -8,10 +8,10 @@ permalink: /bio/myklegard-drew/
 name: Drew Myklegard
 first-name: Drew
 last-name: Myklegard
-department: Office of Management and Budget
-job-title: Deputy Federal Chief Information Officer, Office of the Federal Chief Information Officer (OFCIO)
+department: 
+job-title: 
 stick-top: true
-role: 
+role: Deputy Federal Chief Information Officer, Office of the Federal Chief Information Officer (OFCIO), Office of Management and Budget
 ---
 
 Drew Myklegard is the Deputy Federal CIO of the White House tech policy office. He is responsible for driving technology modernization and improving mission delivery by ensuring over $120B in Federal IT spending is well managed.
