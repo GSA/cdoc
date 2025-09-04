@@ -22,12 +22,43 @@ This is used for just the focus area pages
 </section>
 
 <main id="main-content">
-  <div class="grid-container line-height-sans-5">
+  <div class="grid-container line-height-sans-5 {% if include.structure == 'many' %} ogp-grid-container {% endif %} ">
+    
+      {% if page.member and page.members == null %}  
     <div class="grid-row flex-row-reverse">
       <aside class="tablet:grid-col-5">
         <div class="upper-fold-box">
-            <h3><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 9%;" class="workinggroup-icon" alt=""> {{ page.title }} Leader</h3>
+            <h2><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 9%; margin-bottom: 3px" class="workinggroup-icon" alt=""> {{ page.title }} Leader</h2>
               {% include workinggroup__member.html name=page.member %}
+              {% if page.pdf != null %}
+                <div class="margin-y-3"> 
+                  <a class="usa-button" href="{{site.baseurl}}/assets/documents/{{page.pdf}}" target="_blank"><strong>Download Charter</strong></a>
+                </div>
+              {% endif %}
+        </div>
+        
+      </aside>
+      <div class="usa-layout-docs__main tablet:grid-col-7 margin-bottom-5 tablet:margin-top-4 tablet:margin-bottom-0">
+        <div class="line-height-sans-5">
+          <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h2>
+          <p class="font-sans-md">{{ page.purpose }}</p>
+        </div>
+      </div> 
+    </div>
+      {% endif %}
+    <!-- This condition is for top card content in the page -->
+      {% if page.members %}
+    <div class="grid-row flex-row-reverse">
+      <aside class="tablet:grid-col-5">
+        <div class="upper-fold-box" style="position:inherit">
+            <h2><img src="{{site.baseurl}}/assets/images/icons/people.svg" style="width: 30px;margin-bottom:3px" class="workinggroup-icon" alt=""> {{ page.title }} Leaders</h2>
+
+            <div class="display-flex flex-wrap">
+              {% for member in page.members %}
+                {% include workinggroup__member.html name=member %}
+              {% endfor %}
+            </div>
+            
               {% if page.pdf != null %}
                 <div class="margin-y-3"> 
                   <a class="usa-button" href="{{site.baseurl}}/assets/documents/{{page.pdf}}" target="_blank"><strong>Download Charter</strong></a>
@@ -36,28 +67,27 @@ This is used for just the focus area pages
         </div>
       </aside>
       <div class="usa-layout-docs__main tablet:grid-col-7 margin-bottom-5 tablet:margin-top-4 tablet:margin-bottom-0">
-          <div class="line-height-sans-5">
-            <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt=""> Purpose</h2>
-            <p class="font-sans-md">{{ page.purpose }}</p>
-          </div>
+        <div class="line-height-sans-5">
+          <h2 class="font-serif-xl"><img src="{{site.baseurl}}/assets/images/icons/idea.svg" class="workinggroup-icon" alt="" style="margin-right: 0.25em;"> Purpose</h2>
+          <p class="font-sans-md">{{ page.purpose }}</p>
+        </div>
       </div>
     </div>
+    {% endif %}
   </div>
-
   <div>
     <section class="usa-layout-docs__main grid-row__workinggroup">
-      <div class="tablet:grid-col-12 line-height-sans-5 tablet:margin-y-10 margin-bottom-8">
-        <section class="usa-accordion usa-accordion--bordered" aria-multiselectable="true">
+      <div class="tablet:grid-col-12 line-height-sans-5 tablet:margin-y-6 margin-bottom-8">
+        <section class="usa-accordion usa-accordion--bordered" data-allow-multiple>
           {{ content }}
         </section>
       </div>
     </section>
   </div>
-
   {% if page.has-stories %}
   <div>
     <section class="usa-layout-docs__main grid-row__workinggroup">
-      <h2><img src="{{site.baseurl}}/assets/images/icons/trophy-icon.svg" class="workinggroup__accordion-icon" alt="" style="margin-right: 0.25em;"> Success Stories</h2>
+      <h2><img src="{{site.baseurl}}/assets/images/icons/trophy-icon.svg" class="workinggroup__accordion-icon" alt="" style="margin-right: 0.25em;margin-bottom: -0.2em"> Success Stories</h2>
       <div class="grid-row">
       {% assign working-group = page.subtitle %}
       {% for story in site.success-stories %}
@@ -65,7 +95,7 @@ This is used for just the focus area pages
         <div class="tablet:grid-col-6 usa-card card-{{ story.category }}">
           <div class="usa-card__container radius-md">
               <header class="usa-card__header">
-                  <h4>{{ story.title }}</h4>
+                  <h3>{{ story.title }}</h3>
               </header>
               <div class="usa-card__body">
                   <p class="font-sans-xs">{{ story.description }}</p>

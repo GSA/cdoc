@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: policies-guidance-landing
 title: Guidance and Resources
 subtitle: Open Data
@@ -10,4 +10,4 @@ summary: Home for data, tools, and resources to conduct research, develop web an
 
 ## [Open Data](https://www.data.gov/)
 
-Home for data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations and more.
+Home for data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations and more. -->

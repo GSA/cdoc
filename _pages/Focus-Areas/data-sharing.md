@@ -6,7 +6,6 @@ sidenav: false
 permalink: /data-sharing/
 purpose: The Data Sharing Working Group will focus on data sharing across federal agencies, and develop a set of well‐written and diverse use cases identified through Listening Sessions, Focus Groups, Environmental Scans, Systematic Web Searches, Document Reviews, and Literature Reviews. These annotated use cases will be available through a Use Case Resource Center.
 top-image: data-sharing.png
-member: Nikolaos Ipiotis
 pdf: data-sharing-wg.pdf
 has-stories: true
 ---
@@ -36,7 +35,7 @@ has-stories: true
       <li>Present to the CDO Council Executive Committee, strategies, solutions, and resources to address policies, procedures, methods and techniques in implementing the Foundations for Evidence‐Based Policymaking Act and Federal Data Strategy requirements regarding the efficient, effective, timely, and secure sharing of data.  </li>
   </ul>
 </div>
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4" aria-label="Resources in Data Sharing"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
 <div id="m-a4" class="usa-accordion__content">
   <ul class="add-list-reset">
       <li><a href="https://community.max.gov/display/DATA/Data+Sharing+Working+Group">Max.Gov</a></li>

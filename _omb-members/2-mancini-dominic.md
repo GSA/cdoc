@@ -5,4 +5,5 @@ layout: bio
 name : Dominic Mancini
 department: Office of Information and Regulatory Affairs
 job-title: Deputy Administrator
+stick-top: true
 ---

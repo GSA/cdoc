@@ -37,7 +37,7 @@ pagination:
         <div class="desktop:grid-col-12 usa-prose padding-right-4">
             <!-- This loops through the podcasts -->
             {% for podcast in site.data.podcasts %}
-                <div class=" usa-card usa-card--flag desktop:grid-col-6 padding-bottom-5 margin-top-4 width-full">
+                <div class=" usa-card usa-card--flag desktop:grid-col-6 margin-top-4 width-full">
                     <div class="usa-card__container ogp-podcast--top-border margin-right-neg-2 ogp-margin-right-neg-3">
                         <div class="usa-card__header">
                             <div class="ogp-flex margin-top-3 margin-bottom-2 margin-left-2 ogp-margin-left-0">
@@ -60,7 +60,7 @@ pagination:
                             <div class="usa-card__body margin-top-neg-105 ogp-height-7">
                                 <p>{{podcast.description}}</p>
                             </div>
-                            <div class="ogp-flex ogp-podcast--footer margin-top-3 margin-left-2 ogp-margin-left-0">
+                            <div class="ogp-flex ogp-podcast--footer margin-top margin-left-2 ogp-margin-left-0">
                                 <div class="ogp-flex">
                                     <img
                                         class="usa-card__img"
@@ -68,10 +68,10 @@ pagination:
                                         alt="Play image button"
                                         />
                                     <a href="{{podcast.url_video}}" class="ogp-text-none  ogp-width-15 margin-top-05" target="_blank">
-                                        <i class="text-primary margin-left-105" aria-label="Click here to play the episode - Videos opens in a new tab">Click here to watch the episode</i>
+                                        <i class="text-primary margin-left-105" aria-label="Click here to play {{podcast.title}} - Videos opens in a new tab">Click here to watch the episode</i>
                                     </a>
                                 </div>
-
+                                {% if podcast.url_audio %}
                                 <div class="ogp-flex">
                                     <img 
                                         class="usa-card__img"
@@ -79,10 +79,10 @@ pagination:
                                         alt="Play image button"
                                     />
                                     <a href="{{podcast.url_audio}}" class="ogp-text-none  ogp-width-15 margin-top-05" target="_blank">
-                                        <i class="text-primary margin-left-105" aria-label="Click here to listen to the episode - Audio files opens in a new tab">Click here to listen to the episode</i>
+                                        <i class="text-primary margin-left-105" aria-label="Click here to listen to {{podcast.title}} - Audio files opens in a new tab">Click here to listen to the episode</i>
                                     </a>
                                 </div>
-                                                            
+                                {% endif %}                            
                             </div>
                     </div>
                 </div>

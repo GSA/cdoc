@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: policies-guidance-landing
 title: Guidance and Resources
 subtitle: Privacy Act of 1974
@@ -9,4 +9,4 @@ summary: The Privacy Act is about the government’s need to maintain informatio
 
 ## [Privacy Act of 1974](https://www.justice.gov/opcl/privacy-act-1974)
 
-The Privacy Act is about the government’s need to maintain information about individuals together with the rights of individuals to be protected against unwarranted invasions of their privacy.
+The Privacy Act is about the government’s need to maintain information about individuals together with the rights of individuals to be protected against unwarranted invasions of their privacy. -->

@@ -51,8 +51,10 @@ site, this is the place to do it.
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/images/favicons/apple-touch-icon.png">
   <!-- CSS
     ================================================== -->
-  {% asset index.scss %}
-  {% asset main.scss %}
-  {% asset banner.scss %}
-  {% asset podcast.scss %}
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/index.css?{{ site.time | date: '%s%N' }}">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css?{{ site.time | date: '%s%N' }}">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/banner.css?{{ site.time | date: '%s%N' }}">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/podcast.css?{{ site.time | date: '%s%N' }}">
+  <script src="{{ site.baseurl }}/assets/js/uswds-init.min.js?{{ site.time | date: '%s%N' }}"></script>
+
 </head>

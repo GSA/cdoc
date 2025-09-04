@@ -1,9 +1,8 @@
 ---
-bio-image: doe_seal.png
-bio-image-alt-text: Department of Education
+bio-image: EOC_logo.png
+bio-image-alt-text: Evaluation Officers Council
 layout: bio
-name: Matt Soldner
-department: Department of Education
-council: Evaluation Officers Council
-website-data: https://www.ed.gov/data
+name: Matt Soldner, Department of Education
+department: Evaluation Officers Council
+#website-data: 
 ---

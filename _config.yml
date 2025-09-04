@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   generation of data in government decision-making and operations.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cdo.gov" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.cdo.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
@@ -81,22 +81,26 @@ primary_navigation:
         url: "/about-us/"
       - name: About Chief Data Officers
         url: "/about-agency-cdos/"
+      - name: Council Goals
+        url: "/about-us/#2024-2025-cdo-council-goals"
   - name: Members
     children:
       - name: Council Leadership
         url: "/leadership/"
       - name: Council Members
         url: "/council-members/"
+      - name: Legacy Leadership
+        url: "/legacy-leadership/"
   - name: Working Groups & Committees
     children:
-      - name: Data Ethics
-        url: "/data-ethics-and-equity/"
+      - name: Business of Data
+        url: "/business-of-data/"
+      - name: Data Culture for the Workforce
+        url: "/data-culture-for-the-workforce/"
       - name: Data Inventory
         url: "/data-inventory/"
       - name: Data Sharing
         url: "/data-sharing/"
-      - name: Data Skills
-        url: "/data-skills/"
       - name: Large Agency Committee
         url: "/large-agency/"
       - name: Small Agency Committee
@@ -129,24 +133,24 @@ secondary_navigation:
 
 number_of_icons: 6
 homepage_icons:
-  - name: Data Sharing
-    logo: /assets/images/logos/data-sharing.png
-    url: /data-sharing/
+  - name: Business of Data
+    logo: /assets/images/logos/justice.svg
+    url: /business-of-data/
+  - name: Data Culture for the Workforce
+    logo: /assets/images/logos/data.svg
+    url: /data-culture-for-the-workforce/
   - name: Data Inventory 
     logo: /assets/images/logos/data-inventory.png
     url: /data-inventory/
-  - name: Data Skills
-    logo: /assets/images/logos/data.svg
-    url: /data-skills/
+  - name: Data Sharing
+    logo: /assets/images/logos/data-sharing.png
+    url: /data-sharing/
   - name: Large Agency Committee
     logo: /assets/images/logos/group-line.svg
     url: /large-agency/
   - name: Small Agency Committee
     logo: /assets/images/logos/group.svg
     url: /small-agency/
-  - name: Data Ethics and Equity
-    logo: /assets/images/logos/justice.svg
-    url: /data-ethics-and-equity/
 
 
 # Search.gov configuration
@@ -182,6 +186,8 @@ collections:
   leadership:
     output: true
   exec-members:
+    output: true
+  past-members:
     output: true
   highlights:
     output: true
@@ -243,10 +249,8 @@ pagination:
     after: 2
   # Optional, the default file extension for generated pages (e.g html, json, xml).
   # Internally this is set to html by default
-  extension: html
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
-  indexpage: "index.html"
 
 exclude:
   - package.json
@@ -260,10 +264,21 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - docker-compose.yml
+  - member_archive/
+  - _unpublished
 
-assets:
-  sources:
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
-    - node_modules/netlify-cms/dist
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - "last 2 versions"
+    - "IE 11"
+    - "not dead"
+
+sass:
+  sass_dir: _sass
+  load_paths:
+    - node_modules/@uswds/uswds/packages
+  sourcemap: development
+  quiet_deps: true
+  style: compressed
+  verbose: true

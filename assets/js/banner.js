@@ -18,30 +18,32 @@ sortPositioning(screenStore[currentScreen], screenStore[currentScreen - 1], scre
 //Sort out circle styling
 highlightCircle(circleStore[0]);
 
+if (rightArrow) {
 //User clicks on rightArrow
-rightArrow.addEventListener("click",  () => {
-    startAnim("right");
-});
+    rightArrow.addEventListener("click", () => {
+        startAnim("right");
+    });
 
-rightArrow.addEventListener("keyup",  (e) => {
-   if (event.keyCode === 13) {
-      event.preventDefault();
-     startAnim("right");
-      }
-});
+    rightArrow.addEventListener("keyup", (e) => {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            startAnim("right");
+        }
+    });
 
 
 //User clicks on the leftArrow
-leftArrow.addEventListener("click", () => {
-    startAnim("left");
-});
+    leftArrow.addEventListener("click", () => {
+        startAnim("left");
+    });
 
-leftArrow.addEventListener("keyup",  (e) => {
-   if (event.keyCode === 13) {
-      event.preventDefault();
-     startAnim("left");
-      }
-});
+    leftArrow.addEventListener("keyup", (e) => {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            startAnim("left");
+        }
+    });
+}
 
 //Start animation. Either towards left or right
 function startAnim(direction) {
@@ -252,34 +254,33 @@ function sortPositioning(mainScreen, leftScreen, rightScreen) {
 
 //Auto Scroll feature
 let carousel = document.getElementById("carousel-1");
-let scrollTime = Number(carousel.getAttribute("auto-scroll"));
-let pauseButton = document.getElementById('pause');
-let playButton = document.getElementById('play');
+if(carousel) {
+    let scrollTime = Number(carousel.getAttribute("auto-scroll"));
+    let pauseButton = document.getElementById('pause');
+    let playButton = document.getElementById('play');
+
 //Only implement the feature if the user has included the attribute 'auto-scroll'.
-if(scrollTime) {
-    //Auto Scroll will be set up the very first time
-    let autoWipe = setInterval(() => {
-        startAnim("right");
-    }, scrollTime);
-    //Clear the timer when they hover on carousel
-    carousel.addEventListener("mouseenter", () => {
-        clearInterval(autoWipe);
-    });
-       carousel.addEventListener("keydown", (event) => {
-       var code = event.keyCode || event.which;
-       if (code === 9) {
-            clearInterval(autoWipe);
-            }
-        });
-    //Re-initialise the timer when they hover out of the carousel
-    carousel.addEventListener("mouseleave", () => {
-         autoWipe = setInterval(() => {
+    if (scrollTime) {
+        //Auto Scroll will be set up the very first time
+        let autoWipe = setInterval(() => {
             startAnim("right");
         }, scrollTime);
-    })
+        //Clear the timer when they hover on carousel
+        carousel.addEventListener("mouseenter", () => {
+            clearInterval(autoWipe);
+        });
+        carousel.addEventListener("keydown", (event) => {
+            var code = event.keyCode || event.which;
+            if (code === 9) {
+                clearInterval(autoWipe);
+            }
+        });
+        //Re-initialise the timer when they hover out of the carousel
+        carousel.addEventListener("mouseleave", () => {
+            autoWipe = setInterval(() => {
+                startAnim("right");
+            }, scrollTime);
+        })
 
-};
-
-
-
-
+    }
+}

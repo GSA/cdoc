@@ -1,3 +1,5 @@
+---
+---
 // Import the US Web Design System SASS.
 
 .fade_line {
@@ -9,6 +11,7 @@
 
 .ogp-flex{
   display: flex !important;
+  margin-top: 1rem;
 }
 
 .ogp-text-none{
@@ -20,4 +23,42 @@
   @media screen and (max-width: 640px) {
     margin-right: -1.5rem;
   }
+}
+
+.cxo-quote {
+  text-align: center;
+  font-style: italic;
+}
+
+.margin-top{
+    margin-top: 2rem !important;
+}
+
+
+
+
+.external-link::after {
+  background-image: url('../images/icons/external-link.svg'); 
+  margin-left: 4px;
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  content: "";
+  display: inline;
+  margin-left: 5px;
+  padding-left: .65em;
+}
+
+#ogp-identifier.usa-identifier .external-link::after,
+.usa-button.external-link::after,
+.usa-nav__submenu-item .external-link::after {
+  background-image: url('../images/icons/launch--white.png'); 
+  margin-left: 4px;
+  background-position: 50% 60%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  content: "";
+  display: inline;
+  margin-left: 5px;
+  padding-left: .65em;
 }
