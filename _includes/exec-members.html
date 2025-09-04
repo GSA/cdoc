@@ -17,7 +17,13 @@
                             <div class="right padding-1">
                                 <span class="name">{{ bio.name }}<br></span>
                                 <span class="role">{{ bio.role }}</span>
-                                <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
+                                {% if bio.job-title or bio.department %}
+                                    <span class="title">
+                                        {{ bio.job-title }}
+                                        {% if bio.job-title and bio.department %}, {% endif %}
+                                        {{ bio.department }}
+                                    </span>
+                                {% endif %}
                                 <span style="font-size: 13px; color: #1155cc;">Read more about <a style="font-size: 13px; color: #1155cc;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></span>
                             </div>
                         </div>
