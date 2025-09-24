@@ -9,9 +9,9 @@ name : Dan Morgan
 department: United States Department of Transportation
 job-title: Chief Data Officer
 role: member
-active-year: "2020,2021,2022" 
+active-year: "2024,2025" 
 full-role: Data Culture for the Workforce Working Group
-year-range: 2020-2023
+year-range: 2024-2025
 ---
 Daniel Morgan was the first Chief Data Officer (CDO) of the United States Department of Transportation (DOT), having served in this capacity for over ten years.
 
