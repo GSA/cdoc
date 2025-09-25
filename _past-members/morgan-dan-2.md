@@ -4,7 +4,7 @@ title: Council Leadership
 bio-image: daniel-morgan-circle-updated.png
 bio-image-alt-text: Dan Morgan
 layout: leader
-permalink: /previous-council/morgan-dan/
+permalink: /previous-council/morgan-dan-2/
 name : Dan Morgan
 department: United States Department of Transportation
 job-title: Chief Data Officer
