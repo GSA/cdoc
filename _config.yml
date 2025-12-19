@@ -1,3 +1,4 @@
+# TEST
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -64,7 +65,7 @@ twitter: 18F
 #
 #################################################################
 dap:
-   agency: GSA
+  agency: GSA
 
   # Optional
   # subagency: your-subagency
@@ -112,9 +113,9 @@ primary_navigation:
       - name: Community News
         url: /community-news/
       - name: Success Stories
-        url: "/success-stories/" 
+        url: "/success-stories/"
       - name: Podcast
-        url: "/podcast/" 
+        url: "/podcast/"
   - name: Resources
     children:
       - name: Reports and Publications
@@ -122,14 +123,11 @@ primary_navigation:
       - name: CDOC Award Program
         url: /awards-program/
 
-
 secondary_navigation:
   - name: Secondary link
     url: "#main-content"
   - name: Another secondary link
     url: "#main-content"
-
-
 
 number_of_icons: 6
 homepage_icons:
@@ -139,7 +137,7 @@ homepage_icons:
   - name: Data Culture for the Workforce
     logo: /assets/images/logos/data.svg
     url: /data-culture-for-the-workforce/
-  - name: Data Inventory 
+  - name: Data Inventory
     logo: /assets/images/logos/data-inventory.png
     url: /data-inventory/
   - name: Data Sharing
@@ -152,14 +150,12 @@ homepage_icons:
     logo: /assets/images/logos/group.svg
     url: /small-agency/
 
-
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup
 # 2. Add a new site.
 # 3. Add your site/affiliate name here.
 searchgov:
-
   # You should not change this.
   endpoint: https://search.usa.gov
 
@@ -197,7 +193,7 @@ collections:
     output: true
   policies_guidance:
     output: true
-  success-stories: 
+  success-stories:
     output: true
     permalink: /:collection/:title
 
