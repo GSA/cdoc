@@ -2,8 +2,8 @@
 bio-image: social_security_administration_seal.png
 bio-image-alt-text: Social Security Administration
 layout: bio
-name: Chuck Borges
+name: Vacant
 department: Social Security Administration
-job-title: Chief Data Officer
+job-title: 
 website-data: https://www.ssa.gov/data/
 ---
