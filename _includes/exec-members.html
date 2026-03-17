@@ -4,8 +4,11 @@
     <section class="usa-graphic-list padding-top-0">
         <div class="grid-containe padding-left-0 padding-right-0">
             <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
-                {% for bio in site.exec-members %}
-                <div class="tablet:grid-col-6 container margin-bottom-4" tabindex="0">
+                {% assign top-members = site.exec-members | where: 'stick-top', true | sort: "name" %}
+                {% assign remaining-members = site.exec-members | where: 'stick-top', false %}
+                {% assign exec-members = top-members | concat: remaining-members %}
+                {% for bio in exec-members %}
+                <div class="tablet:grid-col-6 container margin-bottom-4">
                     <div class="clearfix shadow-5 radius-lg bg-white padding-2">
                         <div>
                             <div class="left">
@@ -14,7 +17,13 @@
                             <div class="right padding-1">
                                 <span class="name">{{ bio.name }}<br></span>
                                 <span class="role">{{ bio.role }}</span>
-                                <span class="title">{{ bio.job-title }}, {{ bio.department }}</span>
+                                {% if bio.job-title or bio.department %}
+                                    <span class="title">
+                                        {{ bio.job-title }}
+                                        {% if bio.job-title and bio.department %}, {% endif %}
+                                        {{ bio.department }}
+                                    </span>
+                                {% endif %}
                                 <span style="font-size: 13px; color: #1155cc;">Read more about <a style="font-size: 13px; color: #1155cc;" class="height-full" href="{{ site.baseurl }}{{ bio.permalink }}">{{ bio.name }}</a></span>
                             </div>
                         </div>

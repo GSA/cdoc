@@ -2,11 +2,52 @@
 # In this example, we create a simple array of options and then in the _pages/collections.md file we 
 # Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it 
 # This is simple, hopefully provides you with a good enough example to make changes as needed
-- title: Dan Morgan - Paving the Road to the CDOC
+- title: 'Dr. Gil Alterovitz - Serving with AI and Data: The Department of Veterans Affairs (Episode 7)'
+  image: /assets/images/podcasts/dr-gil-alterovitz.png
+  description: On this episode, Ted talks with Dr. Gil Alterovitz, the Chief Artificial Intelligence Officer at the Department of Veterans Affairs (VA) and Director of the VA’s National Artificial Intelligence Institute. As a leader in AI, Gil explains how data is the key, to be successful in developing and implementing an AI strategy. 
+  url_video: https://vimeo.com/846034458
+  date: October 3, 2023
+  time: "00:25:44"
+- title: Dorothy Aronson - Evolving with Data (Episode 6)
+  image: /assets/images/podcasts/dorothy-aronson.png
+  description: On this episode, Ted talks with Dorothy Aronson, the Chief Information Officer and Chief Data Officer at the National Science Foundation (NSF). As a CIO and CDO, Dorothy shares how she manages to balance both important roles at the same time and her excitement with watching data evolve.
+  url_video: https://vimeo.com/808134801
+  date: April 10, 2023
+  time: "00:14:14"
+- title: Dr. Chris Haffer - Cheerleading for Data (Episode 5)
+  image: /assets/images/podcasts/chris-haffer.png
+  description: On this episode, guest host Dan Morgan, Vice Chair of the Federal CDO Council talks with Dr. Chris Haffer, the Equal Employment Opportunity Commission’s first CDO. As Chris prepares for retirement from Federal Service, he provides valuable insight on his long spanning federal career, how to seek new opportunities, and his hope for data ethics in the future.
+  url_audio: https://vimeo.com/796710172
+  url_video: https://vimeo.com/796710172
+  date: March 7, 2023
+  time: "00:20:11"
+- title: Oliver Wise - Counting on the Data (Episode 4)
+  image: /assets/images/podcasts/oliver-wise.png
+  description: On this episode, Ted talks with Oliver Wise, Chief Data Officer at the Department of Commerce. As a newer Chief Data Officer, Oliver brings his experience from previous work with the city of New Orleans, LA into the Federal space.  Watch now to learn how he is bridging the gap and bringing new ideas on cross-functional data sharing.
+  url_audio: https://vimeo.com/787739329
+  url_video: https://vimeo.com/780751340
+  date: January 13, 2023
+  time: "00:23:59"
+- title: Kirsten Dalboe - Staying on Beat With Data (Episode 3)
+  image: /assets/images/podcasts/kirsten-dalboe.png
+  description: On this episode, Ted talks with Kirsten Dalboe, the first Chief Data Officer at the Federal Energy Regulatory Commission and current lead of the Council's Small Agency Committee. As a highly successful Chief Data Officer, Kirsten seamlessly balances parenthood, transforming FERC through the strategic application of Data, and her passion for the violin. Watch now to learn how she maintains balance and excellence within Federal Service.
+  url_audio: https://vimeo.com/manage/videos/779041518
+  url_video: https://vimeo.com/manage/videos/778109567
+  date: December 11, 2022
+  time: "00:28:31"
+- title: Janice deGarmo - Solving Problems With Data (Episode 2)
+  image: /assets/images/podcasts/janice-degarmo.png
+  description: CDOC Chair, Ted Kaouk talks with Janice deGarmo, former Department of State Chief Data Officer at the Center for Analytics and current Director of State Department's Office of Management Strategy and Solutions. As a former CDO, and now Director, Janice offers unique perspectives on the role of a CDO, how analytics can solve problems, and the future of data in the Federal Government.
+  url_audio: https://vimeo.com/768582444
+  url_video: https://vimeo.com/764597644
+  date: November 10, 2022
+  time: "00:30:27"
+- title: Dan Morgan - Paving the Road to the CDOC (Episode 1)
   image: /assets/images/podcasts/dan-morgan.png
   description: On this episode, Ted talks with Dan Morgan, the Chief Data Officer at the Department of Transportation and Vice-Chair of the CDO Council. As the CDO at the DOT since 2014, Dan is the longest-serving cabinet level CDO in the Federal Government, giving him a unique perspective on the role of CDOs and the power of data in government.
   url_audio: https://vimeo.com/747354367
   url_video: https://vimeo.com/741193022
   date: October 10, 2022
   time: "00:28:36"
+
 

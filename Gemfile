@@ -1,8 +1,12 @@
-ruby '>= 2.6.6'
+ruby '>= 3.1.3'
 
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.8"
+gem 'jekyll', '~> 4.3.3'
+gem "execjs", "2.7.0" # https://github.com/rails/execjs/issues/99
+gem "mini_racer"
+gem "autoprefixer-rails"
+gem "webrick" # not included in jekyll directly until 4.3.0 https://github.com/jekyll/jekyll/pull/8524
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
 gem "sprockets", "~> 3.7"
@@ -11,10 +15,10 @@ gem "kramdown-parser-gfm"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15"
   gem 'jekyll-redirect-from'
-  gem 'jekyll-paginate-v2', "3.0.0"  
+  gem 'jekyll-paginate-v2', '~> 3.0' 
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
-  gem "jekyll-assets", "~> 3.0", group: :jekyll_plugins
+  gem 'jekyll-autoprefixer'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -24,3 +28,4 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "html-proofer", "~> 3.15"
+gem 'jekyll-sass-converter', '~> 3.0'

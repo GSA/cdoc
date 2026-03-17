@@ -1,0 +1,973 @@
+---
+---
+// Import the US Web Design System SASS.
+
+// $theme-show-notifications: false;
+// @import "../node_modules/uswds/dist/scss/uswds";
+@use "uswds" as *;
+// @import "knowledgesharing";
+@use "../../_sass/knowledgesharing" as *;
+
+
+// Add your SASS/CSS here
+$cdoc-blue: #1CA7FC;
+$cdox-logo-gray :#AFAFAF;
+$cdoc-blue-50: #2378c3;
+
+.header-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Government Banner
+@media all and (min-width: 40em) {
+  .usa-banner__button::after, .usa-banner__button:hover::after, .usa-banner__button[aria-expanded=true]::after, .usa-banner__button[aria-expanded=true]:hover::after {
+    position:unset
+  }
+}
+
+// for lists like (A), (B), (C)...
+.ol-upperCase ol { counter-reset: item }
+.ol-upperCase li { display: block ; counter-increment: item; }
+.ol-upperCase li:before { content: " ("counter(item,upper-alpha)") "; }
+
+.cdo-logo{
+  height:2.2em;
+}
+
+@media screen and (min-width: 640px) {
+  .footerLinksFourColumns {
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  .footerLinksFourColumns {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+  .usa-media-block {
+    display: block;
+  }
+
+}
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+  .usa-footer__primary-content--collapsible {
+    border-top: none !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .usa-footer__nav  {
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  
+}
+
+@media screen and (min-width: 640px) {
+  .tablet\:width-1\/3 {
+    width: 33%;
+  }
+  .tablet\:float-left {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .paginate-link {
+    display: initial;
+  }
+  .paginate-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .paginate-link {
+    display: none;
+  }
+  .paginate-button {
+    display: block;
+  }
+}
+
+.logoBlue{
+  color: $cdoc-blue;
+  font-weight: bold;
+}
+
+.logoGray{
+  color: $cdox-logo-gray;
+}
+
+@media (min-width: 640px){
+  .logoGray{
+     font-size: 1.05rem;
+  }
+}
+
+abbr{
+  text-decoration: none !important;
+}
+
+.abstract-background {
+  background-image: url("../images/background/hero-new.jpg");
+  object-fit: cover;
+  background-color: #000;
+  background-size: cover;
+  background-position: 0 30px;
+}
+
+// Side nav
+.usa-nav__close.side-nav img {
+  width: .75rem;
+}
+
+// Homepage Focus icons
+
+.working-group__icon-col {
+  position: relative;
+  box-sizing: border-box;
+  @media screen and (min-width: 860px) {
+    flex: 0 1 auto;
+    width: 12%;
+  }
+  width: 100%;
+}
+
+.circle-image--top {
+  border-radius: 50%;
+  background: #00bde3;
+  padding: 15px;
+  width: 100px;
+  margin: 0 auto;
+  .picon--top {
+    color: #fff;
+    margin-top:10px;
+    max-width: 75%;
+    width: 3em;
+  }
+}
+
+.circle-image {
+    border-radius: 50%;
+    background: #00bde3;
+    padding: 20px;
+    width: 100px;
+    margin: 0 auto;
+
+  .picon {
+    color: #fff;
+    margin-top:10px;
+    max-width: 75%;
+    width: 3.25em;
+  }
+}
+.circle-image:hover {
+  -webkit-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+  -moz-box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+  box-shadow: 1px -1px 11px 4px rgba(0,0,0,0.47);
+}
+
+.cdo_custom_footer_links{
+  padding-top: 0.5rem ; 
+  padding-bottom: 1.25rem;
+  line-height: 1.1;
+  margin-left: 0;
+}
+
+#main-content{
+  background-color: #fefefe;
+}
+.abstract-background .usa-button--outline{
+  box-shadow: inset 0 0 0 0px #005ea2;
+}
+.abstract-background .usa-button--outline:hover, .abstract-background .usa-button--outline.usa-button--hover {
+  background-color: #fff;
+  box-shadow: inset 0 0 0 0px #1a4480;
+  color: #1a4480; 
+}
+
+.title {
+  margin-top: .75rem;
+}
+.bg-gradient{
+  background: rgb(19,38,139);
+  background: linear-gradient(52deg, #162e51 0%, #005ea2 100%);
+
+}
+
+// Leadership Block styling
+.section__title {
+  border-top: 1px solid $color-gray-30;
+}
+
+
+.container__leadership {
+  .border-1px {
+    border-color: $color-gray-warm-10;
+  }
+
+  .card__leadership {
+
+    @media screen and (max-width: 640px) {
+      margin-bottom: 2rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .left {
+    width: 30%;
+    float: left;
+    height: 135px;
+
+    &.card__image--seal {
+      height: 115px;
+    }
+
+    img {
+      width: 130px;
+      max-width: 100%;
+
+      &.card__image--seal {
+        width: auto;
+      }
+    }
+  }
+
+  .right {
+    width: 70%;
+    float: right;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.2;
+    display: block;
+  }
+
+  .title, .role, .council {
+    font-size: 13px;
+    display: block;
+  }
+
+  .role {
+    font-style: italic;
+  }
+
+  .title {
+    margin-top: .75rem;
+  }
+
+  // Exec Committee styles
+  .usa-list--unstyled {
+    text-indent: -1em;
+    padding-left: 1em;
+    height: 7.5em;
+
+    @media screen and (min-width: 640px) and (max-width: 768px) {
+      height: 10em;
+    }
+
+    > li:first-child {
+      margin-top: 0;
+    }
+
+    > li {
+      margin-top: .25em;
+    }
+  }
+
+} // end exec member styles
+
+// focus area pages (now known as working groups)
+.upper-fold-box {
+  background-color: white;
+  min-height: 17.25em;
+  border-radius: 5px;
+  padding: 0.75em 1.25rem;
+  & ul {
+    list-style: none;
+    padding-left: 1em;
+    & li {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+  }
+  
+  @media screen and (min-width:641px) and (max-width: 770px) {
+    top: -2.5em;
+    position: absolute;
+    margin-left: 1.25em;
+    box-shadow: 0 0.5rem 1rem 0 #71767a61;
+  }
+  @media screen and (min-width:771px) {
+    top: -2.5em;
+    position: absolute;
+    margin-left: 1.25em;
+    box-shadow: 0 0.5rem 1rem 0 #71767a61;
+  }
+}
+
+.upper-fold-container{
+  background-color: white;
+  min-height: 17.25em;
+  border-radius: 5px;
+  padding: 0.75em 1.25rem;
+  margin-top: -1.25rem;
+  box-shadow: 0 0.5rem 1rem 0 #71767a61;
+  & ul {
+    list-style: none;
+    padding-left: 1em;
+    & li {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  @media screen and (min-width:771px) {
+    //margin-left: 1.25em;
+    margin-top:-2.5rem;
+    box-shadow: 0 0.5rem 1rem 0 #71767a61;
+  }
+}
+  
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.grid-row__workinggroup {
+  margin: 0 auto;
+  max-width: 64em;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  & h2, h3, h4 {
+    font-family: Merriweather Web, Georgia, Cambria, Times New Roman, Times, serif;
+  }
+  & section {
+    margin-bottom: 2rem;
+    & li {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.ogp-grid-container{
+  padding-left:12.5px;
+}
+
+.margin-top{
+@media screen and (max-width:40em) {
+    margin-top:2em;
+}
+}
+
+.margin{
+    margin-left:-1em;
+    margin-right:-1em;
+}
+.ogp-shadow{
+  box-shadow: 0 0.5rem 1rem 0 #71767a61;
+  border-radius: 5px;
+  max-width: 18.75rem;
+  
+  @media screen and (max-width:640px) {
+    max-width:none;
+  }
+}
+
+.card__image-workinggroup {
+  margin-left: 0.25rem;
+  max-width: 100%;
+  width: 12.5rem;
+}
+
+.usa-accordion__content {
+  background-color: transparent;
+}
+
+.usa-accordion__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.usa-accordion--bordered .usa-accordion__content {
+  border-bottom: 0.25rem solid #e1f3f8;
+  border-left: 0.25rem solid #e1f3f8;
+  border-right: 0.25rem solid #e1f3f8;
+  padding-bottom: 1rem;
+}
+
+.usa-accordion__heading {
+  font-size: 1.17em;
+}
+
+.usa-accordion__button[aria-expanded="false"].bg-accent-cool-lighter, .usa-accordion__button[aria-expanded="false"]:hover.bg-accent-cool-lighter {
+  background-image: url(../img/plus.svg), linear-gradient(transparent, transparent);
+  background-size: 1rem;
+}
+.usa-accordion__button[aria-expanded="true"].bg-accent-cool-lighter {
+  background-image: url(../img/minus.svg), linear-gradient(transparent, transparent);
+  background-size: 1rem;
+}
+
+img.workinggroup-icon {
+  vertical-align: sub;
+  margin-right: 0.25em;
+}
+
+img.workinggroup__accordion-icon {
+  width: 1.5rem;
+  margin-right: 0.75em;
+}
+
+//end
+
+ul.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  & .filter-list__item a {
+    display: block;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 80%;
+    border: solid 1px gray;
+    color: #333;
+    text-decoration: none;
+    background: white;
+    &:hover {
+      background: #f7f7f7;
+    }
+  }
+}
+
+.filter-list__item a.checked {
+  background-color: #005EA2 !important;
+  border: none !important;
+  color: white !important;
+}
+
+.filters a.usa-button {
+  color: white;
+}
+
+.usa-card__container {
+  border-top: 0.25rem solid #005EA2;
+  border-bottom: 1px solid #dfe1e2;
+  border-left: 1px solid #dfe1e2;
+  border-right: 1px solid #dfe1e2;
+  .usa-card__body {
+    li {
+      margin-top: 0.5em;
+    }
+  }
+}
+
+.story-card-group .usa-card__container {
+  @media screen and (min-width: 685px) {
+    min-height: 23em;
+  }
+}
+
+// Images
+@media screen and (max-width: 768px) {
+  img {
+    max-width: 50%;
+  }
+}
+
+span[class*="tag"], .tag {
+  white-space: nowrap;
+}
+
+.card-tag {
+  font-size: .9rem;
+  margin-top: .2em;
+  margin-bottom: .15em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #323a45;
+}
+
+.tag {
+    font-size: 13px;
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+    color: #333;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 20px 0 5px;
+    position: relative;
+    margin: 5px 10px 10px 5px;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+}
+.tags {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+/*.tag::before {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+    content: '';
+    height: 6px;
+    left: 10px;
+    position: absolute;
+    width: 6px;
+    top: 10px;
+  background-image: url("/assets/images/background/tags-solid.png");
+}*/
+.tag img{
+  width: 12px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+.tag::after {
+    background: #fff;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #eee;
+    border-top: 13px solid transparent;
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.post-card {
+  width: 10rem;
+  height: 10rem;
+  margin-right: 1.5rem;
+}
+
+.active-button {
+  background-color: #005ea2;
+  color: #000000;
+}
+
+.cdo-link {
+  color: #005ea2;
+}
+.tag-image {
+  background: url("../images/background/tags-solid.png") no-repeat;
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.vaccine-card {
+  height: 230px;
+  width: 280px;
+  background-color: #ede8e7;
+  padding: 1.5rem 4rem;
+  margin-right: 5px;
+}
+
+.vaccine-card-content {
+  color: #2d57b7;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.3;
+  font-family: ui-sans-serif;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 745px) {
+
+  .vaccine-container {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vaccine-card {
+    margin-right: unset;
+  }
+}
+
+// Public Meeting Event Page
+
+.meeting-detail {
+  padding: 0 3rem;
+
+  @media screen and (max-width: 638px) {
+    margin-top: 2rem;
+  }
+
+  &__name {
+    font-size: 30px;
+    color: #005ea2;
+    font-weight: bold;
+  }
+  
+
+  &__date {
+    font-size: 26px;
+    color: grey;
+  }
+
+  @media screen and (max-width: 768px) {
+    &__name {
+      font-size: 20px;
+    }
+
+    &__date {
+      font-size: 17px;
+    }
+  }
+
+  &__button--ext {
+    background: url("../images/events/open-icon.png") 3px center no-repeat;
+    width: 13px;
+    height: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+  }
+}
+
+.meeting-description {
+  h2 {
+    color: #005ea2;
+  }
+  img {
+    float: left;
+    position: relative;
+    top: 17px;
+    padding-right: 15px;
+  }
+}
+
+// event landing page
+@media screen and (max-width: 768px) {
+  .event-card img {
+    max-width: 100%;
+  }
+}
+
+.meeting-icon {
+  width: 50px;
+}
+
+.usa-summary-box {
+  border: 1px solid #97D4EA;
+  padding: 30px;
+  background: #E7F6F8;
+}
+
+//Footer Identifier 
+#ogp-identifier.usa-identifier {
+    font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.3;
+    color: white;
+    background-color: #1b1b1b;
+    padding-bottom: 1rem;
+  
+
+  .usa-identifier__container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 64rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 64rem
+  }
+
+  @media all and (min-width: 64em) {
+    .usa-identifier__container {
+        padding-left:2rem;
+        padding-right: 2rem
+    }
+  }
+
+  .usa-identifier__section {
+    padding-bottom: 1rem;
+    padding-top: 1rem
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__section--masthead .usa-identifier__container {
+        align-items:center;
+        display: flex
+    }
+  }
+
+  .usa-identifier__logos {
+    display: flex;
+    margin-right: 1rem
+  }
+
+  .usa-identifier__logo {
+    text-decoration: none;
+    height: 3rem;
+    display: block
+  }
+
+  .usa-identifier__logo+.usa-identifier__logo {
+    margin-left: 0.5rem
+  }
+
+  .usa-identifier__logo-img {
+    height: 100%;
+    width: auto
+  }
+
+  .usa-identifier__identity {
+    flex: 1 1 0%;
+    margin-top: 1rem
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__identity {
+        margin-top:0
+    }
+  }
+
+  .usa-identifier__identity-domain,.usa-identifier__identity-disclaimer {
+    margin: 0;
+    padding: 0
+  }
+
+  .usa-identifier__identity-domain {
+    color: #a9aeb1
+  }
+
+  .usa-identifier__identity-disclaimer {
+    font-weight: 700
+  }
+
+  .usa-identifier__identity-disclaimer a {
+    color: #dfe1e2
+  }
+
+  .usa-identifier__identity-disclaimer a:visited {
+    color: #dfe1e2
+  }
+
+  .usa-identifier__identity-disclaimer a:hover,.usa-identifier__identity-disclaimer a:active {
+    color: #f0f0f0
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__section--required-links {
+        padding-bottom:0.5rem;
+        padding-top: 0.5rem
+    }
+  }
+
+  @media all and (min-width: 64em) {
+    .usa-identifier__section--required-links {
+        font-size:1rem
+    }
+  }
+
+  .usa-identifier__required-links-list {
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__required-links-list {
+        -moz-column-count:2;
+        column-count: 2;
+        -moz-column-gap: 2rem;
+        column-gap: 2rem;
+        -moz-column-fill: balance;
+        column-fill: balance
+    }
+  }
+
+  @media all and (min-width: 64em) {
+    .usa-identifier__required-links-list {
+        -moz-column-count:4;
+        column-count: 4
+    }
+  }
+
+  .usa-identifier__required-links-item {
+    -moz-column-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 0.75rem
+  }
+
+  .usa-identifier__required-links-item:last-child {
+    margin-bottom: 0
+  }
+
+  @media all and (min-width: 64em) {
+    .usa-identifier__required-links-item {
+        margin-bottom:0.5rem
+    }
+  }
+
+  .usa-identifier__required-link {
+    color: #a9aeb1;
+    display: inline-block
+  }
+
+  .usa-identifier__required-link:visited {
+    color: #a9aeb1
+  }
+
+  .usa-identifier__required-link:hover,.usa-identifier__required-link:active {
+    color: #dfe1e2
+  }
+
+  .usa-identifier__section--usagov a {
+    color: #dfe1e2;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 0.5rem
+  }
+
+  .usa-identifier__section--usagov a:visited {
+    color: #dfe1e2
+  }
+
+  .usa-identifier__section--usagov a:hover,.usa-identifier__section--usagov a:active {
+    color: #f0f0f0
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__section--usagov a {
+        margin-top:0
+    }
+  }
+
+  @media all and (min-width: 40em) {
+    .usa-identifier__usagov-description {
+        display:inline-flex
+    }
+  }
+}
+
+// //navbar arrow
+// .nav-link-arrow span::after {
+//   background: url(../img/usa-icons/expand_more.svg) no-repeat center/contain !important;
+// }
+
+.font-16 {
+    font-size: 15.68px !important;
+}
+.font-22{
+    font-size: 21.44px !important;
+}
+
+
+.usa-search--small [type="submit"], .usa-search--small .usa-search__submit {
+  background-image: url(../images/search.svg), linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1rem;
+  width: 3rem;
+}
+
+
+// For previous leaders
+
+.fltrs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+.fltr-btn {
+  color: #565c65;
+  font-size: 80%;
+}
+
+.fltr-btn:hover {
+  border: none;
+  outline: none;
+  cursor:pointer;
+}
+
+.member-card {
+//   display: none; 
+}
+
+.year-fltr {
+  display: flex;
+  align-items: center;
+  gap: 10px; // Space between the title and the list
+
+  h3 {
+    margin: 0; // Remove default margin from h3
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex; // Display list items inline
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-right: 10px; // Space between buttons
+  }
+
+  .fltr-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+  }
+}
+
+.role-fltr{
+  text-transform:capitalize;
+  .fltr-btn:hover {
+    outline: none;
+    cursor:pointer;
+  }
+}
+
+.fltr-btn.selected {
+  font-weight: bold;
+}
+
+.fltr-btn:hover {
+  text-decoration: underline;
+}
+

@@ -1,8 +1,9 @@
 ---
-bio-image: eibus-seal.png
-bio-image-alt-text: Export-Import Bank of the U.S. 
+bio-image: americorps.png
+bio-image-alt-text: Americorps
 layout: bio
 name: Andrea Gibbons
-department: Export-Import Bank of the U.S. 
+department: Americorps
 job-title: Chief Data Officer
+#website-data: 
 ---

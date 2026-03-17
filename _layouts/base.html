@@ -1,26 +1,26 @@
 {% comment %}
-This is used for just about every page. It provides the border around the content.
-The home page uses wide.html layout, since it extends full width of page
+  This is used for just about every page. It provides the border around the content.
+  The home page uses wide.html layout, since it extends full width of page
 {% endcomment %}
 
-<!DOCTYPE html>
+<!doctype html>
 
 <html lang="en">
+  {% include meta.html %}
 
-{% include meta.html %}
+  <body>
+    {% include header.html %}
 
-<body>
-  {% include header.html %}
+    {% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
 
-  {% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
+    {% include alert.html %}
 
-  {% include banner.html %}
+    {% include banner.html %}
 
-  {{ content }}
+    {{ content }}
 
-  {% include footer.html %}
+    {% include footer.html %}
 
-  {% include scripts.html %}
-</body>
-
+    {% include scripts.html %}
+  </body>
 </html>

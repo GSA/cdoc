@@ -1,9 +1,13 @@
 <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/jquery-3.6.0.min.js"></script>
 
 {% if page.title == 'Success Stories' %}
 <script src="{{ site.baseurl }}/assets/js/isotope.pkgd.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/isotope.settings.js"></script>
+{% endif %}
+{% if page.isotopeSettings == 'members' %}
+<script src="{{ site.baseurl }}/assets/js/isotope.pkgd.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/members-isotope.settings.js"></script>
 {% endif %}
 
 {% if page.title == 'Home' %}
@@ -46,5 +50,5 @@
 </script>
 {% endif %}
 
-{% asset uswds.min.js %}
-{% asset app.js %}
+<script src="{{ site.baseurl }}/assets/js/uswds.min.js?{{ site.time | date: '%s%N' }}"></script>
+<script src="{{ site.baseurl }}/assets/js/app.js?{{ site.time | date: '%s%N' }}"></script>

@@ -6,7 +6,7 @@ sidenav: false
 permalink: /large-agency/
 purpose: To be a collaborative body of Large Agency CDOs to share, learn, and work together to solve the unique challenges faced by Large Agencies. This committee will communicate and advocate for Large Agency needs with the CDO Council and the Executive Committee; 
 top-image: group-line.svg
-member: Kshemendra Paul
+member: null
 pdf: CDOC-Large-Agency-Committee-Charter.pdf
 has-stories: false
 ---
@@ -34,7 +34,7 @@ has-stories: false
     <li>Identify strategies, solutions, and resource needs of Large Agencies; </li>
   </ul>
 </div>
-<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
+<h3 class="usa-accordion__heading"><button class="usa-accordion__button bg-accent-cool-lighter" aria-expanded="false" aria-controls="m-a4" aria-label="Resources in Large Agency"><img src="{{site.baseurl}}/assets/images/icons/network-2.svg" class="workinggroup__accordion-icon" alt=""> Resources</button></h3>
 <div id="m-a4" class="usa-accordion__content">
   <ul class="add-list-reset">
       <li><a href="https://community.max.gov/display/DATA/Data+Sharing+Working+Group">Max.Gov</a></li>
